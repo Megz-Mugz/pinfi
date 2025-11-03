@@ -1,0 +1,5 @@
+10 fault injections were performed.
+Crash count: 10      | 100.0%
+Hang count: 0        | 0.0%
+SDC count: 0         | 0.0%
+Benign count: 0      | 0.0%

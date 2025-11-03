@@ -9,19 +9,25 @@ import signal
 import subprocess
 import summarize_results
 
-currdir = "./"
-progbin = currdir
-pinbin = "/home/foo/pin/pin"
-instcategorylib = "../obj-intel64/instcategory.so"
-instcountlib = "../obj-intel64/instcount.so"
-filib = "../obj-intel64/faultinjection.so"
-#inputfile = currdir + "/inputs/input.2048"
-outputdir = currdir + "/std_output"
-basedir = currdir + "/baseline"
-errordir = currdir + "/error_output"
-fileoutputdir = currdir + "/prog_output"
-optionlist = []
+# updated paths for renamed top-level directory "pin"
+currdir = "/home/rmengle/pin/source/tools/pinfi/example"   # example dir (contains median, test, inputs)
+progbin = currdir  # directory containing binaries (script will join this with the binary name)
 
+pinbin = "/home/rmengle/pin/pin"   # path to the pin executable (note: ./pin → /home/rmengle/pin/pin)
+
+instcategorylib = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/instcategory.so"
+instcountlib    = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so"
+filib           = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so"
+
+# Optional input if your program expects it:
+# inputfile = currdir + "/input1.txt"
+
+outputdir     = currdir + "/std_output"
+basedir       = currdir + "/baseline"
+errordir      = currdir + "/error_output"
+fileoutputdir = currdir + "/prog_output"
+
+optionlist = []
 if not os.path.isdir(outputdir):
   os.mkdir(outputdir)
 if not os.path.isdir(basedir):
@@ -114,11 +120,13 @@ def main():
         fileoutputfile = fileoutputdir + '/' + item + '-' + str(index)
         os.system("mv " + item + ' ' + fileoutputfile)
 
+
 if __name__=="__main__":
   global run_number
-  assert len(sys.argv) == 4 and "Format: prog fi_number"
-  progbin += sys.argv[1]
+  assert len(sys.argv) == 4, "Usage: python3 faultinject.py <binary> <num_runs> <input_args>"
+  progbin = os.path.join(progbin, sys.argv[1].lstrip("./"))  # remove leading './'
   run_number = int(sys.argv[2])
   optionlist = sys.argv[3].split(' ')
+  print("DEBUG: Running", progbin)
   main()
   summarize_results.summarize(run_number)
