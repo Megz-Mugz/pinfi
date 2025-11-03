@@ -1,1597 +1,1594 @@
 Pin: pin-3.31-98869-fa6f126a8
 Copyright 2002-2024 Intel Corporation.
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN push r14
- [tid:1356903] Invalid RTN mov rax, 0xffffffffffffffff
- [tid:1356903] Invalid RTN push r13
- [tid:1356903] Invalid RTN push r12
- [tid:1356903] Invalid RTN push rbp
- [tid:1356903] Invalid RTN push rbx
- [tid:1356903] Invalid RTN sub rsp, 0x20
- [tid:1356903] Invalid RTN mov rbx, qword ptr [rip+0x2eb42a]
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x10], rax
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x18], rax
- [tid:1356903] Invalid RTN mov eax, dword ptr [rbx+0x68]
- [tid:1356903] Invalid RTN mov dword ptr [rsp+0xc], 0x0
- [tid:1356903] Invalid RTN test eax, eax
- [tid:1356903] Invalid RTN jz 0x7ff685941cf2
- [tid:1356903] Invalid RTN mov r13, qword ptr [rbx+0x190]
- [tid:1356903] Invalid RTN mov rbp, qword ptr [rbx+0x198]
- [tid:1356903] Invalid RTN cmp eax, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685941c20
- [tid:1356903] Invalid RTN cmp eax, 0x3
- [tid:1356903] Invalid RTN jz 0x7ff685941c78
- [tid:1356903] Invalid RTN mov edi, 0xbc
- [tid:1356903] Invalid RTN call 0x7ff6859418c0
- [tid:1356903] Invalid RTN push r15
- [tid:1356903] Invalid RTN push r14
- [tid:1356903] Invalid RTN push r13
- [tid:1356903] Invalid RTN push r12
- [tid:1356903] Invalid RTN push rbp
- [tid:1356903] Invalid RTN push rbx
- [tid:1356903] Invalid RTN sub rsp, 0x28
- [tid:1356903] Invalid RTN mov rbp, qword ptr [rip+0x2eb583]
- [tid:1356903] Invalid RTN mov rax, qword ptr fs:[0x28]
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x18], rax
- [tid:1356903] Invalid RTN xor eax, eax
- [tid:1356903] Invalid RTN cmp dword ptr [rbp+0x6c], 0x1
- [tid:1356903] Invalid RTN jbe 0x7ff6859419f6
- [tid:1356903] Invalid RTN mov r15d, edi
- [tid:1356903] Invalid RTN mov byte ptr [rsp+0x16], 0x0
- [tid:1356903] Invalid RTN mov eax, 0x2
- [tid:1356903] Invalid RTN mov byte ptr [rsp+0x17], 0x0
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN mov dword ptr [rsp+0xc], edx
- [tid:1356903] Invalid RTN mov r14d, ecx
- [tid:1356903] Invalid RTN cmp al, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685941950
- [tid:1356903] Invalid RTN lea rcx, ptr [rsp+0x16]
- [tid:1356903] Invalid RTN lea rdx, ptr [rsp+0x17]
- [tid:1356903] Invalid RTN mov esi, 0xff
- [tid:1356903] Invalid RTN lea r9, ptr [rbp+0x74]
- [tid:1356903] Invalid RTN lea r8, ptr [rbp+0x70]
- [tid:1356903] Invalid RTN call 0x7ff685941620
- [tid:1356903] Invalid RTN xor al, al
- [tid:1356903] Invalid RTN lea r13, ptr [rsp+0x16]
- [tid:1356903] Invalid RTN lea r12, ptr [rsp+0x17]
- [tid:1356903] Invalid RTN mov esi, eax
- [tid:1356903] Invalid RTN lea r9, ptr [rbp+0x74]
- [tid:1356903] Invalid RTN lea r8, ptr [rbp+0x70]
- [tid:1356903] Invalid RTN mov rcx, r13
- [tid:1356903] Invalid RTN mov rdx, r12
- [tid:1356903] Invalid RTN call 0x7ff685941620
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN js 0x7ff685941727
- [tid:1356903] Invalid RTN lea r10d, ptr [rdi-0xb9]
- [tid:1356903] Invalid RTN push r13
- [tid:1356903] Invalid RTN mov eax, r10d
- [tid:1356903] Invalid RTN push r12
- [tid:1356903] Invalid RTN mov r12, rdx
- [tid:1356903] Invalid RTN mov edx, 0x55555556
- [tid:1356903] Invalid RTN imul edx
- [tid:1356903] Invalid RTN push rbp
- [tid:1356903] Invalid RTN sar r10d, 0x1f
- [tid:1356903] Invalid RTN push rbx
- [tid:1356903] Invalid RTN sub edx, r10d
- [tid:1356903] Invalid RTN sub rsp, 0x8
- [tid:1356903] Invalid RTN lea ebp, ptr [rdx+rdx*2]
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN jz 0x7ff68594170c
- [tid:1356903] Invalid RTN lea r13, ptr [rip+0xacf81]
- [tid:1356903] Invalid RTN jmp 0x7ff68594167d
- [tid:1356903] Invalid RTN movzx eax, sil
- [tid:1356903] Invalid RTN cmp eax, 0x40
- [tid:1356903] Invalid RTN jz 0x7ff685941668
- [tid:1356903] Invalid RTN cmp eax, 0xff
- [tid:1356903] Invalid RTN jz 0x7ff68594172a
- [tid:1356903] Invalid RTN cmp eax, 0x49
- [tid:1356903] Invalid RTN jnz 0x7ff6859416af
- [tid:1356903] Invalid RTN mov ebx, esi
- [tid:1356903] Invalid RTN mov r10d, 0x44
- [tid:1356903] Invalid RTN xor edx, edx
- [tid:1356903] Invalid RTN jmp 0x7ff6859416c8
- [tid:1356903] Invalid RTN lea rax, ptr [rdx+r10*1]
- [tid:1356903] Invalid RTN shr rax, 0x1
- [tid:1356903] Invalid RTN lea r11, ptr [r13+rax*8]
- [tid:1356903] Invalid RTN cmp bl, byte ptr [r11]
- [tid:1356903] Invalid RTN jz 0x7ff6859416e8
- [tid:1356903] Invalid RTN jb 0x7ff6859416c0
- [tid:1356903] Invalid RTN lea rdx, ptr [rax+0x1]
- [tid:1356903] Invalid RTN jmp 0x7ff6859416c3
- [tid:1356903] Invalid RTN mov r10, rax
- [tid:1356903] Invalid RTN cmp r10, rdx
- [tid:1356903] Invalid RTN jbe 0x7ff685941674
- [tid:1356903] Invalid RTN lea rax, ptr [rdx+r10*1]
- [tid:1356903] Invalid RTN shr rax, 0x1
- [tid:1356903] Invalid RTN lea r11, ptr [r13+rax*8]
- [tid:1356903] Invalid RTN cmp bl, byte ptr [r11]
- [tid:1356903] Invalid RTN jz 0x7ff6859416e8
- [tid:1356903] Invalid RTN jb 0x7ff6859416c0
- [tid:1356903] Invalid RTN shr esi, 0x8
- [tid:1356903] Invalid RTN jz 0x7ff68594170c
- [tid:1356903] Invalid RTN movzx eax, sil
- [tid:1356903] Invalid RTN cmp eax, 0x40
- [tid:1356903] Invalid RTN jz 0x7ff685941668
- [tid:1356903] Invalid RTN cmp eax, 0xff
- [tid:1356903] Invalid RTN jz 0x7ff68594172a
- [tid:1356903] Invalid RTN cmp eax, 0x49
- [tid:1356903] Invalid RTN jnz 0x7ff6859416af
- [tid:1356903] Invalid RTN cmp ebp, 0x9
- [tid:1356903] Invalid RTN jnz 0x7ff6859416af
- [tid:1356903] Invalid RTN cmp dword ptr [r8], 0xf
- [tid:1356903] Invalid RTN jnz 0x7ff685941720
- [tid:1356903] Invalid RTN cmp r10, rdx
- [tid:1356903] Invalid RTN jbe 0x7ff685941674
- [tid:1356903] Invalid RTN lea rax, ptr [rdx+r10*1]
- [tid:1356903] Invalid RTN shr rax, 0x1
- [tid:1356903] Invalid RTN lea r11, ptr [r13+rax*8]
- [tid:1356903] Invalid RTN cmp bl, byte ptr [r11]
- [tid:1356903] Invalid RTN jz 0x7ff6859416e8
- [tid:1356903] Invalid RTN jb 0x7ff6859416c0
- [tid:1356903] Invalid RTN lea rdx, ptr [rax+0x1]
- [tid:1356903] Invalid RTN jmp 0x7ff6859416c3
- [tid:1356903] Invalid RTN xor eax, eax
- [tid:1356903] Invalid RTN add rsp, 0x8
- [tid:1356903] Invalid RTN pop rbx
- [tid:1356903] Invalid RTN pop rbp
- [tid:1356903] Invalid RTN pop r12
- [tid:1356903] Invalid RTN pop r13
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN test rax, rax
- [tid:1356903] Invalid RTN jnz 0x7ff68594192a
- [tid:1356903] Invalid RTN lea r9, ptr [rbp+0x74]
- [tid:1356903] Invalid RTN lea r8, ptr [rbp+0x70]
- [tid:1356903] Invalid RTN mov rcx, r13
- [tid:1356903] Invalid RTN mov rdx, r12
- [tid:1356903] Invalid RTN mov esi, ebx
- [tid:1356903] Invalid RTN mov edi, r15d
- [tid:1356903] Invalid RTN call 0x7ff685941620
- [tid:1356903] Invalid RTN mov eax, 0x4
- [tid:1356903] Invalid RTN xor ecx, ecx
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN mov edx, eax
- [tid:1356903] Invalid RTN and edx, 0x1f
- [tid:1356903] Invalid RTN jz 0x7ff685941860
- [tid:1356903] Invalid RTN xor esi, esi
- [tid:1356903] Invalid RTN mov r8d, 0x4
- [tid:1356903] Invalid RTN jmp 0x7ff68594176f
- [tid:1356903] Invalid RTN shr eax, 0x5
- [tid:1356903] Invalid RTN and eax, 0x7
- [tid:1356903] Invalid RTN cmp eax, 0x1
- [tid:1356903] Invalid RTN setz r9b
- [tid:1356903] Invalid RTN cmp edx, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685941750
- [tid:1356903] Invalid RTN cmp edx, 0x2
- [tid:1356903] Invalid RTN jnz 0x7ff685941829
- [tid:1356903] Invalid RTN test r9b, r9b
- [tid:1356903] Invalid RTN jz 0x7ff685941829
- [tid:1356903] Invalid RTN test r9b, r9b
- [tid:1356903] Invalid RTN jz 0x7ff685941781
- [tid:1356903] Invalid RTN cmp ebp, 0x3
- [tid:1356903] Invalid RTN jz 0x7ff685941797
- [tid:1356903] Invalid RTN add esi, 0x1
- [tid:1356903] Invalid RTN mov eax, r8d
- [tid:1356903] Invalid RTN mov ecx, esi
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN lea eax, ptr [rdi-0xb9]
- [tid:1356903] Invalid RTN sub eax, ebp
- [tid:1356903] Invalid RTN jz 0x7ff6859417ee
- [tid:1356903] Invalid RTN cmp eax, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff68594186c
- [tid:1356903] Invalid RTN cmp eax, 0x2
- [tid:1356903] Invalid RTN jnz 0x7ff685941879
- [tid:1356903] Invalid RTN mov eax, ebx
- [tid:1356903] Invalid RTN mov edx, ebx
- [tid:1356903] Invalid RTN add ecx, 0x1
- [tid:1356903] Invalid RTN shr ebx, 0xc
- [tid:1356903] Invalid RTN shr eax, 0x16
- [tid:1356903] Invalid RTN and edx, 0xfff
- [tid:1356903] Invalid RTN add edx, 0x1
- [tid:1356903] Invalid RTN add eax, 0x1
- [tid:1356903] Invalid RTN imul eax, edx
- [tid:1356903] Invalid RTN mov edx, ebx
- [tid:1356903] Invalid RTN and edx, 0x3ff
- [tid:1356903] Invalid RTN add edx, 0x1
- [tid:1356903] Invalid RTN imul eax, ecx
- [tid:1356903] Invalid RTN imul eax, edx
- [tid:1356903] Invalid RTN jmp 0x7ff68594170e
- [tid:1356903] Invalid RTN add rsp, 0x8
- [tid:1356903] Invalid RTN pop rbx
- [tid:1356903] Invalid RTN pop rbp
- [tid:1356903] Invalid RTN pop r12
- [tid:1356903] Invalid RTN pop r13
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN test rax, rax
- [tid:1356903] Invalid RTN jnz 0x7ff68594192a
- [tid:1356903] Invalid RTN lea r9, ptr [rbp+0x74]
- [tid:1356903] Invalid RTN lea r8, ptr [rbp+0x70]
- [tid:1356903] Invalid RTN mov rcx, r13
- [tid:1356903] Invalid RTN mov rdx, r12
- [tid:1356903] Invalid RTN mov esi, r14d
- [tid:1356903] Invalid RTN mov edi, r15d
- [tid:1356903] Invalid RTN call 0x7ff685941620
- [tid:1356903] Invalid RTN mov rbx, qword ptr [rsp+0x18]
- [tid:1356903] Invalid RTN xor rbx, qword ptr fs:[0x28]
- [tid:1356903] Invalid RTN jnz 0x7ff685941a02
- [tid:1356903] Invalid RTN add rsp, 0x28
- [tid:1356903] Invalid RTN pop rbx
- [tid:1356903] Invalid RTN pop rbp
- [tid:1356903] Invalid RTN pop r12
- [tid:1356903] Invalid RTN pop r13
- [tid:1356903] Invalid RTN pop r14
- [tid:1356903] Invalid RTN pop r15
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov edi, 0xbf
- [tid:1356903] Invalid RTN mov r12, rax
- [tid:1356903] Invalid RTN call 0x7ff6859418c0
- [tid:1356903] Invalid RTN mov edx, eax
- [tid:1356903] Invalid RTN and edx, 0x1f
- [tid:1356903] Invalid RTN jz 0x7ff685941860
- [tid:1356903] Invalid RTN shr eax, 0x5
- [tid:1356903] Invalid RTN and eax, 0x7
- [tid:1356903] Invalid RTN cmp eax, 0x1
- [tid:1356903] Invalid RTN setz r9b
- [tid:1356903] Invalid RTN cmp edx, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685941750
- [tid:1356903] Invalid RTN cmp edx, 0x2
- [tid:1356903] Invalid RTN jnz 0x7ff685941829
- [tid:1356903] Invalid RTN test r9b, r9b
- [tid:1356903] Invalid RTN jz 0x7ff685941829
- [tid:1356903] Invalid RTN test ebp, ebp
- [tid:1356903] Invalid RTN jnz 0x7ff68594175a
- [tid:1356903] Invalid RTN lea eax, ptr [rdi-0xb9]
- [tid:1356903] Invalid RTN sub eax, ebp
- [tid:1356903] Invalid RTN jz 0x7ff6859417ee
- [tid:1356903] Invalid RTN add esi, 0x1
- [tid:1356903] Invalid RTN mov eax, r8d
- [tid:1356903] Invalid RTN mov ecx, esi
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN cmp eax, 0x2
- [tid:1356903] Invalid RTN jnz 0x7ff685941837
- [tid:1356903] Invalid RTN cmp ebp, 0x6
- [tid:1356903] Invalid RTN jz 0x7ff685941797
- [tid:1356903] Invalid RTN cmp eax, 0x3
- [tid:1356903] Invalid RTN jnz 0x7ff685941845
- [tid:1356903] Invalid RTN mov edi, 0xc2
- [tid:1356903] Invalid RTN mov r14, rax
- [tid:1356903] Invalid RTN call 0x7ff6859418c0
- [tid:1356903] Invalid RTN cmp eax, 0x4
- [tid:1356903] Invalid RTN jnz 0x7ff68594175a
- [tid:1356903] Invalid RTN cmp ebp, 0xc
- [tid:1356903] Invalid RTN jz 0x7ff685941797
- [tid:1356903] Invalid RTN jmp 0x7ff68594175a
- [tid:1356903] Invalid RTN cmp eax, 0x3
- [tid:1356903] Invalid RTN jnz 0x7ff685941845
- [tid:1356903] Invalid RTN cmp ebp, 0x9
- [tid:1356903] Invalid RTN jz 0x7ff685941797
- [tid:1356903] Invalid RTN cmp eax, 0x4
- [tid:1356903] Invalid RTN jnz 0x7ff68594175a
- [tid:1356903] Invalid RTN lea rdx, ptr [rsp+0xc]
- [tid:1356903] Invalid RTN lea rsi, ptr [rsp+0x18]
- [tid:1356903] Invalid RTN mov rcx, r14
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x10], rax
- [tid:1356903] Invalid RTN lea rdi, ptr [rsp+0x10]
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x18], rax
- [tid:1356903] Invalid RTN call 0x7ff685940d80
- [tid:1356903] Invalid RTN push r15
- [tid:1356903] Invalid RTN mov r9, qword ptr [rsi]
- [tid:1356903] Invalid RTN push r14
- [tid:1356903] Invalid RTN mov r14, rdi
- [tid:1356903] Invalid RTN push r13
- [tid:1356903] Invalid RTN mov r13, rdx
- [tid:1356903] Invalid RTN push r12
- [tid:1356903] Invalid RTN push rbp
- [tid:1356903] Invalid RTN push rbx
- [tid:1356903] Invalid RTN mov r10, qword ptr [rdi]
- [tid:1356903] Invalid RTN mov r15d, dword ptr [rdx]
- [tid:1356903] Invalid RTN mov qword ptr [rsp-0x20], rcx
- [tid:1356903] Invalid RTN test r10, r10
- [tid:1356903] Invalid RTN jle 0x7ff685941040
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x10], 0x3
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x24], 0x0
- [tid:1356903] Invalid RTN mov r11, qword ptr [rip+0x2ec09a]
- [tid:1356903] Invalid RTN test byte ptr [r11+0x8b], 0x10
- [tid:1356903] Invalid RTN jz 0x7ff685940ed7
- [tid:1356903] Invalid RTN mov eax, dword ptr [r11+0x6c]
- [tid:1356903] Invalid RTN mov edx, dword ptr [r11+0x70]
- [tid:1356903] Invalid RTN mov ebx, dword ptr [r11+0x74]
- [tid:1356903] Invalid RTN mov ebp, dword ptr [r11+0x68]
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x8], eax
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0xc], edx
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x4], ebx
- [tid:1356903] Invalid RTN cmp eax, 0x3
- [tid:1356903] Invalid RTN jle 0x7ff685940e80
- [tid:1356903] Invalid RTN mov r12d, dword ptr [rsp-0x24]
- [tid:1356903] Invalid RTN mov r8d, 0x3
- [tid:1356903] Invalid RTN test r12d, r12d
- [tid:1356903] Invalid RTN jnz 0x7ff685941060
- [tid:1356903] Invalid RTN mov byte ptr [rsp-0x11], 0x1
- [tid:1356903] Invalid RTN xor ecx, ecx
- [tid:1356903] Invalid RTN mov r12d, 0x4
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x18], 0x0
- [tid:1356903] Invalid RTN nop word ptr [rax+rax*1]
- [tid:1356903] Invalid RTN lea edi, ptr [rcx+0x1]
- [tid:1356903] Invalid RTN mov eax, r12d
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN cmp ebp, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685940ef0
- [tid:1356903] Invalid RTN mov ecx, eax
- [tid:1356903] Invalid RTN shr ecx, 0x5
- [tid:1356903] Invalid RTN and ecx, 0x7
- [tid:1356903] Invalid RTN cmp ecx, 0x2
- [tid:1356903] Invalid RTN jz 0x7ff685940f05
- [tid:1356903] Invalid RTN cmp ecx, 0x3
- [tid:1356903] Invalid RTN jnz 0x7ff685940e78
- [tid:1356903] Invalid RTN test al, 0x1f
- [tid:1356903] Invalid RTN jz 0x7ff685940e8d
- [tid:1356903] Invalid RTN mov ecx, eax
- [tid:1356903] Invalid RTN shr ecx, 0x5
- [tid:1356903] Invalid RTN and ecx, 0x7
- [tid:1356903] Invalid RTN cmp ecx, 0x2
- [tid:1356903] Invalid RTN jnz 0x7ff685940e42
- [tid:1356903] Invalid RTN test r8b, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685940e78
- [tid:1356903] Invalid RTN cmp ecx, 0x3
- [tid:1356903] Invalid RTN jnz 0x7ff685940e78
- [tid:1356903] Invalid RTN test r8b, 0x2
- [tid:1356903] Invalid RTN jz 0x7ff685940e78
- [tid:1356903] Invalid RTN shr eax, 0xe
- [tid:1356903] Invalid RTN shr edx, 0x1
- [tid:1356903] Invalid RTN and r8d, 0xfffffffd
- [tid:1356903] Invalid RTN and eax, 0x3ff
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x24], eax
- [tid:1356903] Invalid RTN mov eax, edx
- [tid:1356903] Invalid RTN and eax, 0x1
- [tid:1356903] Invalid RTN mov byte ptr [rsp-0x11], al
- [tid:1356903] Invalid RTN test r8d, r8d
- [tid:1356903] Invalid RTN jz 0x7ff685940f28
- [tid:1356903] Invalid RTN mov ecx, edi
- [tid:1356903] Invalid RTN jmp 0x7ff685940e20
- [tid:1356903] Invalid RTN lea edi, ptr [rcx+0x1]
- [tid:1356903] Invalid RTN mov eax, r12d
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN shr eax, 0xe
- [tid:1356903] Invalid RTN and r8d, 0xfffffffe
- [tid:1356903] Invalid RTN and eax, 0x3ff
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x18], eax
- [tid:1356903] Invalid RTN test r8d, r8d
- [tid:1356903] Invalid RTN jnz 0x7ff685940e78
- [tid:1356903] Invalid RTN cmp dword ptr [rsp-0xc], 0x6
- [tid:1356903] Invalid RTN setz r12b
- [tid:1356903] Invalid RTN cmp ebp, 0x3
- [tid:1356903] Invalid RTN setz al
- [tid:1356903] Invalid RTN test al, r12b
- [tid:1356903] Invalid RTN jnz 0x7ff685940ffb
- [tid:1356903] Invalid RTN cmp dword ptr [rsp-0x8], 0xa
- [tid:1356903] Invalid RTN jle 0x7ff685940ffb
- [tid:1356903] Invalid RTN cmp dword ptr [rsp-0xc], 0x6
- [tid:1356903] Invalid RTN setz r12b
- [tid:1356903] Invalid RTN cmp ebp, 0x3
- [tid:1356903] Invalid RTN setz al
- [tid:1356903] Invalid RTN test al, r12b
- [tid:1356903] Invalid RTN jnz 0x7ff685940ffb
- [tid:1356903] Invalid RTN cmp dword ptr [rsp-0x8], 0xa
- [tid:1356903] Invalid RTN jle 0x7ff685940ffb
- [tid:1356903] Invalid RTN mov r11d, dword ptr [rsp-0x18]
- [tid:1356903] Invalid RTN mov edi, dword ptr [rsp-0x10]
- [tid:1356903] Invalid RTN mov ebx, dword ptr [rsp-0x24]
- [tid:1356903] Invalid RTN test r11d, r11d
- [tid:1356903] Invalid RTN setnle dl
- [tid:1356903] Invalid RTN xor eax, eax
- [tid:1356903] Invalid RTN cmp edi, 0x3
- [tid:1356903] Invalid RTN setz al
- [tid:1356903] Invalid RTN and eax, edx
- [tid:1356903] Invalid RTN mov r8d, eax
- [tid:1356903] Invalid RTN or r8d, 0x2
- [tid:1356903] Invalid RTN test ebx, ebx
- [tid:1356903] Invalid RTN jle 0x7ff6859410f8
- [tid:1356903] Invalid RTN mov eax, 0xb
- [tid:1356903] Invalid RTN xor ecx, ecx
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN movzx ebx, bl
- [tid:1356903] Invalid RTN and ecx, 0xff00
- [tid:1356903] Invalid RTN jz 0x7ff685940ffb
- [tid:1356903] Invalid RTN test ebx, ebx
- [tid:1356903] Invalid RTN jz 0x7ff685940ffb
- [tid:1356903] Invalid RTN mov edx, 0x1
- [tid:1356903] Invalid RTN mov r11d, 0xb
- [tid:1356903] Invalid RTN jmp 0x7ff685940fca
- [tid:1356903] Invalid RTN cmp ecx, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff685940fa0
- [tid:1356903] Invalid RTN test r8b, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685940fac
- [tid:1356903] Invalid RTN bsr ecx, dword ptr [rsp-0x18]
- [tid:1356903] Invalid RTN mov eax, 0xffffffff
- [tid:1356903] Invalid RTN add ecx, 0x1
- [tid:1356903] Invalid RTN sub ebx, 0x1
- [tid:1356903] Invalid RTN and r8d, 0xfffffffe
- [tid:1356903] Invalid RTN shl eax, cl
- [tid:1356903] Invalid RTN not eax
- [tid:1356903] Invalid RTN and ebx, eax
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x18], ebx
- [tid:1356903] Invalid RTN test r8d, r8d
- [tid:1356903] Invalid RTN jnz 0x7ff685940fac
- [tid:1356903] Invalid RTN lea edi, ptr [rdx+0x1]
- [tid:1356903] Invalid RTN mov eax, r11d
- [tid:1356903] Invalid RTN mov ecx, edx
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN and ecx, 0xff00
- [tid:1356903] Invalid RTN and ebx, 0xff
- [tid:1356903] Invalid RTN jz 0x7ff685940ffb
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN jz 0x7ff685940ffb
- [tid:1356903] Invalid RTN mov edx, edi
- [tid:1356903] Invalid RTN cmp ecx, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff685940fa0
- [tid:1356903] Invalid RTN cmp ecx, 0x200
- [tid:1356903] Invalid RTN jz 0x7ff685941078
- [tid:1356903] Invalid RTN lea edi, ptr [rdx+0x1]
- [tid:1356903] Invalid RTN mov eax, r11d
- [tid:1356903] Invalid RTN mov ecx, edx
- [tid:1356903] Invalid RTN cpuid 
- [tid:1356903] Invalid RTN test r8b, 0x2
- [tid:1356903] Invalid RTN jz 0x7ff685940fac
- [tid:1356903] Invalid RTN sub ebx, 0x1
- [tid:1356903] Invalid RTN cmp dword ptr [rsp-0x10], 0x2
- [tid:1356903] Invalid RTN jz 0x7ff685941180
- [tid:1356903] Invalid RTN bsr ecx, dword ptr [rsp-0x24]
- [tid:1356903] Invalid RTN mov eax, 0xffffffff
- [tid:1356903] Invalid RTN add ecx, 0x1
- [tid:1356903] Invalid RTN shl eax, cl
- [tid:1356903] Invalid RTN not eax
- [tid:1356903] Invalid RTN and eax, ebx
- [tid:1356903] Invalid RTN mov dword ptr [rsp-0x24], eax
- [tid:1356903] Invalid RTN and r8d, 0xfffffffd
- [tid:1356903] Invalid RTN jmp 0x7ff685940ff6
- [tid:1356903] Invalid RTN test r8d, r8d
- [tid:1356903] Invalid RTN jnz 0x7ff685940fac
- [tid:1356903] Invalid RTN mov r8d, dword ptr [rsp-0x18]
- [tid:1356903] Invalid RTN test r8d, r8d
- [tid:1356903] Invalid RTN jz 0x7ff6859410b0
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rsp-0x24]
- [tid:1356903] Invalid RTN add dword ptr [rsp-0x18], 0x1
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN jle 0x7ff685941120
- [tid:1356903] Invalid RTN cmp dword ptr [rsp-0x10], 0x2
- [tid:1356903] Invalid RTN jz 0x7ff685941127
- [tid:1356903] Invalid RTN mov eax, dword ptr [rsp-0x24]
- [tid:1356903] Invalid RTN add eax, 0x1
- [tid:1356903] Invalid RTN mov r15d, eax
- [tid:1356903] Invalid RTN mov eax, 0x1
- [tid:1356903] Invalid RTN jmp 0x7ff685940e9b
- [tid:1356903] Invalid RTN test r9, r9
- [tid:1356903] Invalid RTN jle 0x7ff685940eb2
- [tid:1356903] Invalid RTN test al, al
- [tid:1356903] Invalid RTN jz 0x7ff685940eb2
- [tid:1356903] Invalid RTN mov rax, r9
- [tid:1356903] Invalid RTN mov ecx, r15d
- [tid:1356903] Invalid RTN cqo 
- [tid:1356903] Invalid RTN idiv rcx
- [tid:1356903] Invalid RTN mov r9, rax
- [tid:1356903] Invalid RTN cmp byte ptr [rsp-0x11], 0x0
- [tid:1356903] Invalid RTN jnz 0x7ff685940ed7
- [tid:1356903] Invalid RTN mov rdi, qword ptr [rsp-0x20]
- [tid:1356903] Invalid RTN movsxd rbx, dword ptr [rsp-0x18]
- [tid:1356903] Invalid RTN mov rax, rdi
- [tid:1356903] Invalid RTN test ebx, ebx
- [tid:1356903] Invalid RTN jz 0x7ff685940ecf
- [tid:1356903] Invalid RTN cqo 
- [tid:1356903] Invalid RTN idiv rbx
- [tid:1356903] Invalid RTN add r9, rax
- [tid:1356903] Invalid RTN add r10, qword ptr [rsp-0x20]
- [tid:1356903] Invalid RTN pop rbx
- [tid:1356903] Invalid RTN pop rbp
- [tid:1356903] Invalid RTN mov qword ptr [r14], r10
- [tid:1356903] Invalid RTN pop r12
- [tid:1356903] Invalid RTN mov qword ptr [rsi], r9
- [tid:1356903] Invalid RTN mov dword ptr [r13], r15d
- [tid:1356903] Invalid RTN pop r13
- [tid:1356903] Invalid RTN pop r14
- [tid:1356903] Invalid RTN pop r15
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN test r13, r13
- [tid:1356903] Invalid RTN jnz 0x7ff685941a7d
- [tid:1356903] Invalid RTN jmp 0x7ff685941a80
- [tid:1356903] Invalid RTN test r12, r12
- [tid:1356903] Invalid RTN jle 0x7ff685941ab0
- [tid:1356903] Invalid RTN mov rax, r12
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb8b9], r12
- [tid:1356903] Invalid RTN xor r12b, r12b
- [tid:1356903] Invalid RTN sar rax, 0x1
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb8bc], r12
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb8ad], rax
- [tid:1356903] Invalid RTN mov rax, r12
- [tid:1356903] Invalid RTN sar rax, 0x1
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb8b0], rax
- [tid:1356903] Invalid RTN test rbp, rbp
- [tid:1356903] Invalid RTN jnz 0x7ff685941bab
- [tid:1356903] Invalid RTN mov rax, qword ptr [rsp+0x10]
- [tid:1356903] Invalid RTN test rax, rax
- [tid:1356903] Invalid RTN jle 0x7ff685941bb7
- [tid:1356903] Invalid RTN mov rdx, rax
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb857], rax
- [tid:1356903] Invalid RTN xor al, al
- [tid:1356903] Invalid RTN sar rdx, 0x1
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb85b], rax
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb84c], rdx
- [tid:1356903] Invalid RTN mov rdx, rax
- [tid:1356903] Invalid RTN sar rdx, 0x1
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb84f], rdx
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rsp+0x18]
- [tid:1356903] Invalid RTN lea rdx, ptr [rdx+rdx*2]
- [tid:1356903] Invalid RTN test rdx, rdx
- [tid:1356903] Invalid RTN lea rbp, ptr [rdx+0x3]
- [tid:1356903] Invalid RTN cmovns rbp, rdx
- [tid:1356903] Invalid RTN sar rax, 0x2
- [tid:1356903] Invalid RTN sar rbp, 0x2
- [tid:1356903] Invalid RTN cmp rax, rbp
- [tid:1356903] Invalid RTN cmovb rax, rbp
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rbx+0xb0]
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rbx+0x1a0]
- [tid:1356903] Invalid RTN test ch, 0x2
- [tid:1356903] Invalid RTN cmovz rax, rbp
- [tid:1356903] Invalid RTN test rdx, rdx
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN and ecx, 0x10000
- [tid:1356903] Invalid RTN mov edx, dword ptr [rbx+0x17c]
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2ee6f6], rax
- [tid:1356903] Invalid RTN jz 0x7ff685941bf0
- [tid:1356903] Invalid RTN test dh, 0x40
- [tid:1356903] Invalid RTN jnz 0x7ff685941bf0
- [tid:1356903] Invalid RTN mov eax, 0x4000
- [tid:1356903] Invalid RTN mov edx, 0x200
- [tid:1356903] Invalid RTN test byte ptr [rbx+0xb8], 0x10
- [tid:1356903] Invalid RTN mov ecx, 0x840
- [tid:1356903] Invalid RTN cmovnz rax, rcx
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rbx+0x1a8]
- [tid:1356903] Invalid RTN cmp rcx, rdx
- [tid:1356903] Invalid RTN cmovnbe rax, rcx
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb7a0], rax
- [tid:1356903] Invalid RTN mov rax, qword ptr [rbx+0x1b0]
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb78a], rax
- [tid:1356903] Invalid RTN add rsp, 0x20
- [tid:1356903] Invalid RTN xor eax, eax
- [tid:1356903] Invalid RTN pop rbx
- [tid:1356903] Invalid RTN pop rbp
- [tid:1356903] Invalid RTN pop r12
- [tid:1356903] Invalid RTN pop r13
- [tid:1356903] Invalid RTN pop r14
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN and edx, 0x100
- [tid:1356903] Invalid RTN cmp edx, 0x1
- [tid:1356903] Invalid RTN sbb rax, rax
- [tid:1356903] Invalid RTN and rax, 0xffffffffffffe800
- [tid:1356903] Invalid RTN add rax, 0x2000
- [tid:1356903] Invalid RTN cmp edx, 0x1
- [tid:1356903] Invalid RTN sbb rdx, rdx
- [tid:1356903] Invalid RTN and rdx, 0xffffffffffffff80
- [tid:1356903] Invalid RTN add rdx, 0x100
- [tid:1356903] Invalid RTN jmp 0x7ff685941b5b
- [tid:1356903] Invalid RTN test byte ptr [rbx+0xb8], 0x10
- [tid:1356903] Invalid RTN mov ecx, 0x840
- [tid:1356903] Invalid RTN cmovnz rax, rcx
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rbx+0x1a8]
- [tid:1356903] Invalid RTN cmp rcx, rdx
- [tid:1356903] Invalid RTN cmovnbe rax, rcx
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb7a0], rax
- [tid:1356903] Invalid RTN mov rax, qword ptr [rbx+0x1b0]
- [tid:1356903] Invalid RTN mov qword ptr [rip+0x2eb78a], rax
- [tid:1356903] Invalid RTN add rsp, 0x20
- [tid:1356903] Invalid RTN xor eax, eax
- [tid:1356903] Invalid RTN pop rbx
- [tid:1356903] Invalid RTN pop rbp
- [tid:1356903] Invalid RTN pop r12
- [tid:1356903] Invalid RTN pop r13
- [tid:1356903] Invalid RTN pop r14
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x33090d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7bb32]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test dh, 0x30
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc5d3
- [tid:1356903] Invalid RTN mov esi, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN test esi, 0x10000
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc5d8
- [tid:1356903] Invalid RTN test dh, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fc5b0
- [tid:1356903] Invalid RTN test dh, 0x40
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc56b
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x3d8dc]
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN jns 0x7ff6858fc5d3
- [tid:1356903] Invalid RTN and esi, 0x200
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x3e2fb]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x3e364]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN test dh, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fc5b0
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN js 0x7ff6858fc628
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jz 0x7ff6858fc5a0
- [tid:1356903] Invalid RTN and esi, 0x200
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x1847b]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x184e4]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x3316ed]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fb784
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb7b0
- [tid:1356903] Invalid RTN and esi, 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x6a47e]
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb7a9
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fb7d0
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x160e5]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb7a9
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xd6f9]
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb784
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1efb9]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fb7b4
- [tid:1356903] Invalid RTN jmp 0x7ff6858fb7a9
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x33032d]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fcb68
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff6858fcb68
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fcba0
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x19dd9]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fcb48
- [tid:1356903] Invalid RTN jmp 0x7ff6858fcb9b
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x331f7d]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858faef4
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff6858faf20
- [tid:1356903] Invalid RTN and esi, 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x75dae]
- [tid:1356903] Invalid RTN jnz 0x7ff6858faf19
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858faf40
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x13815]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858faf19
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xaec9]
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jnz 0x7ff6858faef4
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1c459]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858faf24
- [tid:1356903] Invalid RTN jmp 0x7ff6858faf19
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x33165d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x692c2]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6858fb820
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fb818
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fb858
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x16cea]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb818
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1fc41]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fb82f
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN sub rsp, 0x28
- [tid:1356903] Invalid RTN mov esi, 0x32
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x9eb44]
- [tid:1356903] Invalid RTN mov edx, 0x5f
- [tid:1356903] Invalid RTN mov qword ptr [rsp], rax
- [tid:1356903] Invalid RTN lea rcx, ptr [rip+0x9eb39]
- [tid:1356903] Invalid RTN mov rax, 0x103ae75f6
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x8], rax
- [tid:1356903] Invalid RTN mov eax, 0x50e3a8
- [tid:1356903] Invalid RTN shl rax, 0x4
- [tid:1356903] Invalid RTN add rcx, 0x1
- [tid:1356903] Invalid RTN add rax, rdx
- [tid:1356903] Invalid RTN mov rdx, rax
- [tid:1356903] Invalid RTN shr rdx, 0x18
- [tid:1356903] Invalid RTN and edx, 0xf0
- [tid:1356903] Invalid RTN xor rax, rdx
- [tid:1356903] Invalid RTN test sil, sil
- [tid:1356903] Invalid RTN jz 0x7ff6859538b8
- [tid:1356903] Invalid RTN movzx edx, sil
- [tid:1356903] Invalid RTN movzx esi, byte ptr [rcx+0x1]
- [tid:1356903] Invalid RTN jmp 0x7ff685953888
- [tid:1356903] Invalid RTN shl rax, 0x4
- [tid:1356903] Invalid RTN add rcx, 0x1
- [tid:1356903] Invalid RTN add rax, rdx
- [tid:1356903] Invalid RTN mov rdx, rax
- [tid:1356903] Invalid RTN shr rdx, 0x18
- [tid:1356903] Invalid RTN and edx, 0xf0
- [tid:1356903] Invalid RTN xor rax, rdx
- [tid:1356903] Invalid RTN test sil, sil
- [tid:1356903] Invalid RTN jz 0x7ff6859538b8
- [tid:1356903] Invalid RTN movzx edx, sil
- [tid:1356903] Invalid RTN movzx esi, byte ptr [rcx+0x1]
- [tid:1356903] Invalid RTN jmp 0x7ff685953888
- [tid:1356903] Invalid RTN and eax, 0xfffffff
- [tid:1356903] Invalid RTN cmp rax, 0x3ae75f6
- [tid:1356903] Invalid RTN jnz 0x7ff6859538f0
- [tid:1356903] Invalid RTN mov rsi, rsp
- [tid:1356903] Invalid RTN lea rdi, ptr [rip+0xa04f0]
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x10], 0x0
- [tid:1356903] Invalid RTN call 0x7ff6859d5e40
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN sub rsp, 0x38
- [tid:1356903] Invalid RTN mov r8, rsi
- [tid:1356903] Invalid RTN mov rax, qword ptr fs:[0x28]
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x28], rax
- [tid:1356903] Invalid RTN xor eax, eax
- [tid:1356903] Invalid RTN mov rax, qword ptr [rip+0x256ff6]
- [tid:1356903] Invalid RTN mov rsi, qword ptr [rax+0x248]
- [tid:1356903] Invalid RTN test rsi, rsi
- [tid:1356903] Invalid RTN jz 0x7ff6859d5eca
- [tid:1356903] Invalid RTN lea rdx, ptr [rsp+0x10]
- [tid:1356903] Invalid RTN pxor xmm0, xmm0
- [tid:1356903] Invalid RTN xor r9d, r9d
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x20], 0x0
- [tid:1356903] Invalid RTN movaps xmmword ptr [rsp+0x10], xmm0
- [tid:1356903] Invalid RTN lea rcx, ptr [rsi+0x398]
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x8], rdx
- [tid:1356903] Invalid RTN lea rdx, ptr [rsp+0x8]
- [tid:1356903] Invalid RTN mov byte ptr [rsp+0x14], 0x20
- [tid:1356903] Invalid RTN push 0x0
- [tid:1356903] Invalid RTN push 0x0
- [tid:1356903] Invalid RTN call qword ptr [rax+0x268]
- [tid:1356903] Invalid RTN mov rsi, qword ptr [rsp+0x18]
- [tid:1356903] Invalid RTN pop rdx
- [tid:1356903] Invalid RTN pop rcx
- [tid:1356903] Invalid RTN test rsi, rsi
- [tid:1356903] Invalid RTN jz 0x7ff6859d5eca
- [tid:1356903] Invalid RTN cmp word ptr [rsi+0x6], 0xfff1
- [tid:1356903] Invalid RTN jz 0x7ff6859d5ee8
- [tid:1356903] Invalid RTN test rax, rax
- [tid:1356903] Invalid RTN jz 0x7ff6859d5ee8
- [tid:1356903] Invalid RTN mov rax, qword ptr [rax]
- [tid:1356903] Invalid RTN add rax, qword ptr [rsi+0x8]
- [tid:1356903] Invalid RTN mov rsi, rax
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rsp+0x28]
- [tid:1356903] Invalid RTN xor rcx, qword ptr fs:[0x28]
- [tid:1356903] Invalid RTN mov rax, rsi
- [tid:1356903] Invalid RTN jnz 0x7ff6859d5eec
- [tid:1356903] Invalid RTN add rsp, 0x38
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN lea rdx, ptr [rip-0xa4]
- [tid:1356903] Invalid RTN test rax, rax
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN add rsp, 0x28
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x32eb5d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7ccc2]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6858fe320
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fe318
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x800
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fe360
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xeb02]
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN jnz 0x7ff6858fe318
- [tid:1356903] Invalid RTN and edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fe337
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x175af]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1f388]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x2ea94d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0xae142]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff685942530
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685942528
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x800
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff685942570
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x2e7ae]
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN jnz 0x7ff685942528
- [tid:1356903] Invalid RTN and edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff685942547
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN lea rdx, ptr [rip-0x257c1]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x24ce8]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x2eb02d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0xaf022]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff685941e50
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685941e48
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff685941e88
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x2f466]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff685941e48
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x2648f]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff685941e5f
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x3306dd]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7bd92]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test dh, 0x30
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc803
- [tid:1356903] Invalid RTN mov esi, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN test esi, 0x10000
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc808
- [tid:1356903] Invalid RTN test dh, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fc7e0
- [tid:1356903] Invalid RTN test dh, 0x40
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc79b
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x3d68c]
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN jns 0x7ff6858fc803
- [tid:1356903] Invalid RTN and esi, 0x200
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x3e0ab]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x3e114]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN test dh, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fc7e0
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN js 0x7ff6858fc858
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jz 0x7ff6858fc7d0
- [tid:1356903] Invalid RTN and esi, 0x200
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x1822b]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x18294]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rax, qword ptr [rip+0x3309ad]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rax+0xb0]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rax+0x94]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fc500
- [tid:1356903] Invalid RTN test edx, 0x400000
- [tid:1356903] Invalid RTN jz 0x7ff6858fc500
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fc500
- [tid:1356903] Invalid RTN mov esi, dword ptr [rax+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff6858fc500
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fc520
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xf81e]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc515
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x18259]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fc4db
- [tid:1356903] Invalid RTN jmp 0x7ff6858fc515
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x33178d]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fb708
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff6858fb708
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fb740
- [tid:1356903] Invalid RTN mov eax, ecx
- [tid:1356903] Invalid RTN and eax, 0x40000100
- [tid:1356903] Invalid RTN cmp eax, 0x40000100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb6e8
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1e9ab]
- [tid:1356903] Invalid RTN test esi, 0x10000
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb6e8
- [tid:1356903] Invalid RTN jmp 0x7ff6858fb73b
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x15b31]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb73b
- [tid:1356903] Invalid RTN and esi, 0x800
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xd16f]
- [tid:1356903] Invalid RTN jz 0x7ff6858fb73b
- [tid:1356903] Invalid RTN nop dword ptr [rax+rax*1]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0x94]
- [tid:1356903] Invalid RTN test ecx, 0x100000
- [tid:1356903] Invalid RTN jz 0x7ff6858fb726
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x331e6d]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fb004
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb030
- [tid:1356903] Invalid RTN and esi, 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7211e]
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb029
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fb050
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x141d5]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb029
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xb869]
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb004
- [tid:1356903] Invalid RTN mov eax, ecx
- [tid:1356903] Invalid RTN and eax, 0x40000100
- [tid:1356903] Invalid RTN cmp eax, 0x40000100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb034
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1cefb]
- [tid:1356903] Invalid RTN test esi, 0x10000
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb034
- [tid:1356903] Invalid RTN jmp 0x7ff6858fb029
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x141d5]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb029
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xb869]
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb004
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x3307dd]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7b1c2]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x10
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc6e4
- [tid:1356903] Invalid RTN mov edx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN test edx, 0x10000
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc6e8
- [tid:1356903] Invalid RTN mov eax, edx
- [tid:1356903] Invalid RTN and eax, 0x200
- [tid:1356903] Invalid RTN test dl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fc6d0
- [tid:1356903] Invalid RTN test ch, 0x40
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc69b
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x3df1c]
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN jns 0x7ff6858fc6e4
- [tid:1356903] Invalid RTN mov ecx, edx
- [tid:1356903] Invalid RTN and ecx, 0x40000100
- [tid:1356903] Invalid RTN cmp ecx, 0x40000100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc6e4
- [tid:1356903] Invalid RTN mov eax, edx
- [tid:1356903] Invalid RTN and eax, 0x200
- [tid:1356903] Invalid RTN test dl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fc6d0
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fc738
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc720
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x40000100
- [tid:1356903] Invalid RTN cmp esi, 0x40000100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc6af
- [tid:1356903] Invalid RTN test eax, eax
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x18f6b]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x19064]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x2eb0ad]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0xaf132]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff685941dd0
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685941dc8
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff685941e08
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x2f626]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff685941dc8
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x2666f]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff685941ddf
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x33189d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x692a2]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6858fb5e0
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fb5d8
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fb618
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x16c2a]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb5d8
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1fbc1]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fb5ef
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rax, qword ptr [rip+0x331d2d]
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x4540e]
- [tid:1356903] Invalid RTN test byte ptr [rax+0x96], 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x45570]
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x33028d]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fcc08
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff6858fcc08
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fcc40
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1be39]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fcbe8
- [tid:1356903] Invalid RTN jmp 0x7ff6858fcc3b
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x331dbd]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fb0b4
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb0e0
- [tid:1356903] Invalid RTN and esi, 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x71e2e]
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb0d9
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fb100
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x14685]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb0d9
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xbd19]
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb0b4
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1d3b9]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fb0e4
- [tid:1356903] Invalid RTN jmp 0x7ff6858fb0d9
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x33004d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7c3f2]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test dh, 0x30
- [tid:1356903] Invalid RTN jnz 0x7ff6858fce93
- [tid:1356903] Invalid RTN mov esi, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN test esi, 0x10000
- [tid:1356903] Invalid RTN jnz 0x7ff6858fce98
- [tid:1356903] Invalid RTN test dh, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fce70
- [tid:1356903] Invalid RTN test dh, 0x40
- [tid:1356903] Invalid RTN jnz 0x7ff6858fce2b
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x3d01c]
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN jns 0x7ff6858fce93
- [tid:1356903] Invalid RTN and esi, 0x200
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x3da3b]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x3daa4]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN test dh, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fce70
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN js 0x7ff6858fcee8
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jz 0x7ff6858fce60
- [tid:1356903] Invalid RTN and esi, 0x200
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x17bbb]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x17c24]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x2e95ad]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov eax, ecx
- [tid:1356903] Invalid RTN and eax, 0x120
- [tid:1356903] Invalid RTN cmp eax, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6859438e0
- [tid:1356903] Invalid RTN test byte ptr [rdx+0x96], 0x8
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xefd3]
- [tid:1356903] Invalid RTN lea rdx, ptr [rip-0xafa14]
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff6859438bf
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff685943910
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x30199]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6859438d8
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x27157]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6859438f2
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x2ea7fd]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0xc1252]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff68594269d
- [tid:1356903] Invalid RTN mov edx, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test dh, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff68594269d
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6859426a0
- [tid:1356903] Invalid RTN and dh, 0x40
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x755a]
- [tid:1356903] Invalid RTN lea rdx, ptr [rip-0x2d061]
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rax, qword ptr [rip+0x3315dd]
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x4505e]
- [tid:1356903] Invalid RTN test byte ptr [rax+0x96], 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x45180]
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rax, qword ptr [rip+0x331eed]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rax+0xb0]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rax+0x17c]
- [tid:1356903] Invalid RTN mov eax, edx
- [tid:1356903] Invalid RTN and eax, 0x120
- [tid:1356903] Invalid RTN cmp eax, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6858fafa0
- [tid:1356903] Invalid RTN and ecx, 0x40
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7392f]
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x2439a]
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858faf85
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fafc8
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x13e30]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858faf9a
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1cb31]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fafa9
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x33191d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x71c82]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6858fb560
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fb558
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fb598
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x145aa]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fb558
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1d361]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fb56f
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x329fed]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x81e52]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff685902e90
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff685902e88
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff685902ec8
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x998a]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff685902e88
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x123f1]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff685902e9f
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x3301ed]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fcca8
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff6858fcca8
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fcce0
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x19ca9]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fcc88
- [tid:1356903] Invalid RTN jmp 0x7ff6858fccdb
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x330a3d]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7c1d2]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6858fc440
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fc438
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x800
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fc480
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0xf5e2]
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN jnz 0x7ff6858fc438
- [tid:1356903] Invalid RTN and edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fc457
- [tid:1356903] Invalid RTN test esi, esi
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x17fef]
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x20f68]
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x2eaedd]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov eax, ecx
- [tid:1356903] Invalid RTN and eax, 0x120
- [tid:1356903] Invalid RTN cmp eax, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff685941fb0
- [tid:1356903] Invalid RTN test byte ptr [rdx+0x96], 0x8
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0xae4bd]
- [tid:1356903] Invalid RTN lea rdx, ptr [rip-0xae284]
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff685941f8f
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff685941fe0
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x2f0a9]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff685941fa8
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x26047]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff685941fc2
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rax, qword ptr [rip+0x33131d]
- [tid:1356903] Invalid RTN lea rdx, ptr [rip+0x44eee]
- [tid:1356903] Invalid RTN test byte ptr [rax+0x96], 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x45000]
- [tid:1356903] Invalid RTN cmovnz rax, rdx
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x3303bd]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fcab4
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fcae0
- [tid:1356903] Invalid RTN and esi, 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7aabe]
- [tid:1356903] Invalid RTN jnz 0x7ff6858fcad9
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fcb00
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x10875]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fcad9
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x7f69]
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jnz 0x7ff6858fcab4
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x193e9]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fcae4
- [tid:1356903] Invalid RTN jmp 0x7ff6858fcad9
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x33044d]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fca24
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jnz 0x7ff6858fca50
- [tid:1356903] Invalid RTN and esi, 0x10
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x7b0ee]
- [tid:1356903] Invalid RTN jnz 0x7ff6858fca49
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fca70
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x10545]
- [tid:1356903] Invalid RTN and ch, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fca49
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x7c49]
- [tid:1356903] Invalid RTN test esi, 0x800
- [tid:1356903] Invalid RTN jnz 0x7ff6858fca24
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x19029]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fca54
- [tid:1356903] Invalid RTN jmp 0x7ff6858fca49
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x32eacd]
- [tid:1356903] Invalid RTN lea rax, ptr [rip-0x76b02]
- [tid:1356903] Invalid RTN mov edx, dword ptr [rcx+0xb0]
- [tid:1356903] Invalid RTN mov esi, edx
- [tid:1356903] Invalid RTN and esi, 0x120
- [tid:1356903] Invalid RTN cmp esi, 0x120
- [tid:1356903] Invalid RTN jz 0x7ff6858fe3b0
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
- [tid:1356903] Invalid RTN test ch, 0x1
- [tid:1356903] Invalid RTN jz 0x7ff6858fe3a8
- [tid:1356903] Invalid RTN test edx, edx
- [tid:1356903] Invalid RTN js 0x7ff6858fe3e8
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x10c5a]
- [tid:1356903] Invalid RTN and dh, 0x8
- [tid:1356903] Invalid RTN jnz 0x7ff6858fe3a8
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x19951]
- [tid:1356903] Invalid RTN test edx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fe3bf
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x33014d]
- [tid:1356903] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
- [tid:1356903] Invalid RTN test cl, 0x20
- [tid:1356903] Invalid RTN jz 0x7ff6858fcd48
- [tid:1356903] Invalid RTN mov esi, dword ptr [rdx+0x17c]
- [tid:1356903] Invalid RTN test esi, 0x100
- [tid:1356903] Invalid RTN jz 0x7ff6858fcd48
- [tid:1356903] Invalid RTN test ecx, ecx
- [tid:1356903] Invalid RTN js 0x7ff6858fcd80
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x1bd09]
- [tid:1356903] Invalid RTN test ecx, 0x40000000
- [tid:1356903] Invalid RTN jz 0x7ff6858fcd28
- [tid:1356903] Invalid RTN jmp 0x7ff6858fcd7b
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN sub rsp, 0x28
- [tid:1356903] Invalid RTN mov esi, 0x32
- [tid:1356903] Invalid RTN lea rax, ptr [rip+0x9ea54]
- [tid:1356903] Invalid RTN mov edx, 0x5f
- [tid:1356903] Invalid RTN mov qword ptr [rsp], rax
- [tid:1356903] Invalid RTN lea rcx, ptr [rip+0x9ea49]
- [tid:1356903] Invalid RTN mov rax, 0x103ae75f6
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x8], rax
- [tid:1356903] Invalid RTN mov eax, 0x50e3a8
- [tid:1356903] Invalid RTN shl rax, 0x4
- [tid:1356903] Invalid RTN add rcx, 0x1
- [tid:1356903] Invalid RTN add rax, rdx
- [tid:1356903] Invalid RTN mov rdx, rax
- [tid:1356903] Invalid RTN shr rdx, 0x18
- [tid:1356903] Invalid RTN and edx, 0xf0
- [tid:1356903] Invalid RTN xor rax, rdx
- [tid:1356903] Invalid RTN test sil, sil
- [tid:1356903] Invalid RTN jz 0x7ff6859539a8
- [tid:1356903] Invalid RTN movzx edx, sil
- [tid:1356903] Invalid RTN movzx esi, byte ptr [rcx+0x1]
- [tid:1356903] Invalid RTN jmp 0x7ff685953978
- [tid:1356903] Invalid RTN shl rax, 0x4
- [tid:1356903] Invalid RTN add rcx, 0x1
- [tid:1356903] Invalid RTN add rax, rdx
- [tid:1356903] Invalid RTN mov rdx, rax
- [tid:1356903] Invalid RTN shr rdx, 0x18
- [tid:1356903] Invalid RTN and edx, 0xf0
- [tid:1356903] Invalid RTN xor rax, rdx
- [tid:1356903] Invalid RTN test sil, sil
- [tid:1356903] Invalid RTN jz 0x7ff6859539a8
- [tid:1356903] Invalid RTN movzx edx, sil
- [tid:1356903] Invalid RTN movzx esi, byte ptr [rcx+0x1]
- [tid:1356903] Invalid RTN jmp 0x7ff685953978
- [tid:1356903] Invalid RTN and eax, 0xfffffff
- [tid:1356903] Invalid RTN cmp rax, 0x3ae75f6
- [tid:1356903] Invalid RTN jnz 0x7ff6859539e0
- [tid:1356903] Invalid RTN mov rsi, rsp
- [tid:1356903] Invalid RTN lea rdi, ptr [rip+0xa040c]
- [tid:1356903] Invalid RTN mov qword ptr [rsp+0x10], 0x0
- [tid:1356903] Invalid RTN call 0x7ff6859d5e40
- [tid:1356903] Invalid RTN lea rdx, ptr [rip-0xc4]
- [tid:1356903] Invalid RTN test rax, rax
- [tid:1356903] Invalid RTN cmovz rax, rdx
- [tid:1356903] Invalid RTN add rsp, 0x28
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN jmp 0x7ff6858a33b0
- [tid:1356903] Invalid RTN nop edx, edi
- [tid:1356903] Invalid RTN mov rax, qword ptr [rip+0x389a05]
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x389a3e]
- [tid:1356903] Invalid RTN mov rax, qword ptr fs:[rax]
- [tid:1356903] Invalid RTN mov rax, qword ptr [rax]
- [tid:1356903] Invalid RTN mov rsi, qword ptr [rax+0x40]
- [tid:1356903] Invalid RTN lea rdx, ptr [rsi+0x100]
- [tid:1356903] Invalid RTN mov qword ptr fs:[rcx], rdx
- [tid:1356903] Invalid RTN mov rdi, qword ptr [rax+0x48]
- [tid:1356903] Invalid RTN mov rcx, qword ptr [rip+0x389b05]
- [tid:1356903] Invalid RTN lea rdx, ptr [rdi+0x200]
- [tid:1356903] Invalid RTN mov qword ptr fs:[rcx], rdx
- [tid:1356903] Invalid RTN mov rax, qword ptr [rax+0x58]
- [tid:1356903] Invalid RTN mov rdx, qword ptr [rip+0x389b2f]
- [tid:1356903] Invalid RTN add rax, 0x200
- [tid:1356903] Invalid RTN mov qword ptr fs:[rdx], rax
- [tid:1356903] Invalid RTN ret 
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included mov esi, 0x601030
- [tid:1356903] ins:mov esi, 0x601030
- [tid:1356903] reg:esi
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included sub rsi, 0x601030
- [tid:1356903] ins:sub rsi, 0x601030
- [tid:1356903] reg:rsi
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included mov rax, rsi
- [tid:1356903] ins:mov rax, rsi
- [tid:1356903] reg:rax
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included shr rsi, 0x3f
- [tid:1356903] ins:shr rsi, 0x3f
- [tid:1356903] reg:rsi
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included sar rax, 0x3
- [tid:1356903] ins:sar rax, 0x3
- [tid:1356903] reg:rax
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included add rsi, rax
- [tid:1356903] ins:add rsi, rax
- [tid:1356903] reg:rsi
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included sar rsi, 0x1
- [tid:1356903] ins:sar rsi, 0x1
- [tid:1356903] reg:rsi
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, 0x0
- [tid:1356903] ins:mov eax, 0x0
- [tid:1356903] reg:eax
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included test rax, rax
- [tid:1356903] ins:test rax, rax
- [tid:1356903] reg:rflags
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included mov edi, 0x601030
- [tid:1356903] ins:mov edi, 0x601030
- [tid:1356903] reg:edi
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] Exe register_tm_clones
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included push rbp
- [tid:1356903] ins:push rbp
- [tid:1356903] reg:rsp
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov rbp, rsp
- [tid:1356903] ins:mov rbp, rsp
- [tid:1356903] reg:rbp
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included sub rsp, 0x10
- [tid:1356903] ins:sub rsp, 0x10
- [tid:1356903] reg:rsp
- [tid:1356903] Exe main
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x4]
- [tid:1356903] ins:mov eax, dword ptr [rbp-0x4]
- [tid:1356903] reg:eax
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov esi, eax
- [tid:1356903] ins:mov esi, eax
- [tid:1356903] reg:esi
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov edi, 0x4005ac
- [tid:1356903] ins:mov edi, 0x4005ac
- [tid:1356903] reg:edi
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, 0x0
- [tid:1356903] ins:mov eax, 0x0
- [tid:1356903] reg:eax
- [tid:1356903] Exe main
- [tid:1356903] Exe main
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x4]
- [tid:1356903] ins:mov eax, dword ptr [rbp-0x4]
- [tid:1356903] reg:eax
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov esi, eax
- [tid:1356903] ins:mov esi, eax
- [tid:1356903] reg:esi
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov edi, 0x4005ac
- [tid:1356903] ins:mov edi, 0x4005ac
- [tid:1356903] reg:edi
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, 0x0
- [tid:1356903] ins:mov eax, 0x0
- [tid:1356903] reg:eax
- [tid:1356903] Exe main
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, 0x0
- [tid:1356903] ins:mov eax, 0x0
- [tid:1356903] reg:eax
- [tid:1356903] Exe main
- [tid:1356903] INSTSELECTOR: instruction to be included leave 
- [tid:1356903] ins:leave 
- [tid:1356903] reg:rbp
- [tid:1356903] Exe main
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, 0x601030
- [tid:1356903] ins:mov eax, 0x601030
- [tid:1356903] reg:eax
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included cmp rax, 0x601030
- [tid:1356903] ins:cmp rax, 0x601030
- [tid:1356903] reg:rflags
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included mov eax, 0x0
- [tid:1356903] ins:mov eax, 0x0
- [tid:1356903] reg:eax
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included test rax, rax
- [tid:1356903] ins:test rax, rax
- [tid:1356903] reg:rflags
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] INSTSELECTOR: instruction to be included mov edi, 0x601030
- [tid:1356903] ins:mov edi, 0x601030
- [tid:1356903] reg:edi
- [tid:1356903] Exe deregister_tm_clones
- [tid:1356903] Exe deregister_tm_clones
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN push r14
+ [tid:1433314] Invalid RTN mov rax, 0xffffffffffffffff
+ [tid:1433314] Invalid RTN push r13
+ [tid:1433314] Invalid RTN push r12
+ [tid:1433314] Invalid RTN push rbp
+ [tid:1433314] Invalid RTN push rbx
+ [tid:1433314] Invalid RTN sub rsp, 0x20
+ [tid:1433314] Invalid RTN mov rbx, qword ptr [rip+0x2eb42a]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x10], rax
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x18], rax
+ [tid:1433314] Invalid RTN mov eax, dword ptr [rbx+0x68]
+ [tid:1433314] Invalid RTN mov dword ptr [rsp+0xc], 0x0
+ [tid:1433314] Invalid RTN test eax, eax
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2cf2
+ [tid:1433314] Invalid RTN mov r13, qword ptr [rbx+0x190]
+ [tid:1433314] Invalid RTN mov rbp, qword ptr [rbx+0x198]
+ [tid:1433314] Invalid RTN cmp eax, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2c20
+ [tid:1433314] Invalid RTN cmp eax, 0x3
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2c78
+ [tid:1433314] Invalid RTN mov edi, 0xbc
+ [tid:1433314] Invalid RTN call 0x7fd5eadf28c0
+ [tid:1433314] Invalid RTN push r15
+ [tid:1433314] Invalid RTN push r14
+ [tid:1433314] Invalid RTN push r13
+ [tid:1433314] Invalid RTN push r12
+ [tid:1433314] Invalid RTN push rbp
+ [tid:1433314] Invalid RTN push rbx
+ [tid:1433314] Invalid RTN sub rsp, 0x28
+ [tid:1433314] Invalid RTN mov rbp, qword ptr [rip+0x2eb583]
+ [tid:1433314] Invalid RTN mov rax, qword ptr fs:[0x28]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x18], rax
+ [tid:1433314] Invalid RTN xor eax, eax
+ [tid:1433314] Invalid RTN cmp dword ptr [rbp+0x6c], 0x1
+ [tid:1433314] Invalid RTN jbe 0x7fd5eadf29f6
+ [tid:1433314] Invalid RTN mov r15d, edi
+ [tid:1433314] Invalid RTN mov byte ptr [rsp+0x16], 0x0
+ [tid:1433314] Invalid RTN mov eax, 0x2
+ [tid:1433314] Invalid RTN mov byte ptr [rsp+0x17], 0x0
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN mov dword ptr [rsp+0xc], edx
+ [tid:1433314] Invalid RTN mov r14d, ecx
+ [tid:1433314] Invalid RTN cmp al, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2950
+ [tid:1433314] Invalid RTN lea rcx, ptr [rsp+0x16]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rsp+0x17]
+ [tid:1433314] Invalid RTN mov esi, 0xff
+ [tid:1433314] Invalid RTN lea r9, ptr [rbp+0x74]
+ [tid:1433314] Invalid RTN lea r8, ptr [rbp+0x70]
+ [tid:1433314] Invalid RTN call 0x7fd5eadf2620
+ [tid:1433314] Invalid RTN xor al, al
+ [tid:1433314] Invalid RTN lea r13, ptr [rsp+0x16]
+ [tid:1433314] Invalid RTN lea r12, ptr [rsp+0x17]
+ [tid:1433314] Invalid RTN mov esi, eax
+ [tid:1433314] Invalid RTN lea r9, ptr [rbp+0x74]
+ [tid:1433314] Invalid RTN lea r8, ptr [rbp+0x70]
+ [tid:1433314] Invalid RTN mov rcx, r13
+ [tid:1433314] Invalid RTN mov rdx, r12
+ [tid:1433314] Invalid RTN call 0x7fd5eadf2620
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN js 0x7fd5eadf2727
+ [tid:1433314] Invalid RTN lea r10d, ptr [rdi-0xb9]
+ [tid:1433314] Invalid RTN push r13
+ [tid:1433314] Invalid RTN mov eax, r10d
+ [tid:1433314] Invalid RTN push r12
+ [tid:1433314] Invalid RTN mov r12, rdx
+ [tid:1433314] Invalid RTN mov edx, 0x55555556
+ [tid:1433314] Invalid RTN imul edx
+ [tid:1433314] Invalid RTN push rbp
+ [tid:1433314] Invalid RTN sar r10d, 0x1f
+ [tid:1433314] Invalid RTN push rbx
+ [tid:1433314] Invalid RTN sub edx, r10d
+ [tid:1433314] Invalid RTN sub rsp, 0x8
+ [tid:1433314] Invalid RTN lea ebp, ptr [rdx+rdx*2]
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf270c
+ [tid:1433314] Invalid RTN lea r13, ptr [rip+0xacf81]
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf267d
+ [tid:1433314] Invalid RTN movzx eax, sil
+ [tid:1433314] Invalid RTN cmp eax, 0x40
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2668
+ [tid:1433314] Invalid RTN cmp eax, 0xff
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf272a
+ [tid:1433314] Invalid RTN cmp eax, 0x49
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf26af
+ [tid:1433314] Invalid RTN mov ebx, esi
+ [tid:1433314] Invalid RTN mov r10d, 0x44
+ [tid:1433314] Invalid RTN xor edx, edx
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf26c8
+ [tid:1433314] Invalid RTN lea rax, ptr [rdx+r10*1]
+ [tid:1433314] Invalid RTN shr rax, 0x1
+ [tid:1433314] Invalid RTN lea r11, ptr [r13+rax*8]
+ [tid:1433314] Invalid RTN cmp bl, byte ptr [r11]
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf26e8
+ [tid:1433314] Invalid RTN jb 0x7fd5eadf26c0
+ [tid:1433314] Invalid RTN lea rdx, ptr [rax+0x1]
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf26c3
+ [tid:1433314] Invalid RTN mov r10, rax
+ [tid:1433314] Invalid RTN cmp r10, rdx
+ [tid:1433314] Invalid RTN jbe 0x7fd5eadf2674
+ [tid:1433314] Invalid RTN lea rax, ptr [rdx+r10*1]
+ [tid:1433314] Invalid RTN shr rax, 0x1
+ [tid:1433314] Invalid RTN lea r11, ptr [r13+rax*8]
+ [tid:1433314] Invalid RTN cmp bl, byte ptr [r11]
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf26e8
+ [tid:1433314] Invalid RTN jb 0x7fd5eadf26c0
+ [tid:1433314] Invalid RTN shr esi, 0x8
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf270c
+ [tid:1433314] Invalid RTN movzx eax, sil
+ [tid:1433314] Invalid RTN cmp eax, 0x40
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2668
+ [tid:1433314] Invalid RTN cmp eax, 0xff
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf272a
+ [tid:1433314] Invalid RTN cmp eax, 0x49
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf26af
+ [tid:1433314] Invalid RTN cmp ebp, 0x9
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf26af
+ [tid:1433314] Invalid RTN cmp dword ptr [r8], 0xf
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2720
+ [tid:1433314] Invalid RTN cmp r10, rdx
+ [tid:1433314] Invalid RTN jbe 0x7fd5eadf2674
+ [tid:1433314] Invalid RTN lea rax, ptr [rdx+r10*1]
+ [tid:1433314] Invalid RTN shr rax, 0x1
+ [tid:1433314] Invalid RTN lea r11, ptr [r13+rax*8]
+ [tid:1433314] Invalid RTN cmp bl, byte ptr [r11]
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf26e8
+ [tid:1433314] Invalid RTN jb 0x7fd5eadf26c0
+ [tid:1433314] Invalid RTN lea rdx, ptr [rax+0x1]
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf26c3
+ [tid:1433314] Invalid RTN xor eax, eax
+ [tid:1433314] Invalid RTN add rsp, 0x8
+ [tid:1433314] Invalid RTN pop rbx
+ [tid:1433314] Invalid RTN pop rbp
+ [tid:1433314] Invalid RTN pop r12
+ [tid:1433314] Invalid RTN pop r13
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN test rax, rax
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf292a
+ [tid:1433314] Invalid RTN lea r9, ptr [rbp+0x74]
+ [tid:1433314] Invalid RTN lea r8, ptr [rbp+0x70]
+ [tid:1433314] Invalid RTN mov rcx, r13
+ [tid:1433314] Invalid RTN mov rdx, r12
+ [tid:1433314] Invalid RTN mov esi, ebx
+ [tid:1433314] Invalid RTN mov edi, r15d
+ [tid:1433314] Invalid RTN call 0x7fd5eadf2620
+ [tid:1433314] Invalid RTN mov eax, 0x4
+ [tid:1433314] Invalid RTN xor ecx, ecx
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN mov edx, eax
+ [tid:1433314] Invalid RTN and edx, 0x1f
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2860
+ [tid:1433314] Invalid RTN xor esi, esi
+ [tid:1433314] Invalid RTN mov r8d, 0x4
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf276f
+ [tid:1433314] Invalid RTN shr eax, 0x5
+ [tid:1433314] Invalid RTN and eax, 0x7
+ [tid:1433314] Invalid RTN cmp eax, 0x1
+ [tid:1433314] Invalid RTN setz r9b
+ [tid:1433314] Invalid RTN cmp edx, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2750
+ [tid:1433314] Invalid RTN cmp edx, 0x2
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2829
+ [tid:1433314] Invalid RTN test r9b, r9b
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2829
+ [tid:1433314] Invalid RTN test r9b, r9b
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2781
+ [tid:1433314] Invalid RTN cmp ebp, 0x3
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2797
+ [tid:1433314] Invalid RTN add esi, 0x1
+ [tid:1433314] Invalid RTN mov eax, r8d
+ [tid:1433314] Invalid RTN mov ecx, esi
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN lea eax, ptr [rdi-0xb9]
+ [tid:1433314] Invalid RTN sub eax, ebp
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf27ee
+ [tid:1433314] Invalid RTN cmp eax, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf286c
+ [tid:1433314] Invalid RTN cmp eax, 0x2
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2879
+ [tid:1433314] Invalid RTN mov eax, ebx
+ [tid:1433314] Invalid RTN mov edx, ebx
+ [tid:1433314] Invalid RTN add ecx, 0x1
+ [tid:1433314] Invalid RTN shr ebx, 0xc
+ [tid:1433314] Invalid RTN shr eax, 0x16
+ [tid:1433314] Invalid RTN and edx, 0xfff
+ [tid:1433314] Invalid RTN add edx, 0x1
+ [tid:1433314] Invalid RTN add eax, 0x1
+ [tid:1433314] Invalid RTN imul eax, edx
+ [tid:1433314] Invalid RTN mov edx, ebx
+ [tid:1433314] Invalid RTN and edx, 0x3ff
+ [tid:1433314] Invalid RTN add edx, 0x1
+ [tid:1433314] Invalid RTN imul eax, ecx
+ [tid:1433314] Invalid RTN imul eax, edx
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf270e
+ [tid:1433314] Invalid RTN add rsp, 0x8
+ [tid:1433314] Invalid RTN pop rbx
+ [tid:1433314] Invalid RTN pop rbp
+ [tid:1433314] Invalid RTN pop r12
+ [tid:1433314] Invalid RTN pop r13
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN test rax, rax
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf292a
+ [tid:1433314] Invalid RTN lea r9, ptr [rbp+0x74]
+ [tid:1433314] Invalid RTN lea r8, ptr [rbp+0x70]
+ [tid:1433314] Invalid RTN mov rcx, r13
+ [tid:1433314] Invalid RTN mov rdx, r12
+ [tid:1433314] Invalid RTN mov esi, r14d
+ [tid:1433314] Invalid RTN mov edi, r15d
+ [tid:1433314] Invalid RTN call 0x7fd5eadf2620
+ [tid:1433314] Invalid RTN mov rbx, qword ptr [rsp+0x18]
+ [tid:1433314] Invalid RTN xor rbx, qword ptr fs:[0x28]
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2a02
+ [tid:1433314] Invalid RTN add rsp, 0x28
+ [tid:1433314] Invalid RTN pop rbx
+ [tid:1433314] Invalid RTN pop rbp
+ [tid:1433314] Invalid RTN pop r12
+ [tid:1433314] Invalid RTN pop r13
+ [tid:1433314] Invalid RTN pop r14
+ [tid:1433314] Invalid RTN pop r15
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov edi, 0xbf
+ [tid:1433314] Invalid RTN mov r12, rax
+ [tid:1433314] Invalid RTN call 0x7fd5eadf28c0
+ [tid:1433314] Invalid RTN mov edx, eax
+ [tid:1433314] Invalid RTN and edx, 0x1f
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2860
+ [tid:1433314] Invalid RTN shr eax, 0x5
+ [tid:1433314] Invalid RTN and eax, 0x7
+ [tid:1433314] Invalid RTN cmp eax, 0x1
+ [tid:1433314] Invalid RTN setz r9b
+ [tid:1433314] Invalid RTN cmp edx, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2750
+ [tid:1433314] Invalid RTN cmp edx, 0x2
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2829
+ [tid:1433314] Invalid RTN test r9b, r9b
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2829
+ [tid:1433314] Invalid RTN test ebp, ebp
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf275a
+ [tid:1433314] Invalid RTN lea eax, ptr [rdi-0xb9]
+ [tid:1433314] Invalid RTN sub eax, ebp
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf27ee
+ [tid:1433314] Invalid RTN add esi, 0x1
+ [tid:1433314] Invalid RTN mov eax, r8d
+ [tid:1433314] Invalid RTN mov ecx, esi
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN cmp eax, 0x2
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2837
+ [tid:1433314] Invalid RTN cmp ebp, 0x6
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2797
+ [tid:1433314] Invalid RTN cmp eax, 0x3
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2845
+ [tid:1433314] Invalid RTN mov edi, 0xc2
+ [tid:1433314] Invalid RTN mov r14, rax
+ [tid:1433314] Invalid RTN call 0x7fd5eadf28c0
+ [tid:1433314] Invalid RTN cmp eax, 0x4
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf275a
+ [tid:1433314] Invalid RTN cmp ebp, 0xc
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2797
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf275a
+ [tid:1433314] Invalid RTN cmp eax, 0x3
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2845
+ [tid:1433314] Invalid RTN cmp ebp, 0x9
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2797
+ [tid:1433314] Invalid RTN cmp eax, 0x4
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf275a
+ [tid:1433314] Invalid RTN lea rdx, ptr [rsp+0xc]
+ [tid:1433314] Invalid RTN lea rsi, ptr [rsp+0x18]
+ [tid:1433314] Invalid RTN mov rcx, r14
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x10], rax
+ [tid:1433314] Invalid RTN lea rdi, ptr [rsp+0x10]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x18], rax
+ [tid:1433314] Invalid RTN call 0x7fd5eadf1d80
+ [tid:1433314] Invalid RTN push r15
+ [tid:1433314] Invalid RTN mov r9, qword ptr [rsi]
+ [tid:1433314] Invalid RTN push r14
+ [tid:1433314] Invalid RTN mov r14, rdi
+ [tid:1433314] Invalid RTN push r13
+ [tid:1433314] Invalid RTN mov r13, rdx
+ [tid:1433314] Invalid RTN push r12
+ [tid:1433314] Invalid RTN push rbp
+ [tid:1433314] Invalid RTN push rbx
+ [tid:1433314] Invalid RTN mov r10, qword ptr [rdi]
+ [tid:1433314] Invalid RTN mov r15d, dword ptr [rdx]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp-0x20], rcx
+ [tid:1433314] Invalid RTN test r10, r10
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf2040
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x10], 0x3
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x24], 0x0
+ [tid:1433314] Invalid RTN mov r11, qword ptr [rip+0x2ec09a]
+ [tid:1433314] Invalid RTN test byte ptr [r11+0x8b], 0x10
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1ed7
+ [tid:1433314] Invalid RTN mov eax, dword ptr [r11+0x6c]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [r11+0x70]
+ [tid:1433314] Invalid RTN mov ebx, dword ptr [r11+0x74]
+ [tid:1433314] Invalid RTN mov ebp, dword ptr [r11+0x68]
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x8], eax
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0xc], edx
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x4], ebx
+ [tid:1433314] Invalid RTN cmp eax, 0x3
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf1e80
+ [tid:1433314] Invalid RTN mov r12d, dword ptr [rsp-0x24]
+ [tid:1433314] Invalid RTN mov r8d, 0x3
+ [tid:1433314] Invalid RTN test r12d, r12d
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2060
+ [tid:1433314] Invalid RTN mov byte ptr [rsp-0x11], 0x1
+ [tid:1433314] Invalid RTN xor ecx, ecx
+ [tid:1433314] Invalid RTN mov r12d, 0x4
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x18], 0x0
+ [tid:1433314] Invalid RTN nop word ptr [rax+rax*1]
+ [tid:1433314] Invalid RTN lea edi, ptr [rcx+0x1]
+ [tid:1433314] Invalid RTN mov eax, r12d
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN cmp ebp, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1ef0
+ [tid:1433314] Invalid RTN mov ecx, eax
+ [tid:1433314] Invalid RTN shr ecx, 0x5
+ [tid:1433314] Invalid RTN and ecx, 0x7
+ [tid:1433314] Invalid RTN cmp ecx, 0x2
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1f05
+ [tid:1433314] Invalid RTN cmp ecx, 0x3
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1e78
+ [tid:1433314] Invalid RTN test al, 0x1f
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1e8d
+ [tid:1433314] Invalid RTN mov ecx, eax
+ [tid:1433314] Invalid RTN shr ecx, 0x5
+ [tid:1433314] Invalid RTN and ecx, 0x7
+ [tid:1433314] Invalid RTN cmp ecx, 0x2
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1e42
+ [tid:1433314] Invalid RTN test r8b, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1e78
+ [tid:1433314] Invalid RTN cmp ecx, 0x3
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1e78
+ [tid:1433314] Invalid RTN test r8b, 0x2
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1e78
+ [tid:1433314] Invalid RTN shr eax, 0xe
+ [tid:1433314] Invalid RTN shr edx, 0x1
+ [tid:1433314] Invalid RTN and r8d, 0xfffffffd
+ [tid:1433314] Invalid RTN and eax, 0x3ff
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x24], eax
+ [tid:1433314] Invalid RTN mov eax, edx
+ [tid:1433314] Invalid RTN and eax, 0x1
+ [tid:1433314] Invalid RTN mov byte ptr [rsp-0x11], al
+ [tid:1433314] Invalid RTN test r8d, r8d
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1f28
+ [tid:1433314] Invalid RTN mov ecx, edi
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf1e20
+ [tid:1433314] Invalid RTN lea edi, ptr [rcx+0x1]
+ [tid:1433314] Invalid RTN mov eax, r12d
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN shr eax, 0xe
+ [tid:1433314] Invalid RTN and r8d, 0xfffffffe
+ [tid:1433314] Invalid RTN and eax, 0x3ff
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x18], eax
+ [tid:1433314] Invalid RTN test r8d, r8d
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1e78
+ [tid:1433314] Invalid RTN cmp dword ptr [rsp-0xc], 0x6
+ [tid:1433314] Invalid RTN setz r12b
+ [tid:1433314] Invalid RTN cmp ebp, 0x3
+ [tid:1433314] Invalid RTN setz al
+ [tid:1433314] Invalid RTN test al, r12b
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN cmp dword ptr [rsp-0x8], 0xa
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN cmp dword ptr [rsp-0xc], 0x6
+ [tid:1433314] Invalid RTN setz r12b
+ [tid:1433314] Invalid RTN cmp ebp, 0x3
+ [tid:1433314] Invalid RTN setz al
+ [tid:1433314] Invalid RTN test al, r12b
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN cmp dword ptr [rsp-0x8], 0xa
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN mov r11d, dword ptr [rsp-0x18]
+ [tid:1433314] Invalid RTN mov edi, dword ptr [rsp-0x10]
+ [tid:1433314] Invalid RTN mov ebx, dword ptr [rsp-0x24]
+ [tid:1433314] Invalid RTN test r11d, r11d
+ [tid:1433314] Invalid RTN setnle dl
+ [tid:1433314] Invalid RTN xor eax, eax
+ [tid:1433314] Invalid RTN cmp edi, 0x3
+ [tid:1433314] Invalid RTN setz al
+ [tid:1433314] Invalid RTN and eax, edx
+ [tid:1433314] Invalid RTN mov r8d, eax
+ [tid:1433314] Invalid RTN or r8d, 0x2
+ [tid:1433314] Invalid RTN test ebx, ebx
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf20f8
+ [tid:1433314] Invalid RTN mov eax, 0xb
+ [tid:1433314] Invalid RTN xor ecx, ecx
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN movzx ebx, bl
+ [tid:1433314] Invalid RTN and ecx, 0xff00
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN test ebx, ebx
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN mov edx, 0x1
+ [tid:1433314] Invalid RTN mov r11d, 0xb
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf1fca
+ [tid:1433314] Invalid RTN cmp ecx, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1fa0
+ [tid:1433314] Invalid RTN test r8b, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1fac
+ [tid:1433314] Invalid RTN bsr ecx, dword ptr [rsp-0x18]
+ [tid:1433314] Invalid RTN mov eax, 0xffffffff
+ [tid:1433314] Invalid RTN add ecx, 0x1
+ [tid:1433314] Invalid RTN sub ebx, 0x1
+ [tid:1433314] Invalid RTN and r8d, 0xfffffffe
+ [tid:1433314] Invalid RTN shl eax, cl
+ [tid:1433314] Invalid RTN not eax
+ [tid:1433314] Invalid RTN and ebx, eax
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x18], ebx
+ [tid:1433314] Invalid RTN test r8d, r8d
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1fac
+ [tid:1433314] Invalid RTN lea edi, ptr [rdx+0x1]
+ [tid:1433314] Invalid RTN mov eax, r11d
+ [tid:1433314] Invalid RTN mov ecx, edx
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN and ecx, 0xff00
+ [tid:1433314] Invalid RTN and ebx, 0xff
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1ffb
+ [tid:1433314] Invalid RTN mov edx, edi
+ [tid:1433314] Invalid RTN cmp ecx, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1fa0
+ [tid:1433314] Invalid RTN cmp ecx, 0x200
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2078
+ [tid:1433314] Invalid RTN lea edi, ptr [rdx+0x1]
+ [tid:1433314] Invalid RTN mov eax, r11d
+ [tid:1433314] Invalid RTN mov ecx, edx
+ [tid:1433314] Invalid RTN cpuid 
+ [tid:1433314] Invalid RTN test r8b, 0x2
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1fac
+ [tid:1433314] Invalid RTN sub ebx, 0x1
+ [tid:1433314] Invalid RTN cmp dword ptr [rsp-0x10], 0x2
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2180
+ [tid:1433314] Invalid RTN bsr ecx, dword ptr [rsp-0x24]
+ [tid:1433314] Invalid RTN mov eax, 0xffffffff
+ [tid:1433314] Invalid RTN add ecx, 0x1
+ [tid:1433314] Invalid RTN shl eax, cl
+ [tid:1433314] Invalid RTN not eax
+ [tid:1433314] Invalid RTN and eax, ebx
+ [tid:1433314] Invalid RTN mov dword ptr [rsp-0x24], eax
+ [tid:1433314] Invalid RTN and r8d, 0xfffffffd
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf1ff6
+ [tid:1433314] Invalid RTN test r8d, r8d
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1fac
+ [tid:1433314] Invalid RTN mov r8d, dword ptr [rsp-0x18]
+ [tid:1433314] Invalid RTN test r8d, r8d
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf20b0
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rsp-0x24]
+ [tid:1433314] Invalid RTN add dword ptr [rsp-0x18], 0x1
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf2120
+ [tid:1433314] Invalid RTN cmp dword ptr [rsp-0x10], 0x2
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2127
+ [tid:1433314] Invalid RTN mov eax, dword ptr [rsp-0x24]
+ [tid:1433314] Invalid RTN add eax, 0x1
+ [tid:1433314] Invalid RTN mov r15d, eax
+ [tid:1433314] Invalid RTN mov eax, 0x1
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf1e9b
+ [tid:1433314] Invalid RTN test r9, r9
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf1eb2
+ [tid:1433314] Invalid RTN test al, al
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1eb2
+ [tid:1433314] Invalid RTN mov rax, r9
+ [tid:1433314] Invalid RTN mov ecx, r15d
+ [tid:1433314] Invalid RTN cqo 
+ [tid:1433314] Invalid RTN idiv rcx
+ [tid:1433314] Invalid RTN mov r9, rax
+ [tid:1433314] Invalid RTN cmp byte ptr [rsp-0x11], 0x0
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf1ed7
+ [tid:1433314] Invalid RTN mov rdi, qword ptr [rsp-0x20]
+ [tid:1433314] Invalid RTN movsxd rbx, dword ptr [rsp-0x18]
+ [tid:1433314] Invalid RTN mov rax, rdi
+ [tid:1433314] Invalid RTN test ebx, ebx
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf1ecf
+ [tid:1433314] Invalid RTN cqo 
+ [tid:1433314] Invalid RTN idiv rbx
+ [tid:1433314] Invalid RTN add r9, rax
+ [tid:1433314] Invalid RTN add r10, qword ptr [rsp-0x20]
+ [tid:1433314] Invalid RTN pop rbx
+ [tid:1433314] Invalid RTN pop rbp
+ [tid:1433314] Invalid RTN mov qword ptr [r14], r10
+ [tid:1433314] Invalid RTN pop r12
+ [tid:1433314] Invalid RTN mov qword ptr [rsi], r9
+ [tid:1433314] Invalid RTN mov dword ptr [r13], r15d
+ [tid:1433314] Invalid RTN pop r13
+ [tid:1433314] Invalid RTN pop r14
+ [tid:1433314] Invalid RTN pop r15
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN test r13, r13
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2a7d
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf2a80
+ [tid:1433314] Invalid RTN test r12, r12
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf2ab0
+ [tid:1433314] Invalid RTN mov rax, r12
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb8b9], r12
+ [tid:1433314] Invalid RTN xor r12b, r12b
+ [tid:1433314] Invalid RTN sar rax, 0x1
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb8bc], r12
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb8ad], rax
+ [tid:1433314] Invalid RTN mov rax, r12
+ [tid:1433314] Invalid RTN sar rax, 0x1
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb8b0], rax
+ [tid:1433314] Invalid RTN test rbp, rbp
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2bab
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rsp+0x10]
+ [tid:1433314] Invalid RTN test rax, rax
+ [tid:1433314] Invalid RTN jle 0x7fd5eadf2bb7
+ [tid:1433314] Invalid RTN mov rdx, rax
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb857], rax
+ [tid:1433314] Invalid RTN xor al, al
+ [tid:1433314] Invalid RTN sar rdx, 0x1
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb85b], rax
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb84c], rdx
+ [tid:1433314] Invalid RTN mov rdx, rax
+ [tid:1433314] Invalid RTN sar rdx, 0x1
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb84f], rdx
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rsp+0x18]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rdx+rdx*2]
+ [tid:1433314] Invalid RTN test rdx, rdx
+ [tid:1433314] Invalid RTN lea rbp, ptr [rdx+0x3]
+ [tid:1433314] Invalid RTN cmovns rbp, rdx
+ [tid:1433314] Invalid RTN sar rax, 0x2
+ [tid:1433314] Invalid RTN sar rbp, 0x2
+ [tid:1433314] Invalid RTN cmp rax, rbp
+ [tid:1433314] Invalid RTN cmovb rax, rbp
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rbx+0xb0]
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rbx+0x1a0]
+ [tid:1433314] Invalid RTN test ch, 0x2
+ [tid:1433314] Invalid RTN cmovz rax, rbp
+ [tid:1433314] Invalid RTN test rdx, rdx
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN and ecx, 0x10000
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rbx+0x17c]
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2ee6f6], rax
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2bf0
+ [tid:1433314] Invalid RTN test dh, 0x40
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2bf0
+ [tid:1433314] Invalid RTN mov eax, 0x4000
+ [tid:1433314] Invalid RTN mov edx, 0x200
+ [tid:1433314] Invalid RTN test byte ptr [rbx+0xb8], 0x10
+ [tid:1433314] Invalid RTN mov ecx, 0x840
+ [tid:1433314] Invalid RTN cmovnz rax, rcx
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rbx+0x1a8]
+ [tid:1433314] Invalid RTN cmp rcx, rdx
+ [tid:1433314] Invalid RTN cmovnbe rax, rcx
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb7a0], rax
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rbx+0x1b0]
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb78a], rax
+ [tid:1433314] Invalid RTN add rsp, 0x20
+ [tid:1433314] Invalid RTN xor eax, eax
+ [tid:1433314] Invalid RTN pop rbx
+ [tid:1433314] Invalid RTN pop rbp
+ [tid:1433314] Invalid RTN pop r12
+ [tid:1433314] Invalid RTN pop r13
+ [tid:1433314] Invalid RTN pop r14
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN and edx, 0x100
+ [tid:1433314] Invalid RTN cmp edx, 0x1
+ [tid:1433314] Invalid RTN sbb rax, rax
+ [tid:1433314] Invalid RTN and rax, 0xffffffffffffe800
+ [tid:1433314] Invalid RTN add rax, 0x2000
+ [tid:1433314] Invalid RTN cmp edx, 0x1
+ [tid:1433314] Invalid RTN sbb rdx, rdx
+ [tid:1433314] Invalid RTN and rdx, 0xffffffffffffff80
+ [tid:1433314] Invalid RTN add rdx, 0x100
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadf2b5b
+ [tid:1433314] Invalid RTN test byte ptr [rbx+0xb8], 0x10
+ [tid:1433314] Invalid RTN mov ecx, 0x840
+ [tid:1433314] Invalid RTN cmovnz rax, rcx
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rbx+0x1a8]
+ [tid:1433314] Invalid RTN cmp rcx, rdx
+ [tid:1433314] Invalid RTN cmovnbe rax, rcx
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb7a0], rax
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rbx+0x1b0]
+ [tid:1433314] Invalid RTN mov qword ptr [rip+0x2eb78a], rax
+ [tid:1433314] Invalid RTN add rsp, 0x20
+ [tid:1433314] Invalid RTN xor eax, eax
+ [tid:1433314] Invalid RTN pop rbx
+ [tid:1433314] Invalid RTN pop rbp
+ [tid:1433314] Invalid RTN pop r12
+ [tid:1433314] Invalid RTN pop r13
+ [tid:1433314] Invalid RTN pop r14
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x33090d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7bb32]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test dh, 0x30
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad5d3
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN test esi, 0x10000
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad5d8
+ [tid:1433314] Invalid RTN test dh, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad5b0
+ [tid:1433314] Invalid RTN test dh, 0x40
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad56b
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x3d8dc]
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN jns 0x7fd5eadad5d3
+ [tid:1433314] Invalid RTN and esi, 0x200
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x3e2fb]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x3e364]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN test dh, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad5b0
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN js 0x7fd5eadad628
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad5a0
+ [tid:1433314] Invalid RTN and esi, 0x200
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x1847b]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x184e4]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x3316ed]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac784
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac7b0
+ [tid:1433314] Invalid RTN and esi, 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x6a47e]
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac7a9
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadac7d0
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x160e5]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac7a9
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xd6f9]
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac784
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1efb9]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac7b4
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadac7a9
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x33032d]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadb68
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadb68
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadadba0
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x19dd9]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadb48
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadadb9b
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x331f7d]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadabef4
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadabf20
+ [tid:1433314] Invalid RTN and esi, 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x75dae]
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadabf19
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadabf40
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x13815]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadabf19
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xaec9]
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadabef4
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1c459]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadabf24
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadabf19
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x33165d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x692c2]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac820
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac818
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadac858
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x16cea]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac818
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1fc41]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac82f
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN sub rsp, 0x28
+ [tid:1433314] Invalid RTN mov esi, 0x32
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x9eb44]
+ [tid:1433314] Invalid RTN mov edx, 0x5f
+ [tid:1433314] Invalid RTN mov qword ptr [rsp], rax
+ [tid:1433314] Invalid RTN lea rcx, ptr [rip+0x9eb39]
+ [tid:1433314] Invalid RTN mov rax, 0x103ae75f6
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x8], rax
+ [tid:1433314] Invalid RTN mov eax, 0x50e3a8
+ [tid:1433314] Invalid RTN shl rax, 0x4
+ [tid:1433314] Invalid RTN add rcx, 0x1
+ [tid:1433314] Invalid RTN add rax, rdx
+ [tid:1433314] Invalid RTN mov rdx, rax
+ [tid:1433314] Invalid RTN shr rdx, 0x18
+ [tid:1433314] Invalid RTN and edx, 0xf0
+ [tid:1433314] Invalid RTN xor rax, rdx
+ [tid:1433314] Invalid RTN test sil, sil
+ [tid:1433314] Invalid RTN jz 0x7fd5eae048b8
+ [tid:1433314] Invalid RTN movzx edx, sil
+ [tid:1433314] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:1433314] Invalid RTN jmp 0x7fd5eae04888
+ [tid:1433314] Invalid RTN shl rax, 0x4
+ [tid:1433314] Invalid RTN add rcx, 0x1
+ [tid:1433314] Invalid RTN add rax, rdx
+ [tid:1433314] Invalid RTN mov rdx, rax
+ [tid:1433314] Invalid RTN shr rdx, 0x18
+ [tid:1433314] Invalid RTN and edx, 0xf0
+ [tid:1433314] Invalid RTN xor rax, rdx
+ [tid:1433314] Invalid RTN test sil, sil
+ [tid:1433314] Invalid RTN jz 0x7fd5eae048b8
+ [tid:1433314] Invalid RTN movzx edx, sil
+ [tid:1433314] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:1433314] Invalid RTN jmp 0x7fd5eae04888
+ [tid:1433314] Invalid RTN and eax, 0xfffffff
+ [tid:1433314] Invalid RTN cmp rax, 0x3ae75f6
+ [tid:1433314] Invalid RTN jnz 0x7fd5eae048f0
+ [tid:1433314] Invalid RTN mov rsi, rsp
+ [tid:1433314] Invalid RTN lea rdi, ptr [rip+0xa04f0]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x10], 0x0
+ [tid:1433314] Invalid RTN call 0x7fd5eae86e40
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN sub rsp, 0x38
+ [tid:1433314] Invalid RTN mov r8, rsi
+ [tid:1433314] Invalid RTN mov rax, qword ptr fs:[0x28]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x28], rax
+ [tid:1433314] Invalid RTN xor eax, eax
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rip+0x256ff6]
+ [tid:1433314] Invalid RTN mov rsi, qword ptr [rax+0x248]
+ [tid:1433314] Invalid RTN test rsi, rsi
+ [tid:1433314] Invalid RTN jz 0x7fd5eae86eca
+ [tid:1433314] Invalid RTN lea rdx, ptr [rsp+0x10]
+ [tid:1433314] Invalid RTN pxor xmm0, xmm0
+ [tid:1433314] Invalid RTN xor r9d, r9d
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x20], 0x0
+ [tid:1433314] Invalid RTN movaps xmmword ptr [rsp+0x10], xmm0
+ [tid:1433314] Invalid RTN lea rcx, ptr [rsi+0x398]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x8], rdx
+ [tid:1433314] Invalid RTN lea rdx, ptr [rsp+0x8]
+ [tid:1433314] Invalid RTN mov byte ptr [rsp+0x14], 0x20
+ [tid:1433314] Invalid RTN push 0x0
+ [tid:1433314] Invalid RTN push 0x0
+ [tid:1433314] Invalid RTN call qword ptr [rax+0x268]
+ [tid:1433314] Invalid RTN mov rsi, qword ptr [rsp+0x18]
+ [tid:1433314] Invalid RTN pop rdx
+ [tid:1433314] Invalid RTN pop rcx
+ [tid:1433314] Invalid RTN test rsi, rsi
+ [tid:1433314] Invalid RTN jz 0x7fd5eae86eca
+ [tid:1433314] Invalid RTN cmp word ptr [rsi+0x6], 0xfff1
+ [tid:1433314] Invalid RTN jz 0x7fd5eae86ee8
+ [tid:1433314] Invalid RTN test rax, rax
+ [tid:1433314] Invalid RTN jz 0x7fd5eae86ee8
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rax]
+ [tid:1433314] Invalid RTN add rax, qword ptr [rsi+0x8]
+ [tid:1433314] Invalid RTN mov rsi, rax
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rsp+0x28]
+ [tid:1433314] Invalid RTN xor rcx, qword ptr fs:[0x28]
+ [tid:1433314] Invalid RTN mov rax, rsi
+ [tid:1433314] Invalid RTN jnz 0x7fd5eae86eec
+ [tid:1433314] Invalid RTN add rsp, 0x38
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip-0xa4]
+ [tid:1433314] Invalid RTN test rax, rax
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN add rsp, 0x28
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x32eb5d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7ccc2]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadaf320
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadaf318
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x800
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadaf360
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xeb02]
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadaf318
+ [tid:1433314] Invalid RTN and edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadaf337
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x175af]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1f388]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x2ea94d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0xae142]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf3530
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf3528
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x800
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadf3570
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x2e7ae]
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf3528
+ [tid:1433314] Invalid RTN and edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf3547
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip-0x257c1]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x24ce8]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x2eb02d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0xaf022]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2e50
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2e48
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadf2e88
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x2f466]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2e48
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x2648f]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2e5f
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x3306dd]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7bd92]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test dh, 0x30
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad803
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN test esi, 0x10000
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad808
+ [tid:1433314] Invalid RTN test dh, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad7e0
+ [tid:1433314] Invalid RTN test dh, 0x40
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad79b
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x3d68c]
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN jns 0x7fd5eadad803
+ [tid:1433314] Invalid RTN and esi, 0x200
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x3e0ab]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x3e114]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN test dh, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad7e0
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN js 0x7fd5eadad858
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad7d0
+ [tid:1433314] Invalid RTN and esi, 0x200
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x1822b]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x18294]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rip+0x3309ad]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rax+0xb0]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rax+0x94]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad500
+ [tid:1433314] Invalid RTN test edx, 0x400000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad500
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad500
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rax+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad500
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadad520
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xf81e]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad515
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x18259]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad4db
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadad515
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x33178d]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac708
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac708
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadac740
+ [tid:1433314] Invalid RTN mov eax, ecx
+ [tid:1433314] Invalid RTN and eax, 0x40000100
+ [tid:1433314] Invalid RTN cmp eax, 0x40000100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac6e8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1e9ab]
+ [tid:1433314] Invalid RTN test esi, 0x10000
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac6e8
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadac73b
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x15b31]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac73b
+ [tid:1433314] Invalid RTN and esi, 0x800
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xd16f]
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac73b
+ [tid:1433314] Invalid RTN nop dword ptr [rax+rax*1]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0x94]
+ [tid:1433314] Invalid RTN test ecx, 0x100000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac726
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x331e6d]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac004
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac030
+ [tid:1433314] Invalid RTN and esi, 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7211e]
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac029
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadac050
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x141d5]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac029
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xb869]
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac004
+ [tid:1433314] Invalid RTN mov eax, ecx
+ [tid:1433314] Invalid RTN and eax, 0x40000100
+ [tid:1433314] Invalid RTN cmp eax, 0x40000100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac034
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1cefb]
+ [tid:1433314] Invalid RTN test esi, 0x10000
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac034
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadac029
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x141d5]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac029
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xb869]
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac004
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x3307dd]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7b1c2]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x10
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad6e4
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN test edx, 0x10000
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad6e8
+ [tid:1433314] Invalid RTN mov eax, edx
+ [tid:1433314] Invalid RTN and eax, 0x200
+ [tid:1433314] Invalid RTN test dl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad6d0
+ [tid:1433314] Invalid RTN test ch, 0x40
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad69b
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x3df1c]
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN jns 0x7fd5eadad6e4
+ [tid:1433314] Invalid RTN mov ecx, edx
+ [tid:1433314] Invalid RTN and ecx, 0x40000100
+ [tid:1433314] Invalid RTN cmp ecx, 0x40000100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad6e4
+ [tid:1433314] Invalid RTN mov eax, edx
+ [tid:1433314] Invalid RTN and eax, 0x200
+ [tid:1433314] Invalid RTN test dl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad6d0
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadad738
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad720
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x40000100
+ [tid:1433314] Invalid RTN cmp esi, 0x40000100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad6af
+ [tid:1433314] Invalid RTN test eax, eax
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x18f6b]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x19064]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x2eb0ad]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0xaf132]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2dd0
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2dc8
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadf2e08
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x2f626]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2dc8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x2666f]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2ddf
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x33189d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x692a2]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac5e0
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac5d8
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadac618
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x16c2a]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac5d8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1fbc1]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac5ef
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rip+0x331d2d]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x4540e]
+ [tid:1433314] Invalid RTN test byte ptr [rax+0x96], 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x45570]
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x33028d]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadc08
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadc08
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadadc40
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1be39]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadbe8
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadadc3b
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x331dbd]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac0b4
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac0e0
+ [tid:1433314] Invalid RTN and esi, 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x71e2e]
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac0d9
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadac100
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x14685]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac0d9
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xbd19]
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac0b4
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1d3b9]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac0e4
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadac0d9
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x33004d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7c3f2]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test dh, 0x30
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadade93
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN test esi, 0x10000
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadade98
+ [tid:1433314] Invalid RTN test dh, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadade70
+ [tid:1433314] Invalid RTN test dh, 0x40
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadade2b
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x3d01c]
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN jns 0x7fd5eadade93
+ [tid:1433314] Invalid RTN and esi, 0x200
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x3da3b]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x3daa4]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN test dh, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadade70
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN js 0x7fd5eadadee8
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jz 0x7fd5eadade60
+ [tid:1433314] Invalid RTN and esi, 0x200
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x17bbb]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x17c24]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x2e95ad]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov eax, ecx
+ [tid:1433314] Invalid RTN and eax, 0x120
+ [tid:1433314] Invalid RTN cmp eax, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf48e0
+ [tid:1433314] Invalid RTN test byte ptr [rdx+0x96], 0x8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xefd3]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip-0xafa14]
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf48bf
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadf4910
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x30199]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf48d8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x27157]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf48f2
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x2ea7fd]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0xc1252]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf369d
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test dh, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf369d
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadf36a0
+ [tid:1433314] Invalid RTN and dh, 0x40
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x755a]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip-0x2d061]
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rip+0x3315dd]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x4505e]
+ [tid:1433314] Invalid RTN test byte ptr [rax+0x96], 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x45180]
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rip+0x331eed]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rax+0xb0]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rax+0x17c]
+ [tid:1433314] Invalid RTN mov eax, edx
+ [tid:1433314] Invalid RTN and eax, 0x120
+ [tid:1433314] Invalid RTN cmp eax, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadabfa0
+ [tid:1433314] Invalid RTN and ecx, 0x40
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7392f]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x2439a]
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadabf85
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadabfc8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x13e30]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadabf9a
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1cb31]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadabfa9
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x33191d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x71c82]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac560
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac558
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadac598
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x145aa]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadac558
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1d361]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadac56f
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x329fed]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x81e52]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadb3e90
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadb3e88
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadb3ec8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x998a]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadb3e88
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x123f1]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadb3e9f
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x3301ed]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadca8
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadca8
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadadce0
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x19ca9]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadc88
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadadcdb
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x330a3d]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7c1d2]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad440
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad438
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x800
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadad480
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0xf5e2]
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadad438
+ [tid:1433314] Invalid RTN and edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadad457
+ [tid:1433314] Invalid RTN test esi, esi
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x17fef]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x20f68]
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x2eaedd]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov eax, ecx
+ [tid:1433314] Invalid RTN and eax, 0x120
+ [tid:1433314] Invalid RTN cmp eax, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2fb0
+ [tid:1433314] Invalid RTN test byte ptr [rdx+0x96], 0x8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0xae4bd]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip-0xae284]
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2f8f
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadf2fe0
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x2f0a9]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadf2fa8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x26047]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadf2fc2
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rip+0x33131d]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip+0x44eee]
+ [tid:1433314] Invalid RTN test byte ptr [rax+0x96], 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x45000]
+ [tid:1433314] Invalid RTN cmovnz rax, rdx
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x3303bd]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadab4
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadadae0
+ [tid:1433314] Invalid RTN and esi, 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7aabe]
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadadad9
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadadb00
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x10875]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadadad9
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x7f69]
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadadab4
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x193e9]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadae4
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadadad9
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x33044d]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadada24
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadada50
+ [tid:1433314] Invalid RTN and esi, 0x10
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x7b0ee]
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadada49
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadada70
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x10545]
+ [tid:1433314] Invalid RTN and ch, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadada49
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x7c49]
+ [tid:1433314] Invalid RTN test esi, 0x800
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadada24
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x19029]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadada54
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadada49
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x32eacd]
+ [tid:1433314] Invalid RTN lea rax, ptr [rip-0x76b02]
+ [tid:1433314] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:1433314] Invalid RTN mov esi, edx
+ [tid:1433314] Invalid RTN and esi, 0x120
+ [tid:1433314] Invalid RTN cmp esi, 0x120
+ [tid:1433314] Invalid RTN jz 0x7fd5eadaf3b0
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:1433314] Invalid RTN test ch, 0x1
+ [tid:1433314] Invalid RTN jz 0x7fd5eadaf3a8
+ [tid:1433314] Invalid RTN test edx, edx
+ [tid:1433314] Invalid RTN js 0x7fd5eadaf3e8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x10c5a]
+ [tid:1433314] Invalid RTN and dh, 0x8
+ [tid:1433314] Invalid RTN jnz 0x7fd5eadaf3a8
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x19951]
+ [tid:1433314] Invalid RTN test edx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadaf3bf
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x33014d]
+ [tid:1433314] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:1433314] Invalid RTN test cl, 0x20
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadd48
+ [tid:1433314] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:1433314] Invalid RTN test esi, 0x100
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadd48
+ [tid:1433314] Invalid RTN test ecx, ecx
+ [tid:1433314] Invalid RTN js 0x7fd5eadadd80
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x1bd09]
+ [tid:1433314] Invalid RTN test ecx, 0x40000000
+ [tid:1433314] Invalid RTN jz 0x7fd5eadadd28
+ [tid:1433314] Invalid RTN jmp 0x7fd5eadadd7b
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN sub rsp, 0x28
+ [tid:1433314] Invalid RTN mov esi, 0x32
+ [tid:1433314] Invalid RTN lea rax, ptr [rip+0x9ea54]
+ [tid:1433314] Invalid RTN mov edx, 0x5f
+ [tid:1433314] Invalid RTN mov qword ptr [rsp], rax
+ [tid:1433314] Invalid RTN lea rcx, ptr [rip+0x9ea49]
+ [tid:1433314] Invalid RTN mov rax, 0x103ae75f6
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x8], rax
+ [tid:1433314] Invalid RTN mov eax, 0x50e3a8
+ [tid:1433314] Invalid RTN shl rax, 0x4
+ [tid:1433314] Invalid RTN add rcx, 0x1
+ [tid:1433314] Invalid RTN add rax, rdx
+ [tid:1433314] Invalid RTN mov rdx, rax
+ [tid:1433314] Invalid RTN shr rdx, 0x18
+ [tid:1433314] Invalid RTN and edx, 0xf0
+ [tid:1433314] Invalid RTN xor rax, rdx
+ [tid:1433314] Invalid RTN test sil, sil
+ [tid:1433314] Invalid RTN jz 0x7fd5eae049a8
+ [tid:1433314] Invalid RTN movzx edx, sil
+ [tid:1433314] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:1433314] Invalid RTN jmp 0x7fd5eae04978
+ [tid:1433314] Invalid RTN shl rax, 0x4
+ [tid:1433314] Invalid RTN add rcx, 0x1
+ [tid:1433314] Invalid RTN add rax, rdx
+ [tid:1433314] Invalid RTN mov rdx, rax
+ [tid:1433314] Invalid RTN shr rdx, 0x18
+ [tid:1433314] Invalid RTN and edx, 0xf0
+ [tid:1433314] Invalid RTN xor rax, rdx
+ [tid:1433314] Invalid RTN test sil, sil
+ [tid:1433314] Invalid RTN jz 0x7fd5eae049a8
+ [tid:1433314] Invalid RTN movzx edx, sil
+ [tid:1433314] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:1433314] Invalid RTN jmp 0x7fd5eae04978
+ [tid:1433314] Invalid RTN and eax, 0xfffffff
+ [tid:1433314] Invalid RTN cmp rax, 0x3ae75f6
+ [tid:1433314] Invalid RTN jnz 0x7fd5eae049e0
+ [tid:1433314] Invalid RTN mov rsi, rsp
+ [tid:1433314] Invalid RTN lea rdi, ptr [rip+0xa040c]
+ [tid:1433314] Invalid RTN mov qword ptr [rsp+0x10], 0x0
+ [tid:1433314] Invalid RTN call 0x7fd5eae86e40
+ [tid:1433314] Invalid RTN lea rdx, ptr [rip-0xc4]
+ [tid:1433314] Invalid RTN test rax, rax
+ [tid:1433314] Invalid RTN cmovz rax, rdx
+ [tid:1433314] Invalid RTN add rsp, 0x28
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN jmp 0x7fd5ead543b0
+ [tid:1433314] Invalid RTN nop edx, edi
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rip+0x389a05]
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x389a3e]
+ [tid:1433314] Invalid RTN mov rax, qword ptr fs:[rax]
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rax]
+ [tid:1433314] Invalid RTN mov rsi, qword ptr [rax+0x40]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rsi+0x100]
+ [tid:1433314] Invalid RTN mov qword ptr fs:[rcx], rdx
+ [tid:1433314] Invalid RTN mov rdi, qword ptr [rax+0x48]
+ [tid:1433314] Invalid RTN mov rcx, qword ptr [rip+0x389b05]
+ [tid:1433314] Invalid RTN lea rdx, ptr [rdi+0x200]
+ [tid:1433314] Invalid RTN mov qword ptr fs:[rcx], rdx
+ [tid:1433314] Invalid RTN mov rax, qword ptr [rax+0x58]
+ [tid:1433314] Invalid RTN mov rdx, qword ptr [rip+0x389b2f]
+ [tid:1433314] Invalid RTN add rax, 0x200
+ [tid:1433314] Invalid RTN mov qword ptr fs:[rdx], rax
+ [tid:1433314] Invalid RTN ret 
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov esi, 0x601030
+ [tid:1433314] ins:mov esi, 0x601030
+ [tid:1433314] reg:esi
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included sub rsi, 0x601030
+ [tid:1433314] ins:sub rsi, 0x601030
+ [tid:1433314] reg:rsi
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov rax, rsi
+ [tid:1433314] ins:mov rax, rsi
+ [tid:1433314] reg:rax
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included shr rsi, 0x3f
+ [tid:1433314] ins:shr rsi, 0x3f
+ [tid:1433314] reg:rsi
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included sar rax, 0x3
+ [tid:1433314] ins:sar rax, 0x3
+ [tid:1433314] reg:rax
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included add rsi, rax
+ [tid:1433314] ins:add rsi, rax
+ [tid:1433314] reg:rsi
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included sar rsi, 0x1
+ [tid:1433314] ins:sar rsi, 0x1
+ [tid:1433314] reg:rsi
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov eax, 0x0
+ [tid:1433314] ins:mov eax, 0x0
+ [tid:1433314] reg:eax
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included test rax, rax
+ [tid:1433314] ins:test rax, rax
+ [tid:1433314] reg:rflags
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov edi, 0x601030
+ [tid:1433314] ins:mov edi, 0x601030
+ [tid:1433314] reg:edi
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov eax, 0x0
+ [tid:1433314] ins:mov eax, 0x0
+ [tid:1433314] reg:eax
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included test rax, rax
+ [tid:1433314] ins:test rax, rax
+ [tid:1433314] reg:rflags
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov edi, 0x601030
+ [tid:1433314] ins:mov edi, 0x601030
+ [tid:1433314] reg:edi
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] Exe register_tm_clones
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included push rbp
+ [tid:1433314] ins:push rbp
+ [tid:1433314] reg:rsp
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included mov rbp, rsp
+ [tid:1433314] ins:mov rbp, rsp
+ [tid:1433314] reg:rbp
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included sub rsp, 0x10
+ [tid:1433314] ins:sub rsp, 0x10
+ [tid:1433314] reg:rsp
+ [tid:1433314] Exe main
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x4]
+ [tid:1433314] ins:mov eax, dword ptr [rbp-0x4]
+ [tid:1433314] reg:eax
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included mov esi, eax
+ [tid:1433314] ins:mov esi, eax
+ [tid:1433314] reg:esi
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included mov edi, 0x4005ac
+ [tid:1433314] ins:mov edi, 0x4005ac
+ [tid:1433314] reg:edi
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included mov eax, 0x0
+ [tid:1433314] ins:mov eax, 0x0
+ [tid:1433314] reg:eax
+ [tid:1433314] Exe main
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included mov eax, 0x0
+ [tid:1433314] ins:mov eax, 0x0
+ [tid:1433314] reg:eax
+ [tid:1433314] Exe main
+ [tid:1433314] INSTSELECTOR: instruction to be included leave 
+ [tid:1433314] ins:leave 
+ [tid:1433314] reg:rbp
+ [tid:1433314] Exe main
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov eax, 0x601030
+ [tid:1433314] ins:mov eax, 0x601030
+ [tid:1433314] reg:eax
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included cmp rax, 0x601030
+ [tid:1433314] ins:cmp rax, 0x601030
+ [tid:1433314] reg:rflags
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov eax, 0x0
+ [tid:1433314] ins:mov eax, 0x0
+ [tid:1433314] reg:eax
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included test rax, rax
+ [tid:1433314] ins:test rax, rax
+ [tid:1433314] reg:rflags
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] INSTSELECTOR: instruction to be included mov edi, 0x601030
+ [tid:1433314] ins:mov edi, 0x601030
+ [tid:1433314] reg:edi
+ [tid:1433314] Exe deregister_tm_clones
+ [tid:1433314] Exe deregister_tm_clones
