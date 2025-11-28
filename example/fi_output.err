@@ -1,0 +1,26 @@
+Lmod has detected the following error: These module(s) or extension(s) exist
+but cannot be loaded as requested: "gcc"
+   Try: "module spider gcc" to see how to load the module(s).
+
+
+
+Lmod has detected the following error: The following module(s) are unknown:
+"llvm/15"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore-cache load "llvm/15"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Traceback (most recent call last):
+  File "faultinject.py", line 166, in <module>
+    summarize_results.summarize(run_number)
+  File "/home/rmengle/pin/source/tools/pinfi/example/summarize_results.py", line 52, in summarize
+    elif (filecmp.cmp(file_golden, file_out)):
+  File "/usr/lib64/python3.6/filecmp.py", line 52, in cmp
+    s2 = _sig(os.stat(f2))
+FileNotFoundError: [Errno 2] No such file or directory: './std_output/std_outputfile-363'

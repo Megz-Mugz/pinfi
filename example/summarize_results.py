@@ -59,24 +59,24 @@ def summarize(run_count = -1):
     #These are tracked seperately in case you care about the difference, but by default they're just combined
     crash = program_crash + system_crash
 
-    run_count_s = f"{run_count} fault injections were performed."
-    crash_s = f"{f'Crash count: {crash:,}':<20} | {percent(crash, run_count)}%"
-    hang_s = f"{f'Hang count: {hang:,}':<20} | {percent(hang, run_count)}%"
-    sdc_s = f"{f'SDC count: {sdc:,}':<20} | {percent(sdc, run_count)}%"
-    benign_s = f"{f'Benign count: {benign:,}':<20} | {percent(benign, run_count)}%"   
+    # run_count_s = f"{run_count} fault injections were performed."
+    # crash_s = f"{f'Crash count: {crash:,}':<20} | {percent(crash, run_count)}%"
+    # hang_s = f"{f'Hang count: {hang:,}':<20} | {percent(hang, run_count)}%"
+    # sdc_s = f"{f'SDC count: {sdc:,}':<20} | {percent(sdc, run_count)}%"
+    # benign_s = f"{f'Benign count: {benign:,}':<20} | {percent(benign, run_count)}%"   
 
-    print(run_count_s)
-    print(crash_s)
-    print(hang_s)
-    print(sdc_s)
-    print(benign_s)
+    # print(run_count_s)
+    # print(crash_s)
+    # print(hang_s)
+    # print(sdc_s)
+    # print(benign_s)
 
     out = open(output_file, "w")
-    out.write(run_count_s + "\n")
-    out.write(crash_s + "\n")
-    out.write(hang_s + "\n")
-    out.write(sdc_s + "\n")
-    out.write(benign_s + "\n")
+    # out.write(run_count_s + "\n")
+    # out.write(crash_s + "\n")
+    # out.write(hang_s + "\n")
+    # out.write(sdc_s + "\n")
+    # out.write(benign_s + "\n")
 
 #return x/y as percent w/ 2 decimal places
 def percent(x, y):

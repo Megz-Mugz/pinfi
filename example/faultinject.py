@@ -1,4 +1,8 @@
+# run test with -> python3 faultinject.py ./test 10 ""
 #!/usr/bin/python
+
+# executables will live in a file as such:
+# /home/rmengle/pin/source/tools/pinfi/example/basicmath
 
 import sys
 import os
@@ -22,7 +26,13 @@ filib           = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjecti
 # Optional input if your program expects it:
 # inputfile = currdir + "/input1.txt"
 
+# only ever leave one of these commented in, 
+# the rest should be commented out
+
 outputdir     = currdir + "/std_output"
+# outputdir     = currdir + "/unoptimized_output"
+# outputdir     = currdir + "/unroll4x_output"
+
 basedir       = currdir + "/baseline"
 errordir      = currdir + "/error_output"
 fileoutputdir = currdir + "/prog_output"
@@ -39,34 +49,57 @@ if not os.path.isdir(fileoutputdir):
 
 timeout = 500
 
-def execute(execlist):
-	#print "Begin"
-	#inputFile = open(inputfile, "r")
-  global outputfile
-  print(' '.join(execlist))
-  #print outputfile
-  outputFile = open(outputfile, "w")
-  p = subprocess.Popen(execlist, stdout = outputFile)
-  elapsetime = 0
-  while (elapsetime < timeout):
-    elapsetime += 1
-    time.sleep(1)
-    #print p.poll()
-    if p.poll() is not None:
-      print("\t program finish", p.returncode)
-      print("\t time taken", elapsetime)
-      #outputFile = open(outputfile, "w")
-      #outputFile.write(p.communicate()[0])
-      outputFile.close()
-      #inputFile.close()
-      return str(p.returncode)
-  #inputFile.close()
-  outputFile.close()
-  print("\tParent : Child timed out. Cleaning up ... ")
-  p.kill()
-  return "timed-out"
-	#should never go here
-  sys.exit(syscode)
+def execute(execlist, golden_output=False):
+    global outputfile
+    timeout = 30  # or wherever this is defined
+    
+    if golden_output:
+      print("----- GOLDEN OUTPUT")
+    else:
+      print("----- Normal Test Case")
+
+    outputFile = open(outputfile, "w")
+
+    p = subprocess.Popen(
+        execlist,
+        stdout=subprocess.PIPE,     # capture output so we can print it
+        stderr=subprocess.STDOUT,   # merge stderr into stdout
+        universal_newlines=False     # return strings, not bytes
+    )
+
+    start_time = time.time()
+
+    # --- stream output live ---
+    for raw in p.stdout:
+        
+      line = raw.decode("utf-8", errors="replace").rstrip()
+
+      # write to the file
+      outputFile.write(line + "\n")
+
+      # flush so file gets updated immediately
+      outputFile.flush()
+
+      # print line immediately to terminal
+      if line not in {"include", "all", "exclude"}:
+        print(f"> {line}")
+
+      # --- timeout check ---
+      if time.time() - start_time > timeout:
+          print("\tParent: Child timed out. Cleaning up ... ")
+          p.kill()
+          outputFile.close()
+          return "timed-out"
+
+    # --- wait for child to actually finish ---
+    returncode = p.wait()
+
+    print("Program finished with code:", returncode)
+    print("Time taken:", round(time.time() - start_time, 2))
+
+    outputFile.close()
+    print("\n")
+    return str(returncode)
 
 
 def main():
@@ -84,7 +117,7 @@ def main():
   outputfile = basedir + "/golden_std_output"
   execlist = [pinbin, '-t', instcountlib, '--', progbin]
   execlist.extend(optionlist)
-  execute(execlist)
+  # execute(execlist, golden_output=True)
   filelist_aft1 = os.listdir('./')
   filecounter_aft1 = len(filelist_aft1)
   if(filecounter_aft1 - filecounter_bef1 > 2):
@@ -94,8 +127,9 @@ def main():
 
   # fault injection
   for index in range(0, run_number):
+    print(f'Run Number: #{index+1}')
     filelist_bef2 = os.listdir('./')
-    filecounter_bef2 = len(filelist_bef1)
+    filecounter_bef2 = len(filelist_bef2)
     outputfile = outputdir + "/std_outputfile-" + str(index)
     errorfile = errordir + "/errorfile-" + str(index)
     execlist = [pinbin, '-t', filib, '-fioption', 'AllInst', '--', progbin]
