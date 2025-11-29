@@ -1,0 +1,7 @@
+Unoptimized:
+{'MASKED': 334, 'SDC': 666, 'CRASH/HANG': 0}
+
+Unroll4x:
+std_outputfile-270 crashed/hung
+std_outputfile-42 crashed/hung
+{'MASKED': 348, 'SDC': 650, 'CRASH/HANG': 2}
