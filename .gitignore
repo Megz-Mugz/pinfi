@@ -1,0 +1,9 @@
+cat >> .gitignore << 'EOF'
+# PinFI generated artifacts
+example/fi_output.out
+example/fi_output.err
+example/program_outputs/
+example/error_output/
+example/execution_times/
+example/**/std_outputfile-*
+EOF
