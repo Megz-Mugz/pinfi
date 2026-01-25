@@ -31,7 +31,7 @@ def summarize(run_count = -1):
     sdc = 0
     for f in range(run_count):
         
-        file_out = std + f"/std_outputfile-{f}"
+        file_out = std + f"/unoptimized_output-{f}"
 
         #Get the error output if it exists
         try:

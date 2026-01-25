@@ -1,5 +1,5 @@
 #!/bin/sh
-#SBATCH --job-name=basicmath_fi
+#SBATCH --job-name=basicmath_unroll_exec_static
 #SBATCH --partition=normal
 #SBATCH --output=/home/rmengle/pin/source/tools/pinfi/example/fi_output.out
 #SBATCH --error=/home/rmengle/pin/source/tools/pinfi/example/fi_output.err
@@ -39,8 +39,8 @@ echo "Cleared."
 # ---------------------------------------------------
 # Run the fault injection test
 # ---------------------------------------------------
-echo "Running: python3 faultinject.py ./basicmath_small_loop-unroll4_exec 1000 \"\""
-python3 faultinject.py ./basicmath_small_loop-unroll4_exec 1000 ""
+echo "Running: python3 faultinject.py ./basicmath_unroll_exec_static 1000 "" \"\""
+python3 faultinject.py ./basicmath_unroll_exec_static 1000 ""
 
 echo "=== FI Job Finished ==="
 echo "End Time: $(date)"basicmath_small_loop-unroll4_exec
