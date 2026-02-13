@@ -109,34 +109,35 @@ def classify_outputs(binary_name):
 # Timing statistics
 # =============================================================
 def get_execution_time_stats(binary_name):
-    time_dir = os.path.join(
+    timing_file = os.path.join(
         EXECUTION_TIMES_ROOT,
-        f"{binary_name}_times"
+        f"{binary_name}.txt"
     )
 
-    if not os.path.isdir(time_dir):
+    if not os.path.isfile(timing_file):
         return None, None
 
     times = []
 
-    for fname in os.listdir(time_dir):
-        full_path = os.path.join(time_dir, fname)
-
-        if not os.path.isfile(full_path):
-            continue
-
-        try:
-            with open(full_path, "r") as f:
-                times.append(float(f.read().strip()))
-        except Exception:
-            continue
+    try:
+        with open(timing_file, "r") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    times.append(float(line))
+                except ValueError:
+                    continue
+    except Exception:
+        return None, None
 
     if not times:
         return None, None
 
     return (
-        sum(times) / len(times),
-        statistics.median(times)
+        sum(times) / len(times),          # mean
+        statistics.median(times)           # median
     )
 
 
@@ -152,10 +153,10 @@ if __name__ == "__main__":
         # Header
         writer.writerow([
             "executable",
-            "total_runs",
-            "masked",
-            "sdc",
-            "crash_hang",
+            # "total_runs",
+            # "masked",
+            # "sdc",
+            # "crash_hang",
             "avg_time",
             "median_time",
         ])
@@ -163,21 +164,21 @@ if __name__ == "__main__":
         for idx, binary in enumerate(EXECUTABLES, start=1):
             print(f"[{idx:2d}/{total_bins}] Processing {binary}")
 
-            classification = classify_outputs(binary)
+            # classification = classify_outputs(binary)
             avg_time, median_time = get_execution_time_stats(binary)
 
-            if classification is None:
-                print(f"      [WARN] Missing output for {binary}")
-                continue
+            # if classification is None:
+            #     print(f"      [WARN] Missing output for {binary}")
+            #     continue
 
-            total_runs, masked, sdc, crash_or_hang = classification
+            # total_runs, masked, sdc, crash_or_hang = classification
 
             writer.writerow([
                 binary,
-                total_runs,
-                masked,
-                sdc,
-                crash_or_hang,
+                # total_runs,
+                # masked,
+                # sdc,
+                # crash_or_hang,
                 f"{avg_time:.6f}" if avg_time is not None else "",
                 f"{median_time:.6f}" if median_time is not None else "",
             ])

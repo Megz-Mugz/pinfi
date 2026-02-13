@@ -1,5 +1,5 @@
 #include "snipmath.h"
-#include <math.h>
+
 #include <stdio.h>
 
 

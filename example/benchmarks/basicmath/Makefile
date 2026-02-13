@@ -6,7 +6,7 @@
 # Sources
 # -----------------------------
 LIB_SRCS = rad2deg.c cubic.c isqrt.c
-DRIVER   = basicmath_small.c
+DRIVER   = basicmath_large.c
 
 # -----------------------------
 # Tools
