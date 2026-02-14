@@ -1,292 +1,245 @@
 # =============================================================
 # MiBench BasicMath – Pass-Isolated LLVM Study
+# Small + Large Inputs
+# Executables separated into directories
 # =============================================================
 
-# -----------------------------
+# =============================================================
 # Sources
-# -----------------------------
-LIB_SRCS = rad2deg.c cubic.c isqrt.c
-DRIVER   = basicmath_large.c
+# =============================================================
 
-# -----------------------------
+LIB_SRCS = rad2deg.c cubic.c isqrt.c
+
+SMALL_DRIVER = basicmath_small.c
+LARGE_DRIVER = basicmath_large.c
+
+# =============================================================
 # Tools
-# -----------------------------
+# =============================================================
+
 CLANG = clang
 OPT   = opt
 LLDIS = llvm-dis
 LLINK = llvm-link
 
-# -----------------------------
-# Static linking (PARTIAL: libc dynamic)
-# -----------------------------
-STATIC_LDFLAGS = -static-libgcc -static-libstdc++
+# =============================================================
+# Output directories
+# =============================================================
+
+SMALL_EXEC_DIR = basicmath_small_executables
+LARGE_EXEC_DIR = basicmath_large_executables
+
+$(SMALL_EXEC_DIR):
+	mkdir -p $(SMALL_EXEC_DIR)
+
+$(LARGE_EXEC_DIR):
+	mkdir -p $(LARGE_EXEC_DIR)
 
 # =============================================================
-# Base O0 bitcode (NO optimizations)
+# Generic Rules
 # =============================================================
-basicmath_O0.bc:
-	$(CLANG) -emit-llvm -c -O0 -Xclang -disable-O0-optnone $(DRIVER) -o $@
 
-basicmath_O0.ll: basicmath_O0.bc
-	$(LLDIS) $< -o $@
-
-# =============================================================
-# Library bitcode
-# =============================================================
 %.bc: %.c
 	$(CLANG) -emit-llvm -c $< -o $@
+
+%.ll: %.bc
+	$(LLDIS) $< -o $@
 
 lib.bc: rad2deg.bc cubic.bc isqrt.bc
 	$(LLINK) $^ -o $@
 
 # =============================================================
-# Unoptimized O0 executable (DYNAMIC + STATIC)
 # =============================================================
-basicmath_O0_full.bc: basicmath_O0.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_O0_exec: basicmath_O0_full.bc
-	$(CLANG) $< -o $@ -lm
-
-basicmath_O0_exec_static: basicmath_O0_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
+#                BASICMATH SMALL STUDY
 # =============================================================
-# Generic IR (.ll) generation
 # =============================================================
-%.ll: %.bc
+
+# -----------------------------
+# O0 Bitcode
+# -----------------------------
+
+basicmath_small_O0.bc:
+	$(CLANG) -emit-llvm -c -O0 -Xclang -disable-O0-optnone $(SMALL_DRIVER) -o $@
+
+basicmath_small_O0.ll: basicmath_small_O0.bc
 	$(LLDIS) $< -o $@
 
+basicmath_small_O0_full.bc: basicmath_small_O0.bc lib.bc
+	$(LLINK) $^ -o $@
+
+$(SMALL_EXEC_DIR)/basicmath_small_O0_exec: \
+	basicmath_small_O0_full.bc | $(SMALL_EXEC_DIR)
+	$(CLANG) $< -o $@ -lm
+
 # =============================================================
-# ---------------- INDIVIDUAL PASSES (DYNAMIC) ----------------
-# Each target = O0 → EXACTLY ONE pass → exec
+# -------- INDIVIDUAL PASSES (SMALL)
 # =============================================================
 
-# 1. LICM
-basicmath_licm.bc: basicmath_O0.bc
-	$(OPT) -passes=licm $< -o $@
+define SMALL_PASS
 
-basicmath_licm_full.bc: basicmath_licm.bc lib.bc
-	$(LLINK) $^ -o $@
+basicmath_small_$(1).bc: basicmath_small_O0.bc
+	$(OPT) -passes=$(2) $$< -o $$@
 
-basicmath_licm_exec: basicmath_licm_full.bc
-	$(CLANG) $< -o $@ -lm
+basicmath_small_$(1)_full.bc: basicmath_small_$(1).bc lib.bc
+	$(LLINK) $$^ -o $$@
 
-# 2. InstCombine
-basicmath_instcombine.bc: basicmath_O0.bc
-	$(OPT) -passes=instcombine $< -o $@
+$(SMALL_EXEC_DIR)/basicmath_small_$(1)_exec: \
+	basicmath_small_$(1)_full.bc | $(SMALL_EXEC_DIR)
+	$(CLANG) $$< -o $$@ -lm
 
-basicmath_instcombine_full.bc: basicmath_instcombine.bc lib.bc
-	$(LLINK) $^ -o $@
+endef
 
-basicmath_instcombine_exec: basicmath_instcombine_full.bc
-	$(CLANG) $< -o $@ -lm
+$(eval $(call SMALL_PASS,licm,licm))
+$(eval $(call SMALL_PASS,instcombine,instcombine))
+$(eval $(call SMALL_PASS,cse,early-cse))
+$(eval $(call SMALL_PASS,gvn,gvn))
+$(eval $(call SMALL_PASS,ipsccp,ipsccp))
+$(eval $(call SMALL_PASS,inline,inline))
+$(eval $(call SMALL_PASS,loopreduce,loop-reduce))
+$(eval $(call SMALL_PASS,unroll,loop-unroll))
+$(eval $(call SMALL_PASS,unswitch,simple-loop-unswitch))
+$(eval $(call SMALL_PASS,sccp,sccp))
 
-# 3. CSE
-basicmath_cse.bc: basicmath_O0.bc
-	$(OPT) -passes=early-cse $< -o $@
+# Forced Unroll x4
 
-basicmath_cse_full.bc: basicmath_cse.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_cse_exec: basicmath_cse_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 4. GVN
-basicmath_gvn.bc: basicmath_O0.bc
-	$(OPT) -passes=gvn $< -o $@
-
-basicmath_gvn_full.bc: basicmath_gvn.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_gvn_exec: basicmath_gvn_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 5. IPSCCP
-basicmath_ipsccp.bc: basicmath_O0.bc
-	$(OPT) -passes=ipsccp $< -o $@
-
-basicmath_ipsccp_full.bc: basicmath_ipsccp.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_ipsccp_exec: basicmath_ipsccp_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 6. Inline
-basicmath_inline.bc: basicmath_O0.bc
-	$(OPT) -passes=inline $< -o $@
-
-basicmath_inline_full.bc: basicmath_inline.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_inline_exec: basicmath_inline_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 7. Loop Reduce
-basicmath_loopreduce.bc: basicmath_O0.bc
-	$(OPT) -passes=loop-reduce $< -o $@
-
-basicmath_loopreduce_full.bc: basicmath_loopreduce.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_loopreduce_exec: basicmath_loopreduce_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 8. Loop Unroll
-basicmath_unroll.bc: basicmath_O0.bc
-	$(OPT) -passes=loop-unroll $< -o $@
-
-basicmath_unroll_full.bc: basicmath_unroll.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_unroll_exec: basicmath_unroll_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 8b. Loop Unroll (forced 4x)
-basicmath_unroll4.bc: basicmath_O0.bc
+basicmath_small_unroll4.bc: basicmath_small_O0.bc
 	$(OPT) -passes=loop-unroll -unroll-count=4 $< -o $@
 
-basicmath_unroll4_full.bc: basicmath_unroll4.bc lib.bc
+basicmath_small_unroll4_full.bc: basicmath_small_unroll4.bc lib.bc
 	$(LLINK) $^ -o $@
 
-basicmath_unroll4_exec: basicmath_unroll4_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 9. Loop Unswitch
-basicmath_unswitch.bc: basicmath_O0.bc
-	$(OPT) -passes=simple-loop-unswitch $< -o $@
-
-basicmath_unswitch_full.bc: basicmath_unswitch.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_unswitch_exec: basicmath_unswitch_full.bc
-	$(CLANG) $< -o $@ -lm
-
-# 10. SCCP
-basicmath_sccp.bc: basicmath_O0.bc
-	$(OPT) -passes=sccp $< -o $@
-
-basicmath_sccp_full.bc: basicmath_sccp.bc lib.bc
-	$(LLINK) $^ -o $@
-
-basicmath_sccp_exec: basicmath_sccp_full.bc
+$(SMALL_EXEC_DIR)/basicmath_small_unroll4_exec: \
+	basicmath_small_unroll4_full.bc | $(SMALL_EXEC_DIR)
 	$(CLANG) $< -o $@ -lm
 
 # =============================================================
-# ---------------- STANDARD -O LEVELS (DYNAMIC) ----------------
+# -------- -O Levels (SMALL)
 # =============================================================
-basicmath_O1_exec:
-	$(CLANG) -O1 $(DRIVER) $(LIB_SRCS) -o $@ -lm
 
-basicmath_O2_exec:
-	$(CLANG) -O2 $(DRIVER) $(LIB_SRCS) -o $@ -lm
+$(SMALL_EXEC_DIR)/basicmath_small_O1_exec: | $(SMALL_EXEC_DIR)
+	$(CLANG) -O1 $(SMALL_DRIVER) $(LIB_SRCS) -o $@ -lm
 
-basicmath_O3_exec:
-	$(CLANG) -O3 $(DRIVER) $(LIB_SRCS) -o $@ -lm
+$(SMALL_EXEC_DIR)/basicmath_small_O2_exec: | $(SMALL_EXEC_DIR)
+	$(CLANG) -O2 $(SMALL_DRIVER) $(LIB_SRCS) -o $@ -lm
 
-# =============================================================
-# ---------------- STATIC EXECUTABLES ----------------
-# =============================================================
-basicmath_licm_exec_static: basicmath_licm_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_instcombine_exec_static: basicmath_instcombine_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_cse_exec_static: basicmath_cse_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_gvn_exec_static: basicmath_gvn_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_ipsccp_exec_static: basicmath_ipsccp_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_inline_exec_static: basicmath_inline_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_loopreduce_exec_static: basicmath_loopreduce_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_unroll_exec_static: basicmath_unroll_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_unroll4_exec_static: basicmath_unroll4_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_unswitch_exec_static: basicmath_unswitch_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_sccp_exec_static: basicmath_sccp_full.bc
-	$(CLANG) $(STATIC_LDFLAGS) $< -o $@ -lm
-
-basicmath_O1_exec_static:
-	$(CLANG) -O1 $(STATIC_LDFLAGS) $(DRIVER) $(LIB_SRCS) -o $@ -lm
-
-basicmath_O2_exec_static:
-	$(CLANG) -O2 $(STATIC_LDFLAGS) $(DRIVER) $(LIB_SRCS) -o $@ -lm
-
-basicmath_O3_exec_static:
-	$(CLANG) -O3 $(STATIC_LDFLAGS) $(DRIVER) $(LIB_SRCS) -o $@ -lm
+$(SMALL_EXEC_DIR)/basicmath_small_O3_exec: | $(SMALL_EXEC_DIR)
+	$(CLANG) -O3 $(SMALL_DRIVER) $(LIB_SRCS) -o $@ -lm
 
 # =============================================================
-# IR Diffs
 # =============================================================
-.PHONY: diffs
-diffs:
-	diff -u basicmath_O0.ll basicmath_licm.ll        > diff_O0_vs_licm.txt        || true
-	diff -u basicmath_O0.ll basicmath_instcombine.ll > diff_O0_vs_instcombine.txt || true
-	diff -u basicmath_O0.ll basicmath_cse.ll         > diff_O0_vs_cse.txt         || true
-	diff -u basicmath_O0.ll basicmath_gvn.ll         > diff_O0_vs_gvn.txt         || true
-	diff -u basicmath_O0.ll basicmath_ipsccp.ll      > diff_O0_vs_ipsccp.txt      || true
-	diff -u basicmath_O0.ll basicmath_inline.ll      > diff_O0_vs_inline.txt      || true
-	diff -u basicmath_O0.ll basicmath_loopreduce.ll  > diff_O0_vs_loopreduce.txt  || true
-	diff -u basicmath_O0.ll basicmath_unroll.ll      > diff_O0_vs_unroll.txt      || true
-	diff -u basicmath_O0.ll basicmath_unroll4.ll     > diff_O0_vs_unroll4.txt     || true
-	diff -u basicmath_O0.ll basicmath_unswitch.ll    > diff_O0_vs_unswitch.txt    || true
-	diff -u basicmath_O0.ll basicmath_sccp.ll        > diff_O0_vs_sccp.txt        || true
-	@echo "LLVM IR diffs generated."
+#                BASICMATH LARGE STUDY
+# =============================================================
+# =============================================================
+
+basicmath_large_O0.bc:
+	$(CLANG) -emit-llvm -c -O0 -Xclang -disable-O0-optnone $(LARGE_DRIVER) -o $@
+
+basicmath_large_O0.ll: basicmath_large_O0.bc
+	$(LLDIS) $< -o $@
+
+basicmath_large_O0_full.bc: basicmath_large_O0.bc lib.bc
+	$(LLINK) $^ -o $@
+
+$(LARGE_EXEC_DIR)/basicmath_large_O0_exec: \
+	basicmath_large_O0_full.bc | $(LARGE_EXEC_DIR)
+	$(CLANG) $< -o $@ -lm
 
 # =============================================================
-# Meta targets
+# -------- INDIVIDUAL PASSES (LARGE)
 # =============================================================
-.PHONY: exec static all clean
 
-exec: \
-	basicmath_O0_exec \
-	basicmath_licm_exec \
-	basicmath_instcombine_exec \
-	basicmath_cse_exec \
-	basicmath_gvn_exec \
-	basicmath_ipsccp_exec \
-	basicmath_inline_exec \
-	basicmath_loopreduce_exec \
-	basicmath_unroll_exec \
-	basicmath_unroll4_exec \
-	basicmath_unswitch_exec \
-	basicmath_sccp_exec \
-	basicmath_O1_exec \
-	basicmath_O2_exec \
-	basicmath_O3_exec
+define LARGE_PASS
 
-static: \
-	basicmath_O0_exec_static \
-	basicmath_licm_exec_static \
-	basicmath_instcombine_exec_static \
-	basicmath_cse_exec_static \
-	basicmath_gvn_exec_static \
-	basicmath_ipsccp_exec_static \
-	basicmath_inline_exec_static \
-	basicmath_loopreduce_exec_static \
-	basicmath_unroll_exec_static \
-	basicmath_unroll4_exec_static \
-	basicmath_unswitch_exec_static \
-	basicmath_sccp_exec_static \
-	basicmath_O1_exec_static \
-	basicmath_O2_exec_static \
-	basicmath_O3_exec_static
+basicmath_large_$(1).bc: basicmath_large_O0.bc
+	$(OPT) -passes=$(2) $$< -o $$@
 
-all: exec static diffs
+basicmath_large_$(1)_full.bc: basicmath_large_$(1).bc lib.bc
+	$(LLINK) $$^ -o $$@
+
+$(LARGE_EXEC_DIR)/basicmath_large_$(1)_exec: \
+	basicmath_large_$(1)_full.bc | $(LARGE_EXEC_DIR)
+	$(CLANG) $$< -o $$@ -lm
+
+endef
+
+$(eval $(call LARGE_PASS,licm,licm))
+$(eval $(call LARGE_PASS,instcombine,instcombine))
+$(eval $(call LARGE_PASS,cse,early-cse))
+$(eval $(call LARGE_PASS,gvn,gvn))
+$(eval $(call LARGE_PASS,ipsccp,ipsccp))
+$(eval $(call LARGE_PASS,inline,inline))
+$(eval $(call LARGE_PASS,loopreduce,loop-reduce))
+$(eval $(call LARGE_PASS,unroll,loop-unroll))
+$(eval $(call LARGE_PASS,unswitch,simple-loop-unswitch))
+$(eval $(call LARGE_PASS,sccp,sccp))
+
+basicmath_large_unroll4.bc: basicmath_large_O0.bc
+	$(OPT) -passes=loop-unroll -unroll-count=4 $< -o $@
+
+basicmath_large_unroll4_full.bc: basicmath_large_unroll4.bc lib.bc
+	$(LLINK) $^ -o $@
+
+$(LARGE_EXEC_DIR)/basicmath_large_unroll4_exec: \
+	basicmath_large_unroll4_full.bc | $(LARGE_EXEC_DIR)
+	$(CLANG) $< -o $@ -lm
+
+# =============================================================
+# -------- -O Levels (LARGE)
+# =============================================================
+
+$(LARGE_EXEC_DIR)/basicmath_large_O1_exec: | $(LARGE_EXEC_DIR)
+	$(CLANG) -O1 $(LARGE_DRIVER) $(LIB_SRCS) -o $@ -lm
+
+$(LARGE_EXEC_DIR)/basicmath_large_O2_exec: | $(LARGE_EXEC_DIR)
+	$(CLANG) -O2 $(LARGE_DRIVER) $(LIB_SRCS) -o $@ -lm
+
+$(LARGE_EXEC_DIR)/basicmath_large_O3_exec: | $(LARGE_EXEC_DIR)
+	$(CLANG) -O3 $(LARGE_DRIVER) $(LIB_SRCS) -o $@ -lm
+
+# =============================================================
+# Meta Targets
+# =============================================================
+
+.PHONY: small large all clean
+
+small:
+	@echo "Building SMALL executables..."
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_O0_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_licm_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_instcombine_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_cse_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_gvn_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_ipsccp_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_inline_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_loopreduce_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_unroll_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_unroll4_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_unswitch_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_sccp_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_O1_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_O2_exec
+	$(MAKE) $(SMALL_EXEC_DIR)/basicmath_small_O3_exec
+
+large:
+	@echo "Building LARGE executables..."
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_O0_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_licm_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_instcombine_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_cse_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_gvn_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_ipsccp_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_inline_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_loopreduce_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_unroll_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_unroll4_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_unswitch_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_sccp_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_O1_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_O2_exec
+	$(MAKE) $(LARGE_EXEC_DIR)/basicmath_large_O3_exec
+
+all: small large
 
 clean:
-	rm -f *.bc *.ll *_full.bc *_exec *_exec_static diff_*.txt
+	rm -rf *.bc *.ll *_full.bc
+	rm -rf $(SMALL_EXEC_DIR) $(LARGE_EXEC_DIR)
