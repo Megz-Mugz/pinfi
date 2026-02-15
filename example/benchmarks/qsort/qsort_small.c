@@ -25,16 +25,10 @@ main(int argc, char *argv[]) {
   FILE *fp;
   int i,count=0;
   
-  if (argc<2) {
-    fprintf(stderr,"Usage: qsort_small <file>\n");
-    exit(-1);
-  }
-  else {
-    fp = fopen(argv[1],"r");
+  fp = fopen("/home/rmengle/pin/source/tools/pinfi/example/benchmarks/qsort/input_small.dat","r");
     
     while((fscanf(fp, "%s", &array[count].qstring) == 1) && (count < MAXARRAY)) {
-	 count++;
-    }
+	  count++;
   }
   printf("\nSorting %d elements.\n\n",count);
   qsort(array,count,sizeof(struct myStringStruct),compare);

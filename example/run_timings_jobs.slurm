@@ -1,4 +1,4 @@
-#!/bin/bash
+=#!/bin/bash
 
 # ============================================================
 # Generic Timing Job Submitter
@@ -10,7 +10,7 @@ FI_DIR="/home/rmengle/pin/source/tools/pinfi/example"
 # ------------------------------------------------------------
 # TODO: CHANGE THIS ONLY
 # ------------------------------------------------------------
-EXEC_DIR="$FI_DIR/benchmarks/basicmath/basicmath_small_executables"
+EXEC_DIR="$FI_DIR/benchmarks/qsort/qsort_small_executables"
 
 NUM_RUNS=1000
 
@@ -50,9 +50,10 @@ for exe in *_exec; do
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=rmengle@gmu.edu
 #SBATCH --mem=2G
-#SBATCH --time=01:00:00
+#SBATCH --time=04:00:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
+#SBATCH --exclusive
 
 module purge
 module load gcc
@@ -66,7 +67,8 @@ cd $FI_DIR || exit 1
 EXEC_NAME="$exe"
 EXEC_PATH="$EXEC_DIR/\$EXEC_NAME"
 
-TIMING_DIR="execution_times/$DATASET_NAME"
+# ✅ CHANGED OUTPUT ROOT → SCRATCH
+TIMING_DIR="/scratch/rmengle/execution_times/$DATASET_NAME"
 TIMING_FILE="\${TIMING_DIR}/\${EXEC_NAME}.txt"
 
 mkdir -p "\$TIMING_DIR"

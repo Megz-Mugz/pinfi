@@ -16,7 +16,7 @@ currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 ''''
 TODO: IF YOU CHANGE HERE, CHANGE OTHER TODOS IN classify_output.py & slum
 '''
-focus_dir = "benchmarks/basicmath/basicmath_small_executables"
+focus_dir = "benchmarks/qsort/qsort_large_executables"
 
 execdir = os.path.join(
     currdir,
@@ -30,7 +30,11 @@ filib = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so"
 basedir = os.path.join(currdir, "baseline")
 errordir = os.path.join(currdir, "error_output")
 
-program_outputs_root = os.path.join(currdir, "program_outputs")
+# TODO: for quick testing
+# program_outputs_root = os.path.join(currdir, "program_outputs")
+
+#  TODO: before submitting final mass job, change this, this writes to your scratch folder, which allows for 100 million files and o
+program_outputs_root = "/scratch/rmengle/program_outputs"
 
 # =============================================================
 # Ensure base directories exist
@@ -44,7 +48,7 @@ timeout = 500
 # Execute one run
 # =============================================================
 def execute(execlist, outputfile, run_index):
-    timeout_local = 30
+    timeout_local = 120
 
     with open(outputfile, "w") as outputFile:
         p = subprocess.Popen(

@@ -45,11 +45,12 @@ int main(int argc, char *argv[])
     "Non-recursive bit count by bytes (AR)",
     "Shift and count bits"
   };
-  if (argc<2) {
-    fprintf(stderr,"Usage: bitcnts <iterations>\n");
-    exit(-1);
-	}
-  iterations=atoi(argv[1]);
+  // altered next few lines so it has fixed iterations
+  // if (argc<2) {
+  //   fprintf(stderr,"Usage: bitcnts <iterations>\n");
+  //   exit(-1);
+	// }
+  iterations=75000;
   
   puts("Bit counter algorithm benchmark\n");
   
@@ -70,7 +71,7 @@ int main(int argc, char *argv[])
 	 cmaxix = i;
     }
     
-    printf("%-38s> Time: %7.3f sec.; Bits: %ld\n", text[i], ct, n);
+    printf("%-38s> Bits: %ld\n", text[i], n);
   }
   printf("\nBest  > %s\n", text[cminix]);
   printf("Worst > %s\n", text[cmaxix]);

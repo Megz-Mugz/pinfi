@@ -31,21 +31,15 @@ main(int argc, char *argv[]) {
   int i,count=0;
   int x, y, z;
   
-  if (argc<2) {
-    fprintf(stderr,"Usage: qsort_large <file>\n");
-    exit(-1);
-  }
-  else {
-    fp = fopen(argv[1],"r");
+  fp = fopen("/home/rmengle/pin/source/tools/pinfi/example/benchmarks/qsort/input_large.dat","r");
     
     while((fscanf(fp, "%d", &x) == 1) && (fscanf(fp, "%d", &y) == 1) && (fscanf(fp, "%d", &z) == 1) &&  (count < MAXARRAY)) {
-	 array[count].x = x;
-	 array[count].y = y;
-	 array[count].z = z;
-	 array[count].distance = sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
-	 count++;
+      array[count].x = x;
+      array[count].y = y;
+      array[count].z = z;
+      array[count].distance = sqrt(pow(x, 2) + pow(y, 2) + pow(z, 2));
+      count++;
     }
-  }
   printf("\nSorting %d vectors based on distance from the origin.\n\n",count);
   qsort(array,count,sizeof(struct my3DVertexStruct),compare);
   
