@@ -11,7 +11,7 @@ FI_DIR="/home/rmengle/pin/source/tools/pinfi/example"
 # ------------------------------------------------------------
 # TODO: CHANGE THIS ONLY
 # ------------------------------------------------------------
-EXEC_DIR="$FI_DIR/benchmarks/qsort/qsort_large_executables"
+EXEC_DIR="$FI_DIR/benchmarks/qsort/qsort_small_executables"
 
 INJECTIONS=1000
 
