@@ -6,7 +6,7 @@ import csv
 # Configuration
 # =============================================================
 
-BENCHMARK_NAME = "FFT"
+BENCHMARK_NAME = "qsort_small"
 
 SCRATCH_OUTPUT_ROOT = (
     f"/scratch/rmengle/"

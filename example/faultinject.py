@@ -49,7 +49,7 @@ timeout = 500
 # Execute one run
 # =============================================================
 def execute(execlist, outputfile, run_index):
-    timeout_local = 120
+    timeout_local = 10  # keep your choice
 
     with open(outputfile, "w") as outputFile:
         p = subprocess.Popen(
@@ -59,22 +59,22 @@ def execute(execlist, outputfile, run_index):
             universal_newlines=False
         )
 
-        '''
-        Note: execution timing removed from persistent logging.
-        Still measured locally for timeout detection only.
-        '''
         start_time = time.time()
 
-        for raw in p.stdout:
-            line = raw.decode("utf-8", errors="replace").rstrip()   
-            outputFile.write(line + "\n")
-            outputFile.flush()
+        try:
+            out, _ = p.communicate(timeout=timeout_local)
 
-            if time.time() - start_time > timeout_local:
-                p.kill()
-                return "timed-out"
+            if out:
+                # decode like your original loop did
+                text = out.decode("utf-8", errors="replace")
+                outputFile.write(text)
 
-        returncode = p.wait()
+            returncode = p.returncode
+
+        except subprocess.TimeoutExpired:
+            p.kill()
+            outputFile.write("[TIMEOUT]\n")
+            return "timed-out"
 
     return str(returncode)
 
