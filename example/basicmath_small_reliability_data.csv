@@ -1,0 +1,16 @@
+executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+basicmath_small_O0_exec,1000,345,655,0,0.009069,0.008821
+basicmath_small_O1_exec,1000,553,446,1,0.007600,0.007559
+basicmath_small_O2_exec,1000,572,428,0,0.007682,0.007606
+basicmath_small_O3_exec,1000,556,444,0,0.007697,0.007658
+basicmath_small_cse_exec,1000,330,669,1,0.008489,0.008421
+basicmath_small_gvn_exec,1000,327,673,0,0.008574,0.008537
+basicmath_small_inline_exec,1000,356,644,0,0.008464,0.008414
+basicmath_small_instcombine_exec,1000,346,654,0,0.008791,0.008812
+basicmath_small_ipsccp_exec,1000,361,635,4,0.008618,0.008589
+basicmath_small_licm_exec,1000,396,604,0,0.008572,0.008517
+basicmath_small_loopreduce_exec,1000,331,668,1,0.008493,0.008454
+basicmath_small_sccp_exec,1000,372,628,0,0.008457,0.008423
+basicmath_small_unroll4_exec,1000,356,644,0,0.008382,0.008358
+basicmath_small_unroll_exec,169,62,106,1,0.008403,0.008374
+basicmath_small_unswitch_exec,1000,342,657,1,0.008371,0.008343

@@ -1,0 +1,16 @@
+executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+bitcount_O0_exec,1000,340,619,41,0.012842,0.012777
+bitcount_O1_exec,18,3,14,1,0.005562,0.005513
+bitcount_O2_exec,59,8,50,1,0.005550,0.005528
+bitcount_O3_exec,17,5,11,1,0.005283,0.005254
+bitcount_cse_exec,242,60,175,7,0.011388,0.011363
+bitcount_gvn_exec,1000,399,571,30,0.014505,0.014469
+bitcount_inline_exec,1000,347,622,31,0.012783,0.012708
+bitcount_instcombine_exec,1000,207,753,40,0.012298,0.012260
+bitcount_ipsccp_exec,1000,338,629,33,0.012855,0.012792
+bitcount_licm_exec,1000,298,682,20,0.016954,0.016951
+bitcount_loopreduce_exec,1000,368,599,33,0.012991,0.012923
+bitcount_sccp_exec,293,109,178,6,0.013052,0.012986
+bitcount_unroll4_exec,1000,270,686,44,0.011733,0.011732
+bitcount_unroll_exec,1000,341,620,39,0.012640,0.012572
+bitcount_unswitch_exec,1000,314,643,43,0.012736,0.012678

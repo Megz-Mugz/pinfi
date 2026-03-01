@@ -14,9 +14,9 @@ currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 
 
 ''''
-TODO: IF YOU CHANGE HERE, CHANGE OTHER TODOS IN classify_output.py & slum
+TODO: IF YOU CHANGE HERE, CHANGE OTHER TODOS IN classify_output.py
 '''
-focus_dir = "benchmarks/qsort/qsort_small_executables"
+focus_dir = "benchmarks/qsort/small_executables"
 
 execdir = os.path.join(
     currdir,
@@ -35,7 +35,7 @@ errordir = os.path.join(currdir, "error_output")
 
 #  TODO: before submitting final mass job, change this, this writes to your 
 # scratch folder, which allows for 100 million files and o
-program_outputs_root = "/scratch/rmengle/program_outputs"
+program_outputs_root = "/scratch/rmengle/"
 
 # =============================================================
 # Ensure base directories exist
