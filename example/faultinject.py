@@ -16,7 +16,7 @@ currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 ''''
 TODO: IF YOU CHANGE HERE, CHANGE OTHER TODOS IN classify_output.py
 '''
-focus_dir = "benchmarks/qsort/small_executables"
+focus_dir = "benchmarks/bitcount/executables"
 
 execdir = os.path.join(
     currdir,

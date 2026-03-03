@@ -1,0 +1,2 @@
++ python3 faultinject.py bitcount_O0_exec 1000 ''
++ echo '=== FI Finished ==='

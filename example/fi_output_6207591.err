@@ -1,0 +1,2 @@
++ python3 faultinject.py bitcount_ipsccp_exec 1000 ''
++ echo '=== FI Finished ==='

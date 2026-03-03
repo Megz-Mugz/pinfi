@@ -12,5 +12,5 @@ basicmath_small_licm_exec,1000,396,604,0,0.008572,0.008517
 basicmath_small_loopreduce_exec,1000,331,668,1,0.008493,0.008454
 basicmath_small_sccp_exec,1000,372,628,0,0.008457,0.008423
 basicmath_small_unroll4_exec,1000,356,644,0,0.008382,0.008358
-basicmath_small_unroll_exec,169,62,106,1,0.008403,0.008374
+basicmath_small_unroll_exec,1000,342,656,2,0.008403,0.008374
 basicmath_small_unswitch_exec,1000,342,657,1,0.008371,0.008343

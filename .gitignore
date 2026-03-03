@@ -7,3 +7,4 @@ example/error_output/
 example/execution_times/
 example/**/std_outputfile-*
 EOF
+example/verification_logs

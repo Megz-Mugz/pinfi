@@ -6,10 +6,13 @@ import csv
 # Configuration
 # =============================================================
 
-BENCHMARK_NAME = "qsort_small"
+'''
+TODO alter the benchmark name
+'''
+BENCHMARK_NAME = "bitcount"
 
 SCRATCH_OUTPUT_ROOT = (
-    f"/scratch/rmengle/"
+    f"/scratch/rmengle/program_outputs/"
     f"{BENCHMARK_NAME}_outputs"
 )
 
@@ -289,7 +292,7 @@ def get_execution_time_stats(folder_name):
 
     timing_file = os.path.join(
         EXECUTION_TIMES_ROOT,
-        f"{base_name}.txt"
+        f"{base_name}_exec.txt"
     )
 
     if not os.path.isfile(timing_file):

@@ -1,0 +1,36 @@
+Submitting jobs from: /home/rmengle/pin/source/tools/pinfi/example/benchmarks/bitcount/executables
+--------------------------------------------------
+Dataset detected: executables
+
+Submitting job: fi_bitcount_O0_exec
+Submitted batch job 6202910
+Submitting job: fi_bitcount_O1_exec
+Submitted batch job 6202911
+Submitting job: fi_bitcount_O2_exec
+Submitted batch job 6202912
+Submitting job: fi_bitcount_O3_exec
+Submitted batch job 6202913
+Submitting job: fi_bitcount_cse_exec
+Submitted batch job 6202914
+Submitting job: fi_bitcount_gvn_exec
+Submitted batch job 6202915
+Submitting job: fi_bitcount_inline_exec
+Submitted batch job 6202916
+Submitting job: fi_bitcount_instcombine_exec
+Submitted batch job 6202917
+Submitting job: fi_bitcount_ipsccp_exec
+Submitted batch job 6202918
+Submitting job: fi_bitcount_licm_exec
+Submitted batch job 6202919
+Submitting job: fi_bitcount_loopreduce_exec
+Submitted batch job 6202920
+Submitting job: fi_bitcount_sccp_exec
+Submitted batch job 6202921
+Submitting job: fi_bitcount_unroll4_exec
+Submitted batch job 6202922
+Submitting job: fi_bitcount_unroll_exec
+Submitted batch job 6202923
+Submitting job: fi_bitcount_unswitch_exec
+Submitted batch job 6202924
+--------------------------------------------------
+All jobs submitted.

@@ -1,12 +1,12 @@
 #!/bin/bash
-#SBATCH --job-name=qsort_small_O0_exec
+#SBATCH --job-name=bitcount_unswitch_exec
 #SBATCH --partition=normal
 #SBATCH --output=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.out
 #SBATCH --error=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=rmengle@gmu.edu
 #SBATCH --mem=2G
-#SBATCH --time=00:25:00
+#SBATCH --time=01:00:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 
@@ -44,5 +44,5 @@ ls -l
 
 echo "=== About to run FI ==="
 set -x
-python3 faultinject.py qsort_small_O0_exec 1000 ""
+python3 faultinject.py bitcount_unswitch_exec 1000 ""
 echo "=== FI Finished ==="
