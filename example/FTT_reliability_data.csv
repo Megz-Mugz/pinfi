@@ -1,4 +1,0 @@
-executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
-fft_O0,1000,368,467,165,,
-fft_O1,1000,638,297,65,,
-fft_O2,1000,702,241,57,,

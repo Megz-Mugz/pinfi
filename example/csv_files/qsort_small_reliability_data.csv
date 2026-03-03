@@ -1,0 +1,16 @@
+executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+qsort_small_O0_exec,1000,620,93,287,0.006120,0.006112
+qsort_small_O1_exec,1000,858,58,84,0.005542,0.005531
+qsort_small_O2_exec,1000,859,60,81,0.005590,0.005587
+qsort_small_O3_exec,1000,838,66,96,0.005475,0.005474
+qsort_small_cse_exec,1000,651,93,256,0.006039,0.005985
+qsort_small_gvn_exec,1000,688,101,211,0.005801,0.005785
+qsort_small_inline_exec,1000,626,91,283,0.005969,0.005949
+qsort_small_instcombine_exec,1000,684,100,216,0.005569,0.005546
+qsort_small_ipsccp_exec,1000,618,98,284,0.006171,0.006191
+qsort_small_licm_exec,1000,612,99,289,0.005961,0.005946
+qsort_small_loopreduce_exec,1000,625,97,278,0.005987,0.005976
+qsort_small_sccp_exec,1000,602,90,308,0.005949,0.005906
+qsort_small_unroll4_exec,1000,617,116,267,0.005963,0.005947
+qsort_small_unroll_exec,1000,644,94,262,0.006119,0.006118
+qsort_small_unswitch_exec,1000,639,81,280,0.005992,0.005983

@@ -16,7 +16,7 @@ currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 ''''
 TODO: IF YOU CHANGE HERE, CHANGE OTHER TODOS IN classify_output.py
 '''
-focus_dir = "benchmarks/bitcount/executables"
+focus_dir = "benchmarks/basicmath/basicmath_large_executables"
 
 execdir = os.path.join(
     currdir,
@@ -49,7 +49,7 @@ timeout = 500
 # Execute one run
 # =============================================================
 def execute(execlist, outputfile, run_index):
-    timeout_local = 10  # keep your choice
+    timeout_local = 15  # keep your choice
 
     with open(outputfile, "w") as outputFile:
         p = subprocess.Popen(
@@ -58,8 +58,6 @@ def execute(execlist, outputfile, run_index):
             stderr=subprocess.STDOUT,
             universal_newlines=False
         )
-
-        start_time = time.time()
 
         try:
             out, _ = p.communicate(timeout=timeout_local)

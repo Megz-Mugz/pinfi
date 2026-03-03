@@ -153,7 +153,7 @@ int main(int argc, char *argv[]) {
   // }
 
   /* open the adjacency matrix file */
-  fp = fopen ("input.dat","r");
+  fp = fopen ("/home/rmengle/pin/source/tools/pinfi/example/benchmarks/dijkstra/input.dat","r");
 
   /* make a fully connected matrix */
   for (i=0;i<NUM_NODES;i++) {

@@ -11,7 +11,7 @@ FI_DIR="/home/rmengle/pin/source/tools/pinfi/example"
 # ------------------------------------------------------------
 # TODO: CHANGE THIS ONLY
 # ------------------------------------------------------------
-EXEC_DIR="$FI_DIR/benchmarks/basicmath/executables"
+EXEC_DIR="$FI_DIR/benchmarks/basicmath/basicmath_large_executables"
 
 INJECTIONS=1000
 
@@ -53,7 +53,7 @@ for exe in *_exec; do
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=rmengle@gmu.edu
 #SBATCH --mem=2G
-#SBATCH --time=01:00:00    
+#SBATCH --time=03:30:00    
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=8
 #SBATCH --exclusive

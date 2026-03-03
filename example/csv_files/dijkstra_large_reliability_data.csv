@@ -1,0 +1,16 @@
+executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+dijkstra_large_O0_exec,1000,445,83,472,0.050574,0.050479
+dijkstra_large_O1_exec,1000,673,136,191,0.024817,0.024761
+dijkstra_large_O2_exec,1000,686,124,190,0.021329,0.021321
+dijkstra_large_O3_exec,1000,665,129,206,0.021207,0.021242
+dijkstra_large_cse_exec,1000,591,35,374,0.057826,0.057659
+dijkstra_large_gvn_exec,1000,650,11,339,0.078431,0.078184
+dijkstra_large_inline_exec,1000,484,80,436,0.050626,0.050537
+dijkstra_large_instcombine_exec,1000,469,71,460,0.052553,0.052340
+dijkstra_large_ipsccp_exec,1000,469,90,441,0.050610,0.050542
+dijkstra_large_licm_exec,1000,527,90,383,0.063083,0.062881
+dijkstra_large_loopreduce_exec,1000,488,87,425,0.050733,0.050628
+dijkstra_large_sccp_exec,1000,483,77,440,0.050581,0.050422
+dijkstra_large_unroll4_exec,1000,457,83,460,0.060049,0.059895
+dijkstra_large_unroll_exec,1000,496,83,421,0.050587,0.050477
+dijkstra_large_unswitch_exec,1000,457,92,451,0.050456,0.050380

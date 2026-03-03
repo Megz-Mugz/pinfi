@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=bitcount_unswitch_exec
+#SBATCH --job-name=basicmath_large_unroll4_exec
 #SBATCH --partition=normal
 #SBATCH --output=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.out
 #SBATCH --error=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.err
@@ -44,5 +44,5 @@ ls -l
 
 echo "=== About to run FI ==="
 set -x
-python3 faultinject.py bitcount_unswitch_exec 1000 ""
+python3 faultinject.py basicmath_large_unroll4_exec 1000 ""
 echo "=== FI Finished ==="

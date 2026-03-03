@@ -1,2 +1,0 @@
-+ python3 faultinject.py basicmath_small_unroll_exec 1000 ''
-+ echo '=== FI Finished ==='

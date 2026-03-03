@@ -6,10 +6,10 @@ import csv
 # Configuration
 # =============================================================
 
-'''
-TODO alter the benchmark name
-'''
-BENCHMARK_NAME = "bitcount"
+# ------------------------------------------------------------
+# TODO: CHANGE THIS ONLY
+# ------------------------------------------------------------
+BENCHMARK_NAME = "basicmath_large"
 
 SCRATCH_OUTPUT_ROOT = (
     f"/scratch/rmengle/program_outputs/"
@@ -136,9 +136,27 @@ golden_output = \
     normalize_output(golden_output_raw)
 
 # =============================================================
-# Classification + Verification Logging
+# Timing path helper (NEW — single source of truth)
 # =============================================================
 
+def get_timing_file_path(folder_name):
+    """
+    Returns the expected timing file path for a given folder.
+    Uses safe suffix stripping.
+    """
+    if folder_name.endswith("_exec"):
+        base_name = folder_name[:-5]
+    else:
+        base_name = folder_name
+
+    return os.path.join(
+        EXECUTION_TIMES_ROOT,
+        f"{base_name}_exec.txt"
+    )
+
+# =============================================================
+# Classification + Verification Logging
+# =============================================================
 
 def classify_outputs(folder_name):
 
@@ -152,7 +170,6 @@ def classify_outputs(folder_name):
     crash_or_hang = 0
     total_runs = 0
 
-    # Track first occurrences only
     first_masked_file = None
     first_sdc_file = None
     first_crash_file = None
@@ -166,9 +183,7 @@ def classify_outputs(folder_name):
 
     total_files = len(files)
 
-    print(
-        f"    Found {total_files} run files"
-    )
+    print(f"    Found {total_files} run files")
 
     for idx, fname in enumerate(
         sorted(files),
@@ -184,122 +199,73 @@ def classify_outputs(folder_name):
             flush=True
         )
 
-        full_path = os.path.join(
-            folder_path,
-            fname
-        )
+        full_path = os.path.join(folder_path, fname)
 
         try:
             with open(full_path, "r") as f:
 
                 raw_contents = f.read()
-
-                normalized_contents = \
-                    normalize_output(raw_contents)
+                normalized_contents = normalize_output(raw_contents)
 
                 total_runs += 1
 
-                # ------------------------------
                 # Crash / Hang
-                # ------------------------------
-                if not any(
-                    c.isdigit()
-                    for c in normalized_contents
-                ):
+                if not any(c.isdigit() for c in normalized_contents):
                     crash_or_hang += 1
-
                     if first_crash_file is None:
                         first_crash_file = fname
 
-                # ------------------------------
                 # Masked
-                # ------------------------------
-                elif normalized_contents \
-                        == golden_output:
+                elif normalized_contents == golden_output:
                     masked += 1
-
                     if first_masked_file is None:
                         first_masked_file = fname
 
-                # ------------------------------
                 # SDC
-                # ------------------------------
                 else:
                     sdc += 1
-
                     if first_sdc_file is None:
                         first_sdc_file = fname
 
         except Exception:
             continue
 
-    print()  # newline after progress bar
+    print()
 
-    # ---------------------------------------------------------
-    # Write verification logs (FIRST ONLY)
-    # ---------------------------------------------------------
-
+    # Write verification logs
     if first_masked_file:
         with open(
-            os.path.join(
-                MASKED_LOG_DIR,
-                f"{folder_name}_masked.txt"
-            ),
+            os.path.join(MASKED_LOG_DIR, f"{folder_name}_masked.txt"),
             "w"
         ) as f:
-            f.write(
-                "First masked file:\n"
-                f"{first_masked_file}\n"
-            )
+            f.write(f"First masked file:\n{first_masked_file}\n")
 
     if first_sdc_file:
         with open(
-            os.path.join(
-                SDC_LOG_DIR,
-                f"{folder_name}_sdc.txt"
-            ),
+            os.path.join(SDC_LOG_DIR, f"{folder_name}_sdc.txt"),
             "w"
         ) as f:
-            f.write(
-                "First SDC file:\n"
-                f"{first_sdc_file}\n"
-            )
+            f.write(f"First SDC file:\n{first_sdc_file}\n")
 
     if first_crash_file:
         with open(
-            os.path.join(
-                CRASH_LOG_DIR,
-                f"{folder_name}_crash.txt"
-            ),
+            os.path.join(CRASH_LOG_DIR, f"{folder_name}_crash.txt"),
             "w"
         ) as f:
-            f.write(
-                "First crash/hang file:\n"
-                f"{first_crash_file}\n"
-            )
+            f.write(f"First crash/hang file:\n{first_crash_file}\n")
 
     return total_runs, masked, sdc, crash_or_hang
-
 
 # =============================================================
 # Timing statistics
 # =============================================================
 
 def get_execution_time_stats(folder_name):
-    
-    # Remove _exec if present
-    base_name = folder_name.replace("_exec", "")
 
-    timing_file = os.path.join(
-        EXECUTION_TIMES_ROOT,
-        f"{base_name}_exec.txt"
-    )
+    timing_file = get_timing_file_path(folder_name)
 
     if not os.path.isfile(timing_file):
-        print(
-            f"   [WARN] Missing timing file: "
-            f"{timing_file}"
-        )
+        print(f"   [WARN] Missing timing file: {timing_file}")
         return None, None
 
     times = []
@@ -335,11 +301,7 @@ if __name__ == "__main__":
 
     print("\nStarting classification...\n")
 
-    with open(
-        CSV_OUTPUT_FILE,
-        "w",
-        newline=""
-    ) as csvfile:
+    with open(CSV_OUTPUT_FILE, "w", newline="") as csvfile:
 
         writer = csv.writer(csvfile)
 
@@ -353,21 +315,22 @@ if __name__ == "__main__":
             "median_time",
         ])
 
-        for idx, folder in enumerate(
-            OUTPUT_FOLDERS,
-            start=1
-        ):
+        for idx, folder in enumerate(OUTPUT_FOLDERS, start=1):
 
             percent = (idx / total_bins) * 100
 
+            # ✅ NEW DEBUG VISIBILITY
+            timing_file = get_timing_file_path(folder)
+            timing_exists = os.path.isfile(timing_file)
+
             print(
-                f"[{idx:3d}/{total_bins} | "
-                f"{percent:5.1f}%] "
-                f"Processing {folder}"
+                f"[{idx:3d}/{total_bins} | {percent:5.1f}%] Processing {folder}\n"
+                f"    FI folder : {os.path.join(SCRATCH_OUTPUT_ROOT, folder)}\n"
+                f"    Timing    : {timing_file} "
+                f"{'✓' if timing_exists else '✗ MISSING'}"
             )
 
-            total_runs, masked, sdc, \
-            crash_or_hang = \
+            total_runs, masked, sdc, crash_or_hang = \
                 classify_outputs(folder)
 
             avg_time, median_time = \
@@ -379,16 +342,11 @@ if __name__ == "__main__":
                 masked,
                 sdc,
                 crash_or_hang,
-                f"{avg_time:.6f}"
-                if avg_time else "",
-                f"{median_time:.6f}"
-                if median_time else "",
+                f"{avg_time:.6f}" if avg_time else "",
+                f"{median_time:.6f}" if median_time else "",
             ])
 
-    print(
-        f"\nCSV written to: "
-        f"{CSV_OUTPUT_FILE}\n"
-    )
+    print(f"\nCSV written to: {CSV_OUTPUT_FILE}\n")
 
     print(
         "Verification logs written to:\n"

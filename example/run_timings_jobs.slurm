@@ -1,21 +1,21 @@
 #!/bin/bash
 
-# ============================================================
-# FFT Timing Job Submitter (O0–O3)
-# ============================================================
-
 FI_DIR="/home/rmengle/pin/source/tools/pinfi/example"
-EXEC_DIR="$FI_DIR/benchmarks/qsort/small_executables"
+
+# ------------------------------------------------------------
+# TODO: CHANGE THIS ONLY
+# ------------------------------------------------------------
+EXEC_DIR="$FI_DIR/benchmarks/qsort/qsort_large_executables"
+DATASET_NAME="qsort_large"
 
 NUM_RUNS=1000
-DATASET_NAME="qsort_small"
 
 # ============================================================
 # 🔥 OPTIONAL: Set this to run only ONE executable
 # Leave empty ("") to run all fft_O* binaries
 # Example: TARGET_EXE="fft_O3"
 # ============================================================
-TARGET_EXE="qsort_small_O3_exec"
+TARGET_EXE=""
 
 cd "$EXEC_DIR" || {
     echo "ERROR: Could not cd into $EXEC_DIR"
@@ -26,13 +26,15 @@ echo "Submitting TIMING jobs from: $(pwd)"
 echo "--------------------------------------------------"
 
 # ------------------------------------------------------------
-# Determine which executables to run
+# Find all executable files in the directory
 # ------------------------------------------------------------
-if [ -n "$TARGET_EXE" ]; then
-    EXEC_LIST=("$TARGET_EXE")
-else
-    EXEC_LIST=(fft_O*)
-fi
+EXEC_LIST=()
+
+for f in *; do
+    if [ -x "$f" ] && [ -f "$f" ]; then
+        EXEC_LIST+=("$f")
+    fi
+done
 
 # ------------------------------------------------------------
 # Loop through selected executables

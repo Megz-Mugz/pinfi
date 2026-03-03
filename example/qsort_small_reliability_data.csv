@@ -1,5 +1,0 @@
-executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
-qsort_small_O0_exec,1000,641,94,265,0.006049,0.006052
-qsort_small_O1_exec,1000,861,70,69,0.005685,0.005649
-qsort_small_O2_exec,1000,839,73,88,0.005681,0.005667
-qsort_small_O3_exec,1000,855,71,74,0.005660,0.005640

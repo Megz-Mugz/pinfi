@@ -2,6 +2,13 @@
 #include <stdlib.h>
 #include <math.h>
 
+void fft_float(unsigned NumSamples,
+               int InverseTransform,
+               float *RealIn,
+               float *ImagIn,
+               float *RealOut,
+               float *ImagOut);
+
 int main(int argc, char *argv[]) {
 	unsigned MAXSIZE;
 	unsigned MAXWAVES;
