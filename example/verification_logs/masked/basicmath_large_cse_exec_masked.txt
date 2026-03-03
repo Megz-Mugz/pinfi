@@ -1,2 +1,0 @@
-First masked file:
-output_run_10.txt

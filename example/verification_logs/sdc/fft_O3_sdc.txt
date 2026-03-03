@@ -1,2 +1,0 @@
-First SDC file:
-output_run_102.txt
