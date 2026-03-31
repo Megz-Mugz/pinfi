@@ -5,8 +5,8 @@ FI_DIR="/home/rmengle/pin/source/tools/pinfi/example"
 # ------------------------------------------------------------
 # TODO: CHANGE THIS ONLY
 # ------------------------------------------------------------
-EXEC_DIR="$FI_DIR/benchmarks/qsort/qsort_large_executables"
-DATASET_NAME="qsort_large"
+EXEC_DIR="$FI_DIR/benchmarks/patricia/executables"
+DATASET_NAME="patricia"
 
 NUM_RUNS=1000
 
@@ -66,7 +66,7 @@ module load gcc
 module load llvm/15
 
 EXEC_PATH="$EXEC_DIR/$exe"
-TIMING_DIR="/scratch/rmengle/execution_times/${DATASET_NAME}_executables"
+TIMING_DIR="/projects/lyang28/rmengle/${DATASET_NAME}_executables"
 TIMING_FILE="\$TIMING_DIR/${exe}.txt"
 
 mkdir -p "\$TIMING_DIR"
