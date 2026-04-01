@@ -1,0 +1,9 @@
+clang: warning: -lm: 'linker' input unused [-Wunused-command-line-argument]
+cubic.c:37:36: warning: absolute value function 'fabs' given an argument of type 'long double' but has parameter of type 'double' which may cause truncation of value [-Wabsolute-value]
+   37 |             x[0] = pow(sqrt(R2_Q3)+fabs(R), 1/3.0);
+      |                                    ^
+cubic.c:37:36: note: use function 'fabsl' instead
+   37 |             x[0] = pow(sqrt(R2_Q3)+fabs(R), 1/3.0);
+      |                                    ^~~~
+      |                                    fabsl
+1 warning generated.
