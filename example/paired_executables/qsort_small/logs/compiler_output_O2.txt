@@ -1,0 +1,4 @@
+qsort_small.c:30:29: warning: format specifies type 'char *' but the argument has type 'char (*)[128]' [-Wformat]
+   30 |     while((fscanf(fp, "%s", &array[count].qstring) == 1) && (count < MAXARRAY)) {
+      |                        ~~   ^~~~~~~~~~~~~~~~~~~~~
+1 warning generated.

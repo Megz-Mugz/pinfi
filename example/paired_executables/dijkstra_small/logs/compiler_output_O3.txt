@@ -1,0 +1,4 @@
+dijkstra_small.c:144:1: warning: non-void function does not return a value [-Wreturn-type]
+  144 | }
+      | ^
+1 warning generated.
