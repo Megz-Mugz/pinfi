@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=patricia_large_instcombine_exec
+#SBATCH --job-name=basicmath_large_instcombine_exec
 #SBATCH --partition=normal
 #SBATCH --output=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.out
 #SBATCH --error=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.err

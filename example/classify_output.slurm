@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=classify_dijkstra_small
+#SBATCH --job-name=classify_patricia_large
 #SBATCH --partition=normal
 #SBATCH --mem=32G
 #SBATCH --output=classify_bm_small_%j.out

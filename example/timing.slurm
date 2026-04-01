@@ -17,13 +17,13 @@ module load python
 # 🔥 EDIT THIS ONLY
 # ============================================================
 
-EXEC="/home/rmengle/pin/source/tools/pinfi/example/benchmarks/patricia/executables/patricia_O3_exec"
+EXEC="/home/rmengle/pin/source/tools/pinfi/example/benchmarks/patricia/large_executables/patricia_large_unswitch_exec"
 
 NUM_RUNS=1000
 
 # ============================================================
 
-BASE_DIR="/projects/lyang28/rmengle/patricia_timing"
+BASE_DIR="/projects/lyang28/rmengle/patricia_large_timing"
 mkdir -p "$BASE_DIR"
 
 OUTFILE="$BASE_DIR/$(basename $EXEC).txt"

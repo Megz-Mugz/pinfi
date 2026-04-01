@@ -9,15 +9,15 @@ import csv
 # ------------------------------------------------------------
 # TODO: CHANGE THIS ONLY
 # ------------------------------------------------------------
-BENCHMARK_NAME = "patricia"
+BENCHMARK_NAME = "patricia_large"
 
 SCRATCH_OUTPUT_ROOT = (
-    f"/projects/lyang28/rmengle/"
+    f"/projects/lyang28/rmengle/program_outputs/"
     f"{BENCHMARK_NAME}_outputs"
 )
 
 EXECUTION_TIMES_ROOT = (
-    f"/projects/lyang28/rmengle/"
+    f"/projects/lyang28/rmengle/execution_times/"
     f"{BENCHMARK_NAME}_executables"
 )
 

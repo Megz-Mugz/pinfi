@@ -1,0 +1,16 @@
+executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+patricia_small_O0_exec,1000,479,507,14,0.013456,0.013393
+patricia_small_O1_exec,1000,729,270,1,0.015513,0.015347
+patricia_small_O2_exec,1000,739,260,1,0.015307,0.015206
+patricia_small_O3_exec,1000,769,229,2,0.215704,0.015286
+patricia_small_cse_exec,1000,502,487,11,0.016535,0.016400
+patricia_small_gvn_exec,1000,566,424,10,0.016589,0.016505
+patricia_small_inline_exec,1000,528,466,6,0.016455,0.016355
+patricia_small_instcombine_exec,1000,540,453,7,0.014156,0.013808
+patricia_small_ipsccp_exec,1000,530,461,9,1.749266,0.015774
+patricia_small_licm_exec,1000,581,407,12,0.016620,0.016440
+patricia_small_loopreduce_exec,1000,506,487,7,0.014507,0.014461
+patricia_small_sccp_exec,1000,517,477,6,0.014413,0.014343
+patricia_small_unroll4_exec,1000,509,476,15,0.014141,0.013998
+patricia_small_unroll_exec,1000,493,503,4,0.014590,0.014528
+patricia_small_unswitch_exec,1000,506,488,6,0.015224,0.015231
