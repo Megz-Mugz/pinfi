@@ -1,8 +1,8 @@
 #!/bin/bash
 #SBATCH --job-name=timing_job
 #SBATCH --partition=normal
-#SBATCH --output=/projects/lyang28/rmengle/timing_%j.out
-#SBATCH --error=/projects/lyang28/rmengle/timing_%j.err
+#SBATCH --output=timing_%j.out
+#SBATCH --error=timing_%j.err
 #SBATCH --mem=2G
 #SBATCH --time=00:20:00
 #SBATCH --ntasks=1
@@ -17,13 +17,13 @@ module load python
 # 🔥 EDIT THIS ONLY
 # ============================================================
 
-EXEC="/home/rmengle/pin/source/tools/pinfi/example/benchmarks/patricia/large_executables/patricia_large_unswitch_exec"
+EXEC="/home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/exec_basicmath_small_early-cse_simple-loop-unswitch"
 
 NUM_RUNS=1000
 
 # ============================================================
 
-BASE_DIR="/projects/lyang28/rmengle/patricia_large_timing"
+BASE_DIR="/projects/lyang28/rmengle/execution_times/paired/basicmath_small"
 mkdir -p "$BASE_DIR"
 
 OUTFILE="$BASE_DIR/$(basename $EXEC).txt"

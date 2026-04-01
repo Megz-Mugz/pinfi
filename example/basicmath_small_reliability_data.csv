@@ -1,0 +1,12 @@
+executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+basicmath_small_cse_exec,1000,330,669,1,0.008489,0.008421
+exec_basicmath_small_early-cse_early-cse,1000,182,817,1,0.010861,0.010770
+exec_basicmath_small_early-cse_gvn,1000,183,816,1,0.009372,0.009314
+exec_basicmath_small_early-cse_inline,1000,168,832,0,0.009327,0.009245
+exec_basicmath_small_early-cse_instcombine,1000,114,886,0,0.009103,0.009001
+exec_basicmath_small_early-cse_ipsccp,1000,123,877,0,0.009249,0.009201
+exec_basicmath_small_early-cse_licm,1000,122,878,0,0.010281,0.010951
+exec_basicmath_small_early-cse_loop-reduce,1000,89,911,0,0.008907,0.008896
+exec_basicmath_small_early-cse_loop-unroll,1000,93,907,0,0.009179,0.009125
+exec_basicmath_small_early-cse_sccp,1000,96,904,0,0.008872,0.008847
+exec_basicmath_small_early-cse_simple-loop-unswitch,1000,93,907,0,0.009220,0.009159

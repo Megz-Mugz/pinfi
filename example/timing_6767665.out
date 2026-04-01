@@ -1,0 +1,7 @@
+==================================
+Executable: /home/rmengle/pin/source/tools/pinfi/example/benchmarks/paired_executables/basicmath_small/execs/exec_basicmath_small_early-cse_gvn
+Hostname: hop060.orc.gmu.edu
+Start Time: Wed Apr  1 12:48:28 EDT 2026
+Output file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small/exec_basicmath_small_early-cse_gvn.txt
+==================================
+ERROR: Executable not found or not executable
