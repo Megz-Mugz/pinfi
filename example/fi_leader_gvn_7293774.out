@@ -1,0 +1,8 @@
+Starting fault injection campaign...
+Running on node: hop065.orc.gmu.edu
+Start time: Tue May 12 11:31:18 EDT 2026
+
+=======================================
+Running FI for: exec_basicmath_small_gvn
+Command: python3 faultinject.py exec_basicmath_small_gvn 1000 ""
+=======================================
