@@ -192,7 +192,7 @@ def classify_outputs(folder_name):
 
     for idx, fname in enumerate(
         sorted(files),
-        start=1
+        start=1, 
     ):
 
         percent = (idx / total_files) * 100

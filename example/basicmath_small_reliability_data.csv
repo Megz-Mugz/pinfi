@@ -1,12 +1,1 @@
 executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
-exec_basicmath_small_gvn,24,10,14,0,,
-exec_basicmath_small_gvn_early-cse,24,11,13,0,,
-exec_basicmath_small_gvn_gvn,24,9,15,0,,
-exec_basicmath_small_gvn_inline,24,9,15,0,,
-exec_basicmath_small_gvn_instcombine,24,5,19,0,,
-exec_basicmath_small_gvn_ipsccp,24,8,16,0,,
-exec_basicmath_small_gvn_licm,24,9,15,0,,
-exec_basicmath_small_gvn_loop-reduce,24,9,15,0,,
-exec_basicmath_small_gvn_loop-unroll,24,6,18,0,,
-exec_basicmath_small_gvn_sccp,24,12,12,0,,
-exec_basicmath_small_gvn_simple-loop-unswitch,24,7,17,0,,

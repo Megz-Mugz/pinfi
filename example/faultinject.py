@@ -8,7 +8,7 @@ import subprocess
 
 currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 
-focus_dir = "paired_executables/basicmath_small/execs/leader-gvn"
+focus_dir = "paired_executables/basicmath_small/execs/leader-sccp"
 
 execdir = os.path.join(currdir, focus_dir)
 
