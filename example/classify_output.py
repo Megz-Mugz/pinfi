@@ -7,14 +7,19 @@ import csv
 # =============================================================
 
 # ------------------------------------------------------------
-# TODO: CHANGE THIS ONLY
+# TODO: CHANGE BENCHMARK NAME & OPT LEADER FOR PAIS
 # ------------------------------------------------------------
 BENCHMARK_NAME = "basicmath_small"
+BENCHMARK_NAME_FOR_GOLDEN = "basicmath_small"
+OPT_LEADER = "gvn"
 
 SCRATCH_OUTPUT_ROOT = (
     f"/projects/lyang28/rmengle/program_outputs/paired/"
-    f"{BENCHMARK_NAME}_outputs"
+    f"{BENCHMARK_NAME}_outputs/leader-{OPT_LEADER}"
 )
+
+# FOR TESTING
+
 
 EXECUTION_TIMES_ROOT = (
     f"/projects/lyang28/rmengle/execution_times/paired/"

@@ -1,92 +1,97 @@
-# run test with -> python3 faultinject.py <binary> <num_runs> "<input_args>"
-#!/usr/bin/python
+#!/usr/bin/python3
 
 import sys
 import os
-import time
 import subprocess
-import summarize_results
 
-# =============================================================
-# Paths
-# =============================================================
+# run test with -> python3 faultinject.py <binary> <num_runs> "<input_args>"
+
 currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 
+focus_dir = "paired_executables/basicmath_small/execs/leader-gvn"
 
-''''
-TODO: IF YOU CHANGE HERE, CHANGE OTHER TODOS IN classify_output.py
-'''
-focus_dir = "benchmarks/patricia/large_executables"
-
-execdir = os.path.join(
-    currdir,
-    focus_dir
-)
+execdir = os.path.join(currdir, focus_dir)
 
 pinbin = "/home/rmengle/pin/pin"
 instcountlib = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so"
 filib = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so"
 
-basedir = os.path.join(currdir, "baseline")
-errordir = os.path.join(currdir, "error_output")
-
-# TODO: for quick testing
-# program_outputs_root = os.path.join(currdir, "program_outputs")
-
-#  TODO: before submitting final mass job, change this, this writes to your 
-# scratch folder, which allows for 100 million files and o
 program_outputs_root = "/projects/lyang28/rmengle"
 
-# =============================================================
-# Ensure base directories exist
-# =============================================================
-for d in [basedir, errordir, program_outputs_root]:
-    os.makedirs(d, exist_ok=True)
+errordir = os.path.join(currdir, "error_output")
 
-timeout = 500
+os.makedirs(program_outputs_root, exist_ok=True)
+os.makedirs(errordir, exist_ok=True)
 
-# =============================================================
-# Execute one run
-# =============================================================
-def execute(execlist, outputfile, run_index):
-    timeout_local = 15  # keep your choice
+TIMEOUT_SECONDS = 15
 
-    with open(outputfile, "w") as outputFile:
-        p = subprocess.Popen(
-            execlist,
-            stdout=subprocess.PIPE,
-            stderr=subprocess.STDOUT,
-            universal_newlines=False
-        )
 
+def run_command(cmd, outputfile, cwd):
+    with open(outputfile, "w") as f:
         try:
-            out, _ = p.communicate(timeout=timeout_local)
+            p = subprocess.Popen(
+                cmd,
+                cwd=cwd,
+                stdout=subprocess.PIPE,
+                stderr=subprocess.STDOUT,
+                universal_newlines=True
+            )
+
+            out, _ = p.communicate(timeout=TIMEOUT_SECONDS)
 
             if out:
-                # decode like your original loop did
-                text = out.decode("utf-8", errors="replace")
-                outputFile.write(text)
+                f.write(out)
 
-            returncode = p.returncode
+            return str(p.returncode)
 
         except subprocess.TimeoutExpired:
             p.kill()
-            outputFile.write("[TIMEOUT]\n")
+            f.write("[TIMEOUT]\n")
             return "timed-out"
 
-    return str(returncode)
 
-# =============================================================
-# Main logic
-# =============================================================
 def main(progbin, binary_name, run_number, optionlist):
-
     program_outputs_dir = os.path.join(
         program_outputs_root,
         binary_name
     )
 
     os.makedirs(program_outputs_dir, exist_ok=True)
+
+    # IMPORTANT:
+    # faultinjection.so looks for pin.instcount.txt in its current working directory.
+    # So generate it inside program_outputs_dir, then run FI from that same dir.
+    instcount_file = os.path.join(program_outputs_dir, "pin.instcount.txt")
+
+    if os.path.exists(instcount_file):
+        os.remove(instcount_file)
+
+    instcount_cmd = [
+        pinbin,
+        "-t", instcountlib,
+        "-o", "pin.instcount.txt",
+        "--", progbin
+    ]
+    instcount_cmd.extend(optionlist)
+
+    print("DEBUG INSTCOUNT:", " ".join(instcount_cmd))
+
+    ret = run_command(
+        instcount_cmd,
+        os.path.join(program_outputs_dir, "instcount_output.txt"),
+        program_outputs_dir
+    )
+
+    if ret == "timed-out":
+        raise RuntimeError("instcount timed out")
+
+    if int(ret) != 0:
+        raise RuntimeError(f"instcount failed with code {ret}")
+
+    if not os.path.isfile(instcount_file):
+        raise RuntimeError(f"pin.instcount.txt was not created at {instcount_file}")
+
+    print(f"DEBUG: Created {instcount_file}")
 
     for index in range(run_number):
         print(f"Run Number: #{index + 1}")
@@ -104,45 +109,35 @@ def main(progbin, binary_name, run_number, optionlist):
         ]
         execlist.extend(optionlist)
 
-        ret = execute(execlist, outputfile, index)
+        print("DEBUG FI:", " ".join(execlist))
 
-        # -----------------------------
-        # Handle timeout
-        # -----------------------------
+        ret = run_command(
+            execlist,
+            outputfile,
+            program_outputs_dir
+        )
+
         if ret == "timed-out":
-            with open(
-                os.path.join(errordir, f"error_run_{index}.txt"),
-                "w"
-            ) as f:
+            with open(os.path.join(errordir, f"error_run_{index}.txt"), "w") as f:
                 f.write("Program hang\n")
             continue
 
-        # -----------------------------
-        # Handle non-zero exit
-        # -----------------------------
         if int(ret) != 0:
-            with open(
-                os.path.join(errordir, f"error_run_{index}.txt"),
-                "w"
-            ) as f:
+            with open(os.path.join(errordir, f"error_run_{index}.txt"), "w") as f:
                 f.write(f"Program exited with code {ret}\n")
 
-# =============================================================
-# Entry point
-# =============================================================
-if __name__ == "__main__":
 
+if __name__ == "__main__":
     assert len(sys.argv) == 4, (
-        "Usage: python3 faultinject.py <binary> <num_runs> \"<input_args>\""
+        'Usage: python3 faultinject.py <binary> <num_runs> "<input_args>"'
     )
 
     binary_name = os.path.basename(sys.argv[1])
+
     progbin = os.path.join(execdir, binary_name)
 
     if not os.path.isfile(progbin):
-        raise FileNotFoundError(
-            f"Executable not found: {progbin}"
-        )
+        raise FileNotFoundError(f"Executable not found: {progbin}")
 
     run_number = int(sys.argv[2])
     optionlist = sys.argv[3].split(" ") if sys.argv[3] else []

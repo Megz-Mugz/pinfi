@@ -1,144 +1,171 @@
-#include <iostream>
-#include <fstream>
+#include<iostream>
+#include<fstream>
+
+#include <set>
+#include <map>
 #include <string>
 
 #include "pin.H"
 #include "utils.h"
 #include "instselector.h"
 
-KNOB<std::string> out_file(
-    KNOB_MODE_WRITEONCE, "pintool", "o", "pin.instcount.txt",
-    "specify instruction count file name"
-);
+//#include "faultinjection.h"
+//#include "commonvars.h"
 
-static UINT64 total_count   = 0;
-static UINT64 arith_count   = 0;
-static UINT64 logic_count   = 0;
-static UINT64 cmp_count     = 0;
-static UINT64 branch_count  = 0;
-static UINT64 call_count    = 0;
-static UINT64 ret_count     = 0;
-static UINT64 load_count    = 0;
-static UINT64 store_count   = 0;
-static UINT64 other_count   = 0;
+//#define INCLUDEALLINST
+#define NOBRANCHES
+//#define NOSTACKFRAMEOP
+//#define ONLYFP
 
-VOID CountTotal()  { total_count++; }
-VOID CountArith()  { arith_count++; total_count++; }
-VOID CountLogic()  { logic_count++; total_count++; }
-VOID CountCmp()    { cmp_count++; total_count++; }
-VOID CountBranch() { branch_count++; total_count++; }
-VOID CountCall()   { call_count++; total_count++; }
-VOID CountRet()    { ret_count++; total_count++; }
-VOID CountLoad()   { load_count++; total_count++; }
-VOID CountStore()  { store_count++; total_count++; }
-VOID CountOther()  { other_count++; total_count++; }
+KNOB<std::string> instcount_file(KNOB_MODE_WRITEONCE, "pintool",
+    "o", "pin.instcount.txt", "specify instruction count file name");
+	
+static UINT64 fi_all = 0;
+static UINT64 fi_ccs = 0;
+static UINT64 fi_sp = 0;
+static UINT64 fi_bp = 0;
 
-static bool IsArithmetic(INS ins) {
-    OPCODE op = INS_Opcode(ins);
-    return op == XED_ICLASS_ADD  || op == XED_ICLASS_SUB  ||
-           op == XED_ICLASS_IMUL || op == XED_ICLASS_MUL  ||
-           op == XED_ICLASS_IDIV || op == XED_ICLASS_DIV  ||
-           op == XED_ICLASS_INC  || op == XED_ICLASS_DEC  ||
-           op == XED_ICLASS_NEG;
-}
+VOID countAllInst() {fi_all++;}
+VOID countCCSInst() {fi_ccs++;}
+VOID countSPInst() {fi_sp++;}
+VOID countBPInst() { fi_bp++;}
 
-static bool IsLogical(INS ins) {
-    OPCODE op = INS_Opcode(ins);
-    return op == XED_ICLASS_AND || op == XED_ICLASS_OR  ||
-           op == XED_ICLASS_XOR || op == XED_ICLASS_NOT ||
-           op == XED_ICLASS_SHL || op == XED_ICLASS_SHR ||
-           op == XED_ICLASS_SAR;
-}
 
-static bool IsCompare(INS ins) {
-    OPCODE op = INS_Opcode(ins);
-    return op == XED_ICLASS_CMP || op == XED_ICLASS_TEST;
-}
-
+// Pin calls this function every time a new instruction is encountered
 VOID CountInst(INS ins, VOID *v)
 {
-    if (!isValidInst(ins))
-        return;
+  if (!isValidInst(ins))
+    return;
 
-    // Remove this if you want WHOLE-program instruction makeup.
-    // if (!isInstFITarget(ins))
-    //     return;
+#ifdef INCLUDEALLINST
+ 	int numW = INS_MaxNumWRegs(ins), mayChangeControlFlow = 0;
+   if(!INS_HasFallThrough(ins))
+		mayChangeControlFlow = 1;
+	for(int i =0; i < numW; i++){
+		reg = INS_RegW(ins, i);
+		if(reg == REG_RIP || reg == REG_EIP || reg == REG_IP) // conditional branches
+		{	mayChangeControlFlow = 1; break;}
+	}
 
-    // Memory buckets first if you want loads/stores separated.
-    if (INS_IsMemoryRead(ins) || INS_HasMemoryRead2(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountLoad, IARG_END);
-        return;
+	if(mayChangeControlFlow) {
+		INS_InsertPredicatedCall(
+				ins, IPOINT_BEFORE, (AFUNPTR)countAllInst,
+				IARG_END);	
+		//LOG("No through\n");
+	}
+	else{
+		INS_InsertPredicatedCall(
+				ins, IPOINT_AFTER, (AFUNPTR)countAllInst,
+				IARG_END);	
+// 		LOG("ins SP:" + INS_Disassemble(ins) + "\n"); 
+// 		LOG("reg:" + REG_StringShort(reg) +"\n");
+		//LOG(numW+"\n"); 
+	}
+#else
+
+#ifdef NOBRANCHES
+  if(INS_IsBranch(ins) || !INS_HasFallThrough(ins)) {
+    LOG("instcount: branch/ret inst: " + INS_Disassemble(ins) + "\n");
+		return;
+  }
+#endif
+
+// NOSTACKFRAMEOP must be used together with NOBRANCHES, IsStackWrite 
+// has a bug that does not put pop into the list
+#ifdef NOSTACKFRAMEOP
+  if(INS_IsStackWrite(ins) || OPCODE_StringShort(INS_Opcode(ins)) == "POP") {
+    LOG("instcount: stack frame change inst: " + INS_Disassemble(ins) + "\n");    
+    return;
+  }
+#endif
+
+#ifdef ONLYFP
+ 	int numW = INS_MaxNumWRegs(ins);
+  bool hasfp = false;
+  for (int i = 0; i < numW; i++){
+    if (reg_map.isFloatReg(reg)) {
+      hasfp = true;
+      break;
     }
+  }
+  if (!hasfp){
+    return;  
+  }
+#endif
 
-    if (INS_IsMemoryWrite(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountStore, IARG_END);
-        return;
-    }
+  
+// select instruction based on instruction type
+  if(!isInstFITarget(ins))
+    return;
 
-    if (INS_IsCall(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountCall, IARG_END);
-        return;
-    }
 
-    if (INS_IsRet(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountRet, IARG_END);
-        return;
-    }
+	INS_InsertPredicatedCall(
+				ins, IPOINT_AFTER, (AFUNPTR)countAllInst,
+				IARG_END);	
+#endif
 
-    if (INS_IsBranch(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountBranch, IARG_END);
-        return;
-    }
 
-    if (IsCompare(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountCmp, IARG_END);
-        return;
-    }
-
-    if (IsLogical(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountLogic, IARG_END);
-        return;
-    }
-
-    if (IsArithmetic(ins)) {
-        INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountArith, IARG_END);
-        return;
-    }
-
-    INS_InsertPredicatedCall(ins, IPOINT_BEFORE, (AFUNPTR)CountOther, IARG_END);
 }
 
+// bool mayChangeControlFlow(INS ins){
+// 	REG reg;
+// 	if(!INS_HasFallThrough(ins))
+// 		return true;
+// 	int numW = INS_MaxNumWRegs(ins);
+// 	for(int i =0; i < numW; i++){
+// 		if(reg == REG_RIP || reg == REG_EIP || reg == REG_IP) // conditional branches
+// 			return true;
+// 	}
+// 	return false;
+// }
+// This function is called when the application exits
 VOID Fini(INT32 code, VOID *v)
 {
-    std::ofstream out(out_file.Value().c_str());
-    out << "Total:"   << total_count  << "\n";
-    out << "Arith:"   << arith_count  << "\n";
-    out << "Logic:"   << logic_count  << "\n";
-    out << "Compare:" << cmp_count    << "\n";
-    out << "Branch:"  << branch_count << "\n";
-    out << "Call:"    << call_count   << "\n";
-    out << "Ret:"     << ret_count    << "\n";
-    out << "Load:"    << load_count   << "\n";
-    out << "Store:"   << store_count  << "\n";
-    out << "Other:"   << other_count  << "\n";
-    out.close();
+    // Write to a file since cout and cerr maybe closed by the application
+    std::ofstream OutFile;
+    OutFile.open(instcount_file.Value().c_str());
+    OutFile.setf(std::ios::showbase);
+    OutFile <<"AllInst:"<< fi_all << std::endl;
+	OutFile <<"CCSavedInst:"<< fi_ccs  << std::endl;
+	OutFile << "SPInst:"<< fi_sp << std::endl;
+    OutFile << "FPInst:"<< fi_bp << std::endl;
+    
+	OutFile.close();
 }
+
+/* ===================================================================== */
+/* Print Help Message                                                    */
+/* ===================================================================== */
 
 INT32 Usage()
 {
-    std::cerr << "Counts dynamic instruction classes\n";
-    std::cerr << KNOB_BASE::StringKnobSummary() << std::endl;
+    std::cerr << "This tool counts the number of dynamic instructions executed" << std::endl;
+    std::cerr << std::endl << KNOB_BASE::StringKnobSummary() << std::endl;
     return -1;
 }
 
-int main(int argc, char *argv[])
+
+
+int main(int argc, char * argv[])
 {
     PIN_InitSymbols();
-    if (PIN_Init(argc, argv))
-        return Usage();
+	// Initialize pin
+    if (PIN_Init(argc, argv)) return Usage();
 
+  
+  
+    configInstSelector();
+
+
+
+    // Register Instruction to be called to instrument instructions
     INS_AddInstrumentFunction(CountInst, 0);
+
+    // Register Fini to be called when the application exits
     PIN_AddFiniFunction(Fini, 0);
+    
+    // Start the program, never returns
     PIN_StartProgram();
+    
     return 0;
 }

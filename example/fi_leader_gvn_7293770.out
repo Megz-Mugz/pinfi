@@ -1,0 +1,534 @@
+Starting fault injection campaign...
+Running on node: hop065.orc.gmu.edu
+Start time: Tue May 12 11:26:13 EDT 2026
+
+=======================================
+Running FI for: exec_basicmath_small_gvn
+Command: python3 faultinject.py exec_basicmath_small_gvn 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_early-cse
+Command: python3 faultinject.py exec_basicmath_small_gvn_early-cse 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_early-cse/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_gvn
+Command: python3 faultinject.py exec_basicmath_small_gvn_gvn 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_gvn/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_inline
+Command: python3 faultinject.py exec_basicmath_small_gvn_inline 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_inline/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_instcombine
+Command: python3 faultinject.py exec_basicmath_small_gvn_instcombine 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_instcombine/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_instcombine
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_ipsccp
+Command: python3 faultinject.py exec_basicmath_small_gvn_ipsccp 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_ipsccp/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_licm
+Command: python3 faultinject.py exec_basicmath_small_gvn_licm 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_licm/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_licm
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_loop-reduce
+Command: python3 faultinject.py exec_basicmath_small_gvn_loop-reduce 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_loop-reduce/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_loop-unroll
+Command: python3 faultinject.py exec_basicmath_small_gvn_loop-unroll 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_loop-unroll/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_sccp
+Command: python3 faultinject.py exec_basicmath_small_gvn_sccp 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_sccp/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_sccp
+
+=======================================
+Running FI for: exec_basicmath_small_gvn_simple-loop-unswitch
+Command: python3 faultinject.py exec_basicmath_small_gvn_simple-loop-unswitch 20 ""
+=======================================
+DEBUG: Running /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+DEBUG INSTCOUNT: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so -o pin.instcount.txt -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+DEBUG: Created /projects/lyang28/rmengle/exec_basicmath_small_gvn_simple-loop-unswitch/pin.instcount.txt
+Run Number: #1
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #2
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #3
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #4
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #5
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #6
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #7
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #8
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #9
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #10
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #11
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #12
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #13
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #14
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #15
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #16
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #17
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #18
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #19
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+Run Number: #20
+DEBUG FI: /home/rmengle/pin/pin -t /home/rmengle/pin/source/tools/pinfi/obj-intel64/faultinjection.so -fioption AllInst -- /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+
+Finished fault injection campaign.
+End time: Tue May 12 11:28:26 EDT 2026
