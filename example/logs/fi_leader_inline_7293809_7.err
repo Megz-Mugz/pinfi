@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "faultinject.py", line 147, in <module>
+    main(progbin, binary_name, run_number, optionlist)
+  File "faultinject.py", line 117, in main
+    program_outputs_dir
+  File "faultinject.py", line 40, in run_command
+    out, _ = p.communicate(timeout=TIMEOUT_SECONDS)
+  File "/usr/lib64/python3.6/subprocess.py", line 863, in communicate
+    stdout, stderr = self._communicate(input, endtime, timeout)
+  File "/usr/lib64/python3.6/subprocess.py", line 1574, in _communicate
+    self.stdout.errors)
+  File "/usr/lib64/python3.6/subprocess.py", line 760, in _translate_newlines
+    data = data.decode(encoding, errors)
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0x85 in position 159919: invalid start byte

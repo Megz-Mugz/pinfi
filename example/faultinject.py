@@ -27,27 +27,50 @@ TIMEOUT_SECONDS = 15
 
 
 def run_command(cmd, outputfile, cwd):
-    with open(outputfile, "w") as f:
-        try:
-            p = subprocess.Popen(
-                cmd,
-                cwd=cwd,
-                stdout=subprocess.PIPE,
-                stderr=subprocess.STDOUT,
-                universal_newlines=True
-            )
+    p = None
 
-            out, _ = p.communicate(timeout=TIMEOUT_SECONDS)
+    try:
+        p = subprocess.Popen(
+            cmd,
+            cwd=cwd,
+            stdout=subprocess.PIPE,
+            stderr=subprocess.STDOUT,
+            universal_newlines=False  # capture raw bytes
+        )
 
+        out, _ = p.communicate(timeout=TIMEOUT_SECONDS)
+
+        with open(outputfile, "w", encoding="utf-8", errors="replace") as f:
             if out:
-                f.write(out)
+                f.write(out.decode("utf-8", errors="replace"))
 
-            return str(p.returncode)
+        return str(p.returncode)
 
-        except subprocess.TimeoutExpired:
+    except subprocess.TimeoutExpired:
+        if p is not None:
             p.kill()
-            f.write("[TIMEOUT]\n")
-            return "timed-out"
+
+            try:
+                out, _ = p.communicate(timeout=2)
+            except Exception:
+                out = b""
+        else:
+            out = b""
+
+        with open(outputfile, "w", encoding="utf-8", errors="replace") as f:
+            if out:
+                f.write(out.decode("utf-8", errors="replace"))
+
+            f.write("\n[TIMEOUT]\n")
+
+        return "timed-out"
+
+    except Exception as e:
+        with open(outputfile, "w", encoding="utf-8", errors="replace") as f:
+            f.write(f"[RUN COMMAND ERROR]\n")
+            f.write(f"{type(e).__name__}: {e}\n")
+
+        return "command-error"
 
 
 def main(progbin, binary_name, run_number, optionlist):
@@ -85,6 +108,9 @@ def main(progbin, binary_name, run_number, optionlist):
     if ret == "timed-out":
         raise RuntimeError("instcount timed out")
 
+    if ret == "command-error":
+        raise RuntimeError("instcount command failed")
+
     if int(ret) != 0:
         raise RuntimeError(f"instcount failed with code {ret}")
 
@@ -120,6 +146,11 @@ def main(progbin, binary_name, run_number, optionlist):
         if ret == "timed-out":
             with open(os.path.join(errordir, f"error_run_{index}.txt"), "w") as f:
                 f.write("Program hang\n")
+            continue
+
+        if ret == "command-error":
+            with open(os.path.join(errordir, f"error_run_{index}.txt"), "w") as f:
+                f.write("Fault injection command failed before completion\n")
             continue
 
         if int(ret) != 0:

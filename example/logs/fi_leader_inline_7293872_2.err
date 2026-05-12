@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "faultinject.py", line 140, in <module>
+    raise FileNotFoundError(f"Executable not found: {progbin}")
+FileNotFoundError: Executable not found: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-inline/exec_basicmath_small_gvn_gvn
