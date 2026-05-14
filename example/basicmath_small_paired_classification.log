@@ -1,0 +1,1108 @@
+Classification log started at 2026-05-14 10:34:44.496677
+
+[2026-05-14 10:34:44] Scanning output root: /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs
+[2026-05-14 10:34:44] Discovered folder: leader-cse/exec_basicmath_small_early-cse_early-cse (1000 files)
+[2026-05-14 10:34:44] Discovered folder: leader-cse/exec_basicmath_small_early-cse_gvn (1000 files)
+[2026-05-14 10:34:45] Discovered folder: leader-cse/exec_basicmath_small_early-cse_inline (1000 files)
+[2026-05-14 10:34:45] Discovered folder: leader-cse/exec_basicmath_small_early-cse_instcombine (1000 files)
+[2026-05-14 10:34:45] Discovered folder: leader-cse/exec_basicmath_small_early-cse_ipsccp (1000 files)
+[2026-05-14 10:34:45] Discovered folder: leader-cse/exec_basicmath_small_early-cse_licm (1000 files)
+[2026-05-14 10:34:46] Discovered folder: leader-cse/exec_basicmath_small_early-cse_loop-reduce (1000 files)
+[2026-05-14 10:34:46] Discovered folder: leader-cse/exec_basicmath_small_early-cse_loop-unroll (1000 files)
+[2026-05-14 10:34:46] Discovered folder: leader-cse/exec_basicmath_small_early-cse_sccp (1000 files)
+[2026-05-14 10:34:46] Discovered folder: leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch (1000 files)
+[2026-05-14 10:34:46] Discovered folder: leader-gvn/exec_basicmath_small_gvn (1004 files)
+[2026-05-14 10:34:47] Discovered folder: leader-gvn/exec_basicmath_small_gvn_early-cse (1004 files)
+[2026-05-14 10:34:47] Discovered folder: leader-gvn/exec_basicmath_small_gvn_gvn (1004 files)
+[2026-05-14 10:34:47] Discovered folder: leader-gvn/exec_basicmath_small_gvn_inline (1004 files)
+[2026-05-14 10:34:48] Discovered folder: leader-gvn/exec_basicmath_small_gvn_instcombine (1004 files)
+[2026-05-14 10:34:48] Discovered folder: leader-gvn/exec_basicmath_small_gvn_ipsccp (1004 files)
+[2026-05-14 10:34:48] Discovered folder: leader-gvn/exec_basicmath_small_gvn_licm (1004 files)
+[2026-05-14 10:34:48] Discovered folder: leader-gvn/exec_basicmath_small_gvn_loop-reduce (1004 files)
+[2026-05-14 10:34:49] Discovered folder: leader-gvn/exec_basicmath_small_gvn_loop-unroll (1004 files)
+[2026-05-14 10:34:49] Discovered folder: leader-gvn/exec_basicmath_small_gvn_sccp (1004 files)
+[2026-05-14 10:34:49] Discovered folder: leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch (1004 files)
+[2026-05-14 10:34:50] Discovered folder: leader-inline/exec_basicmath_small_inline (1004 files)
+[2026-05-14 10:34:50] Discovered folder: leader-inline/exec_basicmath_small_inline_early-cse (1004 files)
+[2026-05-14 10:34:50] Discovered folder: leader-inline/exec_basicmath_small_inline_gvn (1004 files)
+[2026-05-14 10:34:51] Discovered folder: leader-inline/exec_basicmath_small_inline_inline (1004 files)
+[2026-05-14 10:34:51] Discovered folder: leader-inline/exec_basicmath_small_inline_instcombine (1004 files)
+[2026-05-14 10:34:51] Discovered folder: leader-inline/exec_basicmath_small_inline_ipsccp (1004 files)
+[2026-05-14 10:34:52] Discovered folder: leader-inline/exec_basicmath_small_inline_licm (1004 files)
+[2026-05-14 10:34:52] Discovered folder: leader-inline/exec_basicmath_small_inline_loop-reduce (1004 files)
+[2026-05-14 10:34:52] Discovered folder: leader-inline/exec_basicmath_small_inline_loop-unroll (1004 files)
+[2026-05-14 10:34:52] Discovered folder: leader-inline/exec_basicmath_small_inline_sccp (1004 files)
+[2026-05-14 10:34:53] Discovered folder: leader-inline/exec_basicmath_small_inline_simple-loop-unswitch (1004 files)
+[2026-05-14 10:34:53] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine (1004 files)
+[2026-05-14 10:34:53] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_early-cse (1004 files)
+[2026-05-14 10:34:53] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_gvn (1004 files)
+[2026-05-14 10:34:54] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_inline (1004 files)
+[2026-05-14 10:34:54] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_instcombine (1004 files)
+[2026-05-14 10:34:54] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_ipsccp (1004 files)
+[2026-05-14 10:34:54] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_licm (1004 files)
+[2026-05-14 10:34:54] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_loop-reduce (1004 files)
+[2026-05-14 10:34:55] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_loop-unroll (1004 files)
+[2026-05-14 10:34:55] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_sccp (1004 files)
+[2026-05-14 10:34:55] Discovered folder: leader-instcombine/exec_basicmath_small_instcombine_simple-loop-unswitch (1004 files)
+[2026-05-14 10:34:55] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp (1004 files)
+[2026-05-14 10:34:56] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_early-cse (1004 files)
+[2026-05-14 10:34:56] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_gvn (1004 files)
+[2026-05-14 10:34:56] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_inline (1004 files)
+[2026-05-14 10:34:56] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_instcombine (1004 files)
+[2026-05-14 10:34:57] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_ipsccp (1004 files)
+[2026-05-14 10:34:57] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_licm (1004 files)
+[2026-05-14 10:34:57] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_loop-reduce (1004 files)
+[2026-05-14 10:34:57] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_loop-unroll (1004 files)
+[2026-05-14 10:34:57] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_sccp (1004 files)
+[2026-05-14 10:34:58] Discovered folder: leader-ipsccp/exec_basicmath_small_ipsccp_simple-loop-unswitch (1004 files)
+[2026-05-14 10:34:58] Discovered folder: leader-licm/exec_basicmath_small_licm (1004 files)
+[2026-05-14 10:34:58] Discovered folder: leader-licm/exec_basicmath_small_licm_early-cse (1004 files)
+[2026-05-14 10:34:58] Discovered folder: leader-licm/exec_basicmath_small_licm_gvn (1004 files)
+[2026-05-14 10:34:59] Discovered folder: leader-licm/exec_basicmath_small_licm_inline (1004 files)
+[2026-05-14 10:34:59] Discovered folder: leader-licm/exec_basicmath_small_licm_instcombine (1004 files)
+[2026-05-14 10:34:59] Discovered folder: leader-licm/exec_basicmath_small_licm_ipsccp (1004 files)
+[2026-05-14 10:34:59] Discovered folder: leader-licm/exec_basicmath_small_licm_licm (1004 files)
+[2026-05-14 10:34:59] Discovered folder: leader-licm/exec_basicmath_small_licm_loop-reduce (1004 files)
+[2026-05-14 10:35:00] Discovered folder: leader-licm/exec_basicmath_small_licm_loop-unroll (1004 files)
+[2026-05-14 10:35:00] Discovered folder: leader-licm/exec_basicmath_small_licm_sccp (1004 files)
+[2026-05-14 10:35:00] Discovered folder: leader-licm/exec_basicmath_small_licm_simple-loop-unswitch (1004 files)
+[2026-05-14 10:35:00] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce (1004 files)
+[2026-05-14 10:35:00] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_early-cse (1004 files)
+[2026-05-14 10:35:01] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_gvn (1004 files)
+[2026-05-14 10:35:01] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_inline (1004 files)
+[2026-05-14 10:35:01] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_instcombine (1004 files)
+[2026-05-14 10:35:01] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_ipsccp (1004 files)
+[2026-05-14 10:35:01] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_licm (1004 files)
+[2026-05-14 10:35:02] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-reduce (1004 files)
+[2026-05-14 10:35:02] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-unroll (1004 files)
+[2026-05-14 10:35:02] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_sccp (1004 files)
+[2026-05-14 10:35:02] Discovered folder: leader-loop-reduce/exec_basicmath_small_loop-reduce_simple-loop-unswitch (1004 files)
+[2026-05-14 10:35:02] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch (1004 files)
+[2026-05-14 10:35:03] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_early-cse (1004 files)
+[2026-05-14 10:35:03] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_gvn (1004 files)
+[2026-05-14 10:35:03] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_inline (1004 files)
+[2026-05-14 10:35:03] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_instcombine (1004 files)
+[2026-05-14 10:35:04] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_ipsccp (1004 files)
+[2026-05-14 10:35:04] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_licm (1004 files)
+[2026-05-14 10:35:04] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-reduce (1004 files)
+[2026-05-14 10:35:04] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-unroll (1004 files)
+[2026-05-14 10:35:05] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_sccp (1004 files)
+[2026-05-14 10:35:05] Discovered folder: leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_simple-loop-unswitch (1004 files)
+[2026-05-14 10:35:05] Discovered folder: leader-sccp/exec_basicmath_small_sccp (1004 files)
+[2026-05-14 10:35:05] Discovered folder: leader-sccp/exec_basicmath_small_sccp_early-cse (1004 files)
+[2026-05-14 10:35:06] Discovered folder: leader-sccp/exec_basicmath_small_sccp_gvn (1004 files)
+[2026-05-14 10:35:06] Discovered folder: leader-sccp/exec_basicmath_small_sccp_inline (1004 files)
+[2026-05-14 10:35:06] Discovered folder: leader-sccp/exec_basicmath_small_sccp_instcombine (1004 files)
+[2026-05-14 10:35:06] Discovered folder: leader-sccp/exec_basicmath_small_sccp_ipsccp (1004 files)
+[2026-05-14 10:35:06] Discovered folder: leader-sccp/exec_basicmath_small_sccp_licm (1004 files)
+[2026-05-14 10:35:07] Discovered folder: leader-sccp/exec_basicmath_small_sccp_loop-reduce (1004 files)
+[2026-05-14 10:35:07] Discovered folder: leader-sccp/exec_basicmath_small_sccp_loop-unroll (1004 files)
+[2026-05-14 10:35:07] Discovered folder: leader-sccp/exec_basicmath_small_sccp_sccp (1004 files)
+[2026-05-14 10:35:07] Discovered folder: leader-sccp/exec_basicmath_small_sccp_simple-loop-unswitch (1004 files)
+[2026-05-14 10:35:07] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll (1004 files)
+[2026-05-14 10:35:08] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_early-cse (1004 files)
+[2026-05-14 10:35:08] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_gvn (1004 files)
+[2026-05-14 10:35:08] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_inline (1004 files)
+[2026-05-14 10:35:08] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_instcombine (1004 files)
+[2026-05-14 10:35:08] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_ipsccp (1004 files)
+[2026-05-14 10:35:08] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_licm (1004 files)
+[2026-05-14 10:35:09] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_loop-reduce (1004 files)
+[2026-05-14 10:35:09] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_loop-unroll (1004 files)
+[2026-05-14 10:35:09] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_sccp (1004 files)
+[2026-05-14 10:35:09] Discovered folder: leader-unroll/exec_basicmath_small_loop-unroll_simple-loop-unswitch (1004 files)
+[2026-05-14 10:35:09] 
+[2026-05-14 10:35:09] Discovered executable output folders:
+[2026-05-14 10:35:09]    1. leader-cse/exec_basicmath_small_early-cse_early-cse
+[2026-05-14 10:35:09]    2. leader-cse/exec_basicmath_small_early-cse_gvn
+[2026-05-14 10:35:09]    3. leader-cse/exec_basicmath_small_early-cse_inline
+[2026-05-14 10:35:09]    4. leader-cse/exec_basicmath_small_early-cse_instcombine
+[2026-05-14 10:35:09]    5. leader-cse/exec_basicmath_small_early-cse_ipsccp
+[2026-05-14 10:35:09]    6. leader-cse/exec_basicmath_small_early-cse_licm
+[2026-05-14 10:35:09]    7. leader-cse/exec_basicmath_small_early-cse_loop-reduce
+[2026-05-14 10:35:09]    8. leader-cse/exec_basicmath_small_early-cse_loop-unroll
+[2026-05-14 10:35:09]    9. leader-cse/exec_basicmath_small_early-cse_sccp
+[2026-05-14 10:35:09]   10. leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch
+[2026-05-14 10:35:09]   11. leader-gvn/exec_basicmath_small_gvn
+[2026-05-14 10:35:09]   12. leader-gvn/exec_basicmath_small_gvn_early-cse
+[2026-05-14 10:35:09]   13. leader-gvn/exec_basicmath_small_gvn_gvn
+[2026-05-14 10:35:09]   14. leader-gvn/exec_basicmath_small_gvn_inline
+[2026-05-14 10:35:09]   15. leader-gvn/exec_basicmath_small_gvn_instcombine
+[2026-05-14 10:35:09]   16. leader-gvn/exec_basicmath_small_gvn_ipsccp
+[2026-05-14 10:35:09]   17. leader-gvn/exec_basicmath_small_gvn_licm
+[2026-05-14 10:35:09]   18. leader-gvn/exec_basicmath_small_gvn_loop-reduce
+[2026-05-14 10:35:09]   19. leader-gvn/exec_basicmath_small_gvn_loop-unroll
+[2026-05-14 10:35:09]   20. leader-gvn/exec_basicmath_small_gvn_sccp
+[2026-05-14 10:35:09]   21. leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+[2026-05-14 10:35:09]   22. leader-inline/exec_basicmath_small_inline
+[2026-05-14 10:35:09]   23. leader-inline/exec_basicmath_small_inline_early-cse
+[2026-05-14 10:35:09]   24. leader-inline/exec_basicmath_small_inline_gvn
+[2026-05-14 10:35:09]   25. leader-inline/exec_basicmath_small_inline_inline
+[2026-05-14 10:35:09]   26. leader-inline/exec_basicmath_small_inline_instcombine
+[2026-05-14 10:35:09]   27. leader-inline/exec_basicmath_small_inline_ipsccp
+[2026-05-14 10:35:09]   28. leader-inline/exec_basicmath_small_inline_licm
+[2026-05-14 10:35:09]   29. leader-inline/exec_basicmath_small_inline_loop-reduce
+[2026-05-14 10:35:09]   30. leader-inline/exec_basicmath_small_inline_loop-unroll
+[2026-05-14 10:35:09]   31. leader-inline/exec_basicmath_small_inline_sccp
+[2026-05-14 10:35:09]   32. leader-inline/exec_basicmath_small_inline_simple-loop-unswitch
+[2026-05-14 10:35:09]   33. leader-instcombine/exec_basicmath_small_instcombine
+[2026-05-14 10:35:09]   34. leader-instcombine/exec_basicmath_small_instcombine_early-cse
+[2026-05-14 10:35:09]   35. leader-instcombine/exec_basicmath_small_instcombine_gvn
+[2026-05-14 10:35:09]   36. leader-instcombine/exec_basicmath_small_instcombine_inline
+[2026-05-14 10:35:10]   37. leader-instcombine/exec_basicmath_small_instcombine_instcombine
+[2026-05-14 10:35:10]   38. leader-instcombine/exec_basicmath_small_instcombine_ipsccp
+[2026-05-14 10:35:10]   39. leader-instcombine/exec_basicmath_small_instcombine_licm
+[2026-05-14 10:35:10]   40. leader-instcombine/exec_basicmath_small_instcombine_loop-reduce
+[2026-05-14 10:35:10]   41. leader-instcombine/exec_basicmath_small_instcombine_loop-unroll
+[2026-05-14 10:35:10]   42. leader-instcombine/exec_basicmath_small_instcombine_sccp
+[2026-05-14 10:35:10]   43. leader-instcombine/exec_basicmath_small_instcombine_simple-loop-unswitch
+[2026-05-14 10:35:10]   44. leader-ipsccp/exec_basicmath_small_ipsccp
+[2026-05-14 10:35:10]   45. leader-ipsccp/exec_basicmath_small_ipsccp_early-cse
+[2026-05-14 10:35:10]   46. leader-ipsccp/exec_basicmath_small_ipsccp_gvn
+[2026-05-14 10:35:10]   47. leader-ipsccp/exec_basicmath_small_ipsccp_inline
+[2026-05-14 10:35:10]   48. leader-ipsccp/exec_basicmath_small_ipsccp_instcombine
+[2026-05-14 10:35:10]   49. leader-ipsccp/exec_basicmath_small_ipsccp_ipsccp
+[2026-05-14 10:35:10]   50. leader-ipsccp/exec_basicmath_small_ipsccp_licm
+[2026-05-14 10:35:10]   51. leader-ipsccp/exec_basicmath_small_ipsccp_loop-reduce
+[2026-05-14 10:35:10]   52. leader-ipsccp/exec_basicmath_small_ipsccp_loop-unroll
+[2026-05-14 10:35:10]   53. leader-ipsccp/exec_basicmath_small_ipsccp_sccp
+[2026-05-14 10:35:10]   54. leader-ipsccp/exec_basicmath_small_ipsccp_simple-loop-unswitch
+[2026-05-14 10:35:10]   55. leader-licm/exec_basicmath_small_licm
+[2026-05-14 10:35:10]   56. leader-licm/exec_basicmath_small_licm_early-cse
+[2026-05-14 10:35:10]   57. leader-licm/exec_basicmath_small_licm_gvn
+[2026-05-14 10:35:10]   58. leader-licm/exec_basicmath_small_licm_inline
+[2026-05-14 10:35:10]   59. leader-licm/exec_basicmath_small_licm_instcombine
+[2026-05-14 10:35:10]   60. leader-licm/exec_basicmath_small_licm_ipsccp
+[2026-05-14 10:35:10]   61. leader-licm/exec_basicmath_small_licm_licm
+[2026-05-14 10:35:10]   62. leader-licm/exec_basicmath_small_licm_loop-reduce
+[2026-05-14 10:35:10]   63. leader-licm/exec_basicmath_small_licm_loop-unroll
+[2026-05-14 10:35:10]   64. leader-licm/exec_basicmath_small_licm_sccp
+[2026-05-14 10:35:10]   65. leader-licm/exec_basicmath_small_licm_simple-loop-unswitch
+[2026-05-14 10:35:10]   66. leader-loop-reduce/exec_basicmath_small_loop-reduce
+[2026-05-14 10:35:10]   67. leader-loop-reduce/exec_basicmath_small_loop-reduce_early-cse
+[2026-05-14 10:35:10]   68. leader-loop-reduce/exec_basicmath_small_loop-reduce_gvn
+[2026-05-14 10:35:10]   69. leader-loop-reduce/exec_basicmath_small_loop-reduce_inline
+[2026-05-14 10:35:10]   70. leader-loop-reduce/exec_basicmath_small_loop-reduce_instcombine
+[2026-05-14 10:35:10]   71. leader-loop-reduce/exec_basicmath_small_loop-reduce_ipsccp
+[2026-05-14 10:35:10]   72. leader-loop-reduce/exec_basicmath_small_loop-reduce_licm
+[2026-05-14 10:35:10]   73. leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-reduce
+[2026-05-14 10:35:10]   74. leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-unroll
+[2026-05-14 10:35:10]   75. leader-loop-reduce/exec_basicmath_small_loop-reduce_sccp
+[2026-05-14 10:35:10]   76. leader-loop-reduce/exec_basicmath_small_loop-reduce_simple-loop-unswitch
+[2026-05-14 10:35:10]   77. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch
+[2026-05-14 10:35:10]   78. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_early-cse
+[2026-05-14 10:35:10]   79. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_gvn
+[2026-05-14 10:35:10]   80. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_inline
+[2026-05-14 10:35:10]   81. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_instcombine
+[2026-05-14 10:35:10]   82. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_ipsccp
+[2026-05-14 10:35:10]   83. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_licm
+[2026-05-14 10:35:10]   84. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-reduce
+[2026-05-14 10:35:10]   85. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-unroll
+[2026-05-14 10:35:10]   86. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_sccp
+[2026-05-14 10:35:10]   87. leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_simple-loop-unswitch
+[2026-05-14 10:35:10]   88. leader-sccp/exec_basicmath_small_sccp
+[2026-05-14 10:35:10]   89. leader-sccp/exec_basicmath_small_sccp_early-cse
+[2026-05-14 10:35:10]   90. leader-sccp/exec_basicmath_small_sccp_gvn
+[2026-05-14 10:35:10]   91. leader-sccp/exec_basicmath_small_sccp_inline
+[2026-05-14 10:35:10]   92. leader-sccp/exec_basicmath_small_sccp_instcombine
+[2026-05-14 10:35:10]   93. leader-sccp/exec_basicmath_small_sccp_ipsccp
+[2026-05-14 10:35:10]   94. leader-sccp/exec_basicmath_small_sccp_licm
+[2026-05-14 10:35:10]   95. leader-sccp/exec_basicmath_small_sccp_loop-reduce
+[2026-05-14 10:35:10]   96. leader-sccp/exec_basicmath_small_sccp_loop-unroll
+[2026-05-14 10:35:10]   97. leader-sccp/exec_basicmath_small_sccp_sccp
+[2026-05-14 10:35:10]   98. leader-sccp/exec_basicmath_small_sccp_simple-loop-unswitch
+[2026-05-14 10:35:10]   99. leader-unroll/exec_basicmath_small_loop-unroll
+[2026-05-14 10:35:10]  100. leader-unroll/exec_basicmath_small_loop-unroll_early-cse
+[2026-05-14 10:35:10]  101. leader-unroll/exec_basicmath_small_loop-unroll_gvn
+[2026-05-14 10:35:10]  102. leader-unroll/exec_basicmath_small_loop-unroll_inline
+[2026-05-14 10:35:10]  103. leader-unroll/exec_basicmath_small_loop-unroll_instcombine
+[2026-05-14 10:35:10]  104. leader-unroll/exec_basicmath_small_loop-unroll_ipsccp
+[2026-05-14 10:35:10]  105. leader-unroll/exec_basicmath_small_loop-unroll_licm
+[2026-05-14 10:35:10]  106. leader-unroll/exec_basicmath_small_loop-unroll_loop-reduce
+[2026-05-14 10:35:10]  107. leader-unroll/exec_basicmath_small_loop-unroll_loop-unroll
+[2026-05-14 10:35:10]  108. leader-unroll/exec_basicmath_small_loop-unroll_sccp
+[2026-05-14 10:35:10]  109. leader-unroll/exec_basicmath_small_loop-unroll_simple-loop-unswitch
+[2026-05-14 10:35:10] 
+[2026-05-14 10:35:10] Starting classification
+[2026-05-14 10:35:10] CSV output file: basicmath_small_paired_reliability_data.csv
+[2026-05-14 10:35:10] Log file: basicmath_small_paired_classification.log
+[2026-05-14 10:35:10] 
+[2026-05-14 10:35:10] ================================================================================
+[2026-05-14 10:35:10] [   1/109 |   0.9%] Processing leader-cse/exec_basicmath_small_early-cse_early-cse
+[2026-05-14 10:35:10]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_early-cse
+[2026-05-14 10:35:10]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_early-cse_exec.txt MISSING
+[2026-05-14 10:35:10]     Found 1000 run files
+[2026-05-14 10:35:11]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:11]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_early-cse_exec.txt
+[2026-05-14 10:35:11]     CSV row written for leader-cse/exec_basicmath_small_early-cse_early-cse | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:11] ================================================================================
+[2026-05-14 10:35:11] [   2/109 |   1.8%] Processing leader-cse/exec_basicmath_small_early-cse_gvn
+[2026-05-14 10:35:11]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_gvn
+[2026-05-14 10:35:11]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_gvn_exec.txt MISSING
+[2026-05-14 10:35:11]     Found 1000 run files
+[2026-05-14 10:35:13]     Done folder: total=50, masked=10, sdc=40, crash/hang=0
+[2026-05-14 10:35:13]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_gvn_exec.txt
+[2026-05-14 10:35:13]     CSV row written for leader-cse/exec_basicmath_small_early-cse_gvn | masked_rate=0.200000, sdc_rate=0.800000, crash_rate=0.000000
+[2026-05-14 10:35:13] ================================================================================
+[2026-05-14 10:35:13] [   3/109 |   2.8%] Processing leader-cse/exec_basicmath_small_early-cse_inline
+[2026-05-14 10:35:13]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_inline
+[2026-05-14 10:35:13]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_inline_exec.txt MISSING
+[2026-05-14 10:35:13]     Found 1000 run files
+[2026-05-14 10:35:14]     Done folder: total=50, masked=17, sdc=33, crash/hang=0
+[2026-05-14 10:35:14]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_inline_exec.txt
+[2026-05-14 10:35:14]     CSV row written for leader-cse/exec_basicmath_small_early-cse_inline | masked_rate=0.340000, sdc_rate=0.660000, crash_rate=0.000000
+[2026-05-14 10:35:14] ================================================================================
+[2026-05-14 10:35:14] [   4/109 |   3.7%] Processing leader-cse/exec_basicmath_small_early-cse_instcombine
+[2026-05-14 10:35:14]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_instcombine
+[2026-05-14 10:35:14]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_instcombine_exec.txt MISSING
+[2026-05-14 10:35:14]     Found 1000 run files
+[2026-05-14 10:35:16]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:16]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_instcombine_exec.txt
+[2026-05-14 10:35:16]     CSV row written for leader-cse/exec_basicmath_small_early-cse_instcombine | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:16] ================================================================================
+[2026-05-14 10:35:16] [   5/109 |   4.6%] Processing leader-cse/exec_basicmath_small_early-cse_ipsccp
+[2026-05-14 10:35:16]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_ipsccp
+[2026-05-14 10:35:16]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_ipsccp_exec.txt MISSING
+[2026-05-14 10:35:16]     Found 1000 run files
+[2026-05-14 10:35:17]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:17]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_ipsccp_exec.txt
+[2026-05-14 10:35:17]     CSV row written for leader-cse/exec_basicmath_small_early-cse_ipsccp | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:17] ================================================================================
+[2026-05-14 10:35:17] [   6/109 |   5.5%] Processing leader-cse/exec_basicmath_small_early-cse_licm
+[2026-05-14 10:35:17]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_licm
+[2026-05-14 10:35:17]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_licm_exec.txt MISSING
+[2026-05-14 10:35:17]     Found 1000 run files
+[2026-05-14 10:35:19]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:35:19]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_licm_exec.txt
+[2026-05-14 10:35:19]     CSV row written for leader-cse/exec_basicmath_small_early-cse_licm | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:35:19] ================================================================================
+[2026-05-14 10:35:19] [   7/109 |   6.4%] Processing leader-cse/exec_basicmath_small_early-cse_loop-reduce
+[2026-05-14 10:35:19]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_loop-reduce
+[2026-05-14 10:35:19]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_loop-reduce_exec.txt MISSING
+[2026-05-14 10:35:19]     Found 1000 run files
+[2026-05-14 10:35:20]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:35:20]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_loop-reduce_exec.txt
+[2026-05-14 10:35:20]     CSV row written for leader-cse/exec_basicmath_small_early-cse_loop-reduce | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:35:20] ================================================================================
+[2026-05-14 10:35:20] [   8/109 |   7.3%] Processing leader-cse/exec_basicmath_small_early-cse_loop-unroll
+[2026-05-14 10:35:20]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_loop-unroll
+[2026-05-14 10:35:20]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_loop-unroll_exec.txt MISSING
+[2026-05-14 10:35:20]     Found 1000 run files
+[2026-05-14 10:35:21]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:35:21]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_loop-unroll_exec.txt
+[2026-05-14 10:35:21]     CSV row written for leader-cse/exec_basicmath_small_early-cse_loop-unroll | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:35:21] ================================================================================
+[2026-05-14 10:35:21] [   9/109 |   8.3%] Processing leader-cse/exec_basicmath_small_early-cse_sccp
+[2026-05-14 10:35:21]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_sccp
+[2026-05-14 10:35:21]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_sccp_exec.txt MISSING
+[2026-05-14 10:35:22]     Found 1000 run files
+[2026-05-14 10:35:23]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:35:23]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_sccp_exec.txt
+[2026-05-14 10:35:23]     CSV row written for leader-cse/exec_basicmath_small_early-cse_sccp | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:35:23] ================================================================================
+[2026-05-14 10:35:23] [  10/109 |   9.2%] Processing leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch
+[2026-05-14 10:35:23]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch
+[2026-05-14 10:35:23]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:35:23]     Found 1000 run files
+[2026-05-14 10:35:24]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:35:24]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch_exec.txt
+[2026-05-14 10:35:24]     CSV row written for leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:35:24] ================================================================================
+[2026-05-14 10:35:24] [  11/109 |  10.1%] Processing leader-gvn/exec_basicmath_small_gvn
+[2026-05-14 10:35:24]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn
+[2026-05-14 10:35:24]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_exec.txt MISSING
+[2026-05-14 10:35:24]     Found 1004 run files
+[2026-05-14 10:35:25]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:35:25]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_exec.txt
+[2026-05-14 10:35:25]     CSV row written for leader-gvn/exec_basicmath_small_gvn | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:35:25] ================================================================================
+[2026-05-14 10:35:25] [  12/109 |  11.0%] Processing leader-gvn/exec_basicmath_small_gvn_early-cse
+[2026-05-14 10:35:25]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_early-cse
+[2026-05-14 10:35:25]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_early-cse_exec.txt MISSING
+[2026-05-14 10:35:26]     Found 1004 run files
+[2026-05-14 10:35:27]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:27]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_early-cse_exec.txt
+[2026-05-14 10:35:27]     CSV row written for leader-gvn/exec_basicmath_small_gvn_early-cse | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:27] ================================================================================
+[2026-05-14 10:35:27] [  13/109 |  11.9%] Processing leader-gvn/exec_basicmath_small_gvn_gvn
+[2026-05-14 10:35:27]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_gvn
+[2026-05-14 10:35:27]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_gvn_exec.txt MISSING
+[2026-05-14 10:35:27]     Found 1004 run files
+[2026-05-14 10:35:28]     Done folder: total=50, masked=22, sdc=28, crash/hang=0
+[2026-05-14 10:35:28]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_gvn_exec.txt
+[2026-05-14 10:35:28]     CSV row written for leader-gvn/exec_basicmath_small_gvn_gvn | masked_rate=0.440000, sdc_rate=0.560000, crash_rate=0.000000
+[2026-05-14 10:35:28] ================================================================================
+[2026-05-14 10:35:28] [  14/109 |  12.8%] Processing leader-gvn/exec_basicmath_small_gvn_inline
+[2026-05-14 10:35:28]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_inline
+[2026-05-14 10:35:28]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_inline_exec.txt MISSING
+[2026-05-14 10:35:28]     Found 1004 run files
+[2026-05-14 10:35:29]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:35:29]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_inline_exec.txt
+[2026-05-14 10:35:29]     CSV row written for leader-gvn/exec_basicmath_small_gvn_inline | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:35:29] ================================================================================
+[2026-05-14 10:35:29] [  15/109 |  13.8%] Processing leader-gvn/exec_basicmath_small_gvn_instcombine
+[2026-05-14 10:35:29]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_instcombine
+[2026-05-14 10:35:29]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_instcombine_exec.txt MISSING
+[2026-05-14 10:35:29]     Found 1004 run files
+[2026-05-14 10:35:30]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:35:30]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_instcombine_exec.txt
+[2026-05-14 10:35:30]     CSV row written for leader-gvn/exec_basicmath_small_gvn_instcombine | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:35:30] ================================================================================
+[2026-05-14 10:35:30] [  16/109 |  14.7%] Processing leader-gvn/exec_basicmath_small_gvn_ipsccp
+[2026-05-14 10:35:30]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_ipsccp
+[2026-05-14 10:35:30]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_ipsccp_exec.txt MISSING
+[2026-05-14 10:35:30]     Found 1004 run files
+[2026-05-14 10:35:31]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:35:31]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_ipsccp_exec.txt
+[2026-05-14 10:35:31]     CSV row written for leader-gvn/exec_basicmath_small_gvn_ipsccp | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:35:31] ================================================================================
+[2026-05-14 10:35:31] [  17/109 |  15.6%] Processing leader-gvn/exec_basicmath_small_gvn_licm
+[2026-05-14 10:35:31]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_licm
+[2026-05-14 10:35:31]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_licm_exec.txt MISSING
+[2026-05-14 10:35:32]     Found 1004 run files
+[2026-05-14 10:35:33]     Done folder: total=50, masked=28, sdc=22, crash/hang=0
+[2026-05-14 10:35:33]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_licm_exec.txt
+[2026-05-14 10:35:33]     CSV row written for leader-gvn/exec_basicmath_small_gvn_licm | masked_rate=0.560000, sdc_rate=0.440000, crash_rate=0.000000
+[2026-05-14 10:35:33] ================================================================================
+[2026-05-14 10:35:33] [  18/109 |  16.5%] Processing leader-gvn/exec_basicmath_small_gvn_loop-reduce
+[2026-05-14 10:35:33]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_loop-reduce
+[2026-05-14 10:35:33]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_loop-reduce_exec.txt MISSING
+[2026-05-14 10:35:33]     Found 1004 run files
+[2026-05-14 10:35:34]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:35:34]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_loop-reduce_exec.txt
+[2026-05-14 10:35:34]     CSV row written for leader-gvn/exec_basicmath_small_gvn_loop-reduce | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:35:34] ================================================================================
+[2026-05-14 10:35:34] [  19/109 |  17.4%] Processing leader-gvn/exec_basicmath_small_gvn_loop-unroll
+[2026-05-14 10:35:34]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_loop-unroll
+[2026-05-14 10:35:34]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_loop-unroll_exec.txt MISSING
+[2026-05-14 10:35:34]     Found 1004 run files
+[2026-05-14 10:35:35]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:35]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_loop-unroll_exec.txt
+[2026-05-14 10:35:35]     CSV row written for leader-gvn/exec_basicmath_small_gvn_loop-unroll | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:35] ================================================================================
+[2026-05-14 10:35:35] [  20/109 |  18.3%] Processing leader-gvn/exec_basicmath_small_gvn_sccp
+[2026-05-14 10:35:35]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_sccp
+[2026-05-14 10:35:35]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_sccp_exec.txt MISSING
+[2026-05-14 10:35:35]     Found 1004 run files
+[2026-05-14 10:35:36]     Done folder: total=50, masked=22, sdc=28, crash/hang=0
+[2026-05-14 10:35:36]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_sccp_exec.txt
+[2026-05-14 10:35:36]     CSV row written for leader-gvn/exec_basicmath_small_gvn_sccp | masked_rate=0.440000, sdc_rate=0.560000, crash_rate=0.000000
+[2026-05-14 10:35:36] ================================================================================
+[2026-05-14 10:35:36] [  21/109 |  19.3%] Processing leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+[2026-05-14 10:35:36]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch
+[2026-05-14 10:35:36]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:35:37]     Found 1004 run files
+[2026-05-14 10:35:38]     Done folder: total=50, masked=22, sdc=28, crash/hang=0
+[2026-05-14 10:35:38]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch_exec.txt
+[2026-05-14 10:35:38]     CSV row written for leader-gvn/exec_basicmath_small_gvn_simple-loop-unswitch | masked_rate=0.440000, sdc_rate=0.560000, crash_rate=0.000000
+[2026-05-14 10:35:38] ================================================================================
+[2026-05-14 10:35:38] [  22/109 |  20.2%] Processing leader-inline/exec_basicmath_small_inline
+[2026-05-14 10:35:38]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline
+[2026-05-14 10:35:38]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_exec.txt MISSING
+[2026-05-14 10:35:38]     Found 1004 run files
+[2026-05-14 10:35:39]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:35:39]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_exec.txt
+[2026-05-14 10:35:39]     CSV row written for leader-inline/exec_basicmath_small_inline | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:35:39] ================================================================================
+[2026-05-14 10:35:39] [  23/109 |  21.1%] Processing leader-inline/exec_basicmath_small_inline_early-cse
+[2026-05-14 10:35:39]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_early-cse
+[2026-05-14 10:35:39]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_early-cse_exec.txt MISSING
+[2026-05-14 10:35:39]     Found 1004 run files
+[2026-05-14 10:35:40]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:35:40]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_early-cse_exec.txt
+[2026-05-14 10:35:40]     CSV row written for leader-inline/exec_basicmath_small_inline_early-cse | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:35:40] ================================================================================
+[2026-05-14 10:35:40] [  24/109 |  22.0%] Processing leader-inline/exec_basicmath_small_inline_gvn
+[2026-05-14 10:35:40]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_gvn
+[2026-05-14 10:35:40]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_gvn_exec.txt MISSING
+[2026-05-14 10:35:41]     Found 1004 run files
+[2026-05-14 10:35:42]     Done folder: total=50, masked=14, sdc=36, crash/hang=0
+[2026-05-14 10:35:42]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_gvn_exec.txt
+[2026-05-14 10:35:42]     CSV row written for leader-inline/exec_basicmath_small_inline_gvn | masked_rate=0.280000, sdc_rate=0.720000, crash_rate=0.000000
+[2026-05-14 10:35:42] ================================================================================
+[2026-05-14 10:35:42] [  25/109 |  22.9%] Processing leader-inline/exec_basicmath_small_inline_inline
+[2026-05-14 10:35:42]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_inline
+[2026-05-14 10:35:42]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_inline_exec.txt MISSING
+[2026-05-14 10:35:42]     Found 1004 run files
+[2026-05-14 10:35:43]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:43]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_inline_exec.txt
+[2026-05-14 10:35:43]     CSV row written for leader-inline/exec_basicmath_small_inline_inline | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:43] ================================================================================
+[2026-05-14 10:35:43] [  26/109 |  23.9%] Processing leader-inline/exec_basicmath_small_inline_instcombine
+[2026-05-14 10:35:43]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_instcombine
+[2026-05-14 10:35:43]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_instcombine_exec.txt MISSING
+[2026-05-14 10:35:43]     Found 1004 run files
+[2026-05-14 10:35:44]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:35:44]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_instcombine_exec.txt
+[2026-05-14 10:35:44]     CSV row written for leader-inline/exec_basicmath_small_inline_instcombine | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:35:44] ================================================================================
+[2026-05-14 10:35:44] [  27/109 |  24.8%] Processing leader-inline/exec_basicmath_small_inline_ipsccp
+[2026-05-14 10:35:44]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_ipsccp
+[2026-05-14 10:35:44]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_ipsccp_exec.txt MISSING
+[2026-05-14 10:35:45]     Found 1004 run files
+[2026-05-14 10:35:46]     Done folder: total=50, masked=11, sdc=39, crash/hang=0
+[2026-05-14 10:35:46]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_ipsccp_exec.txt
+[2026-05-14 10:35:46]     CSV row written for leader-inline/exec_basicmath_small_inline_ipsccp | masked_rate=0.220000, sdc_rate=0.780000, crash_rate=0.000000
+[2026-05-14 10:35:46] ================================================================================
+[2026-05-14 10:35:46] [  28/109 |  25.7%] Processing leader-inline/exec_basicmath_small_inline_licm
+[2026-05-14 10:35:46]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_licm
+[2026-05-14 10:35:46]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_licm_exec.txt MISSING
+[2026-05-14 10:35:46]     Found 1004 run files
+[2026-05-14 10:35:47]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:35:47]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_licm_exec.txt
+[2026-05-14 10:35:47]     CSV row written for leader-inline/exec_basicmath_small_inline_licm | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:35:47] ================================================================================
+[2026-05-14 10:35:47] [  29/109 |  26.6%] Processing leader-inline/exec_basicmath_small_inline_loop-reduce
+[2026-05-14 10:35:47]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_loop-reduce
+[2026-05-14 10:35:47]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_loop-reduce_exec.txt MISSING
+[2026-05-14 10:35:47]     Found 1004 run files
+[2026-05-14 10:35:48]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:35:48]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_loop-reduce_exec.txt
+[2026-05-14 10:35:48]     CSV row written for leader-inline/exec_basicmath_small_inline_loop-reduce | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:35:48] ================================================================================
+[2026-05-14 10:35:48] [  30/109 |  27.5%] Processing leader-inline/exec_basicmath_small_inline_loop-unroll
+[2026-05-14 10:35:48]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_loop-unroll
+[2026-05-14 10:35:48]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_loop-unroll_exec.txt MISSING
+[2026-05-14 10:35:49]     Found 1004 run files
+[2026-05-14 10:35:50]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:35:50]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_loop-unroll_exec.txt
+[2026-05-14 10:35:50]     CSV row written for leader-inline/exec_basicmath_small_inline_loop-unroll | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:35:50] ================================================================================
+[2026-05-14 10:35:50] [  31/109 |  28.4%] Processing leader-inline/exec_basicmath_small_inline_sccp
+[2026-05-14 10:35:50]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_sccp
+[2026-05-14 10:35:50]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_sccp_exec.txt MISSING
+[2026-05-14 10:35:50]     Found 1004 run files
+[2026-05-14 10:35:51]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:35:51]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_sccp_exec.txt
+[2026-05-14 10:35:51]     CSV row written for leader-inline/exec_basicmath_small_inline_sccp | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:35:51] ================================================================================
+[2026-05-14 10:35:51] [  32/109 |  29.4%] Processing leader-inline/exec_basicmath_small_inline_simple-loop-unswitch
+[2026-05-14 10:35:51]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_simple-loop-unswitch
+[2026-05-14 10:35:51]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:35:51]     Found 1004 run files
+[2026-05-14 10:35:52]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:35:52]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-inline/exec_basicmath_small_inline_simple-loop-unswitch_exec.txt
+[2026-05-14 10:35:52]     CSV row written for leader-inline/exec_basicmath_small_inline_simple-loop-unswitch | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:35:52] ================================================================================
+[2026-05-14 10:35:52] [  33/109 |  30.3%] Processing leader-instcombine/exec_basicmath_small_instcombine
+[2026-05-14 10:35:52]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine
+[2026-05-14 10:35:52]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_exec.txt MISSING
+[2026-05-14 10:35:52]     Found 1004 run files
+[2026-05-14 10:35:54]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:35:54]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_exec.txt
+[2026-05-14 10:35:54]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:35:54] ================================================================================
+[2026-05-14 10:35:54] [  34/109 |  31.2%] Processing leader-instcombine/exec_basicmath_small_instcombine_early-cse
+[2026-05-14 10:35:54]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_early-cse
+[2026-05-14 10:35:54]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_early-cse_exec.txt MISSING
+[2026-05-14 10:35:54]     Found 1004 run files
+[2026-05-14 10:35:55]     Done folder: total=50, masked=25, sdc=25, crash/hang=0
+[2026-05-14 10:35:55]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_early-cse_exec.txt
+[2026-05-14 10:35:55]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_early-cse | masked_rate=0.500000, sdc_rate=0.500000, crash_rate=0.000000
+[2026-05-14 10:35:55] ================================================================================
+[2026-05-14 10:35:55] [  35/109 |  32.1%] Processing leader-instcombine/exec_basicmath_small_instcombine_gvn
+[2026-05-14 10:35:55]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_gvn
+[2026-05-14 10:35:55]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_gvn_exec.txt MISSING
+[2026-05-14 10:35:55]     Found 1004 run files
+[2026-05-14 10:35:56]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:35:56]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_gvn_exec.txt
+[2026-05-14 10:35:56]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_gvn | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:35:56] ================================================================================
+[2026-05-14 10:35:56] [  36/109 |  33.0%] Processing leader-instcombine/exec_basicmath_small_instcombine_inline
+[2026-05-14 10:35:56]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_inline
+[2026-05-14 10:35:56]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_inline_exec.txt MISSING
+[2026-05-14 10:35:57]     Found 1004 run files
+[2026-05-14 10:35:58]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:58]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_inline_exec.txt
+[2026-05-14 10:35:58]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_inline | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:58] ================================================================================
+[2026-05-14 10:35:58] [  37/109 |  33.9%] Processing leader-instcombine/exec_basicmath_small_instcombine_instcombine
+[2026-05-14 10:35:58]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_instcombine
+[2026-05-14 10:35:58]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_instcombine_exec.txt MISSING
+[2026-05-14 10:35:58]     Found 1004 run files
+[2026-05-14 10:35:59]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:35:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_instcombine_exec.txt
+[2026-05-14 10:35:59]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_instcombine | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:35:59] ================================================================================
+[2026-05-14 10:35:59] [  38/109 |  34.9%] Processing leader-instcombine/exec_basicmath_small_instcombine_ipsccp
+[2026-05-14 10:35:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_ipsccp
+[2026-05-14 10:35:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_ipsccp_exec.txt MISSING
+[2026-05-14 10:35:59]     Found 1004 run files
+[2026-05-14 10:36:00]     Done folder: total=50, masked=17, sdc=33, crash/hang=0
+[2026-05-14 10:36:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_ipsccp_exec.txt
+[2026-05-14 10:36:00]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_ipsccp | masked_rate=0.340000, sdc_rate=0.660000, crash_rate=0.000000
+[2026-05-14 10:36:00] ================================================================================
+[2026-05-14 10:36:00] [  39/109 |  35.8%] Processing leader-instcombine/exec_basicmath_small_instcombine_licm
+[2026-05-14 10:36:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_licm
+[2026-05-14 10:36:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_licm_exec.txt MISSING
+[2026-05-14 10:36:01]     Found 1004 run files
+[2026-05-14 10:36:02]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:36:02]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_licm_exec.txt
+[2026-05-14 10:36:02]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_licm | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:36:02] ================================================================================
+[2026-05-14 10:36:02] [  40/109 |  36.7%] Processing leader-instcombine/exec_basicmath_small_instcombine_loop-reduce
+[2026-05-14 10:36:02]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_loop-reduce
+[2026-05-14 10:36:02]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_loop-reduce_exec.txt MISSING
+[2026-05-14 10:36:02]     Found 1004 run files
+[2026-05-14 10:36:03]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:36:03]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_loop-reduce_exec.txt
+[2026-05-14 10:36:03]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_loop-reduce | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:36:03] ================================================================================
+[2026-05-14 10:36:03] [  41/109 |  37.6%] Processing leader-instcombine/exec_basicmath_small_instcombine_loop-unroll
+[2026-05-14 10:36:03]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_loop-unroll
+[2026-05-14 10:36:03]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_loop-unroll_exec.txt MISSING
+[2026-05-14 10:36:03]     Found 1004 run files
+[2026-05-14 10:36:04]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:36:04]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_loop-unroll_exec.txt
+[2026-05-14 10:36:04]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_loop-unroll | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:36:04] ================================================================================
+[2026-05-14 10:36:04] [  42/109 |  38.5%] Processing leader-instcombine/exec_basicmath_small_instcombine_sccp
+[2026-05-14 10:36:04]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_sccp
+[2026-05-14 10:36:04]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_sccp_exec.txt MISSING
+[2026-05-14 10:36:05]     Found 1004 run files
+[2026-05-14 10:36:06]     Done folder: total=50, masked=14, sdc=36, crash/hang=0
+[2026-05-14 10:36:06]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_sccp_exec.txt
+[2026-05-14 10:36:06]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_sccp | masked_rate=0.280000, sdc_rate=0.720000, crash_rate=0.000000
+[2026-05-14 10:36:06] ================================================================================
+[2026-05-14 10:36:06] [  43/109 |  39.4%] Processing leader-instcombine/exec_basicmath_small_instcombine_simple-loop-unswitch
+[2026-05-14 10:36:06]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_simple-loop-unswitch
+[2026-05-14 10:36:06]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:36:06]     Found 1004 run files
+[2026-05-14 10:36:07]     Done folder: total=50, masked=24, sdc=26, crash/hang=0
+[2026-05-14 10:36:07]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-instcombine/exec_basicmath_small_instcombine_simple-loop-unswitch_exec.txt
+[2026-05-14 10:36:07]     CSV row written for leader-instcombine/exec_basicmath_small_instcombine_simple-loop-unswitch | masked_rate=0.480000, sdc_rate=0.520000, crash_rate=0.000000
+[2026-05-14 10:36:07] ================================================================================
+[2026-05-14 10:36:07] [  44/109 |  40.4%] Processing leader-ipsccp/exec_basicmath_small_ipsccp
+[2026-05-14 10:36:07]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp
+[2026-05-14 10:36:07]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_exec.txt MISSING
+[2026-05-14 10:36:07]     Found 1004 run files
+[2026-05-14 10:36:08]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:36:08]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_exec.txt
+[2026-05-14 10:36:08]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:36:08] ================================================================================
+[2026-05-14 10:36:08] [  45/109 |  41.3%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_early-cse
+[2026-05-14 10:36:08]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_early-cse
+[2026-05-14 10:36:08]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_early-cse_exec.txt MISSING
+[2026-05-14 10:36:09]     Found 1004 run files
+[2026-05-14 10:36:10]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:36:10]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_early-cse_exec.txt
+[2026-05-14 10:36:10]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_early-cse | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:36:10] ================================================================================
+[2026-05-14 10:36:10] [  46/109 |  42.2%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_gvn
+[2026-05-14 10:36:10]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_gvn
+[2026-05-14 10:36:10]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_gvn_exec.txt MISSING
+[2026-05-14 10:36:10]     Found 1004 run files
+[2026-05-14 10:36:11]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:36:11]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_gvn_exec.txt
+[2026-05-14 10:36:11]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_gvn | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:36:11] ================================================================================
+[2026-05-14 10:36:11] [  47/109 |  43.1%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_inline
+[2026-05-14 10:36:11]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_inline
+[2026-05-14 10:36:11]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_inline_exec.txt MISSING
+[2026-05-14 10:36:11]     Found 1004 run files
+[2026-05-14 10:36:12]     Done folder: total=50, masked=22, sdc=27, crash/hang=1
+[2026-05-14 10:36:12]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_inline_exec.txt
+[2026-05-14 10:36:12]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_inline | masked_rate=0.440000, sdc_rate=0.540000, crash_rate=0.020000
+[2026-05-14 10:36:12] ================================================================================
+[2026-05-14 10:36:12] [  48/109 |  44.0%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_instcombine
+[2026-05-14 10:36:12]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_instcombine
+[2026-05-14 10:36:12]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_instcombine_exec.txt MISSING
+[2026-05-14 10:36:13]     Found 1004 run files
+[2026-05-14 10:36:14]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:36:14]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_instcombine_exec.txt
+[2026-05-14 10:36:14]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_instcombine | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:36:14] ================================================================================
+[2026-05-14 10:36:14] [  49/109 |  45.0%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_ipsccp
+[2026-05-14 10:36:14]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_ipsccp
+[2026-05-14 10:36:14]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_ipsccp_exec.txt MISSING
+[2026-05-14 10:36:14]     Found 1004 run files
+[2026-05-14 10:36:15]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:36:15]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_ipsccp_exec.txt
+[2026-05-14 10:36:15]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_ipsccp | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:36:15] ================================================================================
+[2026-05-14 10:36:15] [  50/109 |  45.9%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_licm
+[2026-05-14 10:36:15]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_licm
+[2026-05-14 10:36:15]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_licm_exec.txt MISSING
+[2026-05-14 10:36:15]     Found 1004 run files
+[2026-05-14 10:36:16]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:36:16]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_licm_exec.txt
+[2026-05-14 10:36:16]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_licm | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:36:16] ================================================================================
+[2026-05-14 10:36:16] [  51/109 |  46.8%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_loop-reduce
+[2026-05-14 10:36:16]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_loop-reduce
+[2026-05-14 10:36:16]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_loop-reduce_exec.txt MISSING
+[2026-05-14 10:36:16]     Found 1004 run files
+[2026-05-14 10:36:18]     Done folder: total=50, masked=17, sdc=33, crash/hang=0
+[2026-05-14 10:36:18]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_loop-reduce_exec.txt
+[2026-05-14 10:36:18]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_loop-reduce | masked_rate=0.340000, sdc_rate=0.660000, crash_rate=0.000000
+[2026-05-14 10:36:18] ================================================================================
+[2026-05-14 10:36:18] [  52/109 |  47.7%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_loop-unroll
+[2026-05-14 10:36:18]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_loop-unroll
+[2026-05-14 10:36:18]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_loop-unroll_exec.txt MISSING
+[2026-05-14 10:36:18]     Found 1004 run files
+[2026-05-14 10:36:19]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:36:19]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_loop-unroll_exec.txt
+[2026-05-14 10:36:19]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_loop-unroll | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:36:19] ================================================================================
+[2026-05-14 10:36:19] [  53/109 |  48.6%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_sccp
+[2026-05-14 10:36:19]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_sccp
+[2026-05-14 10:36:19]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_sccp_exec.txt MISSING
+[2026-05-14 10:36:19]     Found 1004 run files
+[2026-05-14 10:36:20]     Done folder: total=50, masked=24, sdc=26, crash/hang=0
+[2026-05-14 10:36:20]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_sccp_exec.txt
+[2026-05-14 10:36:20]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_sccp | masked_rate=0.480000, sdc_rate=0.520000, crash_rate=0.000000
+[2026-05-14 10:36:20] ================================================================================
+[2026-05-14 10:36:20] [  54/109 |  49.5%] Processing leader-ipsccp/exec_basicmath_small_ipsccp_simple-loop-unswitch
+[2026-05-14 10:36:20]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_simple-loop-unswitch
+[2026-05-14 10:36:20]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:36:20]     Found 1004 run files
+[2026-05-14 10:36:22]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:36:22]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-ipsccp/exec_basicmath_small_ipsccp_simple-loop-unswitch_exec.txt
+[2026-05-14 10:36:22]     CSV row written for leader-ipsccp/exec_basicmath_small_ipsccp_simple-loop-unswitch | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:36:22] ================================================================================
+[2026-05-14 10:36:22] [  55/109 |  50.5%] Processing leader-licm/exec_basicmath_small_licm
+[2026-05-14 10:36:22]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm
+[2026-05-14 10:36:22]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_exec.txt MISSING
+[2026-05-14 10:36:22]     Found 1004 run files
+[2026-05-14 10:36:23]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:36:23]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_exec.txt
+[2026-05-14 10:36:23]     CSV row written for leader-licm/exec_basicmath_small_licm | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:36:23] ================================================================================
+[2026-05-14 10:36:23] [  56/109 |  51.4%] Processing leader-licm/exec_basicmath_small_licm_early-cse
+[2026-05-14 10:36:23]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_early-cse
+[2026-05-14 10:36:23]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_early-cse_exec.txt MISSING
+[2026-05-14 10:36:23]     Found 1004 run files
+[2026-05-14 10:36:24]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:36:24]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_early-cse_exec.txt
+[2026-05-14 10:36:24]     CSV row written for leader-licm/exec_basicmath_small_licm_early-cse | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:36:24] ================================================================================
+[2026-05-14 10:36:24] [  57/109 |  52.3%] Processing leader-licm/exec_basicmath_small_licm_gvn
+[2026-05-14 10:36:24]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_gvn
+[2026-05-14 10:36:24]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_gvn_exec.txt MISSING
+[2026-05-14 10:36:24]     Found 1004 run files
+[2026-05-14 10:36:25]     Done folder: total=50, masked=17, sdc=33, crash/hang=0
+[2026-05-14 10:36:25]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_gvn_exec.txt
+[2026-05-14 10:36:25]     CSV row written for leader-licm/exec_basicmath_small_licm_gvn | masked_rate=0.340000, sdc_rate=0.660000, crash_rate=0.000000
+[2026-05-14 10:36:25] ================================================================================
+[2026-05-14 10:36:25] [  58/109 |  53.2%] Processing leader-licm/exec_basicmath_small_licm_inline
+[2026-05-14 10:36:25]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_inline
+[2026-05-14 10:36:25]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_inline_exec.txt MISSING
+[2026-05-14 10:36:26]     Found 1004 run files
+[2026-05-14 10:36:27]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:36:27]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_inline_exec.txt
+[2026-05-14 10:36:27]     CSV row written for leader-licm/exec_basicmath_small_licm_inline | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:36:27] ================================================================================
+[2026-05-14 10:36:27] [  59/109 |  54.1%] Processing leader-licm/exec_basicmath_small_licm_instcombine
+[2026-05-14 10:36:27]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_instcombine
+[2026-05-14 10:36:27]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_instcombine_exec.txt MISSING
+[2026-05-14 10:36:27]     Found 1004 run files
+[2026-05-14 10:36:28]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:36:28]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_instcombine_exec.txt
+[2026-05-14 10:36:28]     CSV row written for leader-licm/exec_basicmath_small_licm_instcombine | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:36:28] ================================================================================
+[2026-05-14 10:36:28] [  60/109 |  55.0%] Processing leader-licm/exec_basicmath_small_licm_ipsccp
+[2026-05-14 10:36:28]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_ipsccp
+[2026-05-14 10:36:28]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_ipsccp_exec.txt MISSING
+[2026-05-14 10:36:28]     Found 1004 run files
+[2026-05-14 10:36:29]     Done folder: total=50, masked=25, sdc=25, crash/hang=0
+[2026-05-14 10:36:29]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_ipsccp_exec.txt
+[2026-05-14 10:36:29]     CSV row written for leader-licm/exec_basicmath_small_licm_ipsccp | masked_rate=0.500000, sdc_rate=0.500000, crash_rate=0.000000
+[2026-05-14 10:36:29] ================================================================================
+[2026-05-14 10:36:29] [  61/109 |  56.0%] Processing leader-licm/exec_basicmath_small_licm_licm
+[2026-05-14 10:36:29]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_licm
+[2026-05-14 10:36:29]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_licm_exec.txt MISSING
+[2026-05-14 10:36:30]     Found 1004 run files
+[2026-05-14 10:36:31]     Done folder: total=50, masked=26, sdc=24, crash/hang=0
+[2026-05-14 10:36:31]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_licm_exec.txt
+[2026-05-14 10:36:31]     CSV row written for leader-licm/exec_basicmath_small_licm_licm | masked_rate=0.520000, sdc_rate=0.480000, crash_rate=0.000000
+[2026-05-14 10:36:31] ================================================================================
+[2026-05-14 10:36:31] [  62/109 |  56.9%] Processing leader-licm/exec_basicmath_small_licm_loop-reduce
+[2026-05-14 10:36:31]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_loop-reduce
+[2026-05-14 10:36:31]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_loop-reduce_exec.txt MISSING
+[2026-05-14 10:36:31]     Found 1004 run files
+[2026-05-14 10:36:32]     Done folder: total=50, masked=24, sdc=26, crash/hang=0
+[2026-05-14 10:36:32]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_loop-reduce_exec.txt
+[2026-05-14 10:36:32]     CSV row written for leader-licm/exec_basicmath_small_licm_loop-reduce | masked_rate=0.480000, sdc_rate=0.520000, crash_rate=0.000000
+[2026-05-14 10:36:32] ================================================================================
+[2026-05-14 10:36:32] [  63/109 |  57.8%] Processing leader-licm/exec_basicmath_small_licm_loop-unroll
+[2026-05-14 10:36:32]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_loop-unroll
+[2026-05-14 10:36:32]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_loop-unroll_exec.txt MISSING
+[2026-05-14 10:36:32]     Found 1004 run files
+[2026-05-14 10:36:33]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:36:33]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_loop-unroll_exec.txt
+[2026-05-14 10:36:33]     CSV row written for leader-licm/exec_basicmath_small_licm_loop-unroll | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:36:33] ================================================================================
+[2026-05-14 10:36:33] [  64/109 |  58.7%] Processing leader-licm/exec_basicmath_small_licm_sccp
+[2026-05-14 10:36:33]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_sccp
+[2026-05-14 10:36:33]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_sccp_exec.txt MISSING
+[2026-05-14 10:36:34]     Found 1004 run files
+[2026-05-14 10:36:35]     Done folder: total=50, masked=24, sdc=26, crash/hang=0
+[2026-05-14 10:36:35]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_sccp_exec.txt
+[2026-05-14 10:36:35]     CSV row written for leader-licm/exec_basicmath_small_licm_sccp | masked_rate=0.480000, sdc_rate=0.520000, crash_rate=0.000000
+[2026-05-14 10:36:35] ================================================================================
+[2026-05-14 10:36:35] [  65/109 |  59.6%] Processing leader-licm/exec_basicmath_small_licm_simple-loop-unswitch
+[2026-05-14 10:36:35]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_simple-loop-unswitch
+[2026-05-14 10:36:35]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:36:35]     Found 1004 run files
+[2026-05-14 10:36:36]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:36:36]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-licm/exec_basicmath_small_licm_simple-loop-unswitch_exec.txt
+[2026-05-14 10:36:36]     CSV row written for leader-licm/exec_basicmath_small_licm_simple-loop-unswitch | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:36:36] ================================================================================
+[2026-05-14 10:36:36] [  66/109 |  60.6%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce
+[2026-05-14 10:36:36]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce
+[2026-05-14 10:36:36]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_exec.txt MISSING
+[2026-05-14 10:36:36]     Found 1004 run files
+[2026-05-14 10:36:37]     Done folder: total=50, masked=26, sdc=24, crash/hang=0
+[2026-05-14 10:36:37]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_exec.txt
+[2026-05-14 10:36:37]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce | masked_rate=0.520000, sdc_rate=0.480000, crash_rate=0.000000
+[2026-05-14 10:36:37] ================================================================================
+[2026-05-14 10:36:37] [  67/109 |  61.5%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_early-cse
+[2026-05-14 10:36:37]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_early-cse
+[2026-05-14 10:36:37]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_early-cse_exec.txt MISSING
+[2026-05-14 10:36:38]     Found 1004 run files
+[2026-05-14 10:36:39]     Done folder: total=50, masked=12, sdc=38, crash/hang=0
+[2026-05-14 10:36:39]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_early-cse_exec.txt
+[2026-05-14 10:36:39]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_early-cse | masked_rate=0.240000, sdc_rate=0.760000, crash_rate=0.000000
+[2026-05-14 10:36:39] ================================================================================
+[2026-05-14 10:36:39] [  68/109 |  62.4%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_gvn
+[2026-05-14 10:36:39]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_gvn
+[2026-05-14 10:36:39]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_gvn_exec.txt MISSING
+[2026-05-14 10:36:39]     Found 1004 run files
+[2026-05-14 10:36:40]     Done folder: total=50, masked=23, sdc=27, crash/hang=0
+[2026-05-14 10:36:40]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_gvn_exec.txt
+[2026-05-14 10:36:40]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_gvn | masked_rate=0.460000, sdc_rate=0.540000, crash_rate=0.000000
+[2026-05-14 10:36:40] ================================================================================
+[2026-05-14 10:36:40] [  69/109 |  63.3%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_inline
+[2026-05-14 10:36:40]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_inline
+[2026-05-14 10:36:40]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_inline_exec.txt MISSING
+[2026-05-14 10:36:40]     Found 1004 run files
+[2026-05-14 10:36:41]     Done folder: total=50, masked=22, sdc=28, crash/hang=0
+[2026-05-14 10:36:41]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_inline_exec.txt
+[2026-05-14 10:36:41]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_inline | masked_rate=0.440000, sdc_rate=0.560000, crash_rate=0.000000
+[2026-05-14 10:36:41] ================================================================================
+[2026-05-14 10:36:41] [  70/109 |  64.2%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_instcombine
+[2026-05-14 10:36:41]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_instcombine
+[2026-05-14 10:36:41]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_instcombine_exec.txt MISSING
+[2026-05-14 10:36:42]     Found 1004 run files
+[2026-05-14 10:36:43]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:36:43]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_instcombine_exec.txt
+[2026-05-14 10:36:43]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_instcombine | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:36:43] ================================================================================
+[2026-05-14 10:36:43] [  71/109 |  65.1%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_ipsccp
+[2026-05-14 10:36:43]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_ipsccp
+[2026-05-14 10:36:43]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_ipsccp_exec.txt MISSING
+[2026-05-14 10:36:43]     Found 1004 run files
+[2026-05-14 10:36:44]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:36:44]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_ipsccp_exec.txt
+[2026-05-14 10:36:44]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_ipsccp | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:36:44] ================================================================================
+[2026-05-14 10:36:44] [  72/109 |  66.1%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_licm
+[2026-05-14 10:36:44]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_licm
+[2026-05-14 10:36:44]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_licm_exec.txt MISSING
+[2026-05-14 10:36:44]     Found 1004 run files
+[2026-05-14 10:36:45]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:36:45]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_licm_exec.txt
+[2026-05-14 10:36:45]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_licm | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:36:45] ================================================================================
+[2026-05-14 10:36:45] [  73/109 |  67.0%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-reduce
+[2026-05-14 10:36:45]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-reduce
+[2026-05-14 10:36:45]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-reduce_exec.txt MISSING
+[2026-05-14 10:36:46]     Found 1004 run files
+[2026-05-14 10:36:47]     Done folder: total=50, masked=14, sdc=36, crash/hang=0
+[2026-05-14 10:36:47]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-reduce_exec.txt
+[2026-05-14 10:36:47]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-reduce | masked_rate=0.280000, sdc_rate=0.720000, crash_rate=0.000000
+[2026-05-14 10:36:47] ================================================================================
+[2026-05-14 10:36:47] [  74/109 |  67.9%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-unroll
+[2026-05-14 10:36:47]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-unroll
+[2026-05-14 10:36:47]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-unroll_exec.txt MISSING
+[2026-05-14 10:36:47]     Found 1004 run files
+[2026-05-14 10:36:48]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:36:48]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-unroll_exec.txt
+[2026-05-14 10:36:48]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_loop-unroll | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:36:48] ================================================================================
+[2026-05-14 10:36:48] [  75/109 |  68.8%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_sccp
+[2026-05-14 10:36:48]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_sccp
+[2026-05-14 10:36:48]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_sccp_exec.txt MISSING
+[2026-05-14 10:36:48]     Found 1004 run files
+[2026-05-14 10:36:49]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:36:49]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_sccp_exec.txt
+[2026-05-14 10:36:49]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_sccp | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:36:49] ================================================================================
+[2026-05-14 10:36:49] [  76/109 |  69.7%] Processing leader-loop-reduce/exec_basicmath_small_loop-reduce_simple-loop-unswitch
+[2026-05-14 10:36:49]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_simple-loop-unswitch
+[2026-05-14 10:36:49]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:36:50]     Found 1004 run files
+[2026-05-14 10:36:51]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:36:51]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-reduce/exec_basicmath_small_loop-reduce_simple-loop-unswitch_exec.txt
+[2026-05-14 10:36:51]     CSV row written for leader-loop-reduce/exec_basicmath_small_loop-reduce_simple-loop-unswitch | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:36:51] ================================================================================
+[2026-05-14 10:36:51] [  77/109 |  70.6%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch
+[2026-05-14 10:36:51]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch
+[2026-05-14 10:36:51]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:36:51]     Found 1004 run files
+[2026-05-14 10:36:52]     Done folder: total=50, masked=17, sdc=33, crash/hang=0
+[2026-05-14 10:36:52]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_exec.txt
+[2026-05-14 10:36:52]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch | masked_rate=0.340000, sdc_rate=0.660000, crash_rate=0.000000
+[2026-05-14 10:36:52] ================================================================================
+[2026-05-14 10:36:52] [  78/109 |  71.6%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_early-cse
+[2026-05-14 10:36:52]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_early-cse
+[2026-05-14 10:36:52]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_early-cse_exec.txt MISSING
+[2026-05-14 10:36:52]     Found 1004 run files
+[2026-05-14 10:36:53]     Done folder: total=50, masked=15, sdc=35, crash/hang=0
+[2026-05-14 10:36:53]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_early-cse_exec.txt
+[2026-05-14 10:36:53]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_early-cse | masked_rate=0.300000, sdc_rate=0.700000, crash_rate=0.000000
+[2026-05-14 10:36:53] ================================================================================
+[2026-05-14 10:36:53] [  79/109 |  72.5%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_gvn
+[2026-05-14 10:36:53]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_gvn
+[2026-05-14 10:36:53]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_gvn_exec.txt MISSING
+[2026-05-14 10:36:53]     Found 1004 run files
+[2026-05-14 10:36:55]     Done folder: total=50, masked=17, sdc=33, crash/hang=0
+[2026-05-14 10:36:55]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_gvn_exec.txt
+[2026-05-14 10:36:55]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_gvn | masked_rate=0.340000, sdc_rate=0.660000, crash_rate=0.000000
+[2026-05-14 10:36:55] ================================================================================
+[2026-05-14 10:36:55] [  80/109 |  73.4%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_inline
+[2026-05-14 10:36:55]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_inline
+[2026-05-14 10:36:55]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_inline_exec.txt MISSING
+[2026-05-14 10:36:55]     Found 1004 run files
+[2026-05-14 10:36:56]     Done folder: total=50, masked=26, sdc=24, crash/hang=0
+[2026-05-14 10:36:56]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_inline_exec.txt
+[2026-05-14 10:36:56]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_inline | masked_rate=0.520000, sdc_rate=0.480000, crash_rate=0.000000
+[2026-05-14 10:36:56] ================================================================================
+[2026-05-14 10:36:56] [  81/109 |  74.3%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_instcombine
+[2026-05-14 10:36:56]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_instcombine
+[2026-05-14 10:36:56]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_instcombine_exec.txt MISSING
+[2026-05-14 10:36:56]     Found 1004 run files
+[2026-05-14 10:36:57]     Done folder: total=50, masked=22, sdc=28, crash/hang=0
+[2026-05-14 10:36:57]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_instcombine_exec.txt
+[2026-05-14 10:36:57]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_instcombine | masked_rate=0.440000, sdc_rate=0.560000, crash_rate=0.000000
+[2026-05-14 10:36:57] ================================================================================
+[2026-05-14 10:36:57] [  82/109 |  75.2%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_ipsccp
+[2026-05-14 10:36:57]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_ipsccp
+[2026-05-14 10:36:57]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_ipsccp_exec.txt MISSING
+[2026-05-14 10:36:58]     Found 1004 run files
+[2026-05-14 10:36:59]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:36:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_ipsccp_exec.txt
+[2026-05-14 10:36:59]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_ipsccp | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:36:59] ================================================================================
+[2026-05-14 10:36:59] [  83/109 |  76.1%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_licm
+[2026-05-14 10:36:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_licm
+[2026-05-14 10:36:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_licm_exec.txt MISSING
+[2026-05-14 10:36:59]     Found 1004 run files
+[2026-05-14 10:37:00]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:37:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_licm_exec.txt
+[2026-05-14 10:37:00]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_licm | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:37:00] ================================================================================
+[2026-05-14 10:37:00] [  84/109 |  77.1%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-reduce
+[2026-05-14 10:37:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-reduce
+[2026-05-14 10:37:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-reduce_exec.txt MISSING
+[2026-05-14 10:37:00]     Found 1004 run files
+[2026-05-14 10:37:01]     Done folder: total=50, masked=13, sdc=37, crash/hang=0
+[2026-05-14 10:37:01]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-reduce_exec.txt
+[2026-05-14 10:37:01]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-reduce | masked_rate=0.260000, sdc_rate=0.740000, crash_rate=0.000000
+[2026-05-14 10:37:01] ================================================================================
+[2026-05-14 10:37:01] [  85/109 |  78.0%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-unroll
+[2026-05-14 10:37:01]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-unroll
+[2026-05-14 10:37:01]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-unroll_exec.txt MISSING
+[2026-05-14 10:37:01]     Found 1004 run files
+[2026-05-14 10:37:03]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:37:03]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-unroll_exec.txt
+[2026-05-14 10:37:03]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_loop-unroll | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:37:03] ================================================================================
+[2026-05-14 10:37:03] [  86/109 |  78.9%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_sccp
+[2026-05-14 10:37:03]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_sccp
+[2026-05-14 10:37:03]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_sccp_exec.txt MISSING
+[2026-05-14 10:37:03]     Found 1004 run files
+[2026-05-14 10:37:04]     Done folder: total=50, masked=14, sdc=36, crash/hang=0
+[2026-05-14 10:37:04]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_sccp_exec.txt
+[2026-05-14 10:37:04]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_sccp | masked_rate=0.280000, sdc_rate=0.720000, crash_rate=0.000000
+[2026-05-14 10:37:04] ================================================================================
+[2026-05-14 10:37:04] [  87/109 |  79.8%] Processing leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_simple-loop-unswitch
+[2026-05-14 10:37:04]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_simple-loop-unswitch
+[2026-05-14 10:37:04]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:37:04]     Found 1004 run files
+[2026-05-14 10:37:05]     Done folder: total=50, masked=16, sdc=34, crash/hang=0
+[2026-05-14 10:37:05]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_simple-loop-unswitch_exec.txt
+[2026-05-14 10:37:05]     CSV row written for leader-loop-unswitch/exec_basicmath_small_simple-loop-unswitch_simple-loop-unswitch | masked_rate=0.320000, sdc_rate=0.680000, crash_rate=0.000000
+[2026-05-14 10:37:05] ================================================================================
+[2026-05-14 10:37:05] [  88/109 |  80.7%] Processing leader-sccp/exec_basicmath_small_sccp
+[2026-05-14 10:37:05]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp
+[2026-05-14 10:37:05]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_exec.txt MISSING
+[2026-05-14 10:37:05]     Found 1004 run files
+[2026-05-14 10:37:06]     Done folder: total=50, masked=14, sdc=36, crash/hang=0
+[2026-05-14 10:37:06]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_exec.txt
+[2026-05-14 10:37:06]     CSV row written for leader-sccp/exec_basicmath_small_sccp | masked_rate=0.280000, sdc_rate=0.720000, crash_rate=0.000000
+[2026-05-14 10:37:06] ================================================================================
+[2026-05-14 10:37:07] [  89/109 |  81.7%] Processing leader-sccp/exec_basicmath_small_sccp_early-cse
+[2026-05-14 10:37:07]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_early-cse
+[2026-05-14 10:37:07]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_early-cse_exec.txt MISSING
+[2026-05-14 10:37:07]     Found 1004 run files
+[2026-05-14 10:37:08]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:37:08]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_early-cse_exec.txt
+[2026-05-14 10:37:08]     CSV row written for leader-sccp/exec_basicmath_small_sccp_early-cse | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:37:08] ================================================================================
+[2026-05-14 10:37:08] [  90/109 |  82.6%] Processing leader-sccp/exec_basicmath_small_sccp_gvn
+[2026-05-14 10:37:08]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_gvn
+[2026-05-14 10:37:08]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_gvn_exec.txt MISSING
+[2026-05-14 10:37:08]     Found 1004 run files
+[2026-05-14 10:37:09]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:37:09]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_gvn_exec.txt
+[2026-05-14 10:37:09]     CSV row written for leader-sccp/exec_basicmath_small_sccp_gvn | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:37:09] ================================================================================
+[2026-05-14 10:37:09] [  91/109 |  83.5%] Processing leader-sccp/exec_basicmath_small_sccp_inline
+[2026-05-14 10:37:09]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_inline
+[2026-05-14 10:37:09]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_inline_exec.txt MISSING
+[2026-05-14 10:37:09]     Found 1004 run files
+[2026-05-14 10:37:11]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:37:11]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_inline_exec.txt
+[2026-05-14 10:37:11]     CSV row written for leader-sccp/exec_basicmath_small_sccp_inline | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:37:11] ================================================================================
+[2026-05-14 10:37:11] [  92/109 |  84.4%] Processing leader-sccp/exec_basicmath_small_sccp_instcombine
+[2026-05-14 10:37:11]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_instcombine
+[2026-05-14 10:37:11]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_instcombine_exec.txt MISSING
+[2026-05-14 10:37:11]     Found 1004 run files
+[2026-05-14 10:37:12]     Done folder: total=50, masked=25, sdc=25, crash/hang=0
+[2026-05-14 10:37:12]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_instcombine_exec.txt
+[2026-05-14 10:37:12]     CSV row written for leader-sccp/exec_basicmath_small_sccp_instcombine | masked_rate=0.500000, sdc_rate=0.500000, crash_rate=0.000000
+[2026-05-14 10:37:12] ================================================================================
+[2026-05-14 10:37:12] [  93/109 |  85.3%] Processing leader-sccp/exec_basicmath_small_sccp_ipsccp
+[2026-05-14 10:37:12]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_ipsccp
+[2026-05-14 10:37:12]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_ipsccp_exec.txt MISSING
+[2026-05-14 10:37:12]     Found 1004 run files
+[2026-05-14 10:37:13]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:37:13]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_ipsccp_exec.txt
+[2026-05-14 10:37:13]     CSV row written for leader-sccp/exec_basicmath_small_sccp_ipsccp | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:37:13] ================================================================================
+[2026-05-14 10:37:13] [  94/109 |  86.2%] Processing leader-sccp/exec_basicmath_small_sccp_licm
+[2026-05-14 10:37:13]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_licm
+[2026-05-14 10:37:13]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_licm_exec.txt MISSING
+[2026-05-14 10:37:14]     Found 1004 run files
+[2026-05-14 10:37:15]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:37:15]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_licm_exec.txt
+[2026-05-14 10:37:15]     CSV row written for leader-sccp/exec_basicmath_small_sccp_licm | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:37:15] ================================================================================
+[2026-05-14 10:37:15] [  95/109 |  87.2%] Processing leader-sccp/exec_basicmath_small_sccp_loop-reduce
+[2026-05-14 10:37:15]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_loop-reduce
+[2026-05-14 10:37:15]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_loop-reduce_exec.txt MISSING
+[2026-05-14 10:37:15]     Found 1004 run files
+[2026-05-14 10:37:16]     Done folder: total=50, masked=22, sdc=28, crash/hang=0
+[2026-05-14 10:37:16]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_loop-reduce_exec.txt
+[2026-05-14 10:37:16]     CSV row written for leader-sccp/exec_basicmath_small_sccp_loop-reduce | masked_rate=0.440000, sdc_rate=0.560000, crash_rate=0.000000
+[2026-05-14 10:37:16] ================================================================================
+[2026-05-14 10:37:16] [  96/109 |  88.1%] Processing leader-sccp/exec_basicmath_small_sccp_loop-unroll
+[2026-05-14 10:37:16]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_loop-unroll
+[2026-05-14 10:37:16]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_loop-unroll_exec.txt MISSING
+[2026-05-14 10:37:17]     Found 1004 run files
+[2026-05-14 10:37:18]     Done folder: total=50, masked=18, sdc=32, crash/hang=0
+[2026-05-14 10:37:18]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_loop-unroll_exec.txt
+[2026-05-14 10:37:18]     CSV row written for leader-sccp/exec_basicmath_small_sccp_loop-unroll | masked_rate=0.360000, sdc_rate=0.640000, crash_rate=0.000000
+[2026-05-14 10:37:18] ================================================================================
+[2026-05-14 10:37:18] [  97/109 |  89.0%] Processing leader-sccp/exec_basicmath_small_sccp_sccp
+[2026-05-14 10:37:18]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_sccp
+[2026-05-14 10:37:18]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_sccp_exec.txt MISSING
+[2026-05-14 10:37:18]     Found 1004 run files
+[2026-05-14 10:37:19]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:37:19]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_sccp_exec.txt
+[2026-05-14 10:37:19]     CSV row written for leader-sccp/exec_basicmath_small_sccp_sccp | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:37:19] ================================================================================
+[2026-05-14 10:37:19] [  98/109 |  89.9%] Processing leader-sccp/exec_basicmath_small_sccp_simple-loop-unswitch
+[2026-05-14 10:37:19]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_simple-loop-unswitch
+[2026-05-14 10:37:19]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:37:19]     Found 1004 run files
+[2026-05-14 10:37:20]     Done folder: total=50, masked=19, sdc=31, crash/hang=0
+[2026-05-14 10:37:20]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-sccp/exec_basicmath_small_sccp_simple-loop-unswitch_exec.txt
+[2026-05-14 10:37:20]     CSV row written for leader-sccp/exec_basicmath_small_sccp_simple-loop-unswitch | masked_rate=0.380000, sdc_rate=0.620000, crash_rate=0.000000
+[2026-05-14 10:37:20] ================================================================================
+[2026-05-14 10:37:20] [  99/109 |  90.8%] Processing leader-unroll/exec_basicmath_small_loop-unroll
+[2026-05-14 10:37:20]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll
+[2026-05-14 10:37:20]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_exec.txt MISSING
+[2026-05-14 10:37:21]     Found 1004 run files
+[2026-05-14 10:37:22]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:37:22]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_exec.txt
+[2026-05-14 10:37:22]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:37:22] ================================================================================
+[2026-05-14 10:37:22] [ 100/109 |  91.7%] Processing leader-unroll/exec_basicmath_small_loop-unroll_early-cse
+[2026-05-14 10:37:22]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_early-cse
+[2026-05-14 10:37:22]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_early-cse_exec.txt MISSING
+[2026-05-14 10:37:22]     Found 1004 run files
+[2026-05-14 10:37:23]     Done folder: total=50, masked=22, sdc=28, crash/hang=0
+[2026-05-14 10:37:23]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_early-cse_exec.txt
+[2026-05-14 10:37:23]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_early-cse | masked_rate=0.440000, sdc_rate=0.560000, crash_rate=0.000000
+[2026-05-14 10:37:23] ================================================================================
+[2026-05-14 10:37:23] [ 101/109 |  92.7%] Processing leader-unroll/exec_basicmath_small_loop-unroll_gvn
+[2026-05-14 10:37:23]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_gvn
+[2026-05-14 10:37:23]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_gvn_exec.txt MISSING
+[2026-05-14 10:37:23]     Found 1004 run files
+[2026-05-14 10:37:24]     Done folder: total=50, masked=23, sdc=27, crash/hang=0
+[2026-05-14 10:37:24]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_gvn_exec.txt
+[2026-05-14 10:37:24]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_gvn | masked_rate=0.460000, sdc_rate=0.540000, crash_rate=0.000000
+[2026-05-14 10:37:24] ================================================================================
+[2026-05-14 10:37:24] [ 102/109 |  93.6%] Processing leader-unroll/exec_basicmath_small_loop-unroll_inline
+[2026-05-14 10:37:24]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_inline
+[2026-05-14 10:37:24]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_inline_exec.txt MISSING
+[2026-05-14 10:37:25]     Found 1004 run files
+[2026-05-14 10:37:26]     Done folder: total=50, masked=14, sdc=36, crash/hang=0
+[2026-05-14 10:37:26]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_inline_exec.txt
+[2026-05-14 10:37:26]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_inline | masked_rate=0.280000, sdc_rate=0.720000, crash_rate=0.000000
+[2026-05-14 10:37:26] ================================================================================
+[2026-05-14 10:37:26] [ 103/109 |  94.5%] Processing leader-unroll/exec_basicmath_small_loop-unroll_instcombine
+[2026-05-14 10:37:26]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_instcombine
+[2026-05-14 10:37:26]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_instcombine_exec.txt MISSING
+[2026-05-14 10:37:26]     Found 1004 run files
+[2026-05-14 10:37:27]     Done folder: total=50, masked=17, sdc=33, crash/hang=0
+[2026-05-14 10:37:27]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_instcombine_exec.txt
+[2026-05-14 10:37:27]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_instcombine | masked_rate=0.340000, sdc_rate=0.660000, crash_rate=0.000000
+[2026-05-14 10:37:27] ================================================================================
+[2026-05-14 10:37:27] [ 104/109 |  95.4%] Processing leader-unroll/exec_basicmath_small_loop-unroll_ipsccp
+[2026-05-14 10:37:27]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_ipsccp
+[2026-05-14 10:37:27]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_ipsccp_exec.txt MISSING
+[2026-05-14 10:37:27]     Found 1004 run files
+[2026-05-14 10:37:28]     Done folder: total=50, masked=12, sdc=38, crash/hang=0
+[2026-05-14 10:37:28]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_ipsccp_exec.txt
+[2026-05-14 10:37:28]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_ipsccp | masked_rate=0.240000, sdc_rate=0.760000, crash_rate=0.000000
+[2026-05-14 10:37:28] ================================================================================
+[2026-05-14 10:37:28] [ 105/109 |  96.3%] Processing leader-unroll/exec_basicmath_small_loop-unroll_licm
+[2026-05-14 10:37:28]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_licm
+[2026-05-14 10:37:28]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_licm_exec.txt MISSING
+[2026-05-14 10:37:28]     Found 1004 run files
+[2026-05-14 10:37:30]     Done folder: total=50, masked=23, sdc=27, crash/hang=0
+[2026-05-14 10:37:30]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_licm_exec.txt
+[2026-05-14 10:37:30]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_licm | masked_rate=0.460000, sdc_rate=0.540000, crash_rate=0.000000
+[2026-05-14 10:37:30] ================================================================================
+[2026-05-14 10:37:30] [ 106/109 |  97.2%] Processing leader-unroll/exec_basicmath_small_loop-unroll_loop-reduce
+[2026-05-14 10:37:30]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_loop-reduce
+[2026-05-14 10:37:30]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_loop-reduce_exec.txt MISSING
+[2026-05-14 10:37:30]     Found 1004 run files
+[2026-05-14 10:37:31]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:37:31]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_loop-reduce_exec.txt
+[2026-05-14 10:37:31]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_loop-reduce | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:37:31] ================================================================================
+[2026-05-14 10:37:31] [ 107/109 |  98.2%] Processing leader-unroll/exec_basicmath_small_loop-unroll_loop-unroll
+[2026-05-14 10:37:31]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_loop-unroll
+[2026-05-14 10:37:31]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_loop-unroll_exec.txt MISSING
+[2026-05-14 10:37:31]     Found 1004 run files
+[2026-05-14 10:37:32]     Done folder: total=50, masked=20, sdc=30, crash/hang=0
+[2026-05-14 10:37:32]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_loop-unroll_exec.txt
+[2026-05-14 10:37:32]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_loop-unroll | masked_rate=0.400000, sdc_rate=0.600000, crash_rate=0.000000
+[2026-05-14 10:37:32] ================================================================================
+[2026-05-14 10:37:32] [ 108/109 |  99.1%] Processing leader-unroll/exec_basicmath_small_loop-unroll_sccp
+[2026-05-14 10:37:32]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_sccp
+[2026-05-14 10:37:32]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_sccp_exec.txt MISSING
+[2026-05-14 10:37:32]     Found 1004 run files
+[2026-05-14 10:37:34]     Done folder: total=50, masked=21, sdc=29, crash/hang=0
+[2026-05-14 10:37:34]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_sccp_exec.txt
+[2026-05-14 10:37:34]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_sccp | masked_rate=0.420000, sdc_rate=0.580000, crash_rate=0.000000
+[2026-05-14 10:37:34] ================================================================================
+[2026-05-14 10:37:34] [ 109/109 | 100.0%] Processing leader-unroll/exec_basicmath_small_loop-unroll_simple-loop-unswitch
+[2026-05-14 10:37:34]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_simple-loop-unswitch
+[2026-05-14 10:37:34]     Timing    : /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 10:37:34]     Found 1004 run files
+[2026-05-14 10:37:35]     Done folder: total=50, masked=16, sdc=33, crash/hang=1
+[2026-05-14 10:37:35]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/basicmath_small_outputs/leader-unroll/exec_basicmath_small_loop-unroll_simple-loop-unswitch_exec.txt
+[2026-05-14 10:37:35]     CSV row written for leader-unroll/exec_basicmath_small_loop-unroll_simple-loop-unswitch | masked_rate=0.320000, sdc_rate=0.660000, crash_rate=0.020000
+[2026-05-14 10:37:35] 
+[2026-05-14 10:37:35] CSV written to: basicmath_small_paired_reliability_data.csv
+[2026-05-14 10:37:35] Log written to: basicmath_small_paired_classification.log
+[2026-05-14 10:37:35] Total elapsed time: 145.31 seconds
+[2026-05-14 10:37:35] Verification logs written to:
+  verification_logs/masked
+  verification_logs/sdc
+  verification_logs/crash

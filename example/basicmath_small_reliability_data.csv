@@ -1,1 +1,11 @@
 executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+leader-cse,0,0,0,0,,
+leader-gvn,0,0,0,0,,
+leader-inline,0,0,0,0,,
+leader-instcombine,0,0,0,0,,
+leader-ipsccp,0,0,0,0,,
+leader-licm,0,0,0,0,,
+leader-loop-reduce,0,0,0,0,,
+leader-loop-unswitch,0,0,0,0,,
+leader-sccp,0,0,0,0,,
+leader-unroll,0,0,0,0,,

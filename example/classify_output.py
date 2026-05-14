@@ -1,58 +1,39 @@
 import os
 import statistics
 import csv
+import time
+from datetime import datetime
 
 # =============================================================
 # Configuration
 # =============================================================
 
-# ------------------------------------------------------------
-# TODO: CHANGE BENCHMARK NAME & OPT LEADER FOR PAIS
-# ------------------------------------------------------------
-BENCHMARK_NAME = "dijkstra_small"
-BENCHMARK_NAME_FOR_GOLDEN = "dijkstra_small"
-OPT_LEADER = "cse"
+BENCHMARK_NAME = "basicmath_small"
 
 SCRATCH_OUTPUT_ROOT = (
     f"/projects/lyang28/rmengle/program_outputs/paired/"
-    f"{BENCHMARK_NAME}_outputs/leader-{OPT_LEADER}"
+    f"{BENCHMARK_NAME}_outputs"
 )
-
-# FOR TESTING
-
 
 EXECUTION_TIMES_ROOT = (
     f"/projects/lyang28/rmengle/execution_times/paired/"
-    f"{BENCHMARK_NAME}_executables"
+    f"{BENCHMARK_NAME}_outputs"
 )
 
-GOLDEN_FILE = \
-    f"baseline/golden_{BENCHMARK_NAME}_output.txt"
+GOLDEN_FILE = f"baseline/golden_{BENCHMARK_NAME}_output.txt"
 
-CSV_OUTPUT_FILE = \
-    f"{BENCHMARK_NAME}_reliability_data.csv"
+CSV_OUTPUT_FILE = f"{BENCHMARK_NAME}_paired_reliability_data.csv"
 
-# -------------------------------------------------------------
-# Verification logging root
-# -------------------------------------------------------------
 VERIFICATION_ROOT = "verification_logs"
+RUN_LOG_FILE = f"{BENCHMARK_NAME}_paired_classification.log"
 
-MASKED_LOG_DIR = \
-    os.path.join(VERIFICATION_ROOT, "masked")
-
-SDC_LOG_DIR = \
-    os.path.join(VERIFICATION_ROOT, "sdc")
-
-CRASH_LOG_DIR = \
-    os.path.join(VERIFICATION_ROOT, "crash")
+MASKED_LOG_DIR = os.path.join(VERIFICATION_ROOT, "masked")
+SDC_LOG_DIR = os.path.join(VERIFICATION_ROOT, "sdc")
+CRASH_LOG_DIR = os.path.join(VERIFICATION_ROOT, "crash")
 
 os.makedirs(MASKED_LOG_DIR, exist_ok=True)
 os.makedirs(SDC_LOG_DIR, exist_ok=True)
 os.makedirs(CRASH_LOG_DIR, exist_ok=True)
-
-# =============================================================
-# Fault Injection Metadata Filters
-# =============================================================
 
 IGNORE_PREFIXES = (
     "include",
@@ -61,114 +42,128 @@ IGNORE_PREFIXES = (
     "Inject into bit"
 )
 
-def normalize_output(contents):
+LOG_EVERY_N_FILES = 100
 
+# =============================================================
+# Logging helper
+# =============================================================
+
+def log(msg="", also_print=True):
+    timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    line = f"[{timestamp}] {msg}"
+
+    with open(RUN_LOG_FILE, "a") as f:
+        f.write(line + "\n")
+
+    if also_print:
+        print(line, flush=True)
+
+
+# reset log file each run
+with open(RUN_LOG_FILE, "w") as f:
+    f.write(f"Classification log started at {datetime.now()}\n\n")
+
+# =============================================================
+# Helpers
+# =============================================================
+
+def normalize_output(contents):
     if contents is None:
         return None
 
     cleaned_lines = []
 
     for line in contents.splitlines():
-
         stripped = line.strip()
 
         if not stripped:
             continue
 
-        if any(stripped.startswith(prefix)
-               for prefix in IGNORE_PREFIXES):
+        if any(stripped.startswith(prefix) for prefix in IGNORE_PREFIXES):
             continue
 
         cleaned_lines.append(stripped)
 
     return "\n".join(cleaned_lines)
 
-# =============================================================
-# Discover output folders
-# =============================================================
-
-def discover_output_folders(root_dir):
-
-    if not os.path.isdir(root_dir):
-        raise FileNotFoundError(
-            f"Output directory not found: {root_dir}"
-        )
-
-    folders = []
-
-    for fname in sorted(os.listdir(root_dir)):
-        full_path = os.path.join(root_dir, fname)
-
-        if os.path.isdir(full_path):
-            folders.append(fname)
-
-    if not folders:
-        raise RuntimeError(
-            "No output folders found."
-        )
-
-    return folders
-
-
-OUTPUT_FOLDERS = \
-    discover_output_folders(SCRATCH_OUTPUT_ROOT)
-
-print("\nDiscovered output folders:")
-for i, f in enumerate(OUTPUT_FOLDERS, 1):
-    print(f" {i:2d}. {f}")
-print()
-
-# =============================================================
-# Helpers
-# =============================================================
 
 def load_file(path):
     try:
-        with open(path, "r") as f:
+        with open(path, "r", errors="replace") as f:
             return f.read()
-    except Exception:
+    except Exception as e:
+        log(f"[READ ERROR] {path} -> {e}", also_print=False)
         return None
 
 
 golden_output_raw = load_file(GOLDEN_FILE)
 
 if golden_output_raw is None:
-    raise RuntimeError(
-        "Golden output not found or unreadable."
-    )
+    raise RuntimeError(f"Golden output not found: {GOLDEN_FILE}")
 
-golden_output = \
-    normalize_output(golden_output_raw)
+golden_output = normalize_output(golden_output_raw)
 
 # =============================================================
-# Timing path helper (NEW — single source of truth)
+# Discover nested exec folders
 # =============================================================
 
-def get_timing_file_path(folder_name):
-    """
-    Returns the expected timing file path for a given folder.
-    Uses safe suffix stripping.
-    """
-    if folder_name.endswith("_exec"):
-        base_name = folder_name[:-5]
-    else:
-        base_name = folder_name
+def discover_exec_folders(root_dir):
+    if not os.path.isdir(root_dir):
+        raise FileNotFoundError(f"Output directory not found: {root_dir}")
+
+    exec_folders = []
+
+    log(f"Scanning output root: {root_dir}")
+
+    for dirpath, dirnames, filenames in os.walk(root_dir):
+        run_files = [
+            f for f in filenames
+            if os.path.isfile(os.path.join(dirpath, f))
+        ]
+
+        if run_files:
+            rel_path = os.path.relpath(dirpath, root_dir)
+            exec_folders.append(rel_path)
+            log(
+                f"Discovered folder: {rel_path} "
+                f"({len(run_files)} files)",
+                also_print=False
+            )
+
+    if not exec_folders:
+        raise RuntimeError("No executable output folders with files found.")
+
+    return sorted(exec_folders)
+
+
+OUTPUT_FOLDERS = discover_exec_folders(SCRATCH_OUTPUT_ROOT)
+
+log("")
+log("Discovered executable output folders:")
+for i, folder in enumerate(OUTPUT_FOLDERS, 1):
+    log(f" {i:3d}. {folder}")
+log("")
+
+# =============================================================
+# Timing helper
+# =============================================================
+
+def get_timing_file_path(relative_folder):
+    exec_name = os.path.basename(relative_folder)
+    leader_name = os.path.dirname(relative_folder)
 
     return os.path.join(
         EXECUTION_TIMES_ROOT,
-        f"{base_name}_exec.txt"
+        leader_name,
+        f"{exec_name}_exec.txt"
     )
 
 # =============================================================
-# Classification + Verification Logging
+# Classification
 # =============================================================
 
-def classify_outputs(folder_name):
-
-    folder_path = os.path.join(
-        SCRATCH_OUTPUT_ROOT,
-        folder_name
-    )
+def classify_outputs(relative_folder):
+    folder_path = os.path.join(SCRATCH_OUTPUT_ROOT, relative_folder)
 
     masked = 0
     sdc = 0
@@ -181,83 +176,73 @@ def classify_outputs(folder_name):
 
     files = [
         f for f in os.listdir(folder_path)
-        if os.path.isfile(
-            os.path.join(folder_path, f)
-        )
+        if os.path.isfile(os.path.join(folder_path, f))
     ]
 
     total_files = len(files)
 
-    print(f"    Found {total_files} run files")
+    log(f"    Found {total_files} run files")
 
-    for idx, fname in enumerate(
-        sorted(files)[:50],
-        start=1, 
-    ):
+    folder_start = time.time()
 
-        percent = (idx / total_files) * 100
-
-        print(
-            f"\r    ↳ [{idx:4d}/{total_files} | "
-            f"{percent:5.1f}%] {fname}",
-            end="",
-            flush=True
-        )
-
+    for idx, fname in enumerate(sorted(files)[:50], start=1):
         full_path = os.path.join(folder_path, fname)
+        raw_contents = load_file(full_path)
 
-        try:
-            with open(full_path, "r") as f:
-
-                raw_contents = f.read()
-                normalized_contents = normalize_output(raw_contents)
-
-                total_runs += 1
-
-                # Crash / Hang
-                if not any(c.isdigit() for c in normalized_contents):
-                    crash_or_hang += 1
-                    if first_crash_file is None:
-                        first_crash_file = fname
-
-                # Masked
-                elif normalized_contents == golden_output:
-                    masked += 1
-                    if first_masked_file is None:
-                        first_masked_file = fname
-
-                # SDC
-                else:
-                    sdc += 1
-                    if first_sdc_file is None:
-                        first_sdc_file = fname
-
-        except Exception:
+        if raw_contents is None:
+            crash_or_hang += 1
+            total_runs += 1
+            if first_crash_file is None:
+                first_crash_file = fname
             continue
 
-    print()
+        normalized_contents = normalize_output(raw_contents)
+        total_runs += 1
 
-    # Write verification logs
+        if normalized_contents is None or not any(c.isdigit() for c in normalized_contents):
+            crash_or_hang += 1
+            if first_crash_file is None:
+                first_crash_file = fname
+
+        elif normalized_contents == golden_output:
+            masked += 1
+            if first_masked_file is None:
+                first_masked_file = fname
+
+        else:
+            sdc += 1
+            if first_sdc_file is None:
+                first_sdc_file = fname
+
+        if idx % LOG_EVERY_N_FILES == 0 or idx == total_files:
+            elapsed = time.time() - folder_start
+            rate = idx / elapsed if elapsed > 0 else 0
+
+            log(
+                f"    Progress {idx}/{total_files} files "
+                f"({(idx / total_files) * 100:5.1f}%) | "
+                f"masked={masked}, sdc={sdc}, crash/hang={crash_or_hang} | "
+                f"{rate:.2f} files/sec"
+            )
+
+    safe_name = relative_folder.replace("/", "__")
+
     if first_masked_file:
-        with open(
-            os.path.join(MASKED_LOG_DIR, f"{folder_name}_masked.txt"),
-            "w"
-        ) as f:
-            f.write(f"First masked file:\n{first_masked_file}\n")
+        with open(os.path.join(MASKED_LOG_DIR, f"{safe_name}_masked.txt"), "w") as f:
+            f.write(f"Folder:\n{relative_folder}\n\nFirst masked file:\n{first_masked_file}\n")
 
     if first_sdc_file:
-        with open(
-            os.path.join(SDC_LOG_DIR, f"{folder_name}_sdc.txt"),
-            "w"
-        ) as f:
-            f.write(f"First SDC file:\n{first_sdc_file}\n")
+        with open(os.path.join(SDC_LOG_DIR, f"{safe_name}_sdc.txt"), "w") as f:
+            f.write(f"Folder:\n{relative_folder}\n\nFirst SDC file:\n{first_sdc_file}\n")
 
     if first_crash_file:
-        with open(
-            os.path.join(CRASH_LOG_DIR, f"{folder_name}_crash.txt"),
-            "w"
-        ) as f:
-            f.write(f"First crash/hang file:\n{first_crash_file}\n")
+        with open(os.path.join(CRASH_LOG_DIR, f"{safe_name}_crash.txt"), "w") as f:
+            f.write(f"Folder:\n{relative_folder}\n\nFirst crash/hang file:\n{first_crash_file}\n")
+
+    log(
+        f"    Done folder: total={total_runs}, masked={masked}, "
+        f"sdc={sdc}, crash/hang={crash_or_hang}"
+    )
 
     return total_runs, masked, sdc, crash_or_hang
 
@@ -265,36 +250,32 @@ def classify_outputs(folder_name):
 # Timing statistics
 # =============================================================
 
-def get_execution_time_stats(folder_name):
-
-    timing_file = get_timing_file_path(folder_name)
+def get_execution_time_stats(relative_folder):
+    timing_file = get_timing_file_path(relative_folder)
 
     if not os.path.isfile(timing_file):
-        print(f"   [WARN] Missing timing file: {timing_file}")
+        log(f"   [WARN] Missing timing file: {timing_file}")
         return None, None
 
     times = []
 
-    try:
-        with open(timing_file, "r") as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                try:
-                    times.append(float(line))
-                except ValueError:
-                    continue
-    except Exception:
-        return None, None
+    with open(timing_file, "r", errors="replace") as f:
+        for line in f:
+            line = line.strip()
+
+            if not line:
+                continue
+
+            try:
+                times.append(float(line))
+            except ValueError:
+                continue
 
     if not times:
+        log(f"   [WARN] Timing file exists but no valid times: {timing_file}")
         return None, None
 
-    return (
-        sum(times) / len(times),
-        statistics.median(times)
-    )
+    return sum(times) / len(times), statistics.median(times)
 
 # =============================================================
 # Main CSV generation
@@ -302,60 +283,93 @@ def get_execution_time_stats(folder_name):
 
 if __name__ == "__main__":
 
+    start_time = time.time()
     total_bins = len(OUTPUT_FOLDERS)
 
-    print("\nStarting classification...\n")
+    log("Starting classification")
+    log(f"CSV output file: {CSV_OUTPUT_FILE}")
+    log(f"Log file: {RUN_LOG_FILE}")
+    log("")
 
     with open(CSV_OUTPUT_FILE, "w", newline="") as csvfile:
-
         writer = csv.writer(csvfile)
 
         writer.writerow([
-            "executable",
+            "benchmark",
+            "leader_opt",
+            "paired_executable",
+            "relative_folder",
             "total_runs",
             "masked",
             "sdc",
             "crash_hang",
+            "masked_rate",
+            "sdc_rate",
+            "crash_hang_rate",
             "avg_time",
             "median_time",
         ])
 
-        for idx, folder in enumerate(OUTPUT_FOLDERS, start=1):
-
+        for idx, relative_folder in enumerate(OUTPUT_FOLDERS, start=1):
             percent = (idx / total_bins) * 100
 
-            # ✅ NEW DEBUG VISIBILITY
-            timing_file = get_timing_file_path(folder)
+            leader_opt = relative_folder.split(os.sep)[0].replace("leader-", "")
+            paired_executable = os.path.basename(relative_folder)
+
+            timing_file = get_timing_file_path(relative_folder)
             timing_exists = os.path.isfile(timing_file)
 
-            print(
-                f"[{idx:3d}/{total_bins} | {percent:5.1f}%] Processing {folder}\n"
-                f"    FI folder : {os.path.join(SCRATCH_OUTPUT_ROOT, folder)}\n"
-                f"    Timing    : {timing_file} "
-                f"{'✓' if timing_exists else '✗ MISSING'}"
+            log("=" * 80)
+            log(
+                f"[{idx:4d}/{total_bins} | {percent:5.1f}%] "
+                f"Processing {relative_folder}"
             )
+            log(f"    FI folder : {os.path.join(SCRATCH_OUTPUT_ROOT, relative_folder)}")
+            log(f"    Timing    : {timing_file} {'FOUND' if timing_exists else 'MISSING'}")
 
-            total_runs, masked, sdc, crash_or_hang = \
-                classify_outputs(folder)
+            total_runs, masked, sdc, crash_or_hang = classify_outputs(relative_folder)
 
-            avg_time, median_time = \
-                get_execution_time_stats(folder)
+            avg_time, median_time = get_execution_time_stats(relative_folder)
+
+            masked_rate = masked / total_runs if total_runs else 0
+            sdc_rate = sdc / total_runs if total_runs else 0
+            crash_rate = crash_or_hang / total_runs if total_runs else 0
 
             writer.writerow([
-                folder,
+                BENCHMARK_NAME,
+                leader_opt,
+                paired_executable,
+                relative_folder,
                 total_runs,
                 masked,
                 sdc,
                 crash_or_hang,
-                f"{avg_time:.6f}" if avg_time else "",
-                f"{median_time:.6f}" if median_time else "",
+                f"{masked_rate:.6f}",
+                f"{sdc_rate:.6f}",
+                f"{crash_rate:.6f}",
+                f"{avg_time:.6f}" if avg_time is not None else "",
+                f"{median_time:.6f}" if median_time is not None else "",
             ])
 
-    print(f"\nCSV written to: {CSV_OUTPUT_FILE}\n")
+            csvfile.flush()
 
-    print(
+            log(
+                f"    CSV row written for {relative_folder} | "
+                f"masked_rate={masked_rate:.6f}, "
+                f"sdc_rate={sdc_rate:.6f}, "
+                f"crash_rate={crash_rate:.6f}"
+            )
+
+    elapsed_total = time.time() - start_time
+
+    log("")
+    log(f"CSV written to: {CSV_OUTPUT_FILE}")
+    log(f"Log written to: {RUN_LOG_FILE}")
+    log(f"Total elapsed time: {elapsed_total:.2f} seconds")
+
+    log(
         "Verification logs written to:\n"
         f"  {VERIFICATION_ROOT}/masked\n"
         f"  {VERIFICATION_ROOT}/sdc\n"
-        f"  {VERIFICATION_ROOT}/crash\n"
+        f"  {VERIFICATION_ROOT}/crash"
     )
