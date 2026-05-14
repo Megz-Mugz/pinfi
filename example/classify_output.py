@@ -9,9 +9,9 @@ import csv
 # ------------------------------------------------------------
 # TODO: CHANGE BENCHMARK NAME & OPT LEADER FOR PAIS
 # ------------------------------------------------------------
-BENCHMARK_NAME = "basicmath_small"
-BENCHMARK_NAME_FOR_GOLDEN = "basicmath_small"
-OPT_LEADER = "gvn"
+BENCHMARK_NAME = "dijkstra_small"
+BENCHMARK_NAME_FOR_GOLDEN = "dijkstra_small"
+OPT_LEADER = "cse"
 
 SCRATCH_OUTPUT_ROOT = (
     f"/projects/lyang28/rmengle/program_outputs/paired/"
@@ -191,7 +191,7 @@ def classify_outputs(folder_name):
     print(f"    Found {total_files} run files")
 
     for idx, fname in enumerate(
-        sorted(files),
+        sorted(files)[:50],
         start=1, 
     ):
 

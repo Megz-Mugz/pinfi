@@ -17,49 +17,66 @@ module load python
 # 🔥 EDIT THIS ONLY
 # ============================================================
 
-EXEC="/home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/exec_basicmath_small_early-cse_simple-loop-unswitch"
+EXEC_DIR="/home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse"
 
 NUM_RUNS=1000
 
+BASE_DIR="/projects/lyang28/rmengle"
+
 # ============================================================
 
-BASE_DIR="/projects/lyang28/rmengle/execution_times/paired/basicmath_small"
 mkdir -p "$BASE_DIR"
 
-OUTFILE="$BASE_DIR/$(basename $EXEC).txt"
-rm -f "$OUTFILE"
-
 echo "=================================="
-echo "Executable: $EXEC"
+echo "Executable directory: $EXEC_DIR"
 echo "Hostname: $(hostname)"
 echo "Start Time: $(date)"
-echo "Output file: $OUTFILE"
+echo "Output directory: $BASE_DIR"
 echo "=================================="
 
-# Sanity check
-if [ ! -x "$EXEC" ]; then
-    echo "ERROR: Executable not found or not executable"
+if [ ! -d "$EXEC_DIR" ]; then
+    echo "ERROR: Executable directory not found: $EXEC_DIR"
     exit 1
 fi
 
-# Warm-up
-for i in $(seq 1 20); do
-    "$EXEC" > /dev/null
-done
+for EXEC in "$EXEC_DIR"/*; do
+    if [ ! -x "$EXEC" ] || [ -d "$EXEC" ]; then
+        echo "Skipping non-executable: $EXEC"
+        continue
+    fi
 
-# Timed runs
-for i in $(seq 1 $NUM_RUNS); do
-    START=$(date +%s.%N)
-    "$EXEC" > /dev/null
-    END=$(date +%s.%N)
+    EXEC_NAME=$(basename "$EXEC")
+    OUTFILE="$BASE_DIR/${EXEC_NAME}.txt"
+    rm -f "$OUTFILE"
 
-    python3 - <<PY >> "$OUTFILE"
+    echo
+    echo "=================================="
+    echo "Timing executable: $EXEC_NAME"
+    echo "Full path: $EXEC"
+    echo "Output file: $OUTFILE"
+    echo "=================================="
+
+    for i in $(seq 1 20); do
+        "$EXEC" > /dev/null
+    done
+
+    for i in $(seq 1 "$NUM_RUNS"); do
+        START=$(date +%s.%N)
+        "$EXEC" > /dev/null
+        END=$(date +%s.%N)
+
+        python3 - <<PY >> "$OUTFILE"
 start = float("$START")
 end = float("$END")
 print(end - start)
 PY
+    done
+
+    echo "Done timing: $EXEC_NAME"
 done
 
+echo
 echo "=================================="
-echo "Done. Output file: $OUTFILE"
+echo "All executables done."
 echo "End Time: $(date)"
+echo "=================================="

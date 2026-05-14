@@ -1,0 +1,12 @@
+executable,total_runs,masked,sdc,crash_hang,avg_time,median_time
+exec_dijkstra_small_early-cse,50,30,19,1,,
+exec_dijkstra_small_early-cse_early-cse,50,33,16,1,,
+exec_dijkstra_small_early-cse_gvn,50,33,16,1,,
+exec_dijkstra_small_early-cse_inline,50,30,19,1,,
+exec_dijkstra_small_early-cse_instcombine,50,30,19,1,,
+exec_dijkstra_small_early-cse_ipsccp,50,30,19,1,,
+exec_dijkstra_small_early-cse_licm,50,33,16,1,,
+exec_dijkstra_small_early-cse_loop-reduce,50,36,13,1,,
+exec_dijkstra_small_early-cse_loop-unroll,50,35,14,1,,
+exec_dijkstra_small_early-cse_sccp,50,27,21,2,,
+exec_dijkstra_small_early-cse_simple-loop-unswitch,50,33,14,3,,
