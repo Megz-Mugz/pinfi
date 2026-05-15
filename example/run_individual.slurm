@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=basicmath_large_instcombine_exec
+#SBATCH --job-name=exec_patricia_small_early-cse
 #SBATCH --partition=normal
 #SBATCH --output=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.out
 #SBATCH --error=/home/rmengle/pin/source/tools/pinfi/example/fi_output_%j.err
@@ -44,5 +44,5 @@ ls -l
 
 echo "=== About to run FI ==="
 set -x
-python3 faultinject.py patricia_large_instcombine_exec 1000 ""
+python3 faultinject.py exec_patricia_small_early-cse_simple-loop-unswitch 1000 ""
 echo "=== FI Finished ==="

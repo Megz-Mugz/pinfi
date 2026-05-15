@@ -1,0 +1,2 @@
++ python3 faultinject.py exec_patricia_small_early-cse 1000 ''
+slurmstepd-hop050: error: *** JOB 7307819 ON hop050 CANCELLED AT 2026-05-15T12:22:45 ***

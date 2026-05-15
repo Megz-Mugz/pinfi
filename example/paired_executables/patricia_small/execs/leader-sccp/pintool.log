@@ -1,0 +1,3433 @@
+Pin: pin-3.31-98869-fa6f126a8
+Copyright 2002-2024 Intel Corporation.
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN push r14
+ [tid:2307754] Invalid RTN mov rax, 0xffffffffffffffff
+ [tid:2307754] Invalid RTN push r13
+ [tid:2307754] Invalid RTN push r12
+ [tid:2307754] Invalid RTN push rbp
+ [tid:2307754] Invalid RTN push rbx
+ [tid:2307754] Invalid RTN sub rsp, 0x20
+ [tid:2307754] Invalid RTN mov rbx, qword ptr [rip+0x2ea3ea]
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x10], rax
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x18], rax
+ [tid:2307754] Invalid RTN mov eax, dword ptr [rbx+0x68]
+ [tid:2307754] Invalid RTN mov dword ptr [rsp+0xc], 0x0
+ [tid:2307754] Invalid RTN test eax, eax
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3d32
+ [tid:2307754] Invalid RTN mov r13, qword ptr [rbx+0x190]
+ [tid:2307754] Invalid RTN mov rbp, qword ptr [rbx+0x198]
+ [tid:2307754] Invalid RTN cmp eax, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3c60
+ [tid:2307754] Invalid RTN cmp eax, 0x3
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3cb8
+ [tid:2307754] Invalid RTN cmp eax, 0x2
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3ce0
+ [tid:2307754] Invalid RTN test r13, r13
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3be0
+ [tid:2307754] Invalid RTN mov r12, r13
+ [tid:2307754] Invalid RTN test r12, r12
+ [tid:2307754] Invalid RTN jle 0x7fa35d3c3af0
+ [tid:2307754] Invalid RTN mov edi, 0xbc
+ [tid:2307754] Invalid RTN call 0x7fa35d3c3330
+ [tid:2307754] Invalid RTN xor r8d, r8d
+ [tid:2307754] Invalid RTN cmp edi, 0xc4
+ [tid:2307754] Invalid RTN jnle 0x7fa35d3c3400
+ [tid:2307754] Invalid RTN mov esi, 0x80000000
+ [tid:2307754] Invalid RTN push rbx
+ [tid:2307754] Invalid RTN mov eax, esi
+ [tid:2307754] Invalid RTN cpuid 
+ [tid:2307754] Invalid RTN mov esi, eax
+ [tid:2307754] Invalid RTN cmp eax, 0x8000001c
+ [tid:2307754] Invalid RTN jbe 0x7fa35d3c33c0
+ [tid:2307754] Invalid RTN mov r8d, 0x3
+ [tid:2307754] Invalid RTN cmp edi, 0xc1
+ [tid:2307754] Invalid RTN jnle 0x7fa35d3c337b
+ [tid:2307754] Invalid RTN mov r8d, 0x2
+ [tid:2307754] Invalid RTN cmp edi, 0xbe
+ [tid:2307754] Invalid RTN jnle 0x7fa35d3c337b
+ [tid:2307754] Invalid RTN xor r8d, r8d
+ [tid:2307754] Invalid RTN cmp edi, 0xbb
+ [tid:2307754] Invalid RTN setle r8b
+ [tid:2307754] Invalid RTN mov eax, 0x8000001d
+ [tid:2307754] Invalid RTN mov ecx, r8d
+ [tid:2307754] Invalid RTN cpuid 
+ [tid:2307754] Invalid RTN mov r8d, ecx
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3408
+ [tid:2307754] Invalid RTN lea ecx, ptr [rdi-0xb9]
+ [tid:2307754] Invalid RTN mov eax, 0x1
+ [tid:2307754] Invalid RTN shl rax, cl
+ [tid:2307754] Invalid RTN test eax, 0x249
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3420
+ [tid:2307754] Invalid RTN test eax, 0x924
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3620
+ [tid:2307754] Invalid RTN mov eax, ebx
+ [tid:2307754] Invalid RTN and ebx, 0xfff
+ [tid:2307754] Invalid RTN shr eax, 0x16
+ [tid:2307754] Invalid RTN add ebx, 0x1
+ [tid:2307754] Invalid RTN add eax, 0x1
+ [tid:2307754] Invalid RTN imul ebx, eax
+ [tid:2307754] Invalid RTN lea eax, ptr [r8+0x1]
+ [tid:2307754] Invalid RTN mov r8d, ebx
+ [tid:2307754] Invalid RTN imul r8d, eax
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3c33b3
+ [tid:2307754] Invalid RTN mov rax, r8
+ [tid:2307754] Invalid RTN pop rbx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov edi, 0xbf
+ [tid:2307754] Invalid RTN mov r12, rax
+ [tid:2307754] Invalid RTN call 0x7fa35d3c3330
+ [tid:2307754] Invalid RTN mov eax, 0x8000001d
+ [tid:2307754] Invalid RTN mov ecx, r8d
+ [tid:2307754] Invalid RTN cpuid 
+ [tid:2307754] Invalid RTN mov edi, 0xc2
+ [tid:2307754] Invalid RTN mov r10, rax
+ [tid:2307754] Invalid RTN call 0x7fa35d3c3330
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x10], rax
+ [tid:2307754] Invalid RTN test rax, rax
+ [tid:2307754] Invalid RTN jle 0x7fa35d3c3d28
+ [tid:2307754] Invalid RTN cmp dword ptr [rbx+0x70], 0x16
+ [tid:2307754] Invalid RTN jnbe 0x7fa35d3c3d1c
+ [tid:2307754] Invalid RTN add rax, r10
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x10], rax
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x18], rax
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3c3ca5
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x18], rax
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3c3ca5
+ [tid:2307754] Invalid RTN test r13, r13
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3abd
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3c3ac0
+ [tid:2307754] Invalid RTN test r12, r12
+ [tid:2307754] Invalid RTN jle 0x7fa35d3c3af0
+ [tid:2307754] Invalid RTN mov rax, r12
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea879], r12
+ [tid:2307754] Invalid RTN xor r12b, r12b
+ [tid:2307754] Invalid RTN sar rax, 0x1
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea87c], r12
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea86d], rax
+ [tid:2307754] Invalid RTN mov rax, r12
+ [tid:2307754] Invalid RTN sar rax, 0x1
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea870], rax
+ [tid:2307754] Invalid RTN test rbp, rbp
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3beb
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rsp+0x10]
+ [tid:2307754] Invalid RTN test rax, rax
+ [tid:2307754] Invalid RTN jle 0x7fa35d3c3bf7
+ [tid:2307754] Invalid RTN mov rdx, rax
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea817], rax
+ [tid:2307754] Invalid RTN xor al, al
+ [tid:2307754] Invalid RTN sar rdx, 0x1
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea81b], rax
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea80c], rdx
+ [tid:2307754] Invalid RTN mov rdx, rax
+ [tid:2307754] Invalid RTN sar rdx, 0x1
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea80f], rdx
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rsp+0x18]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rdx+rdx*2]
+ [tid:2307754] Invalid RTN test rdx, rdx
+ [tid:2307754] Invalid RTN lea rbp, ptr [rdx+0x3]
+ [tid:2307754] Invalid RTN cmovns rbp, rdx
+ [tid:2307754] Invalid RTN sar rax, 0x2
+ [tid:2307754] Invalid RTN sar rbp, 0x2
+ [tid:2307754] Invalid RTN cmp rax, rbp
+ [tid:2307754] Invalid RTN cmovb rax, rbp
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rbx+0xb0]
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rbx+0x1a0]
+ [tid:2307754] Invalid RTN test ch, 0x2
+ [tid:2307754] Invalid RTN cmovz rax, rbp
+ [tid:2307754] Invalid RTN test rdx, rdx
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN and ecx, 0x10000
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rbx+0x17c]
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ed6b6], rax
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3c30
+ [tid:2307754] Invalid RTN test dh, 0x40
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3c30
+ [tid:2307754] Invalid RTN mov eax, 0x4000
+ [tid:2307754] Invalid RTN mov edx, 0x200
+ [tid:2307754] Invalid RTN test byte ptr [rbx+0xb8], 0x10
+ [tid:2307754] Invalid RTN mov ecx, 0x840
+ [tid:2307754] Invalid RTN cmovnz rax, rcx
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rbx+0x1a8]
+ [tid:2307754] Invalid RTN cmp rcx, rdx
+ [tid:2307754] Invalid RTN cmovnbe rax, rcx
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea760], rax
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rbx+0x1b0]
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea74a], rax
+ [tid:2307754] Invalid RTN add rsp, 0x20
+ [tid:2307754] Invalid RTN xor eax, eax
+ [tid:2307754] Invalid RTN pop rbx
+ [tid:2307754] Invalid RTN pop rbp
+ [tid:2307754] Invalid RTN pop r12
+ [tid:2307754] Invalid RTN pop r13
+ [tid:2307754] Invalid RTN pop r14
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN and edx, 0x100
+ [tid:2307754] Invalid RTN cmp edx, 0x1
+ [tid:2307754] Invalid RTN sbb rax, rax
+ [tid:2307754] Invalid RTN and rax, 0xffffffffffffe800
+ [tid:2307754] Invalid RTN add rax, 0x2000
+ [tid:2307754] Invalid RTN cmp edx, 0x1
+ [tid:2307754] Invalid RTN sbb rdx, rdx
+ [tid:2307754] Invalid RTN and rdx, 0xffffffffffffff80
+ [tid:2307754] Invalid RTN add rdx, 0x100
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3c3b9b
+ [tid:2307754] Invalid RTN test byte ptr [rbx+0xb8], 0x10
+ [tid:2307754] Invalid RTN mov ecx, 0x840
+ [tid:2307754] Invalid RTN cmovnz rax, rcx
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rbx+0x1a8]
+ [tid:2307754] Invalid RTN cmp rcx, rdx
+ [tid:2307754] Invalid RTN cmovnbe rax, rcx
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea760], rax
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rbx+0x1b0]
+ [tid:2307754] Invalid RTN mov qword ptr [rip+0x2ea74a], rax
+ [tid:2307754] Invalid RTN add rsp, 0x20
+ [tid:2307754] Invalid RTN xor eax, eax
+ [tid:2307754] Invalid RTN pop rbx
+ [tid:2307754] Invalid RTN pop rbp
+ [tid:2307754] Invalid RTN pop r12
+ [tid:2307754] Invalid RTN pop r13
+ [tid:2307754] Invalid RTN pop r14
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x32f8fd]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7bac2]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test dh, 0x30
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e5e3
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN test esi, 0x10000
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e5e8
+ [tid:2307754] Invalid RTN test dh, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e5c0
+ [tid:2307754] Invalid RTN test esi, esi
+ [tid:2307754] Invalid RTN js 0x7fa35d37e638
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e5b0
+ [tid:2307754] Invalid RTN and esi, 0x200
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0xfbd3]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xfc3c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN test dh, 0x8
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e658
+ [tid:2307754] Invalid RTN nop dword ptr [rax]
+ [tid:2307754] Invalid RTN test byte ptr [rcx+0x95], 0x2
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e618
+ [tid:2307754] Invalid RTN test dl, 0x20
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e618
+ [tid:2307754] Invalid RTN and esi, 0x200
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x722b]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x7294]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x3306dd]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d794
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d7c0
+ [tid:2307754] Invalid RTN and esi, 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x6a40e]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d7b9
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d7e0
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x16115]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d7b9
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xd729]
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d794
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x32f31d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37eb78
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d37eb78
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37ebb0
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x11201]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37ebab
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x88bf]
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ebab
+ [tid:2307754] Invalid RTN nop dword ptr [rax+rax*1]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0x94]
+ [tid:2307754] Invalid RTN test ecx, 0x100000
+ [tid:2307754] Invalid RTN jz 0x7fa35d37eb96
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x330efd]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37cf74
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37cfa0
+ [tid:2307754] Invalid RTN and esi, 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x75dae]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37cf99
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37cfc0
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x137d5]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37cf99
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xae89]
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37cf74
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x33064d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x69252]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d830
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d828
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d868
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x16d1a]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d828
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0xe2db]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x6929c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN sub rsp, 0x28
+ [tid:2307754] Invalid RTN mov esi, 0x32
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x9e3e4]
+ [tid:2307754] Invalid RTN mov edx, 0x5f
+ [tid:2307754] Invalid RTN mov qword ptr [rsp], rax
+ [tid:2307754] Invalid RTN lea rcx, ptr [rip+0x9e3d9]
+ [tid:2307754] Invalid RTN mov rax, 0x103ae75f6
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x8], rax
+ [tid:2307754] Invalid RTN mov eax, 0x50e3a8
+ [tid:2307754] Invalid RTN shl rax, 0x4
+ [tid:2307754] Invalid RTN add rcx, 0x1
+ [tid:2307754] Invalid RTN add rax, rdx
+ [tid:2307754] Invalid RTN mov rdx, rax
+ [tid:2307754] Invalid RTN shr rdx, 0x18
+ [tid:2307754] Invalid RTN and edx, 0xf0
+ [tid:2307754] Invalid RTN xor rax, rdx
+ [tid:2307754] Invalid RTN test sil, sil
+ [tid:2307754] Invalid RTN jz 0x7fa35d3d58f8
+ [tid:2307754] Invalid RTN movzx edx, sil
+ [tid:2307754] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3d58c8
+ [tid:2307754] Invalid RTN shl rax, 0x4
+ [tid:2307754] Invalid RTN add rcx, 0x1
+ [tid:2307754] Invalid RTN add rax, rdx
+ [tid:2307754] Invalid RTN mov rdx, rax
+ [tid:2307754] Invalid RTN shr rdx, 0x18
+ [tid:2307754] Invalid RTN and edx, 0xf0
+ [tid:2307754] Invalid RTN xor rax, rdx
+ [tid:2307754] Invalid RTN test sil, sil
+ [tid:2307754] Invalid RTN jz 0x7fa35d3d58f8
+ [tid:2307754] Invalid RTN movzx edx, sil
+ [tid:2307754] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3d58c8
+ [tid:2307754] Invalid RTN and eax, 0xfffffff
+ [tid:2307754] Invalid RTN cmp rax, 0x3ae75f6
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3d5930
+ [tid:2307754] Invalid RTN mov rsi, rsp
+ [tid:2307754] Invalid RTN lea rdi, ptr [rip+0x9fd82]
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x10], 0x0
+ [tid:2307754] Invalid RTN call 0x7fa35d457710
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN sub rsp, 0x38
+ [tid:2307754] Invalid RTN mov r8, rsi
+ [tid:2307754] Invalid RTN mov rax, qword ptr fs:[0x28]
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x28], rax
+ [tid:2307754] Invalid RTN xor eax, eax
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rip+0x256726]
+ [tid:2307754] Invalid RTN mov rsi, qword ptr [rax+0x248]
+ [tid:2307754] Invalid RTN test rsi, rsi
+ [tid:2307754] Invalid RTN jz 0x7fa35d45779a
+ [tid:2307754] Invalid RTN lea rdx, ptr [rsp+0x10]
+ [tid:2307754] Invalid RTN pxor xmm0, xmm0
+ [tid:2307754] Invalid RTN xor r9d, r9d
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x20], 0x0
+ [tid:2307754] Invalid RTN movaps xmmword ptr [rsp+0x10], xmm0
+ [tid:2307754] Invalid RTN lea rcx, ptr [rsi+0x398]
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x8], rdx
+ [tid:2307754] Invalid RTN lea rdx, ptr [rsp+0x8]
+ [tid:2307754] Invalid RTN mov byte ptr [rsp+0x14], 0x20
+ [tid:2307754] Invalid RTN push 0x0
+ [tid:2307754] Invalid RTN push 0x0
+ [tid:2307754] Invalid RTN call qword ptr [rax+0x268]
+ [tid:2307754] Invalid RTN mov rsi, qword ptr [rsp+0x18]
+ [tid:2307754] Invalid RTN pop rdx
+ [tid:2307754] Invalid RTN pop rcx
+ [tid:2307754] Invalid RTN test rsi, rsi
+ [tid:2307754] Invalid RTN jz 0x7fa35d45779a
+ [tid:2307754] Invalid RTN cmp word ptr [rsi+0x6], 0xfff1
+ [tid:2307754] Invalid RTN jz 0x7fa35d4577b8
+ [tid:2307754] Invalid RTN test rax, rax
+ [tid:2307754] Invalid RTN jz 0x7fa35d4577b8
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rax]
+ [tid:2307754] Invalid RTN add rax, qword ptr [rsi+0x8]
+ [tid:2307754] Invalid RTN mov rsi, rax
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rsp+0x28]
+ [tid:2307754] Invalid RTN xor rcx, qword ptr fs:[0x28]
+ [tid:2307754] Invalid RTN mov rax, rsi
+ [tid:2307754] Invalid RTN jnz 0x7fa35d4577bc
+ [tid:2307754] Invalid RTN add rsp, 0x38
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0xa4]
+ [tid:2307754] Invalid RTN test rax, rax
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN add rsp, 0x28
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x32db4d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7cc52]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d380330
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d380328
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d380370
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xeb32]
+ [tid:2307754] Invalid RTN test esi, esi
+ [tid:2307754] Invalid RTN jnz 0x7fa35d380328
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x6224]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7cca3]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x2e990d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xae102]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c4570
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c4568
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d3c45b0
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x2e7ae]
+ [tid:2307754] Invalid RTN test esi, esi
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c4568
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0x3721c]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xae153]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x2e9fed]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xaefe2]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3e90
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3e88
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d3c3ec8
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x2f466]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3e88
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0x37e85]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xaf02c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x32f6cd]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7bd22]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test dh, 0x30
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e813
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN test esi, 0x10000
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e818
+ [tid:2307754] Invalid RTN test dh, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e7f0
+ [tid:2307754] Invalid RTN test esi, esi
+ [tid:2307754] Invalid RTN js 0x7fa35d37e868
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e7e0
+ [tid:2307754] Invalid RTN and esi, 0x200
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0xf983]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xf9ec]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN test dh, 0x8
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e888
+ [tid:2307754] Invalid RTN nop dword ptr [rax]
+ [tid:2307754] Invalid RTN test byte ptr [rcx+0x95], 0x2
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e848
+ [tid:2307754] Invalid RTN test dl, 0x20
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e848
+ [tid:2307754] Invalid RTN and esi, 0x200
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x6fdb]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x7044]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rip+0x32f99d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rax+0xb0]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rax+0x94]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e510
+ [tid:2307754] Invalid RTN test edx, 0x400000
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e510
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e510
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rax+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e510
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37e530
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xf84e]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e525
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x6f5c]
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e525
+ [tid:2307754] Invalid RTN nop word ptr [rax+rax*1]
+ [tid:2307754] Invalid RTN and dh, 0x2
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7bf1a]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x216df]
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x33077d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d718
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d718
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d750
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x15b61]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d74b
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xd19f]
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d74b
+ [tid:2307754] Invalid RTN nop dword ptr [rax+rax*1]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0x94]
+ [tid:2307754] Invalid RTN test ecx, 0x100000
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d736
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x330ded]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d084
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d0b0
+ [tid:2307754] Invalid RTN and esi, 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7211e]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d0a9
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d0d0
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x14195]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d0a9
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xb829]
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d084
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x32f7cd]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7b152]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x10
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e6f4
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN test edx, 0x10000
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e6f8
+ [tid:2307754] Invalid RTN mov eax, edx
+ [tid:2307754] Invalid RTN and eax, 0x200
+ [tid:2307754] Invalid RTN test dl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e6e0
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d37e748
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e730
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e6e0
+ [tid:2307754] Invalid RTN test eax, eax
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x7cbe]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x7d67]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x2ea06d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xaf0f2]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3e10
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3e08
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d3c3e48
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x2f626]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3e08
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0x38055]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xaf13c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x33088d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x69232]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d5f0
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d5e8
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d628
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x16c5a]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d5e8
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0xe24b]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x6927c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rip+0x330cad]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x453ce]
+ [tid:2307754] Invalid RTN test byte ptr [rax+0x96], 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x45530]
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x32f27d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ec18
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ec18
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37ec50
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x130d1]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37ec4b
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xa74f]
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ec4b
+ [tid:2307754] Invalid RTN nop dword ptr [rax+rax*1]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0x94]
+ [tid:2307754] Invalid RTN test ecx, 0x100000
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ec36
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x330d3d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d134
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d160
+ [tid:2307754] Invalid RTN and esi, 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x71e2e]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d159
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d180
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x14645]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d159
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xbcd9]
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d134
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x32f03d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7c382]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test dh, 0x30
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eea3
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN test esi, 0x10000
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eea8
+ [tid:2307754] Invalid RTN test dh, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ee80
+ [tid:2307754] Invalid RTN test esi, esi
+ [tid:2307754] Invalid RTN js 0x7fa35d37eef8
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ee70
+ [tid:2307754] Invalid RTN and esi, 0x200
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0xf313]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xf37c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN test dh, 0x8
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ef18
+ [tid:2307754] Invalid RTN nop dword ptr [rax]
+ [tid:2307754] Invalid RTN test byte ptr [rcx+0x95], 0x2
+ [tid:2307754] Invalid RTN jz 0x7fa35d37eed8
+ [tid:2307754] Invalid RTN test dl, 0x20
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eed8
+ [tid:2307754] Invalid RTN and esi, 0x200
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x696b]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x69d4]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x2e856d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov eax, ecx
+ [tid:2307754] Invalid RTN and eax, 0x120
+ [tid:2307754] Invalid RTN cmp eax, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c5920
+ [tid:2307754] Invalid RTN test byte ptr [rdx+0x96], 0x8
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xefd3]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0xaf9d4]
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c58ff
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d3c5950
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x30199]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c5918
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x38beb]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c58ff
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x2e97bd]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xc1212]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c46dd
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test dh, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c46dd
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d3c46e0
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x35ab3]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c46dd
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xc1242]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0x3e3c9]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rip+0x3305cd]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x4508e]
+ [tid:2307754] Invalid RTN test byte ptr [rax+0x96], 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x451b0]
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rip+0x330e6d]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rax+0xb0]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rax+0x17c]
+ [tid:2307754] Invalid RTN mov eax, edx
+ [tid:2307754] Invalid RTN and eax, 0x120
+ [tid:2307754] Invalid RTN cmp eax, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d020
+ [tid:2307754] Invalid RTN and ecx, 0x40
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7392f]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x2435a]
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d005
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d048
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x13df0]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d01a
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xb484]
+ [tid:2307754] Invalid RTN test ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d005
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x33090d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x71c12]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d570
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37d568
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d37d5a8
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x145da]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37d568
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0xbc4b]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x71c5c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x328fdd]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x81de2]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d384ea0
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d384e98
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d384ed8
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x99ba]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d384e98
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x10bb]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x81e2c]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x32f1dd]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ecb8
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ecb8
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37ecf0
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x110d1]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eceb
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x878f]
+ [tid:2307754] Invalid RTN jz 0x7fa35d37eceb
+ [tid:2307754] Invalid RTN nop dword ptr [rax+rax*1]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0x94]
+ [tid:2307754] Invalid RTN test ecx, 0x100000
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ecd6
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x32fa2d]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7c162]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e450
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d37e448
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d37e490
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xf612]
+ [tid:2307754] Invalid RTN test esi, esi
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37e448
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x6d04]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7c1b3]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x2e9e9d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov eax, ecx
+ [tid:2307754] Invalid RTN and eax, 0x120
+ [tid:2307754] Invalid RTN cmp eax, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3ff0
+ [tid:2307754] Invalid RTN test byte ptr [rdx+0x96], 0x8
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0xae47d]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0xae244]
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d3c3fcf
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d3c4020
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x2f0a9]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3fe8
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x37adb]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3c3fcf
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rip+0x33030d]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x44f1e]
+ [tid:2307754] Invalid RTN test byte ptr [rax+0x96], 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x45030]
+ [tid:2307754] Invalid RTN cmovnz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x32f3ad]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37eac4
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eaf0
+ [tid:2307754] Invalid RTN and esi, 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7aa4e]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eae9
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37eb10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x108a5]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eae9
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x7f99]
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37eac4
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x32f43d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ea34
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37ea60
+ [tid:2307754] Invalid RTN and esi, 0x10
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x7b07e]
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37ea59
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37ea80
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x10575]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37ea59
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x7c79]
+ [tid:2307754] Invalid RTN test esi, 0x800
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37ea34
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x32dabd]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x76a92]
+ [tid:2307754] Invalid RTN mov edx, dword ptr [rcx+0xb0]
+ [tid:2307754] Invalid RTN mov esi, edx
+ [tid:2307754] Invalid RTN and esi, 0x120
+ [tid:2307754] Invalid RTN cmp esi, 0x120
+ [tid:2307754] Invalid RTN jz 0x7fa35d3803c0
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rcx+0x17c]
+ [tid:2307754] Invalid RTN test ch, 0x1
+ [tid:2307754] Invalid RTN jz 0x7fa35d3803b8
+ [tid:2307754] Invalid RTN test edx, edx
+ [tid:2307754] Invalid RTN js 0x7fa35d3803f8
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x10c8a]
+ [tid:2307754] Invalid RTN and dh, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3803b8
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip+0x831b]
+ [tid:2307754] Invalid RTN lea rax, ptr [rip-0x76adc]
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x32f13d]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0xb0]
+ [tid:2307754] Invalid RTN test cl, 0x20
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ed58
+ [tid:2307754] Invalid RTN mov esi, dword ptr [rdx+0x17c]
+ [tid:2307754] Invalid RTN test esi, 0x100
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ed58
+ [tid:2307754] Invalid RTN test ecx, ecx
+ [tid:2307754] Invalid RTN js 0x7fa35d37ed90
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x12fa1]
+ [tid:2307754] Invalid RTN and ch, 0x8
+ [tid:2307754] Invalid RTN jnz 0x7fa35d37ed8b
+ [tid:2307754] Invalid RTN and esi, 0x800
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0xa61f]
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ed8b
+ [tid:2307754] Invalid RTN nop dword ptr [rax+rax*1]
+ [tid:2307754] Invalid RTN mov ecx, dword ptr [rdx+0x94]
+ [tid:2307754] Invalid RTN test ecx, 0x100000
+ [tid:2307754] Invalid RTN jz 0x7fa35d37ed76
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN sub rsp, 0x28
+ [tid:2307754] Invalid RTN mov esi, 0x32
+ [tid:2307754] Invalid RTN lea rax, ptr [rip+0x9e2f4]
+ [tid:2307754] Invalid RTN mov edx, 0x5f
+ [tid:2307754] Invalid RTN mov qword ptr [rsp], rax
+ [tid:2307754] Invalid RTN lea rcx, ptr [rip+0x9e2e9]
+ [tid:2307754] Invalid RTN mov rax, 0x103ae75f6
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x8], rax
+ [tid:2307754] Invalid RTN mov eax, 0x50e3a8
+ [tid:2307754] Invalid RTN shl rax, 0x4
+ [tid:2307754] Invalid RTN add rcx, 0x1
+ [tid:2307754] Invalid RTN add rax, rdx
+ [tid:2307754] Invalid RTN mov rdx, rax
+ [tid:2307754] Invalid RTN shr rdx, 0x18
+ [tid:2307754] Invalid RTN and edx, 0xf0
+ [tid:2307754] Invalid RTN xor rax, rdx
+ [tid:2307754] Invalid RTN test sil, sil
+ [tid:2307754] Invalid RTN jz 0x7fa35d3d59e8
+ [tid:2307754] Invalid RTN movzx edx, sil
+ [tid:2307754] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3d59b8
+ [tid:2307754] Invalid RTN shl rax, 0x4
+ [tid:2307754] Invalid RTN add rcx, 0x1
+ [tid:2307754] Invalid RTN add rax, rdx
+ [tid:2307754] Invalid RTN mov rdx, rax
+ [tid:2307754] Invalid RTN shr rdx, 0x18
+ [tid:2307754] Invalid RTN and edx, 0xf0
+ [tid:2307754] Invalid RTN xor rax, rdx
+ [tid:2307754] Invalid RTN test sil, sil
+ [tid:2307754] Invalid RTN jz 0x7fa35d3d59e8
+ [tid:2307754] Invalid RTN movzx edx, sil
+ [tid:2307754] Invalid RTN movzx esi, byte ptr [rcx+0x1]
+ [tid:2307754] Invalid RTN jmp 0x7fa35d3d59b8
+ [tid:2307754] Invalid RTN and eax, 0xfffffff
+ [tid:2307754] Invalid RTN cmp rax, 0x3ae75f6
+ [tid:2307754] Invalid RTN jnz 0x7fa35d3d5a20
+ [tid:2307754] Invalid RTN mov rsi, rsp
+ [tid:2307754] Invalid RTN lea rdi, ptr [rip+0x9fc9e]
+ [tid:2307754] Invalid RTN mov qword ptr [rsp+0x10], 0x0
+ [tid:2307754] Invalid RTN call 0x7fa35d457710
+ [tid:2307754] Invalid RTN lea rdx, ptr [rip-0xc4]
+ [tid:2307754] Invalid RTN test rax, rax
+ [tid:2307754] Invalid RTN cmovz rax, rdx
+ [tid:2307754] Invalid RTN add rsp, 0x28
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN jmp 0x7fa35d325430
+ [tid:2307754] Invalid RTN nop edx, edi
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rip+0x388985]
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x3889be]
+ [tid:2307754] Invalid RTN mov rax, qword ptr fs:[rax]
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rax]
+ [tid:2307754] Invalid RTN mov rsi, qword ptr [rax+0x40]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rsi+0x100]
+ [tid:2307754] Invalid RTN mov qword ptr fs:[rcx], rdx
+ [tid:2307754] Invalid RTN mov rdi, qword ptr [rax+0x48]
+ [tid:2307754] Invalid RTN mov rcx, qword ptr [rip+0x388a85]
+ [tid:2307754] Invalid RTN lea rdx, ptr [rdi+0x200]
+ [tid:2307754] Invalid RTN mov qword ptr fs:[rcx], rdx
+ [tid:2307754] Invalid RTN mov rax, qword ptr [rax+0x58]
+ [tid:2307754] Invalid RTN mov rdx, qword ptr [rip+0x388aaf]
+ [tid:2307754] Invalid RTN add rax, 0x200
+ [tid:2307754] Invalid RTN mov qword ptr fs:[rdx], rax
+ [tid:2307754] Invalid RTN ret 
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x2027b9]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x2027b9]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rsi, ptr [rip+0x2027b2]
+ [tid:2307754] ins:lea rsi, ptr [rip+0x2027b2]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included sub rsi, rdi
+ [tid:2307754] ins:sub rsi, rdi
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included sar rsi, 0x3
+ [tid:2307754] ins:sar rsi, 0x3
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, rsi
+ [tid:2307754] ins:mov rax, rsi
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included shr rax, 0x3f
+ [tid:2307754] ins:shr rax, 0x3f
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsi, rax
+ [tid:2307754] ins:add rsi, rax
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included sar rsi, 0x1
+ [tid:2307754] ins:sar rsi, 0x1
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rip+0x2026fd]
+ [tid:2307754] ins:mov rax, qword ptr [rip+0x2026fd]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included test rax, rax
+ [tid:2307754] ins:test rax, rax
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] Exe register_tm_clones
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included push rbp
+ [tid:2307754] ins:push rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rbp, rsp
+ [tid:2307754] ins:mov rbp, rsp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included sub rsp, 0x210
+ [tid:2307754] ins:sub rsp, 0x210
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, 0xffffffff
+ [tid:2307754] ins:mov eax, 0xffffffff
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x14c0]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x14c0]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rsi, ptr [rip+0x1504]
+ [tid:2307754] ins:lea rsi, ptr [rip+0x1504]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, 0x28
+ [tid:2307754] ins:mov edi, 0x28
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rbp-0x18], 0x0
+ [tid:2307754] ins:cmp qword ptr [rbp-0x18], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x14e1]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x14e1]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rdi, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included xor esi, esi
+ [tid:2307754] ins:xor esi, esi
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, 0x28
+ [tid:2307754] ins:mov edx, 0x28
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, 0x10
+ [tid:2307754] ins:mov edi, 0x10
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] ins:cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x14b5]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x14b5]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included xor esi, esi
+ [tid:2307754] ins:xor esi, esi
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, 0x10
+ [tid:2307754] ins:mov edx, 0x10
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax+0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rax+0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, 0x10
+ [tid:2307754] ins:mov edi, 0x10
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x30]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x30]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x30]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x30]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] ins:cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x147e]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x147e]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x30]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x30]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included xor esi, esi
+ [tid:2307754] ins:xor esi, esi
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, 0x1
+ [tid:2307754] ins:mov edx, 0x1
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rax, ptr [rbp-0xc0]
+ [tid:2307754] ins:lea rax, ptr [rbp-0xc0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x38]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x38]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rax, ptr [rbp-0xc0]
+ [tid:2307754] ins:lea rax, ptr [rbp-0xc0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rax, ptr [rbp-0xd4]
+ [tid:2307754] ins:lea rax, ptr [rbp-0xd4]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0xe0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0xe0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rax, ptr [rbp-0xd4]
+ [tid:2307754] ins:lea rax, ptr [rbp-0xd4]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rax, ptr [rbp-0xd4]
+ [tid:2307754] ins:lea rax, ptr [rbp-0xd4]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rax, ptr [rbp-0xd4]
+ [tid:2307754] ins:lea rax, ptr [rbp-0xd4]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x30]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x30]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x148]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x148]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rbp-0x150]
+ [tid:2307754] ins:mov rdi, qword ptr [rbp-0x150]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x100]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x100]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0xf8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0xf8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0xf0]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0xf0]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov esi, 0x80
+ [tid:2307754] ins:mov esi, 0x80
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rax
+ [tid:2307754] ins:mov rsi, rax
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x170]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x170]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rsi, 0x0
+ [tid:2307754] ins:cmp rsi, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rsi, 0x0
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rbp-0x140]
+ [tid:2307754] ins:mov rdi, qword ptr [rbp-0x140]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rsi, ptr [rip+0x133b]
+ [tid:2307754] ins:lea rsi, ptr [rip+0x133b]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdx, ptr [rbp-0xe4]
+ [tid:2307754] ins:lea rdx, ptr [rbp-0xe4]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rcx, ptr [rbp-0xd4]
+ [tid:2307754] ins:lea rcx, ptr [rbp-0xd4]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov al, 0x0
+ [tid:2307754] ins:mov al, 0x0
+ [tid:2307754] reg:al
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, 0x28
+ [tid:2307754] ins:mov edi, 0x28
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rax, 0x0
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x198]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x198]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x190]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x190]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x188]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x188]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x126e]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x126e]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rdi, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included xor esi, esi
+ [tid:2307754] ins:xor esi, esi
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, 0x28
+ [tid:2307754] ins:mov edx, 0x28
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, 0x10
+ [tid:2307754] ins:mov edi, 0x10
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rax
+ [tid:2307754] ins:mov rsi, rax
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] ins:cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1b8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1b8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1b0]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1b0]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x1a8]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x1a8]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x11fc]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x11fc]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included xor esi, esi
+ [tid:2307754] ins:xor esi, esi
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, 0x10
+ [tid:2307754] ins:mov edx, 0x10
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax+0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rax+0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, 0x10
+ [tid:2307754] ins:mov edi, 0x10
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rax
+ [tid:2307754] ins:mov rsi, rax
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rcx+0x8], 0x0
+ [tid:2307754] ins:cmp qword ptr [rcx+0x8], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp qword ptr [rcx+0x8], 0x0
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1d0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1d0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1c8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1c8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x1c0]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x1c0]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x1179]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x1179]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1d8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1d8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x8]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included xor esi, esi
+ [tid:2307754] ins:xor esi, esi
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, 0x1
+ [tid:2307754] ins:mov edx, 0x1
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x138]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x138]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x12c]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x12c]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rcx]
+ [tid:2307754] ins:mov ecx, dword ptr [rcx]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x120]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x120]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, eax
+ [tid:2307754] ins:mov edx, eax
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, edx
+ [tid:2307754] ins:mov edx, edx
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rcx+0x8]
+ [tid:2307754] ins:mov rcx, qword ptr [rcx+0x8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rax]
+ [tid:2307754] ins:mov eax, dword ptr [rax]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, eax
+ [tid:2307754] ins:mov edi, eax
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included push rbp
+ [tid:2307754] ins:push rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rbp, rsp
+ [tid:2307754] ins:mov rbp, rsp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included sub rsp, 0xa0
+ [tid:2307754] ins:sub rsp, 0xa0
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rbp-0x28], 0x0
+ [tid:2307754] ins:cmp qword ptr [rbp-0x28], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x50]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x50]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x40]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x40]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x38]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x38]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rsi]
+ [tid:2307754] ins:mov rcx, qword ptr [rsi]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rsi+0x8]
+ [tid:2307754] ins:mov rsi, qword ptr [rsi+0x8]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included and rdx, qword ptr [rsi]
+ [tid:2307754] ins:and rdx, qword ptr [rsi]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rcx, rdx
+ [tid:2307754] ins:cmp rcx, rdx
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rcx, rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x48]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x48]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x58]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x58]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx ecx, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx ecx, byte ptr [rax+0x11]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edi, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx edi, byte ptr [rax+0x11]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included push rbp
+ [tid:2307754] ins:push rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rbp, rsp
+ [tid:2307754] ins:mov rbp, rsp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe bit
+ [tid:2307754] Exe bit
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, 0x1f
+ [tid:2307754] ins:mov ecx, 0x1f
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included sub ecx, dword ptr [rbp-0x4]
+ [tid:2307754] ins:sub ecx, dword ptr [rbp-0x4]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, 0x1
+ [tid:2307754] ins:mov edx, 0x1
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included shl edx, cl
+ [tid:2307754] ins:shl edx, cl
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, edx
+ [tid:2307754] ins:mov ecx, edx
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included movsxd rcx, ecx
+ [tid:2307754] ins:movsxd rcx, ecx
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included and rax, rcx
+ [tid:2307754] ins:and rax, rcx
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe bit
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe bit
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax+0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rax+0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax+0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rax+0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x78]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x78]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x80]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x80]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, dword ptr [rbp-0x64]
+ [tid:2307754] ins:mov edx, dword ptr [rbp-0x64]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx esi, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx esi, byte ptr [rax+0x11]
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp edx, esi
+ [tid:2307754] ins:cmp edx, esi
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp edx, esi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rcx
+ [tid:2307754] ins:mov rsi, rcx
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rax
+ [tid:2307754] ins:mov rsi, rax
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x94]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x94]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x90]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x90]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x88]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x88]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax]
+ [tid:2307754] ins:mov rax, qword ptr [rax]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rdx+0x8]
+ [tid:2307754] ins:mov rdx, qword ptr [rdx+0x8]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included and rcx, qword ptr [rdx]
+ [tid:2307754] ins:and rcx, qword ptr [rdx]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, rcx
+ [tid:2307754] ins:cmp rax, rcx
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0xa0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0xa0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsp, 0xa0
+ [tid:2307754] ins:add rsp, 0xa0
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x118]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x118]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax]
+ [tid:2307754] ins:mov rax, qword ptr [rax]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rcx]
+ [tid:2307754] ins:mov ecx, dword ptr [rcx]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, rcx
+ [tid:2307754] ins:cmp rax, rcx
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x108]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x108]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included movss xmm0, dword ptr [rbp-0xe4]
+ [tid:2307754] ins:movss xmm0, dword ptr [rbp-0xe4]
+ [tid:2307754] reg:xmm0
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cvtss2sd xmm0, xmm0
+ [tid:2307754] ins:cvtss2sd xmm0, xmm0
+ [tid:2307754] reg:xmm0
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov esi, dword ptr [rax]
+ [tid:2307754] ins:mov esi, dword ptr [rax]
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x1104]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x1104]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov al, 0x1
+ [tid:2307754] ins:mov al, 0x1
+ [tid:2307754] reg:al
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x110]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x110]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rdi, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included push rbp
+ [tid:2307754] ins:push rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rbp, rsp
+ [tid:2307754] ins:mov rbp, rsp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included sub rsp, 0x140
+ [tid:2307754] ins:sub rsp, 0x140
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rbp-0x18], 0x0
+ [tid:2307754] ins:cmp qword ptr [rbp-0x18], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rbp-0x10], 0x0
+ [tid:2307754] ins:cmp qword ptr [rbp-0x10], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] ins:cmp qword ptr [rax+0x8], 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax+0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rax+0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rax]
+ [tid:2307754] ins:mov rcx, qword ptr [rax]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included and rcx, qword ptr [rax]
+ [tid:2307754] ins:and rcx, qword ptr [rax]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x48]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x48]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x40]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x40]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edx, byte ptr [rcx+0x11]
+ [tid:2307754] ins:movsx edx, byte ptr [rcx+0x11]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edi, byte ptr [rcx+0x11]
+ [tid:2307754] ins:movsx edi, byte ptr [rcx+0x11]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x58]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x58]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax+0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rax+0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x58]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x58]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax+0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rax+0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x68]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x68]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rbp-0x4c]
+ [tid:2307754] ins:mov ecx, dword ptr [rbp-0x4c]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edx, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx edx, byte ptr [rax+0x11]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp ecx, edx
+ [tid:2307754] ins:cmp ecx, edx
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp ecx, edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, rax
+ [tid:2307754] ins:mov rdx, rax
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x74]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x74]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax]
+ [tid:2307754] ins:mov rax, qword ptr [rax]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, qword ptr [rcx]
+ [tid:2307754] ins:cmp rax, qword ptr [rcx]
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movzx eax, byte ptr [rax+0x10]
+ [tid:2307754] ins:movzx eax, byte ptr [rax+0x10]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included add rax, 0x8
+ [tid:2307754] ins:add rax, 0x8
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included add rax, 0x8
+ [tid:2307754] ins:add rax, 0x8
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x34]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x34]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rbp-0x8c]
+ [tid:2307754] ins:mov ecx, dword ptr [rbp-0x8c]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x78]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x78]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp eax, ecx
+ [tid:2307754] ins:cmp eax, ecx
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp eax, ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x34]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x34]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rbp-0x118]
+ [tid:2307754] ins:mov ecx, dword ptr [rbp-0x118]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included xor eax, eax
+ [tid:2307754] ins:xor eax, eax
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp ecx, 0x20
+ [tid:2307754] ins:cmp ecx, 0x20
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp ecx, 0x20
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x130]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x130]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x130]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x130]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x120]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x120]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x138]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x138]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, rcx
+ [tid:2307754] ins:cmp rax, rcx
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rax, rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included setz al
+ [tid:2307754] ins:setz al
+ [tid:2307754] reg:al
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x130]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x130]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov cl, byte ptr [rbp-0x129]
+ [tid:2307754] ins:mov cl, byte ptr [rbp-0x129]
+ [tid:2307754] reg:cl
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included test cl, 0x1
+ [tid:2307754] ins:test cl, 0x1
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst test cl, 0x1
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x130]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x130]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included add eax, 0x1
+ [tid:2307754] ins:add eax, 0x1
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rbp-0x118]
+ [tid:2307754] ins:mov ecx, dword ptr [rbp-0x118]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included xor eax, eax
+ [tid:2307754] ins:xor eax, eax
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp ecx, 0x20
+ [tid:2307754] ins:cmp ecx, 0x20
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp ecx, 0x20
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x130]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x130]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x13c]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x13c]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edi, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx edi, byte ptr [rax+0x11]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x20]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x20]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, dword ptr [rbp-0x34]
+ [tid:2307754] ins:mov edx, dword ptr [rbp-0x34]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x18]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x18]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, dword ptr [rbp-0x34]
+ [tid:2307754] ins:mov edx, dword ptr [rbp-0x34]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included push rbp
+ [tid:2307754] ins:push rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rbp, rsp
+ [tid:2307754] ins:mov rbp, rsp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included sub rsp, 0x40
+ [tid:2307754] ins:sub rsp, 0x40
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx eax, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx eax, byte ptr [rax+0x11]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp eax, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:cmp eax, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx eax, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx eax, byte ptr [rax+0x11]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx ecx, byte ptr [rcx+0x11]
+ [tid:2307754] ins:movsx ecx, byte ptr [rcx+0x11]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp eax, ecx
+ [tid:2307754] ins:cmp eax, ecx
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov cl, al
+ [tid:2307754] ins:mov cl, al
+ [tid:2307754] reg:cl
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x30]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x30]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x38]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x38]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsp, 0x40
+ [tid:2307754] ins:add rsp, 0x40
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsp, 0x140
+ [tid:2307754] ins:add rsp, 0x140
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x1e0]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x1e0]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1e8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1e8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rax, 0x0
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x200]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x200]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1f8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1f8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x1f0]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x1f0]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rip+0x202179]
+ [tid:2307754] ins:mov rax, qword ptr [rip+0x202179]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax]
+ [tid:2307754] ins:mov rdi, qword ptr [rax]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rsi, ptr [rip+0x106e]
+ [tid:2307754] ins:lea rsi, ptr [rip+0x106e]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov al, 0x0
+ [tid:2307754] ins:mov al, 0x0
+ [tid:2307754] reg:al
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x208]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x208]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x1e0]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x1e0]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x148]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x148]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rbp-0x150]
+ [tid:2307754] ins:mov rdi, qword ptr [rbp-0x150]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x100]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x100]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0xf8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0xf8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0xf0]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0xf0]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov esi, 0x80
+ [tid:2307754] ins:mov esi, 0x80
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x120]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x120]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, eax
+ [tid:2307754] ins:mov edx, eax
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x128]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, edx
+ [tid:2307754] ins:mov edx, edx
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rcx+0x8]
+ [tid:2307754] ins:mov rcx, qword ptr [rcx+0x8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rax]
+ [tid:2307754] ins:mov eax, dword ptr [rax]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, eax
+ [tid:2307754] ins:mov edi, eax
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x50]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x50]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x40]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x40]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x38]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x38]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rsi]
+ [tid:2307754] ins:mov rcx, qword ptr [rsi]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rsi+0x8]
+ [tid:2307754] ins:mov rsi, qword ptr [rsi+0x8]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included and rdx, qword ptr [rsi]
+ [tid:2307754] ins:and rdx, qword ptr [rsi]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rcx, rdx
+ [tid:2307754] ins:cmp rcx, rdx
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rcx, rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x48]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x48]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x40]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x40]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edx, byte ptr [rcx+0x11]
+ [tid:2307754] ins:movsx edx, byte ptr [rcx+0x11]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edi, byte ptr [rcx+0x11]
+ [tid:2307754] ins:movsx edi, byte ptr [rcx+0x11]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov cl, al
+ [tid:2307754] ins:mov cl, al
+ [tid:2307754] reg:cl
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x78]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x78]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x80]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x80]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, dword ptr [rbp-0x64]
+ [tid:2307754] ins:mov edx, dword ptr [rbp-0x64]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx esi, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx esi, byte ptr [rax+0x11]
+ [tid:2307754] reg:esi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp edx, esi
+ [tid:2307754] ins:cmp edx, esi
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp edx, esi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rcx
+ [tid:2307754] ins:mov rsi, rcx
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rax
+ [tid:2307754] ins:mov rsi, rax
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x94]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x94]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x90]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x90]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x88]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x88]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax]
+ [tid:2307754] ins:mov rax, qword ptr [rax]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rdx+0x8]
+ [tid:2307754] ins:mov rdx, qword ptr [rdx+0x8]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included and rcx, qword ptr [rdx]
+ [tid:2307754] ins:and rcx, qword ptr [rdx]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, rcx
+ [tid:2307754] ins:cmp rax, rcx
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x1100]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x1100]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov al, 0x0
+ [tid:2307754] ins:mov al, 0x0
+ [tid:2307754] reg:al
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1a0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1d8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x1e0]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x1e0]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x1e8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x1e8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rax, 0x0
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x200]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x200]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x1f8]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x1f8]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x1f0]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x1f0]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rip+0x202179]
+ [tid:2307754] ins:mov rax, qword ptr [rip+0x202179]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax]
+ [tid:2307754] ins:mov rdi, qword ptr [rax]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rsi, ptr [rip+0x106e]
+ [tid:2307754] ins:lea rsi, ptr [rip+0x106e]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov al, 0x0
+ [tid:2307754] ins:mov al, 0x0
+ [tid:2307754] reg:al
+ [tid:2307754] Exe main
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0xa0]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0xa0]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsp, 0xa0
+ [tid:2307754] ins:add rsp, 0xa0
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x60]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x68]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x68]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rbp-0x4c]
+ [tid:2307754] ins:mov ecx, dword ptr [rbp-0x4c]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edx, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx edx, byte ptr [rax+0x11]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp ecx, edx
+ [tid:2307754] ins:cmp ecx, edx
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp ecx, edx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, rax
+ [tid:2307754] ins:mov rdx, rax
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x74]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x74]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x70]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rax]
+ [tid:2307754] ins:mov rax, qword ptr [rax]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, qword ptr [rcx]
+ [tid:2307754] ins:cmp rax, qword ptr [rcx]
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included movzx eax, byte ptr [rax+0x10]
+ [tid:2307754] ins:movzx eax, byte ptr [rax+0x10]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included add rax, 0x8
+ [tid:2307754] ins:add rax, 0x8
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x20]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included add rax, 0x8
+ [tid:2307754] ins:add rax, 0x8
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x34]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x34]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov ecx, dword ptr [rbp-0x8c]
+ [tid:2307754] ins:mov ecx, dword ptr [rbp-0x8c]
+ [tid:2307754] reg:ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov eax, dword ptr [rbp-0x78]
+ [tid:2307754] ins:mov eax, dword ptr [rbp-0x78]
+ [tid:2307754] reg:eax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp eax, ecx
+ [tid:2307754] ins:cmp eax, ecx
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp eax, ecx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included movsx edi, byte ptr [rax+0x11]
+ [tid:2307754] ins:movsx edi, byte ptr [rax+0x11]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, 0x0
+ [tid:2307754] ins:cmp rax, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x20]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x20]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov edx, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsp, 0x40
+ [tid:2307754] ins:add rsp, 0x40
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x30]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x30]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov edi, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rax]
+ [tid:2307754] ins:mov rsi, qword ptr [rax]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x38]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x38]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rax+0x18]
+ [tid:2307754] ins:mov rdi, qword ptr [rax+0x18]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rsi, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edx, dword ptr [rbp-0x1c]
+ [tid:2307754] ins:mov edx, dword ptr [rbp-0x1c]
+ [tid:2307754] reg:edx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsp, 0x40
+ [tid:2307754] ins:add rsp, 0x40
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe insertR
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe insertR
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, rax
+ [tid:2307754] ins:mov rcx, rax
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x18]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x10]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x8]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included add rsp, 0x140
+ [tid:2307754] ins:add rsp, 0x140
+ [tid:2307754] reg:rsp
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] INSTSELECTOR: instruction to be included pop rbp
+ [tid:2307754] ins:pop rbp
+ [tid:2307754] reg:rbp
+ [tid:2307754] Exe pat_insert
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rdx+0x8]
+ [tid:2307754] ins:mov rdx, qword ptr [rdx+0x8]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included and rcx, qword ptr [rdx]
+ [tid:2307754] ins:and rcx, qword ptr [rdx]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, rcx
+ [tid:2307754] ins:cmp rax, rcx
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x28]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe pat_search
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x180]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x178]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rsi, rax
+ [tid:2307754] ins:mov rsi, rax
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x170]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x170]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rsi, 0x0
+ [tid:2307754] ins:cmp rsi, 0x0
+ [tid:2307754] reg:rflags
+ [tid:2307754] NORMAL FLAG REG: inst cmp rsi, 0x0
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdi, qword ptr [rbp-0x140]
+ [tid:2307754] ins:mov rdi, qword ptr [rbp-0x140]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rsi, ptr [rip+0x133b]
+ [tid:2307754] ins:lea rsi, ptr [rip+0x133b]
+ [tid:2307754] reg:rsi
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdx, ptr [rbp-0xe4]
+ [tid:2307754] ins:lea rdx, ptr [rbp-0xe4]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rcx, ptr [rbp-0xd4]
+ [tid:2307754] ins:lea rcx, ptr [rbp-0xd4]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov al, 0x0
+ [tid:2307754] ins:mov al, 0x0
+ [tid:2307754] reg:al
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rbp-0x168]
+ [tid:2307754] ins:mov rax, qword ptr [rbp-0x168]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rcx, qword ptr [rbp-0x160]
+ [tid:2307754] ins:mov rcx, qword ptr [rbp-0x160]
+ [tid:2307754] reg:rcx
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rdx, qword ptr [rbp-0x158]
+ [tid:2307754] ins:mov rdx, qword ptr [rbp-0x158]
+ [tid:2307754] reg:rdx
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] Exe main
+ [tid:2307754] INSTSELECTOR: instruction to be included mov edi, 0x1
+ [tid:2307754] ins:mov edi, 0x1
+ [tid:2307754] reg:edi
+ [tid:2307754] Exe main
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rdi, ptr [rip+0x2027e9]
+ [tid:2307754] ins:lea rdi, ptr [rip+0x2027e9]
+ [tid:2307754] reg:rdi
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included lea rax, ptr [rip+0x2027e2]
+ [tid:2307754] ins:lea rax, ptr [rip+0x2027e2]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included cmp rax, rdi
+ [tid:2307754] ins:cmp rax, rdi
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included mov rax, qword ptr [rip+0x202726]
+ [tid:2307754] ins:mov rax, qword ptr [rip+0x202726]
+ [tid:2307754] reg:rax
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] INSTSELECTOR: instruction to be included test rax, rax
+ [tid:2307754] ins:test rax, rax
+ [tid:2307754] reg:rflags
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] Exe deregister_tm_clones
+ [tid:2307754] Exe deregister_tm_clones

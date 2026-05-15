@@ -1,0 +1,2 @@
++ python3 faultinject.py exec_patricia_small_early-cse_gvn 1000 ''
++ echo '=== FI Finished ==='

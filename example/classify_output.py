@@ -8,7 +8,7 @@ from datetime import datetime
 # Configuration
 # =============================================================
 
-BENCHMARK_NAME = "basicmath_small"
+BENCHMARK_NAME = "dijkstra_small"
 
 SCRATCH_OUTPUT_ROOT = (
     f"/projects/lyang28/rmengle/program_outputs/paired/"

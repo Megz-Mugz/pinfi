@@ -1,9 +1,9 @@
 #!/bin/bash
-#SBATCH --job-name=gvn
+#SBATCH --job-name=q-loop-unroll
 #SBATCH --partition=normal
 #SBATCH --mem=32G
-#SBATCH --output=logs/gvn_%A_%a.out
-#SBATCH --error=logs/gvn_%A_%a.err
+#SBATCH --output=logs/inline_%A_%a.out
+#SBATCH --error=logs/inline_%A_%a.err
 #SBATCH --mail-user=rmengle@gmu.edu
 #SBATCH --time=02:00:00
 #SBATCH --ntasks=1
@@ -15,7 +15,7 @@ cd /home/rmengle/pin/source/tools/pinfi/example
 
 mkdir -p logs
 
-EXEC_DIR="paired_executables/dijkstra_small/execs/leader-gvn"
+EXEC_DIR="paired_executables/qsort_small/execs/leader-loop-unroll"
 RUNS=1000
 INPUT_ARGS=""
 

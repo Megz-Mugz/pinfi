@@ -1,0 +1,238 @@
+Classification log started at 2026-05-14 11:03:56.287439
+
+[2026-05-14 11:03:56] Scanning output root: /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs
+[2026-05-14 11:03:56] Discovered folder: leader-cse/exec_dijkstra_small_early-cse (1004 files)
+[2026-05-14 11:03:56] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_early-cse (1004 files)
+[2026-05-14 11:03:57] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_gvn (1004 files)
+[2026-05-14 11:03:57] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_inline (1004 files)
+[2026-05-14 11:03:57] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_instcombine (1004 files)
+[2026-05-14 11:03:57] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_ipsccp (1004 files)
+[2026-05-14 11:03:58] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_licm (1004 files)
+[2026-05-14 11:03:58] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_loop-reduce (1004 files)
+[2026-05-14 11:03:58] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_loop-unroll (1004 files)
+[2026-05-14 11:03:58] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_sccp (1004 files)
+[2026-05-14 11:03:58] Discovered folder: leader-cse/exec_dijkstra_small_early-cse_simple-loop-unswitch (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_early-cse (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_gvn (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_inline (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_instcombine (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_ipsccp (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_licm (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_loop-reduce (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_loop-unroll (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_sccp (1004 files)
+[2026-05-14 11:03:59] Discovered folder: leader-gvn/exec_dijkstra_small_gvn_simple-loop-unswitch (1004 files)
+[2026-05-14 11:03:59] 
+[2026-05-14 11:03:59] Discovered executable output folders:
+[2026-05-14 11:03:59]    1. leader-cse/exec_dijkstra_small_early-cse
+[2026-05-14 11:03:59]    2. leader-cse/exec_dijkstra_small_early-cse_early-cse
+[2026-05-14 11:03:59]    3. leader-cse/exec_dijkstra_small_early-cse_gvn
+[2026-05-14 11:03:59]    4. leader-cse/exec_dijkstra_small_early-cse_inline
+[2026-05-14 11:03:59]    5. leader-cse/exec_dijkstra_small_early-cse_instcombine
+[2026-05-14 11:03:59]    6. leader-cse/exec_dijkstra_small_early-cse_ipsccp
+[2026-05-14 11:03:59]    7. leader-cse/exec_dijkstra_small_early-cse_licm
+[2026-05-14 11:03:59]    8. leader-cse/exec_dijkstra_small_early-cse_loop-reduce
+[2026-05-14 11:03:59]    9. leader-cse/exec_dijkstra_small_early-cse_loop-unroll
+[2026-05-14 11:03:59]   10. leader-cse/exec_dijkstra_small_early-cse_sccp
+[2026-05-14 11:03:59]   11. leader-cse/exec_dijkstra_small_early-cse_simple-loop-unswitch
+[2026-05-14 11:03:59]   12. leader-gvn/exec_dijkstra_small_gvn
+[2026-05-14 11:03:59]   13. leader-gvn/exec_dijkstra_small_gvn_early-cse
+[2026-05-14 11:03:59]   14. leader-gvn/exec_dijkstra_small_gvn_gvn
+[2026-05-14 11:03:59]   15. leader-gvn/exec_dijkstra_small_gvn_inline
+[2026-05-14 11:03:59]   16. leader-gvn/exec_dijkstra_small_gvn_instcombine
+[2026-05-14 11:03:59]   17. leader-gvn/exec_dijkstra_small_gvn_ipsccp
+[2026-05-14 11:03:59]   18. leader-gvn/exec_dijkstra_small_gvn_licm
+[2026-05-14 11:03:59]   19. leader-gvn/exec_dijkstra_small_gvn_loop-reduce
+[2026-05-14 11:03:59]   20. leader-gvn/exec_dijkstra_small_gvn_loop-unroll
+[2026-05-14 11:03:59]   21. leader-gvn/exec_dijkstra_small_gvn_sccp
+[2026-05-14 11:03:59]   22. leader-gvn/exec_dijkstra_small_gvn_simple-loop-unswitch
+[2026-05-14 11:03:59] 
+[2026-05-14 11:03:59] Starting classification
+[2026-05-14 11:03:59] CSV output file: dijkstra_small_paired_reliability_data.csv
+[2026-05-14 11:03:59] Log file: dijkstra_small_paired_classification.log
+[2026-05-14 11:03:59] 
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   1/22 |   4.5%] Processing leader-cse/exec_dijkstra_small_early-cse
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=30, sdc=19, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse | masked_rate=0.600000, sdc_rate=0.380000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   2/22 |   9.1%] Processing leader-cse/exec_dijkstra_small_early-cse_early-cse
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_early-cse
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_early-cse_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=33, sdc=16, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_early-cse_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_early-cse | masked_rate=0.660000, sdc_rate=0.320000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   3/22 |  13.6%] Processing leader-cse/exec_dijkstra_small_early-cse_gvn
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_gvn
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_gvn_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=33, sdc=16, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_gvn_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_gvn | masked_rate=0.660000, sdc_rate=0.320000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   4/22 |  18.2%] Processing leader-cse/exec_dijkstra_small_early-cse_inline
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_inline
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_inline_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=30, sdc=19, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_inline_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_inline | masked_rate=0.600000, sdc_rate=0.380000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   5/22 |  22.7%] Processing leader-cse/exec_dijkstra_small_early-cse_instcombine
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_instcombine
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_instcombine_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=30, sdc=19, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_instcombine_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_instcombine | masked_rate=0.600000, sdc_rate=0.380000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   6/22 |  27.3%] Processing leader-cse/exec_dijkstra_small_early-cse_ipsccp
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_ipsccp
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_ipsccp_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=30, sdc=19, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_ipsccp_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_ipsccp | masked_rate=0.600000, sdc_rate=0.380000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   7/22 |  31.8%] Processing leader-cse/exec_dijkstra_small_early-cse_licm
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_licm
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_licm_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=33, sdc=16, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_licm_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_licm | masked_rate=0.660000, sdc_rate=0.320000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   8/22 |  36.4%] Processing leader-cse/exec_dijkstra_small_early-cse_loop-reduce
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_loop-reduce
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_loop-reduce_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=36, sdc=13, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_loop-reduce_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_loop-reduce | masked_rate=0.720000, sdc_rate=0.260000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [   9/22 |  40.9%] Processing leader-cse/exec_dijkstra_small_early-cse_loop-unroll
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_loop-unroll
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_loop-unroll_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=35, sdc=14, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_loop-unroll_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_loop-unroll | masked_rate=0.700000, sdc_rate=0.280000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [  10/22 |  45.5%] Processing leader-cse/exec_dijkstra_small_early-cse_sccp
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_sccp
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_sccp_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=27, sdc=21, crash/hang=2
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_sccp_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_sccp | masked_rate=0.540000, sdc_rate=0.420000, crash_rate=0.040000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [  11/22 |  50.0%] Processing leader-cse/exec_dijkstra_small_early-cse_simple-loop-unswitch
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_simple-loop-unswitch
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=33, sdc=14, crash/hang=3
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_simple-loop-unswitch_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-cse/exec_dijkstra_small_early-cse_simple-loop-unswitch | masked_rate=0.660000, sdc_rate=0.280000, crash_rate=0.060000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [  12/22 |  54.5%] Processing leader-gvn/exec_dijkstra_small_gvn
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:03:59]     Done folder: total=50, masked=37, sdc=12, crash/hang=1
+[2026-05-14 11:03:59]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_exec.txt
+[2026-05-14 11:03:59]     CSV row written for leader-gvn/exec_dijkstra_small_gvn | masked_rate=0.740000, sdc_rate=0.240000, crash_rate=0.020000
+[2026-05-14 11:03:59] ================================================================================
+[2026-05-14 11:03:59] [  13/22 |  59.1%] Processing leader-gvn/exec_dijkstra_small_gvn_early-cse
+[2026-05-14 11:03:59]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_early-cse
+[2026-05-14 11:03:59]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_early-cse_exec.txt MISSING
+[2026-05-14 11:03:59]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=32, sdc=16, crash/hang=2
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_early-cse_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_early-cse | masked_rate=0.640000, sdc_rate=0.320000, crash_rate=0.040000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  14/22 |  63.6%] Processing leader-gvn/exec_dijkstra_small_gvn_gvn
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_gvn
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_gvn_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=32, sdc=16, crash/hang=2
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_gvn_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_gvn | masked_rate=0.640000, sdc_rate=0.320000, crash_rate=0.040000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  15/22 |  68.2%] Processing leader-gvn/exec_dijkstra_small_gvn_inline
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_inline
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_inline_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=39, sdc=11, crash/hang=0
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_inline_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_inline | masked_rate=0.780000, sdc_rate=0.220000, crash_rate=0.000000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  16/22 |  72.7%] Processing leader-gvn/exec_dijkstra_small_gvn_instcombine
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_instcombine
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_instcombine_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=33, sdc=16, crash/hang=1
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_instcombine_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_instcombine | masked_rate=0.660000, sdc_rate=0.320000, crash_rate=0.020000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  17/22 |  77.3%] Processing leader-gvn/exec_dijkstra_small_gvn_ipsccp
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_ipsccp
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_ipsccp_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=36, sdc=10, crash/hang=4
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_ipsccp_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_ipsccp | masked_rate=0.720000, sdc_rate=0.200000, crash_rate=0.080000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  18/22 |  81.8%] Processing leader-gvn/exec_dijkstra_small_gvn_licm
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_licm
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_licm_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=36, sdc=13, crash/hang=1
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_licm_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_licm | masked_rate=0.720000, sdc_rate=0.260000, crash_rate=0.020000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  19/22 |  86.4%] Processing leader-gvn/exec_dijkstra_small_gvn_loop-reduce
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_loop-reduce
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_loop-reduce_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=32, sdc=16, crash/hang=2
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_loop-reduce_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_loop-reduce | masked_rate=0.640000, sdc_rate=0.320000, crash_rate=0.040000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  20/22 |  90.9%] Processing leader-gvn/exec_dijkstra_small_gvn_loop-unroll
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_loop-unroll
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_loop-unroll_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=32, sdc=17, crash/hang=1
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_loop-unroll_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_loop-unroll | masked_rate=0.640000, sdc_rate=0.340000, crash_rate=0.020000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  21/22 |  95.5%] Processing leader-gvn/exec_dijkstra_small_gvn_sccp
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_sccp
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_sccp_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=32, sdc=17, crash/hang=1
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_sccp_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_sccp | masked_rate=0.640000, sdc_rate=0.340000, crash_rate=0.020000
+[2026-05-14 11:04:00] ================================================================================
+[2026-05-14 11:04:00] [  22/22 | 100.0%] Processing leader-gvn/exec_dijkstra_small_gvn_simple-loop-unswitch
+[2026-05-14 11:04:00]     FI folder : /projects/lyang28/rmengle/program_outputs/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_simple-loop-unswitch
+[2026-05-14 11:04:00]     Timing    : /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_simple-loop-unswitch_exec.txt MISSING
+[2026-05-14 11:04:00]     Found 1004 run files
+[2026-05-14 11:04:00]     Done folder: total=50, masked=33, sdc=15, crash/hang=2
+[2026-05-14 11:04:00]    [WARN] Missing timing file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-gvn/exec_dijkstra_small_gvn_simple-loop-unswitch_exec.txt
+[2026-05-14 11:04:00]     CSV row written for leader-gvn/exec_dijkstra_small_gvn_simple-loop-unswitch | masked_rate=0.660000, sdc_rate=0.300000, crash_rate=0.040000
+[2026-05-14 11:04:00] 
+[2026-05-14 11:04:00] CSV written to: dijkstra_small_paired_reliability_data.csv
+[2026-05-14 11:04:00] Log written to: dijkstra_small_paired_classification.log
+[2026-05-14 11:04:00] Total elapsed time: 1.33 seconds
+[2026-05-14 11:04:00] Verification logs written to:
+  verification_logs/masked
+  verification_logs/sdc
+  verification_logs/crash

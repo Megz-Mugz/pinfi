@@ -1,0 +1,6 @@
++ python3 faultinject.py exec_patricia_small_early-cse-cse 1000 ''
+Traceback (most recent call last):
+  File "faultinject.py", line 192, in <module>
+    raise FileNotFoundError(f"Executable not found: {progbin}")
+FileNotFoundError: Executable not found: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/patricia_small/execs/leader-cse/exec_patricia_small_early-cse-cse
++ echo '=== FI Finished ==='

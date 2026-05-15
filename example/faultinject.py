@@ -8,9 +8,13 @@ import subprocess
 
 currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 
-focus_dir = "paired_executables/dijkstra_small/execs/leader-gvn"
+# TODO if you change this, change the EXEC_DIR line on submit_mass_jobs.sh
+focus_dir = "paired_executables/qsort_small/execs/leader-loop-unroll"
 
 execdir = os.path.join(currdir, focus_dir)
+
+IS_PATRICIA = "patricia" in focus_dir.lower()
+EXPECTED_EXIT_CODES = [0, 1] if IS_PATRICIA else [0]
 
 pinbin = "/home/rmengle/pin/pin"
 instcountlib = "/home/rmengle/pin/source/tools/pinfi/obj-intel64/instcount.so"
@@ -35,7 +39,7 @@ def run_command(cmd, outputfile, cwd):
             cwd=cwd,
             stdout=subprocess.PIPE,
             stderr=subprocess.STDOUT,
-            universal_newlines=False  # capture raw bytes
+            universal_newlines=False
         )
 
         out, _ = p.communicate(timeout=TIMEOUT_SECONDS)
@@ -67,7 +71,7 @@ def run_command(cmd, outputfile, cwd):
 
     except Exception as e:
         with open(outputfile, "w", encoding="utf-8", errors="replace") as f:
-            f.write(f"[RUN COMMAND ERROR]\n")
+            f.write("[RUN COMMAND ERROR]\n")
             f.write(f"{type(e).__name__}: {e}\n")
 
         return "command-error"
@@ -81,13 +85,20 @@ def main(progbin, binary_name, run_number, optionlist):
 
     os.makedirs(program_outputs_dir, exist_ok=True)
 
-    # IMPORTANT:
-    # faultinjection.so looks for pin.instcount.txt in its current working directory.
-    # So generate it inside program_outputs_dir, then run FI from that same dir.
-    instcount_file = os.path.join(program_outputs_dir, "pin.instcount.txt")
+    if IS_PATRICIA:
+        run_cwd = execdir
+        instcount_file = os.path.join(execdir, "pin.instcount.txt")
+        saved_instcount_file = os.path.join(program_outputs_dir, "pin.instcount.txt")
+    else:
+        run_cwd = program_outputs_dir
+        instcount_file = os.path.join(program_outputs_dir, "pin.instcount.txt")
+        saved_instcount_file = instcount_file
 
     if os.path.exists(instcount_file):
         os.remove(instcount_file)
+
+    if IS_PATRICIA and os.path.exists(saved_instcount_file):
+        os.remove(saved_instcount_file)
 
     instcount_cmd = [
         pinbin,
@@ -98,11 +109,12 @@ def main(progbin, binary_name, run_number, optionlist):
     instcount_cmd.extend(optionlist)
 
     print("DEBUG INSTCOUNT:", " ".join(instcount_cmd))
+    print("DEBUG CWD:", run_cwd)
 
     ret = run_command(
         instcount_cmd,
         os.path.join(program_outputs_dir, "instcount_output.txt"),
-        program_outputs_dir
+        run_cwd
     )
 
     if ret == "timed-out":
@@ -111,13 +123,21 @@ def main(progbin, binary_name, run_number, optionlist):
     if ret == "command-error":
         raise RuntimeError("instcount command failed")
 
-    if int(ret) != 0:
+    if int(ret) not in EXPECTED_EXIT_CODES:
         raise RuntimeError(f"instcount failed with code {ret}")
 
     if not os.path.isfile(instcount_file):
         raise RuntimeError(f"pin.instcount.txt was not created at {instcount_file}")
 
+    if IS_PATRICIA:
+        with open(instcount_file, "rb") as src:
+            with open(saved_instcount_file, "wb") as dst:
+                dst.write(src.read())
+
     print(f"DEBUG: Created {instcount_file}")
+
+    if IS_PATRICIA:
+        print(f"DEBUG: Saved copy to {saved_instcount_file}")
 
     for index in range(run_number):
         print(f"Run Number: #{index + 1}")
@@ -136,11 +156,12 @@ def main(progbin, binary_name, run_number, optionlist):
         execlist.extend(optionlist)
 
         print("DEBUG FI:", " ".join(execlist))
+        print("DEBUG CWD:", run_cwd)
 
         ret = run_command(
             execlist,
             outputfile,
-            program_outputs_dir
+            run_cwd
         )
 
         if ret == "timed-out":
@@ -153,7 +174,7 @@ def main(progbin, binary_name, run_number, optionlist):
                 f.write("Fault injection command failed before completion\n")
             continue
 
-        if int(ret) != 0:
+        if int(ret) not in EXPECTED_EXIT_CODES:
             with open(os.path.join(errordir, f"error_run_{index}.txt"), "w") as f:
                 f.write(f"Program exited with code {ret}\n")
 

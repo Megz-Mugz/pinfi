@@ -1,0 +1,1019 @@
+Activated: Valid Reg name rdx in 0x55dac22f8d34
+Activated: Valid Reg name rsp in 0x564e134214b0
+Activated: Valid Reg name rcx in 0x555f2df0c4d0
+7f
+Activated: Valid Reg name rax in 0x559f19e23b50
+1a
+Activated: Valid Reg name rax in 0x56428c61ae14
+ActActivated: Valid Reg name rax in 0x556c645194NotActivated: Valid Reg name rsp in 0x55cdee4d44ActActivated: Valid Reg name rax in 0x5578bc746385
+Activated: Valid Reg name rdi in 0x5583a5503d0a
+ff
+Activated: Valid Reg name rcx in 0x555d07d7d23e
+ActActivated: Valid Reg name rflags in 0x55faed7eccNotActivated: Valid Reg name rax in 0x5608f489ed04
+NotActivated: Valid Reg name rax in 0x55d72a1c0cActivaActivated: Valid Reg name rax in 0x5595313Activated: Valid Reg name rflags in 0x564b44489dActivaActivated: Valid Reg name rcx in 0x55fd7cb374Not Activated!
+d Reg name rdx in 0x5650ba52d35b
+Activated: Valid Reg name rcx in 0x561c3dd824ce
+e4
+Activated: Valid Reg name rflags in 0x55b730ec8dActNot Activated!
+d Reg name rsi in 0x564bf2983cActActivated: Valid Reg name rdi in 0x56229e5f5bde
+Activated: Valid Reg name rbp in 0x5592b7d614b1
+Activated: Valid Reg name rcx in 0x559581b194ce
+Activated: Valid Reg name rbp in 0x558742fa34b1
+Activated: Valid Reg name rbp in 0x55eee7694c61
+Activated: Valid Reg name rdx in 0x5645454ebd9b
+Not Activated!
+d Reg name rax in 0x564e8725fcee
+Activated: Valid Reg name rcx in 0x557604eafb66
+Activated: Valid Reg name rsi in 0x5614625ddc9f
+Activated: Valid Reg name rax in 0x563fa02e5da2
+
+Not Activated!
+d Reg name rflags in 0x555b08b7bcb1
+Activated: Valid Reg name rcx in 0x558663dad49f
+Not Activated!
+d Reg name rflags in 0x55b676a92cActActivated: Valid Reg name rcx in 0x557ad9b03b17
+Activated: Valid Reg name rsi in 0x55e8728bcd24
+Activated: Valid Reg name rdx in 0x55ef0faae4e7
+Activated: Valid Reg name rsi in 0x557e96047b92
+Activated: Valid Reg name rbp in 0x55cba1a48c61
+Activated: Valid Reg name rdx in 0x559a045e5d34
+be
+Activated: Valid Reg name rcx in 0x557302f7ad30
+Activated: Valid Reg name rcx in 0x55ba733e8cf4
+Not Activated!
+d Reg name rcx in 0x5617d75b6d97
+Activated: Valid Reg name rflags in 0x55a19c6bbb29
+Activated: Valid Reg name rsi in 0x55f5acd6bb53
+Activated: Valid Reg name rax in 0x558415a25a8c
+0a
+Not Activated!
+d Reg name rflags in 0x55d76e7dfd3b
+Activated: Valid Reg name rcx in 0x55eb72400382
+Not Activated!
+d Reg name rdx in 0x559395591d81
+Activated: Valid Reg name rax in 0x562091a4eb03
+Activated: Valid Reg name rflags in 0x56068eb44dActActivated: Valid Reg name rflags in 0x56031eeActivaActivated: Valid Reg name rdx in 0x560023fActivaActivated: Valid Reg name rax in 0x55def1922d2c
+Activated: Valid Reg name rax in 0x5650ee4a139d
+Activated: Valid Reg name rsi in 0x562e3e31ecbd
+Activated: Valid Reg name rdx in 0x555789e7bcb7
+Activated: Valid Reg name rbp in 0x558dd3a26491
+Activated: Valid Reg name rax in 0x561e71184d7f
+Activated: Valid Reg name rdx in 0x55be93efbbc9
+Activated: Valid Reg name rsp in 0x5599dfb5c4d0
+Not Activated!
+d Reg name rsi in 0x5624606143b7
+Activated: Valid Reg name rcx in 0x56203dde54a4
+Activated: Valid Reg name rflags in 0x55e9213c6dActActivated: Valid Reg name rcx in 0x55a0032abd64
+Activated: Valid Reg name rflags in 0x563857738dActActivated: Valid Reg name rdx in 0x555bad663be8
+1b
+Activated: Valid Reg name rax in 0x561b3c94ee27
+Activated: Valid Reg name rsi in 0x55db2e749d44
+Activated: Valid Reg name rax in 0x5619adc37bd7
+Activated: Valid Reg name rsp in 0x55f23de874b0
+Activated: Valid Reg name rcx in 0x560449102d30
+NotActivated: Valid Reg name rax in 0x55ab12adfbActActNot Activated!
+d Reg name rsi in 0x55ca42e7ddActActivated: Valid Reg name rax in 0x559ab015adActivaActivated: Valid Reg name rax in 0x5593963ActivatedActivated: Valid Reg name rax in 0x55e0ActivatedActivated: Valid Reg name rdi in 0x563dActActivated: Valid Reg name rax in 0x556a76522bActivaActivated: Valid Reg name rax in 0x5625858ActivaActivated: Valid Reg name rsi in 0x564f8afActActivated: Valid Reg name rdx in 0x56281a734c97
+Activated: Valid Reg name rax in 0x563d64509b70
+ActActivated: Valid Reg name rax in 0x56444ec66cActActActivated: Valid Reg name rcx in 0x55e376cf64e4
+Activated: Valid Reg name rdx in 0x555e7342b37e
+Activated: Valid Reg name rcx in 0x56136178a380
+Activated: Valid Reg name rflags in 0x5649365c1dNot Activated!
+d Reg name rbp in 0x55f65e5774d1
+Activated: Valid Reg name rsi in 0x55d62f66cd24
+Activated: Valid Reg name rdi in 0x559db7829b46
+Activated: Valid Reg name rsi in 0x55df05421c9f
+ActActivated: Valid Reg name rax in 0x562aa10013ActActivated: Valid Reg name rdx in 0x5647abe533ActActivated: Valid Reg name rcx in 0x56180ea194Activated: Valid Reg name rax in 0x558a28366301
+Activated: Valid Reg name rcx in 0x5612687274bf
+Activated: Valid Reg name rax in 0x55570809f374
+ActActivated: Valid Reg name rdx in 0x5574084434c7
+Activated: Valid Reg name rdx in 0x56247d3e74c7
+24
+Activated: Valid Reg name rcx in 0x55706bfd0cea
+ActActivated: Valid Reg name rax in 0x56421a02c4ActNot Activated!
+d Reg name rcx in 0x56023c4fdec3
+Activated: Valid Reg name rsp in 0x556354dc7c60
+ActActivated: Valid Reg name rax in 0x55690aaefcActActActivated: Valid Reg name rsp in 0x55ed17aActivaActivated: Valid Reg name rsp in 0x55d4cfeActivated: Valid Reg name rdi in 0x559e36a21cdb
+04
+Activated: Valid Reg name rdx in 0x558893c024e7
+Activated: Valid Reg name rcx in 0x5576f9d574bf
+Activated: Valid Reg name rax in 0x55de380f7b22
+Activated: Valid Reg name rflags in 0x55fd7a47ed1b
+Activated: Valid Reg name rcx in 0x5571d6e78b37
+Activated: Valid Reg name rax in 0x562c6e0cb4f3
+Activated: Valid Reg name rflags in 0x564543cafcActActivated: Valid Reg name rbp in 0x5601b30794d6
+Activated: Valid Reg name rax in 0x55d713ca2b04
+Activated: Valid Reg name rcx in 0x561f388cf4d0
+Activated: Valid Reg name rsi in 0x555d303ced37
+Activated: Valid Reg name rdx in 0x55baafc2dd8f
+Activated: Valid Reg name rax in 0x5565b46ddce8
+Activated: Valid Reg name rax in 0x56213ecd5b04
+d8
+Activated: Valid Reg name rax in 0x56125f7a2c90
+ActActivated: Valid Reg name rsi in 0x55cede8bfaNot Activated!
+d Reg name rcx in 0x558a06e23d5c
+Activated: Valid Reg name rax in 0x55a4ef188d4f
+41
+Activated: Valid Reg name rdx in 0x56509757ccae
+Activated: Valid Reg name rax in 0x5576f9c72af0
+Activated: Valid Reg name rdi in 0x559666b7ccfe
+Activated: Valid Reg name rdi in 0x561d6e291cfb
+Activated: Valid Reg name rcx in 0x5583d6d4eb57
+Activated: Valid Reg name rsi in 0x55a7971a9b13
+Activated: Valid Reg name rflags in 0x5627a1026aef
+Not Activated!
+d Reg name rax in 0x55e73936bcbb
+Activated: Valid Reg name xmm0 in 0x564189a66d00AActivated: Valid Reg name rax in 0x564ecd70a374
+Not Activated!
+d Reg name rax in 0x556cac08ed94
+Activated: Valid Reg name rax in 0x558828e47374
+63
+Activated: Valid Reg name rflags in 0x55d0ed3c0dActActivated: Valid Reg name rbp in 0x55aca3a544ActivaActivated: Valid Reg name rcx in 0x55bddbfActivatedActivated: Valid Reg name rdx in 0x557cActivatedActivated: Valid Reg name rax in 0x5598ActActivaActivated: Valid Reg name rcx in 0x55827beActivaActivated: Valid Reg name rflags in 0x55b4bc4ActActivated: Valid Reg name rflags in 0x5571a31cfcActivated: Valid Reg name rbp in 0x55b0f7866371
+Activated: Valid Reg name rcx in 0x5653b67cf4d0
+49
+Activated: Valid Reg name rcx in 0x55b7fe9fb382
+Activated: Valid Reg name rcx in 0x561021c9f380
+Activated: Valid Reg name rcx in 0x562cc7daacd4
+ActActivated: Valid Reg name rax in 0x55620e507dActActivated: Valid Reg name rsp in 0x556de74d64ActActivated: Valid Reg name rax in 0x557b41ffed2c
+ActActivated: Valid Reg name rax in 0x55dec06fa4ActActivated: Valid Reg name rsi in 0x558b1c9abd1d
+Activated: Valid Reg name rax in 0x55c3db9f0344
+Activated: Valid Reg name rcx in 0x5620dc3a3d10
+Activated: Valid Reg name rax in 0x5627af495ce8
+Activated: Valid Reg name rflags in 0x560a3fd8bcNot Activated!
+d Reg name rcx in 0x55b7f4c9b4f0
+ActActivated: Valid Reg name rflags in 0x55580d0ActivaActivated: Valid Reg name rax in 0x557ae819ccbb
+Activated: Valid Reg name rcx in 0x5595daa8bcec
+Not Activated!
+d Reg name rdx in 0x5647d43ab4c7
+ActActivated: Valid Reg name rsi in 0x55c45cc12d44
+4b
+Activated: Valid Reg name rdx in 0x55e4d4c614a7
+Activated: Valid Reg name rsp in 0x5653eb081dcd
+Activated: Valid Reg name rcx in 0x55f685ba04e4
+ActActivated: Valid Reg name rcx in 0x55b19e3e2dActActivated: Valid Reg name rdx in 0x55f93c32ccActivaActivated: Valid Reg name rcx in 0x560bcf8Not AcActivated: Valid Reg name rdx in 0x5628fe4ActivaActivated: Valid Reg name rflags in 0x55b3ActivaActActivated: Valid Reg name rax in 0x5575a52b43ActActivated: Valid Reg name rax in 0x557a14bf9ed3
+ActActivated: Valid Reg name rdx in 0x558155980aActivaActivated: Valid Reg name rcx in 0x558aff4ActivaActivated: Valid Reg name rbp in 0x55cc1d9ActNot Activated!
+d Reg name rbp in 0x55d541a8a4ActActivated: Valid Reg name xmm0 in 0x560fb9797cf8AActivated: Valid Reg name rsp in 0x55ce7a697304AActivated: Valid Reg name rax in 0x55cb96a68d94AActivated: Valid Reg name rcx in 0x56500a16ad0f
+f
+Activated: Valid Reg name rax in 0x55e0d2278d24
+Activated: Valid Reg name rax in 0x55b650e6c374
+ActActivated: Valid Reg name rdi in 0x55651e38a38b
+Activated: Valid Reg name rcx in 0x56285b4abcec
+Activated: Valid Reg name rsi in 0x55a7747c8d3d
+Activated: Valid Reg name rcx in 0x558434d944b0
+Activated: Valid Reg name rflags in 0x5628c9fc84ActNot Activated!
+eg name rsp in 0x55c150aabbf7
+Activated: Valid Reg name rflags in 0x563d8d908bActActivated: Valid Reg name rflags in 0x555929bActActivated: Valid Reg name rsi in 0x561386564cActivated: Valid Reg name rax in 0x562979a75ad5
+Activated: Valid Reg name rflags in 0x561bef459bActActivated: Valid Reg name rsi in 0x55b599ab3bANoActivated: Valid Reg name rflags in 0x55ee31926dActivated: Valid Reg name rsi in 0x55aea1f85d24
+Activated: Valid Reg name rdx in 0x563be256a4ac
+Activated: Valid Reg name rdx in 0x5560d4c5ecae
+Activated: Valid Reg name rcx in 0x563546b2b4ce
+ActActivated: Valid Reg name rsp in 0x55aa67ffb4b0
+AActivated: Valid Reg name rflags in 0x55c94f4a6ActiActivated: Valid Reg name rsi in 0x55f98e096Activated: Valid Reg name rcx in 0x5564025c435d
+ActActivated: Valid Reg name rcx in 0x5565dd8b8b37
+Activated: Valid Reg name rdx in 0x55699b2ffc69
+48
+Activated: Valid Reg name rdx in 0x56384be71fda
+49
+Activated: Valid Reg name rflags in 0x562ea7889cActActivated: Valid Reg name rsi in 0x559bc4c47aActivated: Valid Reg name rflags in 0x556af63cdcActActivated: Valid Reg name rsp in 0x55861f8ab365
+Activated: Valid Reg name rax in 0x5636124ceb73
+Activated: Valid Reg name rcx in 0x556295fd6cec
+5c
+Activated: Valid Reg name rcx in 0x556f36aa3fff
+ef
+Activated: Valid Reg name rcx in 0x5587ed323d30
+Activated: Valid Reg name rax in 0x558130dffb06
+Activated: Valid Reg name rdx in 0x55e85bbf9db7
+Activated: Valid Reg name rdx in 0x563957828d14
+ActActivated: Valid Reg name rax in 0x55c78f2492NotActivated: Valid Reg name rcx in 0x5617c9d524ActivaActivated: Valid Reg name rax in 0x5601604ActivatedActivated: Valid Reg name rcx in 0x56214435b4f0
+a9
+Activated: Valid Reg name rax in 0x5593bdf49d88
+Activated: Valid Reg name rcx in 0x5638f1676d5c
+dAcActivated: Valid Reg name rflags in 0x55aeced4AcActActivated: Valid Reg name rflags in 0x55dbfActivateActivated: Valid Reg name rflags in 0x56ActActivated: Valid Reg name rdx in 0x558367562aa4
+ActActivated: Valid Reg name rdi in 0x5649ae704d0a
+Activated: Valid Reg name rcx in 0x55d7d6b33380
+Activated: Valid Reg name rcx in 0x555955964cec
+Activated: Valid Reg name rsi in 0x557ce044dd37
+3c
+Activated: Valid Reg name rsi in 0x55a314a22b38
+Activated: Valid Reg name rax in 0x5588c649b5f6
+NotActivated: VActivated: Valid Reg name rax in 0x55d9Activated: Valid Reg name rbp in 0x5627d2781e3d
+ActActivated: Valid Reg name rbp in 0x56250e8354d1
+
+Activated: Valid Reg name rsi in 0x55808b4f9dfd
+Activated: Valid Reg name rsi in 0x5610e0ab0d37
+74
+Activated: Valid Reg name rax in 0x556dc81795a2
+ActActivated: Valid Reg name rdi in 0x563b1daf9cActActivated: Valid Reg name rax in 0x55cbcb3de385
+Not Activated!
+d Reg name rax in 0x562cd721ce2e
+Activated: Valid Reg name rsi in 0x55d3e178ad24
+ActActivated: Valid Reg name rsp in 0x564157d5e4d0
+Activated: Valid Reg name rcx in 0x55d93e4d7cd4
+AActivated: Valid Reg name rflags in 0x561ef8c28ActAActivated: Valid Reg name rax in 0x55b48c32cActActActivated: Valid Reg name rax in 0x55acdf1Not ActivActivated: Valid Reg name rcx in 0x55daActivated: Valid Reg name rsi in 0x55c36f737b2d
+Activated: Valid Reg name rbp in 0x55b8d1919dad
+Activated: Valid Reg name rcx in 0x55954aa6acec
+ActActivated: Valid Reg name rax in 0x55b3ba072de0
+Activated: Valid Reg name rcx in 0x562ca549ccf4
+ActActivated: Valid Reg name rsi in 0x55654fcb9dfd
+Activated: Valid Reg name rbp in 0x565082131ab1
+Activated: Valid Reg name rax in 0x55e0b065ad04
+Activated: Valid Reg name rflags in 0x563875bfdcNot Activated!
+d Reg name rax in 0x564297758d0c
+Activated: Valid Reg name rax in 0x55ddfc093db7
+ActActivated: Valid Reg name rsi in 0x55888f399dActActActivated: Valid Reg name rax in 0x5590029ActivaActivated: Valid Reg name rcx in 0x55addbcNotActivated: Valid Reg name rsi in 0x55db6cff2dActActivated: Valid Reg name rflags in 0x558469176dActActivated: Valid Reg name rsi in 0x55606b4c5fActActivated: Valid Reg name rsi in 0x5594534d2dActActivated: Valid Reg name rcx in 0x563494e793ActActivated: Valid Reg name rcx in 0x557f48a3adActNot Activated!
+d Reg name rbp in 0x55a67f4a84b1
+Activated: Valid Reg name rax in 0x56382903f362
+Activated: Valid Reg name rcx in 0x5591a14ebb12
+ff
+Not Activated!
+d Reg name rcx in 0x55e7e528fb10
+Not Activated!
+d Reg name rcx in 0x55e6661ec4bf
+ActActivated: Valid Reg name rax in 0x562769abbdNot AcActivated: Valid Reg name rdx in 0x564770f90bActActivated: Valid Reg name rcx in 0x5576534e1dActActivated: Valid Reg name rax in 0x55561d45ed2c
+NNot Activated!
+d Reg name rax in 0x56281db3fdc5
+1
+Activated: Valid Reg name rsi in 0x55e73de63ab7
+Activated: Valid Reg name rcx in 0x55caf0ca0c70
+77
+Activated: Valid Reg name rcx in 0x55c5f7999cec
+ActActivated: Valid Reg name rcx in 0x55dd79522dActActivated: Valid Reg name rdi in 0x557a0fcd1bb9
+Activated: Valid Reg name rflags in 0x561c369d5cActActivated: Valid Reg name rflags in 0x5604d6dActivated: Valid Reg name rax in 0x55b1d206bb61
+ActivaActivated: Valid Reg name rdx in 0x56341b8Activated: Valid Reg name rsp in 0x55d58a11f490
+Activated: Valid Reg name rsi in 0x55f779358caa
+Activated: Valid Reg name rsi in 0x55fda4e28d44
+Activated: Valid Reg name rdx in 0x56145e81babb
+Activated: Valid Reg name rdi in 0x55a0e5ca3498
+Not Activated!
+d Reg name rax in 0x55b985be0b33
+Activated: Valid Reg name rdx in 0x55fdcdb8f2f5
+Activated: Valid Reg name rsi in 0x5636f3311cbf
+Activated: Valid Reg name rsi in 0x55f7705b7c9f
+Activated: Valid Reg name rax in 0x55a0d6ec2cba
+Activated: Valid Reg name rdx in 0x5618b4a9ccae
+ActActivated: Valid Reg name rsi in 0x55b632c42d3d
+ActActivated: Valid Reg name rsi in 0x5594b2f95ab7
+Activated: Valid Reg name rbp in 0x55e76d08c4b1
+ActActivated: Valid Reg name rdx in 0x562ffa9d3eActActivated: Valid Reg name rsp in 0x5568516bccActActActivated: Valid Reg name rcx in 0x55c40bae6dActivated: Valid Reg name rbp in 0x55b7a7b944ActNotActivated: Valid Reg name rsi in 0x55f1dbbActivaActivated: Valid Reg name rax in 0x5568d8cActivaActActivated: Valid Reg name rax in 0x558aActivaActActivated: Valid Reg name rbp in 0x564d5bfActivaActivated: Valid Reg name rcx in 0x55d0f14ActivaActivated: Valid Reg name rsi in 0x560d9f6ActActActivated: Valid Reg name rflags in 0x55e9ActActActActivated: Valid Reg name rax in 0x55e0ActivaActActivated: Valid Reg name rax in 0x557eActivatedActivated: Valid Reg name rsi in 0x556bActivatedActivated: Valid Reg name rdi in 0x563ab20ActivaActActivated: Valid Reg name rsi in 0x55c3ActActivaActivated: Valid Reg name rdx in 0x556aActActivated: Valid Reg name rax in 0x55e62fb623NotActivated: Valid Reg name rflags in 0x55be4cfActActivated: Valid Reg name rcx in 0x555d1ce714ActivaActivated: Valid Reg name rdx in 0x564a702ActivaActivated: Valid Reg name rax in 0x55bea39ActivaActivated: Valid Reg name rcx in 0x562a32bActivatedActivated: Valid Reg name rcx in 0x5568ActivatedActivated: Valid Reg name rax in 0x55c8ActivatedActivated: Valid Reg name rax in 0x55b0ActivatedActivated: Valid Reg name rax in 0x556dActivatedActivated: Valid Reg name rflags in 0x5ActActivated: Valid Reg name rax in 0x5612d57dfbActivated: Valid Reg name rsi in 0x55e755946d37
+Activated: Valid Reg name rbp in 0x555d9121f4b1
+Activated: Valid Reg name rdx in 0x5571808924ac
+Activated: Valid Reg name rax in 0x55d9d842fb6b
+Activated: Valid Reg name rax in 0x55f2c1a59d19
+ActActivated: Valid Reg name rax in 0x557bec2adce8
+Activated: Valid Reg name rdx in 0x5635247ebcae
+Activated: Valid Reg name rax in 0x55fb4af6dd04
+Activated: Valid Reg name rdx in 0x55b32326fc30
+Activated: Valid Reg name rsp in 0x55a3ebcc5304
+0a
+Activated: Valid Reg name rsi in 0x5583c6510db4
+ActActivated: Valid Reg name rdx in 0x5604fba72cNotNot Activated!
+eg name rcx in 0x55bc261d6ccc
+Activated: Valid Reg name rax in 0x5606fce3dc9b
+Activated: Valid Reg name rcx in 0x55e6f58e14d0
+ActActivated: Valid Reg name rcx in 0x55db62cffaActActivated: Valid Reg name rbp in 0x559212cc93Activated: Valid Reg name rsi in 0x56298855cd44
+ActActivated: Valid Reg name rdx in 0x557682137d14
+ActActivated: Valid Reg name rcx in 0x55f4a82edcActActivated: Valid Reg name rflags in 0x5652413ActActActivated: Valid Reg name rdx in 0x55e5683ActNot Activated!
+eg name rax in 0x55fcd6497b06
+85
+Not Activated!
+d Reg name rax in 0x561da3a38d18
+Activated: Valid Reg name rsp in 0x563f1f94ec60
+Activated: Valid Reg name rax in 0x56041c30daa8
+ActActivated: Valid Reg name rsp in 0x55cc4d7433NotActivated: VActivated: Valid Reg name rsi in 0x5Activated: VActivated: Valid Reg name rcx in 0x5ActivaActivated: Valid Reg name rsi in 0x559139bActivaActivated: Valid Reg name rdx in 0x5626d57ActivaActivated: Valid Reg name rbp in 0x56278b3ActivaActivated: Valid Reg name rdx in 0x55dfa81ActivaActivated: Valid Reg name rdx in 0x562f27bActivaActivated: Valid Reg name rflags in 0x5570ActivatedActivated: Valid Reg name rdx in 0x5565ActivatedActivated: Valid Reg name rdx in 0x5565ActivatedActivated: Valid Reg name rsi in 0x557dActivatedActivated: Valid Reg name rcx in 0x5556615ActivaActivated: Valid Reg name rdx in 0x55e989fActivaActivated: Valid Reg name rax in 0x5577c27f949b
+Activated: Valid Reg name rcx in 0x55dd54b1ab8b
+Activated: Valid Reg name rdx in 0x55b952c34b1b
+Activated: Valid Reg name rax in 0x55b35a293ca7
+Activated: Valid Reg name rsi in 0x55a84f550d37
+Activated: Valid Reg name rcx in 0x562f09380d30
+Activated: Valid Reg name rcx in 0x55eeba903cec
+Activated: Valid Reg name rcx in 0x5608cdc0bab4
+Activated: Valid Reg name rcx in 0x5590387dacec
+Activated: Valid Reg name rcx in 0x56144658649f
+3b
+Activated: Valid Reg name rbp in 0x561e48a874b6
+Activated: Valid Reg name rdx in 0x5602126e7ce3
+Activated: Valid Reg name rcx in 0x561bc3466cc7
+Activated: Valid Reg name rcx in 0x55e4ee703d30
+Activated: Valid Reg name rdi in 0x55831b154dda
+Activated: Valid Reg name rax in 0x5592c8a333eb
+Activated: Valid Reg name rax in 0x5587d6c89ca7
+ab
+Activated: Valid Reg name rsi in 0x5651925b1d37
+Activated: Valid Reg name rax in 0x55e41ea444db
+41
+Activated: Valid Reg name rcx in 0x564fc0128d30
+Activated: Valid Reg name rcx in 0x5624b7f46cf4
+Activated: Valid Reg name rsi in 0x5627556e3d37
+Activated: Valid Reg name rflags in 0x55ea2138ecActActivated: Valid Reg name rax in 0x55a8008824NotActivated: Valid Reg name rflags in 0x560f26dbce61
+Activated: Valid Reg name rdx in 0x563358666d14
+Activated: Valid Reg name rax in 0x56243f5f5cfc
+Activated: Valid Reg name rax in 0x55591d555d2c
+Activated: Valid Reg name rsp in 0x5597f3891490
+Activated: Valid Reg name rsp in 0x560b043ef490
+c8
+Activated: Valid Reg name rdi in 0x555ed0958de8
+Activated: Valid Reg name rax in 0x56301c630c55
+Activated: Valid Reg name rdx in 0x564dc789ed3e
+Activated: Valid Reg name rdx in 0x563b2c0d5d27
+Activated: Valid Reg name rcx in 0x55b6e318d4ce
+e4
+Activated: Valid Reg name rax in 0x5557075fbd9c
+Activated: Valid Reg name rsi in 0x556d15d57aac
+Activated: Valid Reg name rsp in 0x55a72ed7f490
+NotActivated: VNot Activated!
+cx in 0x56539c6c3c4b
+Activated: Valid Reg name rax in 0x5606aae81d0c
+Activated: Valid Reg name rcx in 0x5635795df4d0
+ActActivated: Valid Reg name rbp in 0x5564dd8ad4d6
+Activated: Valid Reg name rdx in 0x55838098bf92
+Activated: Valid Reg name rsp in 0x560b0b9984d6
+Activated: Valid Reg name rsi in 0x55cec3902d3d
+3c
+Activated: Valid Reg name rdx in 0x55e8657a9d6f
+41
+Activated: Valid Reg name rcx in 0x562f222be4f0
+Activated: Valid Reg name rcx in 0x5651bafa7da0
+Activated: Valid Reg name rax in 0x55622c825c55
+Activated: Valid Reg name rdx in 0x55f69d04ccce
+ActActivated: Valid Reg name rdx in 0x55b8b29c3dActActivated: Valid Reg name rdx in 0x55adc849eaActActivated: Valid Reg name rsi in 0x55722fe9f4ActActivated: Valid Reg name rdx in 0x561ca6c60dActActivated: Valid Reg name rax in 0x55aee07e74ActActivated: Valid Reg name rsi in 0x560713366cActivated: Valid Reg name rcx in 0x561fe8e12cc4
+Activated: Valid Reg name rcx in 0x56091aa0e382
+Activated: Valid Reg name rflags in 0x55b066277aActActivated: Valid Reg name rcx in 0x561902ccaaActActivated: Valid Reg name rsi in 0x564cf0bcdbActActivated: Valid Reg name rcx in 0x55976256e49f
+Activated: Valid Reg name rdi in 0x55c2af7ffb49
+Activated: Valid Reg name rdx in 0x55b52a27b4e7
+Activated: Valid Reg name rdx in 0x555a6b5944ac
+Activated: Valid Reg name rflags in 0x55d2e85b2bActActivated: Valid Reg name rcx in 0x55762d74b4ActActivated: Valid Reg name rax in 0x5590662e2cActActivated: Valid Reg name rax in 0x55fe683b9dActActivated: Valid Reg name rdi in 0x55e9612a4cActivaActivated: Valid Reg name rax in 0x56185c1ActNotActivated: Valid Reg name rcx in 0x563f5c5aa4ActActivated: Valid Reg name rsi in 0x55b24eb03cActActivated: Valid Reg name rdi in 0x5582d80a7eActActivated: Valid Reg name rax in 0x55cf5c4be3c2
+Activated: Valid Reg name rdx in 0x5641a8360cce
+ActActivated: Valid Reg name rsi in 0x56485d262dActActivated: Valid Reg name rsi in 0x55c570222d24
+Activated: Valid Reg name rax in 0x5621df97b374
+74
+Not Activated!
+d Reg name rsi in 0x562c4d4d7da7
+d1
+Activated: Valid Reg name rcx in 0x55893b12e382
+Not Activated!
+d Reg name rax in 0x5647061b1d18
+Activated: Valid Reg name rcx in 0x55e36982cd30
+ActActivated: Valid Reg name rdx in 0x5636cf5144ActActivated: Valid Reg name rflags in 0x560fdaff3aActActivated: Valid Reg name rcx in 0x560ae5955cActActivated: Valid Reg name rax in 0x559c771793ActActivated: Valid Reg name rdx in 0x55d819473c97
+Activated: Valid Reg name rbp in 0x5589d20304d6
+Activated: Valid Reg name rax in 0x559fd4d72c9b
+Activated: Valid Reg name rdx in 0x560fd8418aa4
+Activated: Valid Reg name rax in 0x560970e0aad5
+Activated: Valid Reg name rax in 0x55c590ddfcc8
+Activated: Valid Reg name rcx in 0x55673f1b1cd4
+Activated: Valid Reg name rdi in 0x55b9a1b78e0d
+ActActivated: Valid Reg name rax in 0x55a07baf3dActActivated: Valid Reg name rdx in 0x558c316fddActActivated: Valid Reg name rflags in 0x556dba9Activated: Valid Reg name rcx in 0x558e045b04ae
+Activated: Valid Reg name rsp in 0x564991b4c490
+Activated: Valid Reg name rdx in 0x5615e82bc4a7
+Activated: Valid Reg name rax in 0x55fb97801c9b
+ActActivated: Valid Reg name rdx in 0x55fa25b44b84
+Activated: Valid Reg name rdx in 0x559cf4ad7cae
+ActActivated: Valid Reg name rdi in 0x55837ae8a3bf
+Activated: Valid Reg name rcx in 0x55ae9c51d4bf
+Activated: Valid Reg name rsp in 0x564c84935370
+Activated: Valid Reg name rax in 0x55c6b226d4db
+Activated: Valid Reg name rax in 0x55c4e076943e
+80
+Activated: Valid Reg name rax in 0x562784f6cd7a
+Activated: Valid Reg name rdi in 0x55f4ea473cfb
+b1
+Activated: Valid Reg name rsp in 0x55c46e70d490
+ef
+Activated: Valid Reg name rcx in 0x55ce4d6ae4a4
+Activated: Valid Reg name rsi in 0x5558d1e71d17
+Activated: Valid Reg name rflags in 0x55b57a5e4eActActivated: Valid Reg name rdi in 0x558ae344acActActivated: Valid Reg name rdx in 0x55dfc05cecae
+Activated: Valid Reg name rdx in 0x55ce70520d34
+Activated: Valid Reg name rdx in 0x560cb6afe4ac
+Activated: Valid Reg name rsi in 0x562d33453bc2
+Activated: Valid Reg name rcx in 0x560d80179d97
+Activated: Valid Reg name rdi in 0x560d9fbdcbbb
+ActActivated: Valid Reg name xmm0 in 0x557e0915aActAActivated: Valid Reg name rax in 0x55ea257a13ccAActivated: Valid Reg name rflags in 0x55e45564eabe
+Activated: Valid Reg name rcx in 0x5619ece59377
+Activated: Valid Reg name rcx in 0x56521e3b2bd7
+Activated: Valid Reg name rsp in 0x55fee718b4b0
+24
+Activated: Valid Reg name rdx in 0x564727282cce
+ActActivated: Valid Reg name rdx in 0x55b0267eaabb
+Not Activated!
+d Reg name rflags in 0x562f1564fdActActivated: Valid Reg name rbp in 0x55633a5124ActActivated: Valid Reg name rflags in 0x559bb3bActivaActivated: Valid Reg name rax in 0x55994d696dActActivated: Valid Reg name rsi in 0x564184758dActActivated: Valid Reg name rax in 0x55daeca19d7e
+Activated: Valid Reg name rsi in 0x55845543ace0
+Activated: Valid Reg name rcx in 0x55b799fcdab4
+Not Activated!
+d Reg name rsp in 0x5641a65f64b0
+Not Activated!
+d Reg name rsp in 0x55e44976f4d6
+Activated: Valid Reg name rax in 0x55c69a11cdb7
+ab
+Activated: Valid Reg name rdi in 0x557e02129c45
+Activated: Valid Reg name rax in 0x5634cf7a1cfc
+Activated: Valid Reg name rcx in 0x55c993f904f0
+Activated: Valid Reg name rdx in 0x5637c866caa4
+Activated: Valid Reg name rcx in 0x5637484ccda0
+Activated: Valid Reg name rsi in 0x561d1f975aac
+Activated: Valid Reg name rflags in 0x558a729e4cActivated: Valid Reg name rdx in 0x55c52254bce2
+ef
+Activated: Valid Reg name rdx in 0x5615f6fc1cae
+Not Activated!
+d Reg name rax in 0x5627f119fd0c
+Activated: Valid Reg name rdi in 0x55f341647c27
+Activated: Valid Reg name rax in 0x55f33b76fcc8
+Activated: Valid Reg name rdi in 0x562258d90c27
+Activated: Valid Reg name rax in 0x556763e86cc8
+Activated: Valid Reg name rdx in 0x55aba8486aa4
+Activated: Valid Reg name rcx in 0x55868d35e4bf
+Activated: Valid Reg name rax in 0x55d895481d2c
+be
+Activated: Valid Reg name rcx in 0x562bf12f649f
+Activated: Valid Reg name rsi in 0x564aaac41dad
+Not Activated!
+d Reg name rsi in 0x55a16c5d3dad
+Activated: Valid Reg name rax in 0x56205722fd58
+3b
+Activated: Valid Reg name rcx in 0x55f43337dde3
+e4
+Activated: Valid Reg name rax in 0x5634a1f874db
+d8
+Activated: Valid Reg name rsi in 0x55576dad5d2f
+Activated: Valid Reg name rsi in 0x555e953b2d3a
+Activated: Valid Reg name rcx in 0x564b048c84c4
+Activated: Valid Reg name rcx in 0x55cf245684f0
+Activated: Valid Reg name rcx in 0x563f790d54ee
+Activated: Valid Reg name rsi in 0x559c2ed0bcaa
+Activated: Valid Reg name rsi in 0x564d0425dc52
+ActActivated: Valid Reg name rdx in 0x55e49f839d27
+Activated: Valid Reg name rflags in 0x555c9f6752ac
+Activated: Valid Reg name rdx in 0x55860df1bcae
+Activated: Valid Reg name rflags in 0x55b1d6342dActActivated: Valid Reg name rsi in 0x56346edfbd44
+Activated: Valid Reg name rsi in 0x5639d207cab7
+Activated: Valid Reg name rax in 0x56435fdd6ccf
+Activated: Valid Reg name rflags in 0x556dbe164aActActivated: Valid Reg name rcx in 0x562d09aa4d64
+Activated: Valid Reg name rsi in 0x55bcc8f463fb
+ab
+Activated: Valid Reg name rax in 0x557cbd640cea
+Activated: Valid Reg name rax in 0x562096f9ecea
+Activated: Valid Reg name rax in 0x55fc65224d24
+Activated: Valid Reg name rax in 0x5617d7ab6c97
+Activated: Valid Reg name rsp in 0x560f16a9a4b0
+Activated: Valid Reg name rax in 0x5625c2f904bb
+e4
+Activated: Valid Reg name rax in 0x5558819c839d
+Activated: Valid Reg name rflags in 0x555a5ce7cc5Activated: Valid Reg name rdx in 0x55cd445ffe4c
+Activated: Valid Reg name rdx in 0x55890195a4c7
+04
+Activated: Valid Reg name rflags in 0x55ff361dc4ActActivated: Valid Reg name rax in 0x560288849cbb
+Activated: Valid Reg name rflags in 0x55736c664dActActivated: Valid Reg name rax in 0x556620ccbdb9
+Activated: Valid Reg name rax in 0x55e61f2cef86
+Activated: Valid Reg name rax in 0x561652d60b95
+Activated: Valid Reg name rax in 0x55ddd1768d1c
+be
+Activated: Valid Reg name rbp in 0x562a2a6f44b1
+Activated: Valid Reg name rcx in 0x55dc3312ac70
+Activated: Valid Reg name rbp in 0x55d497f724b1
+Activated: Valid Reg name rdx in 0x5653110e9abb
+Activated: Valid Reg name rsi in 0x555673b3ccaa
+Activated: Valid Reg name rcx in 0x559ea8e03ad9
+ab
+Activated: Valid Reg name rsi in 0x55ebd468ec27
+Not Activated!
+d Reg name rsi in 0x563c9aef7d24
+Not Activated!
+d Reg name rflags in 0x557583744cActNot Activated!
+d Reg name rsi in 0x55ef4ebc9dActActivated: Valid Reg name rcx in 0x55a6c2ae63ActActivated: Valid Reg name rax in 0x55d89b151af5
+Activated: Valid Reg name rsi in 0x562dcdeb0ab7
+Activated: Valid Reg name rax in 0x55e6b3ffcdbb
+83
+Activated: Valid Reg name rax in 0x55a3e60bcd0c
+ab
+Activated: Valid Reg name rax in 0x5616d2ef04b3
+Activated: Valid Reg name rcx in 0x559065832ca7
+Activated: Valid Reg name rcx in 0x55cdc939fca7
+Activated: Valid Reg name rax in 0x55be26ab1cc8
+Activated: Valid Reg name rcx in 0x55a5d28efd9f
+Activated: Valid Reg name rdi in 0x559fed0c7ae7
+Activated: Valid Reg name rcx in 0x558a1c01ed37
+61
+Activated: Valid Reg name rsi in 0x562195361da7
+ActActivated: Valid Reg name rax in 0x55f360daddActActivated: Valid Reg name rsp in 0x562f4d3374Activated: Valid Reg name rsi in 0x559e3c16cab7
+Activated: Valid Reg name rax in 0x557346d5ead5
+ff
+Not Activated!
+d Reg name rdx in 0x561b28dabd34
+Activated: Valid Reg name rflags in 0x55b52f9a8aActActivated: Valid Reg name rax in 0x556231a47bActActivated: Valid Reg name rcx in 0x555fcea95dActiActivated: Valid Reg name rdi in 0x557b1f02cd6b
+Activated: Valid Reg name rdx in 0x56269e2cab42
+Activated: Valid Reg name rsp in 0x5640f70d24b0
+Activated: Valid Reg name rcx in 0x5637da303b17
+Activated: Valid Reg name rdx in 0x55ae0940fd9b
+0a
+Activated: Valid Reg name rcx in 0x55dd546184bf
+Activated: Valid Reg name rax in 0x561cf977ecfc
+Activated: Valid Reg name rsp in 0x55cfca1714b0
+Activated: Valid Reg name rsi in 0x562cd8efbce4
+Activated: Valid Reg name rdi in 0x5649158bcd92
+Activated: Valid Reg name rsi in 0x55e993ca6cbf
+Activated: Valid Reg name rcx in 0x564c131a44c4
+Activated: Valid Reg name rflags in 0x56502cd52cd1
+Activated: Valid Reg name rcx in 0x557750eb34c4
+Activated: Valid Reg name rflags in 0x55f155f375ActActivated: Valid Reg name rax in 0x55b1d453fcActActivated: Valid Reg name rsi in 0x556456101dActActivated: Valid Reg name rax in 0x5620e2dfb4db
+Activated: Valid Reg name rax in 0x5564accc6ce8
+Activated: Valid Reg name rflags in 0x55ccbae502ActActivated: Valid Reg name rsi in 0x5573228eebActActivated: Valid Reg name rcx in 0x5587c1f444ActActivated: Valid Reg name rcx in 0x560a5722d4ActActivated: Valid Reg name rsp in 0x5579fc5364ActActivated: Valid Reg name rax in 0x55adbeabed88
+b1
+Activated: Valid Reg name rax in 0x55e6faf4ecfc
+Activated: Valid Reg name rax in 0x5638e574fd24
+Activated: Valid Reg name rcx in 0x559283cc0cf4
+Activated: Valid Reg name rsp in 0x56266fe894b0
+Activated: Valid Reg name rflags in 0x55e612574dActActivated: Valid Reg name rax in 0x55ccda091e06
+Activated: Valid Reg name rcx in 0x55fc497e1d30
+Activated: Valid Reg name rcx in 0x559907649d30
+Activated: Valid Reg name rsp in 0x55ffd3faa4d6
+29
+Activated: Valid Reg name rsp in 0x556a8f04b4d6
+74
+Activated: Valid Reg name rcx in 0x55ee69c674bf
+Activated: Valid Reg name rsi in 0x5648ceb47ab7
+Activated: Valid Reg name rcx in 0x560a98d73ca7
+3b
+Activated: Valid Reg name rbp in 0x55753da81491
+Activated: Valid Reg name rdx in 0x5645c21444a7
+41
+Activated: Valid Reg name rcx in 0x561b2d09cad9
+Activated: Valid Reg name rax in 0x55b4fbe97b0f
+AActivated: Valid Reg name rsi in 0x5570d1159caaAActivated: Valid Reg name rsp in 0x55a781b8d4d6
+e
+Activated: Valid Reg name rax in 0x56330a8e2d1c
+Activated: Valid Reg name rax in 0x560d1095cd7e
+Activated: Valid Reg name rcx in 0x56493d021da0
+1b
+Not Activated!
+d Reg name rdx in 0x55dc15c4c4ec
+Activated: Valid Reg name rcx in 0x561bb3effca7
+Activated: Valid Reg name rdx in 0x5581012d24ac
+Not Activated!
+d Reg name rdx in 0x55dec77f44ac
+Activated: Valid Reg name rax in 0x56480d37fae1
+Activated: Valid Reg name rcx in 0x555bb1ec34b0
+Not Activated!
+d Reg name rcx in 0x5627e9695d84
+Activated: Valid Reg name rsp in 0x55ded5d2e490
+Activated: Valid Reg name rsp in 0x55e00a477cd0
+Activated: Valid Reg name rax in 0x560f98111d94
+Activated: Valid Reg name rdx in 0x55ef14d0dd27
+Activated: Valid Reg name rsi in 0x55bd45214b5e
+Activated: Valid Reg name rsi in 0x55aef3f5cc77
+Activated: Valid Reg name rcx in 0x5573639da4ee
+Activated: Valid Reg name rax in 0x56069b6b84f3
+Activated: Valid Reg name rcx in 0x561dbe17fda0
+Activated: Valid Reg name rdx in 0x55db90fb24e7
+9a
+Not Activated!
+d Reg name rax in 0x55beb356449b
+Activated: Valid Reg name rdx in 0x55f6f6a0dd08
+Activated: Valid Reg name rcx in 0x560dfb18bca7
+Activated: Valid Reg name rsi in 0x55ca5d8eead1
+Activated: Valid Reg name rsi in 0x561d42aacdb0
+Activated: Valid Reg name rbp in 0x55ee414264e1
+29
+Activated: Valid Reg name rdx in 0x5605a86e8cce
+Activated: Valid Reg name rax in 0x56478a977d1c
+Activated: Valid Reg name rflags in 0x55f57caead04
+Activated: Valid Reg name rsi in 0x55e6da1cfcca
+Activated: Valid Reg name rax in 0x558fcfeccd8c
+Activated: Valid Reg name rdx in 0x559aeecfd37e
+d1
+Activated: Valid Reg name rsi in 0x55a16f808ab7
+9f
+Activated: Valid Reg name rax in 0x562c5062bbd7
+Activated: Valid Reg name rflags in 0x563ce8606dActActivated: Valid Reg name rsp in 0x5556f47304ActActivated: Valid Reg name rsi in 0x55c815672d3a
+Activated: Valid Reg name rflags in 0x55be3b3c4dActActivated: Valid Reg name rax in 0x55ef56b154f3
+Activated: Valid Reg name rflags in 0x55f406ab0dActActivated: Valid Reg name rcx in 0x556894384d37
+Activated: Valid Reg name rdi in 0x5564c110ce0d
+Activated: Valid Reg name rax in 0x557c62e78d4a
+Activated: Valid Reg name rbp in 0x564471676388
+ActActivated: Valid Reg name rax in 0x55e17f62cbActivaActivated: Valid Reg name rax in 0x555b0d9ActivaActivated: Valid Reg name rax in 0x5577781ActivaActivated: Valid Reg name rcx in 0x558aa58Activated: Valid Reg name rcx in 0x55960693c380
+Not Activated!
+d Reg name rsp in 0x55a8899ec4e4
+Activated: Valid Reg name rax in 0x56230efcccbb
+ActActivated: Valid Reg name rcx in 0x557e4aaa04ActActivated: Valid Reg name rsi in 0x5597cf231d44
+Activated: Valid Reg name rdx in 0x55590685fb1b
+Activated: Valid Reg name rsi in 0x5629ab6c1cc4
+Activated: Valid Reg name rsi in 0x55673ad13d3a
+Activated: Valid Reg name rcx in 0x55bbf6e60ccc
+Activated: Valid Reg name rcx in 0x562a16a56ca7
+ActActivated: Valid Reg name rflags in 0x55f2de2dece4
+Activated: Valid Reg name rdx in 0x55c7eff30c97
+Activated: Valid Reg name rcx in 0x5585a2e50dad
+Activated: Valid Reg name rflags in 0x55fe78e4abActActivated: Valid Reg name rcx in 0x56003e26f49f
+Activated: Valid Reg name rsi in 0x55fa93cb4d1d
+ActNot Activated!
+d Reg name rax in 0x555e25127dbb
+Activated: Valid Reg name rflags in 0x562e177b7380
+Activated: Valid Reg name rax in 0x564569bdcd94
+Activated: Valid Reg name rax in 0x564ae7615cee
+Activated: Valid Reg name rdx in 0x555c13a23d6f
+41
+Activated: Valid Reg name rflags in 0x564ad2672cActActivated: Valid Reg name rbp in 0x55d0d4a6d3ActActivated: Valid Reg name rax in 0x55b3d81d5b07
+ActActivated: Valid Reg name rsi in 0x558f126f2cActActivated: Valid Reg name rax in 0x55ee3de44cActActivated: Valid Reg name rsp in 0x55758049f4b0
+Activated: Valid Reg name rsi in 0x555993239d37
+Activated: Valid Reg name rdx in 0x55f45cc9f4c7
+Activated: Valid Reg name rflags in 0x564c23141dActActivated: Valid Reg name rax in 0x560e89d0d415
+Activated: Valid Reg name rflags in 0x55a67deb6dActActivated: Valid Reg name rax in 0x55e38883bae1
+Activated: Valid Reg name rcx in 0x5601cd496380
+ActActivated: Valid Reg name rax in 0x5597bf7f5dActNot Activated!
+d Reg name rcx in 0x557e85e31d8b
+Activated: Valid Reg name rsi in 0x556a9cfafaac
+Activated: Valid Reg name rcx in 0x55acadf79ad9
+04
+Activated: Valid Reg name rax in 0x55829866cb0f
+74
+Activated: Valid Reg name rcx in 0x55acf87a1382
+Activated: Valid Reg name rax in 0x56322f6ddde0
+Activated: Valid Reg name rflags in 0x5622f28e03ActActivated: Valid Reg name rcx in 0x55c53be9acc7
+Activated: Valid Reg name rsi in 0x55c9ca671dad
+Activated: Valid Reg name rdx in 0x55acfc7424ec
+ActActivated: Valid Reg name rflags in 0x55ac28338d1b
+Activated: Valid Reg name rflags in 0x563e58140ce4
+Activated: Valid Reg name rsi in 0x564b9d953d37
+Activated: Valid Reg name rax in 0x5567bb774d0a
+Activated: Valid Reg name rdx in 0x55fa3503d4cc
+ef
+Activated: Valid Reg name rdx in 0x56158cb7a4cc
+ActActivated: Valid Reg name rcx in 0x563a7f93cca1
+e4
+Activated: Valid Reg name rsi in 0x55d9a5b05ad1
+04
+Activated: Valid Reg name rax in 0x560a0eca8d0c
+Activated: Valid Reg name rdx in 0x55be7a521cb7
+29
+Activated: Valid Reg name rax in 0x55651bf89d65
+ef
+Activated: Valid Reg name rflags in 0x55e83174cdActActivated: Valid Reg name rax in 0x55b3076c8d88
+Activated: Valid Reg name rcx in 0x564be5e4df8a
+Activated: Valid Reg name rcx in 0x55ea4007c4d0
+ActActivated: Valid Reg name rax in 0x55b16325dcec
+Activated: Valid Reg name rbp in 0x55e433a4f4d6
+Not Activated!
+d Reg name rcx in 0x56437e6d8d10
+c8
+Activated: Valid Reg name rax in 0x5647051d3c9b
+74
+Activated: Valid Reg name rdx in 0x55e7f4ee337e
+41
+Activated: Valid Reg name rsp in 0x5598d25cd4f6
+Activated: Valid Reg name rcx in 0x564982444d37
+Activated: Valid Reg name rax in 0x560d0b902d2b
+Activated: Valid Reg name rsi in 0x55ca2ea4ddb4
+Activated: Valid Reg name rcx in 0x55de667f4e45
+Activated: Valid Reg name rsi in 0x5597fbf67d2f
+Activated: Valid Reg name rax in 0x56411450f4b3
+Activated: Valid Reg name rcx in 0x561f68c624b0
+Activated: Valid Reg name rcx in 0x5596d1daed6b
+ActActivated: Valid Reg name rdx in 0x556c8a6c5f72
+Activated: Valid Reg name rsp in 0x555c24077370
+Activated: Valid Reg name rax in 0x5566940ddb03
+Activated: Valid Reg name rax in 0x55f8c4a7fb0f
+Activated: Valid Reg name rcx in 0x556ae257eb4d
+ActActivated: Valid Reg name rax in 0x562c9100bcActActivated: Valid Reg name rax in 0x556a8c28ccActActivated: Valid Reg name rdi in 0x55721d233cActivaActivated: Valid Reg name rax in 0x564e6ddActivaActivated: Valid Reg name rbp in 0x560a0beActivaActivated: Valid Reg name rsp in 0x55b810eActivaActivated: Valid Reg name rcx in 0x5652f2cActivated: Valid Reg name rsi in 0x55f24067bcc4
+Activated: Valid Reg name rsi in 0x5592d37ebcf1
+Activated: Valid Reg name rax in 0x55ac1349cd45
+ActActivated: Valid Reg name rbp in 0x564256d0c4b6
+Activated: Valid Reg name rbp in 0x55de848d5491
+Activated: Valid Reg name rax in 0x55eec1a59cee
+74
+Activated: Valid Reg name rdx in 0x556d9c8abd14
+Activated: Valid Reg name rax in 0x5611ea646cee
+Activated: Valid Reg name rax in 0x5567ac50e385
+Activated: Valid Reg name rdx in 0x55b274ffcdb7
+Activated: Valid Reg name rsi in 0x558259193cbf
+Activated: Valid Reg name rax in 0x5653e1f1acea
+Activated: Valid Reg name rsp in 0x5637605aa388
+Activated: Valid Reg name rcx in 0x562255d5a4ce
+Activated: Valid Reg name rflags in 0x5638bb4f7400
+Activated: ValiActivated: Valid Reg name rcx in Activated: ValiActivated: Valid Reg name rdx in Activated: Valid Reg name rsi in 0x556f35a3bd37
+Activated: Valid Reg name rsi in 0x561c81971da7
+Activated: Valid Reg name rdx in 0x55a2de7ef4e7
+Activated: Valid Reg name rax in 0x5574ac508504
+Activated: Valid Reg name rflags in 0x559d14716dNotActivated: Valid Reg name rdx in 0x5555f721bdActActivated: Valid Reg name rdx in 0x55a0aea1acActActivated: Valid Reg name rdx in 0x5651ce0c9c5AcActivated: Valid Reg name rax in 0x55759ed49c33
+
+Activated: Valid Reg name rax in 0x556f6208f2a5
+61
+Activated: Valid Reg name rsi in 0x561414d4fc53
+Activated: Valid Reg name rcx in 0x55b3561c4d10
+ActActivated: Valid Reg name rsp in 0x5615e0e54490
+Activated: Valid Reg name rdi in 0x562a1c07bd56
+Activated: Valid Reg name rcx in 0x55b7f262c4ee
+Activated: Valid Reg name rcx in 0x5651dd4634f0
+b1
+Activated: Valid Reg name rcx in 0x55e0b6e0ed37
+Activated: Valid Reg name rax in 0x558078638cc8
+Activated: Valid Reg name rcx in 0x5652d2be94a4
+ActActivated: Valid Reg name rsi in 0x558a51cffd24
+Activated: Valid Reg name rflags in 0x562915ca7cActActivated: Valid Reg name rsp in 0x55783362fcActActivated: Valid Reg name rcx in 0x5597ce1c74ActNot Activated!
+d Reg name rcx in 0x55cdd785bdActActivated: Valid Reg name rax in 0x55674afbfaActivaActivated: Valid Reg name rax in 0x556845aActivatedActivated: Valid Reg name rdi in 0x55e1ActivatedActivated: Valid Reg name rcx in 0x5565ActivatedActivated: Valid Reg name rcx in 0x55c1898ActivaActivated: Valid Reg name rax in 0x5570a39173ActActivated: Valid Reg name rdx in 0x56171b8f6cActActivated: Valid Reg name rax in 0x5581aec43dActivated: Valid Reg name rax in 0x5574f6c36374
+Activated: Valid Reg name rax in 0x56149a397c94
+Activated: Valid Reg name rax in 0x5562b66d7d4a
+Activated: Valid Reg name rdx in 0x55ec382d9d27
+d1
+Activated: Valid Reg name rdx in 0x55ca7b40e4ec
+be
+Activated: Valid Reg name rax in 0x55c257cc1d94
+Activated: Valid Reg name rsi in 0x55ce0cba3d17
+Activated: Valid Reg name rdi in 0x558732203b6f
+41
+Activated: Valid Reg name rax in 0x55a7a3502385
+Activated: Valid Reg name rsi in 0x564be29e2ab7
+c9
+Activated: Valid Reg name rax in 0x55937092628c
+Activated: Valid Reg name rcx in 0x55e0e2a33ced
+3b
+Activated: Valid Reg name rax in 0x55d7094a9b0f
+Activated: Valid Reg name rsi in 0x55efa4f1ccbb
+ActActivated: Valid Reg name rbp in 0x5568635dc491
+Activated: Valid Reg name rsi in 0x556109e44caa
+Activated: Valid Reg name rflags in 0x5640de517cActActivated: Valid Reg name rax in 0x5607f79c8d04
+d1
+Activated: Valid Reg name rdx in 0x555c6bd84d14
+Activated: Valid Reg name rax in 0x55612a955d0c
+Activated: Valid Reg name rcx in 0x55855ad87d64
+Activated: Valid Reg name rsp in 0x55af114b0388
+Activated: Valid Reg name rcx in 0x560faf0964f0
+Activated: Valid Reg name rdx in 0x5635f8cfa4cc
+Activated: Valid Reg name rsi in 0x561542a9db92
+Activated: Valid Reg name rax in 0x55a4695f2d24
+Activated: Valid Reg name rax in 0x55e97d227d9f
+Activated: Valid Reg name rdx in 0x55e0c6e88cce
+Activated: Valid Reg name rax in 0x562e88bb439d
+Activated: Valid Reg name rsi in 0x559462ae7cca
+Activated: Valid Reg name rbp in 0x564cafa14c61
+Activated: Valid Reg name rsi in 0x559ee55ccb92
+Activated: Valid Reg name rcx in 0x56445cff84c4
+Activated: Valid Reg name rax in 0x5559821534d3
+29
+Activated: Valid Reg name rbp in 0x5619c43374d6
+Activated: Valid Reg name rsi in 0x561709e88ce4
+Activated: Valid Reg name rax in 0x55e5933f14d3
+Activated: Valid Reg name rdx in 0x55820b9bddb8
+Not Activated!
+d Reg name rsi in 0x56090d4f2cca
+Activated: Valid Reg name rdx in 0x55708d8c94c7
+Activated: Valid Reg name rax in 0x55ae70705d0a
+ab
+Activated: Valid Reg name rax in 0x55726b9bfae1
+Activated: Valid Reg name rcx in 0x55f9a0f624a4
+Activated: Valid Reg name rcx in 0x55f27d68b49f
+Activated: Valid Reg name rdx in 0x55d291027d73
+Activated: Valid Reg name rsi in 0x56543c5c6d24
+Activated: Valid Reg name rdx in 0x563087ef74ac
+Activated: Valid Reg name rdx in 0x55c81b6994a7
+ActActivated: Valid Reg name rcx in 0x55d82c26c4ActActivated: Valid Reg name rdx in 0x55cfc49444ActivaActivated: Valid Reg name rcx in 0x55ff545ActivaActivated: Valid Reg name rflags in 0x556cActivated: Valid Reg name rcx in 0x55cbc90c3d64
+Activated: Valid Reg name rax in 0x55826bd77d88
+ActActivated: Valid Reg name rdx in 0x5555da136dActActivated: Valid Reg name rcx in 0x55dac4390d5c
+Activated: Valid Reg name rdx in 0x561c41dc7de2
+Activated: Valid Reg name rcx in 0x55cdb6fe44b0
+Activated: Valid Reg name rax in 0x55754f8e8b22
+ab
+Activated: Valid Reg name rflags in 0x55c4ce11dcb1
+Activated: Valid Reg name rflags in 0x56196deb8cActivated: Valid Reg name rdi in 0x557cd7fa23f8
+Not Activated!
+d Reg name rax in 0x559bf7346c7a
+Activated: Valid Reg name rdi in 0x55ba8b8bac45
+Activated: Valid Reg name rsi in 0x562fab9c0ad1
+Activated: Valid Reg name rdi in 0x564d11ac0d7b
+Activated: Valid Reg name rsi in 0x5597fca52cbf
+
+Activated: Valid Reg name rcx in 0x55e065c1ccaf
+Activated: Valid Reg name rax in 0x55c06235eaa8
+Activated: Valid Reg name rcx in 0x562e7f5194b0
+Activated: Valid Reg name rsp in 0x55d0585b849f
+Activated: Valid Reg name rsi in 0x564267258c27
+Activated: Valid Reg name rax in 0x5624db06fb70
+Activated: Valid Reg name rax in 0x563889f19c7f
+Activated: Valid Reg name rax in 0x55af5af464b3
+Activated: Valid Reg name rdx in 0x56096cf73dff
+Activated: Valid Reg name rdi in 0x558778c253e8
+d1
+Activated: Valid Reg name rsi in 0x561f73617da7
+Activated: Valid Reg name rax in 0x55e994294d94
+Activated: Valid Reg name rsi in 0x561b43b02d2f
+Activated: Valid Reg name rcx in 0x55e75522f4f0
+Activated: Valid Reg name rdx in 0x55c854dd5d3e
+Activated: Valid Reg name rax in 0x5605e0cc440a
+Activated: Valid Reg name rax in 0x5603114abce8
+ActActivated: Valid Reg name rcx in 0x5633748ebdActivaActivated: Valid Reg name rsi in 0x55dc953d4cActActivated: Valid Reg name rcx in 0x5588ba9c44ActActivated: Valid Reg name rflags in 0x555a9d5ActivaActivated: Valid Reg name rax in 0x5615a95Activated: Valid Reg name rdx in 0x55bbb9a434a7
+Activated: Valid Reg name rdx in 0x555de5f33379
+ActActivated: Valid Reg name rflags in 0x561899764aActActivated: Valid Reg name rax in 0x55f1ca0eedActNot Activated!
+eg name rsi in 0x56000ee47b39
+Activated: Valid Reg name rdi in 0x55e23c187ae7
+Activated: Valid Reg name rdx in 0x5652c9a7037e
+Activated: Valid Reg name rdx in 0x55dca9cac37e
+Activated: Valid Reg name rcx in 0x5630412f6d37
+Activated: Valid Reg name rcx in 0x56127c00f4ee
+Activated: Valid Reg name rax in 0x55b116b4fd88
+Activated: Valid Reg name rsi in 0x5643f2738da7
+Activated: Valid Reg name rdx in 0x5580784804e7
+Activated: Valid Reg name rsp in 0x562715fd1cd0
+Activated: Valid Reg name rflags in 0x55988a2f2bActActivated: Valid Reg name rdx in 0x55b43d62e4ec
+Activated: Valid Reg name rcx in 0x5563009cada0
+Not Activated!
+d Reg name rcx in 0x555b3174edd2
+Activated: Valid Reg name rcx in 0x5618ea56cda0
+Activated: Valid Reg name rax in 0x5644a434dd94
+Activated: Valid Reg name rdx in 0x5607daae84ec
+ActActivated: Valid Reg name rsi in 0x5643f363ed2f
+Activated: Valid Reg name rflags in 0x55c1bbc26dActActivated: Valid Reg name rcx in 0x55b8b98b8ddb
+Activated: Valid Reg name rbp in 0x55c5b72fa4d1
+Activated: Valid Reg name rsi in 0x5654b1193dad
+e5
+Activated: Valid Reg name rcx in 0x55a557d6adfb
+ActActivated: Valid Reg name rdx in 0x55f7af435d3e
+Activated: Valid Reg name rax in 0x56080a789ad5
+Not Activated!
+d Reg name xmm0 in 0x563a9ef16df1AActivated: Valid Reg name rax in 0x55edb6599385
+d8
+Not Activated!
+d Reg name rdx in 0x562103a994e7
+Not Activated!
+d Reg name rcx in 0x55a496f5b4e4
+Activated: Valid Reg name rdx in 0x558af4906d27
+Activated: Valid Reg name rdx in 0x55bed61f04e7
+Activated: Valid Reg name rax in 0x5621cc871df8
+Activated: Valid Reg name rsi in 0x55d872c24bc2
+ef
+Activated: Valid Reg name rax in 0x55966cf80ebc
+ActActivated: Valid Reg name rdx in 0x55de6b521cActActivated: Valid Reg name rax in 0x55ec018fbdActActivated: Valid Reg name rax in 0x56435098f4bb
+Activated: Valid Reg name rcx in 0x560a82a1ad30
+Not Activated!
+d Reg name rsi in 0x5604abc55d3d
+Activated: Valid Reg name rax in 0x55593dc023eb
+Not Activated!
+d Reg name rdx in 0x5631d4711da4
+Activated: Valid Reg name rax in 0x5635301c84f3
+Activated: Valid Reg name rdi in 0x55881c05ec5f
+
+1
+Activated: Valid Reg name rdx in 0x55d4ceac34c7
+Activated: Valid Reg name rcx in 0x55cd4b77fca8
+Activated: Valid Reg name rax in 0x55c78335fcc6
+b1
+Activated: Valid Reg name rcx in 0x55d79dcfad30
+Activated: Valid Reg name rsp in 0x55f23c7494f6
+Activated: Valid Reg name rax in 0x55f9fb122d9c
+Activated: Valid Reg name rdx in 0x5604fc111e4c
+Activated: Valid Reg name rcx in 0x55812a9cd4e4
+Activated: Valid Reg name rax in 0x55fd7825f4f3
+Activated: Valid Reg name rcx in 0x55769b18ed5c
+Activated: Valid Reg name rcx in 0x55703c7f0d5c
+Activated: Valid Reg name rsi in 0x55ee26d0ad37
+Activated: Valid Reg name rdi in 0x5654e12b5bde
+Activated: Valid Reg name rsi in 0x561056c013ff
+Activated: Valid Reg name rax in 0x55d9d053dfab
+Activated: Valid Reg name rdx in 0x55be7b45bd34
+Activated: Valid Reg name rflags in 0x55d0d6688aActActivated: Valid Reg name rdx in 0x55a824779abb
+Activated: Valid Reg name rbp in 0x555d4e399388
+Not Activated!
+d Reg name rsp in 0x5623472e7490
+Activated: Valid Reg name rsp in 0x55d0fc51d370
+Activated: Valid Reg name rflags in 0x55b8935b8bActActivated: Valid Reg name rax in 0x5580ea6debActivated: Valid Reg name rdx in 0x55c828bb94ec
+Activated: Valid Reg name rsi in 0x55d65e07cd3a
+Activated: Valid Reg name rax in 0x55883b97a43e
+Activated: Valid Reg name rsp in 0x56339cac14f6
+Activated: Valid Reg name rcx in 0x5574f9053dd2
+Activated: Valid Reg name rflags in 0x55dacd616dActActivated: Valid Reg name rax in 0x559a36459fActivated: Valid Reg name rcx in 0x55e7b7f44d30
+ActNot Activated!
+d Reg name rdx in 0x55ab40932cActActivated: Valid Reg name rcx in 0x5628ef6e3380
+Activated: Valid Reg name rax in 0x55fb24060374
+Activated: Valid Reg name rax in 0x556225abfc97
+Activated: Valid Reg name rax in 0x56529b21e374
+Activated: Valid Reg name rdx in 0x56190202f379
+Activated: Valid Reg name rcx in 0x55fd9a4503fa
+Activated: Valid Reg name rsp in 0x558dc41e94d6
+Activated: Valid Reg name rax in 0x564460070d94
+29
+Activated: Valid Reg name rax in 0x55e1b72f1db9
+Activated: Valid Reg name rbp in 0x55fb0e886c41
+Activated: Valid Reg name rax in 0x5567b972ecc8
+Activated: Valid Reg name rcx in 0x55f6d82f8ab4
+Activated: Valid Reg name rflags in 0x5653dd16a2Activated: Valid Reg name rsi in 0x5568cb3f5b7a
+Activated: Valid Reg name rax in 0x558b67140b50
+ActActivated: Valid Reg name rflags in 0x557cb87bbde5
+Activated: Valid Reg name rdi in 0x55e74f578cdb
+Activated: Valid Reg name rdx in 0x56463e1aad5c
+ef
+Activated: Valid Reg name rax in 0x55ae74e41cfc
+Activated: Valid Reg name rax in 0x55990f71cd8c
+ef
+Activated: Valid Reg name rflags in 0x55c332c142ActNot Activated!
+d Reg name rsi in 0x55c5ecf7dda7
+Activated: Valid Reg name rcx in 0x55ad47668382
+d1
+Not Activated!
+d Reg name rsi in 0x55a24b6433b7
+ActActivated: Valid Reg name rdx in 0x562f5ff10aActActivated: Valid Reg name rdi in 0x56087939cd18
+Activated: Valid Reg name rcx in 0x55ced8a2c2a2
+Activated: Valid Reg name rcx in 0x55f503475cf4
+Activated: Valid Reg name rsi in 0x5576baaf2cca
+Activated: Valid Reg name rax in 0x56440c68ece8
+Activated: Valid Reg name rdx in 0x5562ff4c24cc
+Activated: Valid Reg name rax in 0x555f759ab3b0
+Activated: Valid Reg name rflags in 0x55b24043cd9a
+Not Activated!
+d Reg name rdx in 0x561d2140c4cc
+Activated: Valid Reg name rax in 0x56441e349dea
+Activated: Valid Reg name rsi in 0x55cb7e2a3d3d
+Activated: Valid Reg name rcx in 0x5591603ffcc7
+Activated: Valid Reg name rbp in 0x559ecba73388
+Activated: Valid Reg name rax in 0x558197f00b4a
+3b
+Activated: Valid Reg name xmm0 in 0x555e0f9fdd00
+1
+Activated: Valid Reg name rcx in 0x55fd14881ca8
+Activated: Valid Reg name rdx in 0x5588dcee0abb
+Activated: Valid Reg name rdx in 0x5573366a9d14
+Activated: Valid Reg name rdx in 0x561a6f744cce
+Activated: Valid Reg name rcx in 0x55d5f244b391
+ActActivated: Valid Reg name rdi in 0x559f9d1badActActivated: Valid Reg name rdx in 0x56426a3c1bActivaActivated: Valid Reg name rsi in 0x55c3abaActivaActivated: Valid Reg name rsi in 0x5595c7cActivated: Valid Reg name rcx in 0x56002993f4a4
+Activated: Valid Reg name rcx in 0x55a4a658059d
+Activated: Valid Reg name rcx in 0x56008f12bd10
+Activated: Valid Reg name rdi in 0x555ab6d6fc45
+Activated: Valid Reg name rax in 0x55bf48c8cad5
+Not Activated!
+d Reg name rcx in 0x5602046b9bef
+e4
+Activated: Valid Reg name rdx in 0x561f8404ce7f
+Not Activated!
+d Reg name rax in 0x55f4dcb6539d
+Activated: Valid Reg name rcx in 0x55e04bc8f382
+Activated: Valid Reg name rflags in 0x557e308ecaActActivated: Valid Reg name rsi in 0x5569be9f2dActActivated: Valid Reg name rsi in 0x55bde4712db4
+1b
+Activated: Valid Reg name rflags in 0x55e5a2198cNot Activated!
+d Reg name rdx in 0x55d13a9874ac
+Activated: Valid Reg name rcx in 0x55afc7207ab4
+Activated: Valid Reg name rcx in 0x55e460e12447
+d1
+Activated: Valid Reg name rax in 0x56449935fcc6
+Activated: Valid Reg name rcx in 0x558c5eaa5b32
+Activated: Valid Reg name rax in 0x5605b5e5ccbb
+Activated: Valid Reg name rsi in 0x558d08a8fcaa
+Activated: Valid Reg name rax in 0x559ef69c2d18
+Activated: Valid Reg name rcx in 0x55e3916e94d0
+ab
+Activated: Valid Reg name rcx in 0x55f36cac9cf4
+Activated: Valid Reg name rdi in 0x55f68009fe0d
+29
+Activated: Valid Reg name rbp in 0x55aea9bf84d6
+Activated: Valid Reg name rbp in 0x56482ea684b1
+Activated: Valid Reg name rdx in 0x5575f5135b1b
+Activated: Valid Reg name rsi in 0x55af9eb00aac
+Not Activated!
+d Reg name rcx in 0x559435603dbe
+Activated: Valid Reg name rax in 0x55c5647adaa8
+Activated: Valid Reg name rflags in 0x56182f8c84Activated: Valid Reg name rsi in 0x55c121c8cb9d
+Activated: Valid Reg name rax in 0x5601c3b72b50
+ActActivated: Valid Reg name rax in 0x5566ddb94dNot AcActivated: Valid Reg name rcx in 0x55ae569ActivaActivated: Valid Reg name rdx in 0x5611b78e6cae
+Activated: Valid Reg name rbp in 0x55aaa42144b6
+Activated: Valid Reg name rax in 0x55953ad624b3
+Activated: Valid Reg name rax in 0x55e9a8266d04
+Activated: Valid Reg name rdx in 0x561e66ac54a7
+Activated: Valid Reg name rdx in 0x55b2624a2cce
+Activated: Valid Reg name rdx in 0x564b40fc84ec
+Activated: Valid Reg name rcx in 0x55b81a75b4a4
+f3
+Activated: Valid Reg name rdi in 0x5618e622f38b
+Activated: Valid Reg name rdx in 0x559ea6e07cb7
+Activated: Valid Reg name rsi in 0x55fdba327cca
+Activated: Valid Reg name rsp in 0x55d6482ec4d6
+29
+Activated: Valid Reg name rax in 0x564d29934d24
+1b
+Activated: Valid Reg name rax in 0x5633acd6dae1
+Activated: Valid Reg name rcx in 0x55bfd1efeda9
+Activated: Valid Reg name rsi in 0x562285ce8cca
+Activated: Valid Reg name rax in 0x560dade41cbb
+Activated: Valid Reg name rflags in 0x561863fc3b29
+Activated: Valid Reg name rax in 0x555e016fddb9
+Activated: Valid Reg name rdi in 0x55d0fd4f1d7b
+Activated: Valid Reg name rax in 0x5608d96124bb
+Activated: Valid Reg name rax in 0x55a81efa2d24
+Activated: ValiActivated: Valid Reg name rax in Activated: Valid Reg name rdx in 0x562acd50acce
+Activated: Valid Reg name rcx in 0x5613ed835e45
+Activated: Valid Reg name rsp in 0x564ac21d2370
+Activated: Valid Reg name rdx in 0x55c7988b5b1b
+Activated: Valid Reg name rdi in 0x561a9470dc45
+Activated: Valid Reg name rcx in 0x55a54efcbb17
+Not Activated!
+Activated: Valid Reg name rcx in 0x558735c82b17
+Not Activated!
+Activated: Valid Reg name rdi in 0x55dcaa54ecdc
+Activated: Valid Reg name rax in 0x5571b64ee374
+Activated: Valid Reg name rsi in 0x55d9b5b94b38
+Activated: Valid Reg name rcx in 0x56245466eb4d
+Not Activated!
+Not Activated!
+Activated: Valid Reg name rax in 0x562c6d8dcaa8
+Activated: Valid Reg name rax in 0x55be310d3b03
+Activated: Valid Reg name rsi in 0x55cdbfba7ab7
+Activated: Valid Reg name rax in 0x55fab0f2a2af
+Activated: Valid Reg name rsi in 0x55b36eee7d04
+Not Activated!
+Activated: Valid Reg name rsp in 0x55c794771388
+Activated: Valid Reg name rax in 0x556b6a2abd11
+Activated: Valid Reg name rax in 0x55dbda9452c6
+Activated: Valid Reg name rdx in 0x56121f25f37e
+Not Activated!
+Activated: Valid Reg name rflags in 0x563d6bbe7b29
