@@ -1,0 +1,22 @@
+==================================
+Executable root directory: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/patricia_small/execs
+Benchmark: patricia_small
+Hostname: hop053.orc.gmu.edu
+Start Time: Fri May 15 14:24:20 EDT 2026
+Output root: /projects/lyang28/rmengle/execution_times/paired/patricia_small_outputs
+==================================
+
+==================================
+Timing executable: exec_patricia_small_early-cse
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/patricia_small/execs/leader-cse/exec_patricia_small_early-cse
+Output file: /projects/lyang28/rmengle/execution_times/paired/patricia_small_outputs/leader-cse/exec_patricia_small_early-cse.txt
+==================================
+Done timing: exec_patricia_small_early-cse
+
+==================================
+Timing executable: exec_patricia_small_early-cse_early-cse
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/patricia_small/execs/leader-cse/exec_patricia_small_early-cse_early-cse
+Output file: /projects/lyang28/rmengle/execution_times/paired/patricia_small_outputs/leader-cse/exec_patricia_small_early-cse_early-cse.txt
+==================================

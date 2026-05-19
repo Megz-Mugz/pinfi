@@ -155,7 +155,7 @@ def get_timing_file_path(relative_folder):
     return os.path.join(
         EXECUTION_TIMES_ROOT,
         leader_name,
-        f"{exec_name}_exec.txt"
+        f"{exec_name}.txt"
     )
 
 # =============================================================
@@ -176,7 +176,10 @@ def classify_outputs(relative_folder):
 
     files = [
         f for f in os.listdir(folder_path)
-        if os.path.isfile(os.path.join(folder_path, f))
+        if (
+            os.path.isfile(os.path.join(folder_path, f))
+            and f.startswith("output_")
+        )
     ]
 
     total_files = len(files)
@@ -185,7 +188,7 @@ def classify_outputs(relative_folder):
 
     folder_start = time.time()
 
-    for idx, fname in enumerate(sorted(files)[:50], start=1):
+    for idx, fname in enumerate(sorted(files), start=1):
         full_path = os.path.join(folder_path, fname)
         raw_contents = load_file(full_path)
 
@@ -281,6 +284,10 @@ def get_execution_time_stats(relative_folder):
 # Main CSV generation
 # =============================================================
 
+# =============================================================
+# Main CSV generation
+# =============================================================
+
 if __name__ == "__main__":
 
     start_time = time.time()
@@ -297,6 +304,7 @@ if __name__ == "__main__":
         writer.writerow([
             "benchmark",
             "leader_opt",
+            "second_opt",
             "paired_executable",
             "relative_folder",
             "total_runs",
@@ -315,6 +323,27 @@ if __name__ == "__main__":
 
             leader_opt = relative_folder.split(os.sep)[0].replace("leader-", "")
             paired_executable = os.path.basename(relative_folder)
+
+            # =====================================================
+            # Extract second optimization
+            # Example:
+            # exec_basicmath_small_early-cse_loop-reduce_exec
+            # -> loop-reduce
+            # =====================================================
+
+            exec_prefix = f"exec_{BENCHMARK_NAME}_"
+            exec_suffix = "_exec"
+
+            second_opt = paired_executable
+
+            if second_opt.startswith(exec_prefix):
+                second_opt = second_opt[len(exec_prefix):]
+
+            if second_opt.endswith(exec_suffix):
+                second_opt = second_opt[:-len(exec_suffix)]
+
+            parts = second_opt.split("_", 1)
+            second_opt = parts[1] if len(parts) == 2 else ""
 
             timing_file = get_timing_file_path(relative_folder)
             timing_exists = os.path.isfile(timing_file)
@@ -338,6 +367,7 @@ if __name__ == "__main__":
             writer.writerow([
                 BENCHMARK_NAME,
                 leader_opt,
+                second_opt,
                 paired_executable,
                 relative_folder,
                 total_runs,

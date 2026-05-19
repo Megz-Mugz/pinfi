@@ -1,0 +1,30 @@
+==================================
+Executable root directory: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/dijkstra_small/execs
+Benchmark: dijkstra_small
+Hostname: hop049.orc.gmu.edu
+Start Time: Fri May 15 14:21:26 EDT 2026
+Output root: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs
+==================================
+
+==================================
+Timing executable: exec_dijkstra_small_early-cse
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/dijkstra_small/execs/leader-cse/exec_dijkstra_small_early-cse
+Output file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse.txt
+==================================
+Done timing: exec_dijkstra_small_early-cse
+
+==================================
+Timing executable: exec_dijkstra_small_early-cse_early-cse
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/dijkstra_small/execs/leader-cse/exec_dijkstra_small_early-cse_early-cse
+Output file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_early-cse.txt
+==================================
+Done timing: exec_dijkstra_small_early-cse_early-cse
+
+==================================
+Timing executable: exec_dijkstra_small_early-cse_gvn
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/dijkstra_small/execs/leader-cse/exec_dijkstra_small_early-cse_gvn
+Output file: /projects/lyang28/rmengle/execution_times/paired/dijkstra_small_outputs/leader-cse/exec_dijkstra_small_early-cse_gvn.txt
+==================================

@@ -1,0 +1,125 @@
+==================================
+Executable root directory: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs
+Hostname: hop046.orc.gmu.edu
+Start Time: Fri May 15 14:13:36 EDT 2026
+Output directory: /projects/lyang28/rmengle
+==================================
+
+==================================
+Timing executable: exec_basicmath_small_early-cse
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse.txt
+==================================
+Done timing: exec_basicmath_small_early-cse
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_early-cse
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_early-cse
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_early-cse.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_early-cse
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_gvn
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_gvn
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_gvn.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_gvn
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_inline
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_inline
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_inline.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_inline
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_instcombine
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_instcombine
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_instcombine.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_instcombine
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_ipsccp
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_ipsccp
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_ipsccp.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_ipsccp
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_licm
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_licm
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_licm.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_licm
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_loop-reduce
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_loop-reduce
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_loop-reduce.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_loop-reduce
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_loop-unroll
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_loop-unroll
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_loop-unroll.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_loop-unroll
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_sccp
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_sccp
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_sccp.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_sccp
+
+==================================
+Timing executable: exec_basicmath_small_early-cse_simple-loop-unswitch
+Subfolder: leader-cse
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch
+Output file: /projects/lyang28/rmengle/leader-cse/exec_basicmath_small_early-cse_simple-loop-unswitch.txt
+==================================
+Done timing: exec_basicmath_small_early-cse_simple-loop-unswitch
+
+==================================
+Timing executable: exec_basicmath_small_gvn
+Subfolder: leader-gvn
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn
+Output file: /projects/lyang28/rmengle/leader-gvn/exec_basicmath_small_gvn.txt
+==================================
+Done timing: exec_basicmath_small_gvn
+
+==================================
+Timing executable: exec_basicmath_small_gvn_early-cse
+Subfolder: leader-gvn
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_early-cse
+Output file: /projects/lyang28/rmengle/leader-gvn/exec_basicmath_small_gvn_early-cse.txt
+==================================
+Done timing: exec_basicmath_small_gvn_early-cse
+
+==================================
+Timing executable: exec_basicmath_small_gvn_gvn
+Subfolder: leader-gvn
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_gvn
+Output file: /projects/lyang28/rmengle/leader-gvn/exec_basicmath_small_gvn_gvn.txt
+==================================
+Done timing: exec_basicmath_small_gvn_gvn
+
+==================================
+Timing executable: exec_basicmath_small_gvn_inline
+Subfolder: leader-gvn
+Full path: /home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-gvn/exec_basicmath_small_gvn_inline
+Output file: /projects/lyang28/rmengle/leader-gvn/exec_basicmath_small_gvn_inline.txt
+==================================

@@ -9,7 +9,7 @@ import subprocess
 currdir = "/home/rmengle/pin/source/tools/pinfi/example"
 
 # TODO if you change this, change the EXEC_DIR line on submit_mass_jobs.sh
-focus_dir = "paired_executables/qsort_small/execs/leader-loop-unroll"
+focus_dir = "paired_executables/qsort_small/execs/leader-loop-unswitch"
 
 execdir = os.path.join(currdir, focus_dir)
 

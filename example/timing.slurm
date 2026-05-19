@@ -1,12 +1,14 @@
 #!/bin/bash
-#SBATCH --job-name=timing_job
+#SBATCH --job-name=time_patricia_small
 #SBATCH --partition=normal
-#SBATCH --output=timing_%j.out
-#SBATCH --error=timing_%j.err
+#SBATCH --output=logs/timing_%A_%a.out
+#SBATCH --error=logs/timing_%A_%a.err
 #SBATCH --mem=2G
 #SBATCH --time=00:20:00
 #SBATCH --ntasks=1
 #SBATCH --cpus-per-task=1
+#SBATCH --exclusive
+#SBATCH --array=0-120
 
 module purge
 module load gcc
@@ -17,66 +19,74 @@ module load python
 # 🔥 EDIT THIS ONLY
 # ============================================================
 
-EXEC_DIR="/home/rmengle/pin/source/tools/pinfi/example/paired_executables/basicmath_small/execs/leader-cse"
-
+EXEC_DIR="/home/rmengle/pin/source/tools/pinfi/example/paired_executables/patricia_small/execs"
 NUM_RUNS=1000
-
-BASE_DIR="/projects/lyang28/rmengle"
+BASE_DIR="/projects/lyang28/rmengle/execution_times/paired"
 
 # ============================================================
 
-mkdir -p "$BASE_DIR"
+mkdir -p logs
 
-echo "=================================="
-echo "Executable directory: $EXEC_DIR"
-echo "Hostname: $(hostname)"
-echo "Start Time: $(date)"
-echo "Output directory: $BASE_DIR"
-echo "=================================="
+BENCHMARK_NAME=$(echo "$EXEC_DIR" | sed -E 's|.*/paired_executables/([^/]+)/execs.*|\1|')
+OUTPUT_ROOT="$BASE_DIR/${BENCHMARK_NAME}_outputs"
+
+mkdir -p "$OUTPUT_ROOT"
 
 if [ ! -d "$EXEC_DIR" ]; then
     echo "ERROR: Executable directory not found: $EXEC_DIR"
     exit 1
 fi
 
-for EXEC in "$EXEC_DIR"/*; do
-    if [ ! -x "$EXEC" ] || [ -d "$EXEC" ]; then
-        echo "Skipping non-executable: $EXEC"
-        continue
-    fi
+mapfile -t EXECUTABLES < <(find "$EXEC_DIR" -type f -executable | sort)
 
-    EXEC_NAME=$(basename "$EXEC")
-    OUTFILE="$BASE_DIR/${EXEC_NAME}.txt"
-    rm -f "$OUTFILE"
+TOTAL=${#EXECUTABLES[@]}
 
-    echo
-    echo "=================================="
-    echo "Timing executable: $EXEC_NAME"
-    echo "Full path: $EXEC"
-    echo "Output file: $OUTFILE"
-    echo "=================================="
+if [ "$SLURM_ARRAY_TASK_ID" -ge "$TOTAL" ]; then
+    echo "Array task $SLURM_ARRAY_TASK_ID exceeds executable count $TOTAL"
+    exit 0
+fi
 
-    for i in $(seq 1 20); do
-        "$EXEC" > /dev/null
-    done
+EXEC="${EXECUTABLES[$SLURM_ARRAY_TASK_ID]}"
+EXEC_NAME=$(basename "$EXEC")
 
-    for i in $(seq 1 "$NUM_RUNS"); do
-        START=$(date +%s.%N)
-        "$EXEC" > /dev/null
-        END=$(date +%s.%N)
+REL_DIR=$(dirname "${EXEC#$EXEC_DIR/}")
 
-        python3 - <<PY >> "$OUTFILE"
+if [ "$REL_DIR" = "." ]; then
+    OUT_DIR="$OUTPUT_ROOT"
+else
+    OUT_DIR="$OUTPUT_ROOT/$REL_DIR"
+fi
+
+mkdir -p "$OUT_DIR"
+
+OUTFILE="$OUT_DIR/${EXEC_NAME}.txt"
+rm -f "$OUTFILE"
+
+echo "=================================="
+echo "Array task ID: $SLURM_ARRAY_TASK_ID"
+echo "Node: $(hostname)"
+echo "Executable: $EXEC_NAME"
+echo "Subfolder: $REL_DIR"
+echo "Full path: $EXEC"
+echo "Output file: $OUTFILE"
+echo "Start Time: $(date)"
+echo "=================================="
+
+for i in $(seq 1 20); do
+    "$EXEC" > /dev/null
+done
+
+for i in $(seq 1 "$NUM_RUNS"); do
+    START=$(date +%s.%N)
+    "$EXEC" > /dev/null
+    END=$(date +%s.%N)
+
+    python3 - <<PY >> "$OUTFILE"
 start = float("$START")
 end = float("$END")
 print(end - start)
 PY
-    done
-
-    echo "Done timing: $EXEC_NAME"
 done
 
-echo
-echo "=================================="
-echo "All executables done."
+echo "Done timing: $EXEC_NAME"
 echo "End Time: $(date)"
-echo "=================================="

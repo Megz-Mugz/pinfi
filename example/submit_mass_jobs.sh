@@ -1,5 +1,5 @@
 #!/bin/bash
-#SBATCH --job-name=q-loop-unroll
+#SBATCH --job-name=p-loop-unswitch
 #SBATCH --partition=normal
 #SBATCH --mem=32G
 #SBATCH --output=logs/inline_%A_%a.out
@@ -15,7 +15,7 @@ cd /home/rmengle/pin/source/tools/pinfi/example
 
 mkdir -p logs
 
-EXEC_DIR="paired_executables/qsort_small/execs/leader-loop-unroll"
+EXEC_DIR="paired_executables/qsort_small/execs/leader-loop-unswitch"
 RUNS=1000
 INPUT_ARGS=""
 
